@@ -1,11 +1,12 @@
 {
   "settings": {
     "migrated": true,
-    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "📁",
       "📲",
       "RiLayout-2-fill"
     ],
@@ -18,5 +19,5 @@
       "left": 0
     }
   },
-  "assets": "📲"
+  "assets": "📁"
 }
