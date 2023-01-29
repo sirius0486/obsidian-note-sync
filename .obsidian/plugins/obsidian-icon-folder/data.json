@@ -6,6 +6,8 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiRouterFill",
+      "RiReactjsLine",
       "📁",
       "📲",
       "RiLayout-2-fill"
@@ -19,5 +21,7 @@
       "left": 0
     }
   },
-  "assets": "📁"
+  "assets": "📁",
+  "React-Hooks": "RiReactjsLine",
+  "React-Router": "RiRouterFill"
 }
