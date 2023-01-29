@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiGithubFill",
       "PeGit",
       "RiMarkdownFill",
       "PeSpring",
-      "PeReact",
-      "♨"
+      "PeReact"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -30,7 +30,10 @@
     "iconName": "RiRouterFill",
     "inheritanceIcon": "PeReact"
   },
-  "Git": "PeGit",
+  "Git": {
+    "iconName": "PeGit",
+    "inheritanceIcon": "RiGithubFill"
+  },
   "notes": {
     "iconName": "📓",
     "inheritanceIcon": "BuBookmark-fill"

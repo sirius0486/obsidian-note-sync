@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "4ac6c11da6d5f7d5",
+        "id": "de96b9148d41ff4d",
         "type": "tabs",
         "children": [
           {
-            "id": "9e558b4db72e68ed",
+            "id": "15a4755d0d93dc82",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/GIt常见命令和原理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6212999fc564fb32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Git commit规范.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git commit规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Git commit规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Git/Git commit规范.md"
-              }
+              "state": {}
             }
           },
           {
@@ -168,9 +147,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6212999fc564fb32",
+  "active": "15a4755d0d93dc82",
   "lastOpenFiles": [
     "Git/GIt常见命令和原理.md",
+    "Git/Git commit规范.md",
     "Git/Git alias设置.md",
     "Git/Git撤销文件修改.md",
     "Git/Git rebase.md",
@@ -178,7 +158,6 @@
     "README.md",
     "notes/React 常用操作.md",
     "notes/Obsidian插件.md",
-    "notes/npm镜像设置.md",
-    "Hello.md"
+    "notes/npm镜像设置.md"
   ]
 }

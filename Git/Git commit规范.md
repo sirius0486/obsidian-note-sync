@@ -1,8 +1,6 @@
-> [!INFO] > Here's a callout block. > It supports **Markdown**, [[Internal link|Wikilinks]], and [[Embed files|embeds]]! > ![[og-image.png]]
+> [!hint] > 你的 commit 信息应该是能帮助你 code diff 的时候快速定位
+> >`git commit -m "feat: implement fetchData api"`
 
-> 你的 commit 信息应该是能帮助你 code diff 的时候快速定位
-
-`git commit -m "feat: implement fetchData api"`
 
 -   init - init Projects
     -   `项目初始化`
