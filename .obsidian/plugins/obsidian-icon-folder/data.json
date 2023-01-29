@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RiRouterFill",
-      "RiReactjsLine",
-      "📁",
-      "📲",
-      "RiLayout-2-fill"
+      "PeSpring",
+      "PeReact",
+      "♨",
+      "📓",
+      "RiGithubFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -22,6 +22,12 @@
     }
   },
   "assets": "📁",
-  "React-Hooks": "RiReactjsLine",
-  "React-Router": "RiRouterFill"
+  "React-Hooks": "PeReact",
+  "React-Router": "RiRouterFill",
+  "Git": {
+    "iconName": "RiGithubFill",
+    "inheritanceIcon": "DeGit-branch-fill"
+  },
+  "notes": "📓",
+  "Spring-Boot": "PeSpring"
 }
