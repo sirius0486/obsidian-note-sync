@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "629e1028a2394d5e",
+        "id": "b3dfb145101e8afb",
         "type": "tabs",
         "children": [
           {
-            "id": "6c384c5596e8d6a2",
+            "id": "1cb475d8362cec36",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c7b204fce26a385",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/React 常用操作.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,11 +147,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6c384c5596e8d6a2",
+  "active": "1406b7c5eaa064e8",
   "lastOpenFiles": [
+    "notes/React 常用操作.md",
+    "README.md",
     "notes/Obsidian插件.md",
     "notes/npm镜像设置.md",
-    "README.md",
     "Hello.md"
   ]
 }
