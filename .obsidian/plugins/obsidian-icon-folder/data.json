@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiMarkdownFill",
       "PeSpring",
       "PeReact",
       "♨",
-      "📓",
-      "RiGithubFill"
+      "📓"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -29,5 +29,6 @@
     "inheritanceIcon": "DeGit-branch-fill"
   },
   "notes": "📓",
-  "Spring-Boot": "PeSpring"
+  "Spring-Boot": "PeSpring",
+  "README.md": "RiMarkdownFill"
 }
