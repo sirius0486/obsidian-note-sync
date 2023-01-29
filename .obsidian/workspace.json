@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6212999fc564fb32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/Git commit规范.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/GIt常见命令和原理.md",
+                "file": "Git/Git commit规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/GIt常见命令和原理.md",
+                "file": "Git/Git commit规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/GIt常见命令和原理.md"
+                "file": "Git/Git commit规范.md"
               }
             }
           },
@@ -155,10 +168,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9e558b4db72e68ed",
+  "active": "6212999fc564fb32",
   "lastOpenFiles": [
-    "Git/Git alias设置.md",
     "Git/GIt常见命令和原理.md",
+    "Git/Git alias设置.md",
     "Git/Git撤销文件修改.md",
     "Git/Git rebase.md",
     "Git/Git 学习资源.md",
