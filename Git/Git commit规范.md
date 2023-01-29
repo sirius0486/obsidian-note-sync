@@ -1,4 +1,4 @@
-
+> [!INFO] > Here's a callout block. > It supports **Markdown**, [[Internal link|Wikilinks]], and [[Embed files|embeds]]! > ![[og-image.png]]
 
 > 你的 commit 信息应该是能帮助你 code diff 的时候快速定位
 
