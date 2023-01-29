@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "PeGit",
       "RiMarkdownFill",
       "PeSpring",
       "PeReact",
-      "♨",
-      "📓"
+      "♨"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -22,13 +22,22 @@
     }
   },
   "assets": "📁",
-  "React-Hooks": "PeReact",
-  "React-Router": "RiRouterFill",
-  "Git": {
-    "iconName": "RiGithubFill",
-    "inheritanceIcon": "DeGit-branch-fill"
+  "React-Hooks": {
+    "iconName": "PeReact",
+    "inheritanceIcon": "PeReact"
   },
-  "notes": "📓",
-  "Spring-Boot": "PeSpring",
+  "React-Router": {
+    "iconName": "RiRouterFill",
+    "inheritanceIcon": "PeReact"
+  },
+  "Git": "PeGit",
+  "notes": {
+    "iconName": "📓",
+    "inheritanceIcon": "BuBookmark-fill"
+  },
+  "Spring-Boot": {
+    "iconName": "PeSpring",
+    "inheritanceIcon": "PeSpring"
+  },
   "README.md": "RiMarkdownFill"
 }
