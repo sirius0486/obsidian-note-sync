@@ -23,3 +23,5 @@ Rebase 的优势就是可以创造更线性的提交历史，这听上去有些�
 ## git switch {branchName}
 
 ## git checkout 
+
+## git branch -f main {hashValue}
