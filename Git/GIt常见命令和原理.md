@@ -7,9 +7,11 @@
 ## Git 常见命令和原理
 > [!tip] > 通用概念
 
-![[Pasted image 20230131095344.png]]
+https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/6/5/17283492601e428a~tplv-t2oaga2asx-zoom-in-crop-mark:4536:0:0:0.image
 
 ---
+
+
 
 ## git init 
 > [!success] > 执行该命令后会在本地目录生成 .git 隐藏文件夹, 
