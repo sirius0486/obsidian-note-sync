@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/GIt常见命令和原理.md",
+                "file": "Git/Git常见命令和原理.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/GIt常见命令和原理.md",
+                "file": "Git/Git常见命令和原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/GIt常见命令和原理.md",
+                "file": "Git/Git常见命令和原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/GIt常见命令和原理.md"
+                "file": "Git/Git常见命令和原理.md"
               }
             }
           },
@@ -158,7 +158,7 @@
   "active": "15a4755d0d93dc82",
   "lastOpenFiles": [
     "Git/Git撤销文件修改.md",
-    "Git/GIt常见命令和原理.md",
+    "Git/Git常见命令和原理.md",
     "Git/Git commit规范.md",
     "Git/Git alias设置.md",
     "Git/Git rebase.md",
