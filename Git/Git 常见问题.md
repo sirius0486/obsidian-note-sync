@@ -14,14 +14,26 @@ git pull --rebase
 
 ### 正在开发遇到其他分支紧急 bug 需要修复, 如何处理?
 ```sh
-# 功能未完成 commit bu可以使用 stash 临时保持内容 , 
+# 功能未完成 commit 不了, 切换不了分支, 可以使用 stash 临时保存内容
 git stash
 
 # 修完 bug 后再切回 开发分支 弹出原来的代码
 git stash pop
 
+# 可以 stash 多次, 对应 pop 多次, 和 堆栈的结构是一样的, 先入后出
+
+# 如果文件是新建的, 也就是 untracked 的状态, 是不能直接使用 git stash 的
+git stash save -u
+
 ```
 
+### 其他分支有你需要的代码, 通过 cherry-pick 加入到你的分支
+```sh
+
+# 我们可以把其他分支的 commit 移到当前分支
+git cherry-pick <commit_Ids>
+
+```
 
 
 ## 本地 git 操作
