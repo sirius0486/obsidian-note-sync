@@ -1,8 +1,6 @@
 ###  git reset 和 git revert 的区别
 > [!note] > 撤销(revert)被设计为撤销公开的提交(比如已经push)的安全方式，git reset被设计为重设本地更改
 
-
-
 因为两个命令的目的不同，它们的实现也不一样：重设完全地移除了一堆更改，而撤销保留了原来的更改，用一个新的提交来实现撤销
 
 两者主要区别如下：
@@ -16,3 +14,12 @@ git revert是用一次逆向的commit“中和”之前的提交，因此日后�
 但是git reset是之间把某些commit在某个branch上删除，因而和老的branch再次merge时，这些被回滚的commit应该还会被引入
 
 如果回退分支的代码以后还需要的情况则使用git revert， 如果分支是提错了没用的并且不想让别人发现这些错误代码，则使用git reset
+
+### git merge 和 git rebase 区别
+
+>[!info] > merge操作会生成一个新的节点，之前提交分开显示
+>>而rebase操作不会生成新的节点，是将两个分支融合成一个线性的操作。 
+
+都用于 合并分支 ,
+merge 合并代码会产生一次新的 commit
+rebase 则会保持提交树的线性
