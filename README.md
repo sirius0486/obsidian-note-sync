@@ -87,22 +87,27 @@ export default Projects;
 ## 学习计划
 
 ### 前端
-
+- [x] Next.js
 - [ ] React Query  
 - [ ] React-redux
 - [ ] React Router
 
 ### 后端
-
 - [ ] Spring MVC 
 - [ ] Spring Boot
 - [ ] JPA
+- [ ] PostgreSQL
 - [ ] Spring Security
 - [ ] Nest.js
-- [ ] TypeOrm o
+- [ ] TypeOrm or Prisma.js
 
 ### Git
 - [x] git rebase
 - [x] git checkout
 - [x] git branch
 - [x] git cherry-pick
+
+### 其他
+- [ ] 摄影技巧
+- [ ] 剪辑技巧
+- [ ] 时间管理
