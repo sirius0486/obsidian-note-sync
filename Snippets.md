@@ -31,3 +31,12 @@ export default function $1() {
 }
 
 ```
+
+
+## Vite.config.ts
+
+
+```ts
+
+
+```
