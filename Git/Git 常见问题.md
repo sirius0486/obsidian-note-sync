@@ -2,6 +2,35 @@
 
 ### 拉取代码遇到冲突怎么办
 
+###  分支操作
+
+### 
+
+## 本地 git 操作
+
+### 如何恢复到 git add 之前?
+
+```sh
+git reset <file>
+
+# file此时变成 unstage 状态
+```
+
+
+### 如何更改还未提交的 commit ? 
+
+```sh
+# 方法一
+git commit --amend
+
+# 方法二
+git rebase -i HEAD~{number}
+
+# number 表示
+```
+
+### 恢复到 commit 之前, add 之后的状态?
+
 ### 
 
 
