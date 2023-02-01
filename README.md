@@ -7,7 +7,7 @@
     <img alt="GitHub" src="https://img.shields.io/github/license/misitebao/yakia"/>
   </a>
   <a href="https://github.com/misitebao/yakia/blob/main/LICENSE">
-    <img alt="#contributors-" src="https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square"/>
+    <img alt="#contributors-" src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square"/>
   </a>
   <img height="20" src="https://img.shields.io/badge/react-%2335495e.svg?style=for-the-badge&logo=react&logoColor=%234FC08D" alt="VueJs" />
   <img height="20" src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
@@ -80,10 +80,29 @@ export default Projects;
 
 - [lavard](https://github.com/lalalavard)
 
-## 鸣谢
-
-- [yumin-jung](https://github.com/yumin-jung)
-
 ## 协议
 
 - [MIT](https://opensource.org/licenses/MIT)
+
+## 学习计划
+
+### 前端
+
+- [ ] React Query  
+- [ ] React-redux
+- [ ] React Router
+
+### 后端
+
+- [ ] Spring MVC 
+- [ ] Spring Boot
+- [ ] JPA
+- [ ] Spring Security
+- [ ] Nest.js
+- [ ] TypeOrm o
+
+### Git
+- [x] git rebase
+- [x] git checkout
+- [x] git branch
+- [x] git cherry-pick
