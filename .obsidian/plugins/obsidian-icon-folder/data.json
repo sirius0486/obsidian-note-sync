@@ -42,5 +42,9 @@
     "iconName": "PeSpring",
     "inheritanceIcon": "PeSpring"
   },
-  "README.md": "RiMarkdownFill"
+  "README.md": "RiMarkdownFill",
+  "React-Redux": {
+    "iconName": "PeReact",
+    "inheritanceIcon": "PeReact"
+  }
 }
