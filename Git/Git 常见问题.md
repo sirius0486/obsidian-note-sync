@@ -176,6 +176,7 @@ git revert是用一次逆向的commit“中和”之前的提交，因此日后�
 都用于 **合并分支** ,
 - merge 合并代码会产生一次新的 commit
 - rebase 则会保持提交树的线性
+- rebase 分为 自动式 和 交互式 (-i)
 
 ## 多项目管理
 ### submodule 和 monorepos
