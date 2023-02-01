@@ -179,5 +179,5 @@ git revert是用一次逆向的commit“中和”之前的提交，因此日后�
 - rebase 分为 自动式 和 交互式 (-i)
 
 ## 多项目管理
-### submodule 和 monorepos
-
+### git submodule 和 monorepos
+某些项目需要包含并使用另外一个项目, 则可以把该项目当做项目的子模块, 它允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立
