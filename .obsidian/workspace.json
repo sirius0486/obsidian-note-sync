@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git 常见问题.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git 常见问题.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Git 常见问题.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Git 常见问题.md"
+                "file": "README.md"
               }
             }
           },
@@ -168,10 +168,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5e1905ad40e668a1",
+  "active": "c04ddf5f9bd63c4b",
   "lastOpenFiles": [
-    "Git/Git常见命令和原理.md",
     "Git/Git 常见问题.md",
+    "Git/Git常见命令和原理.md",
     "assets/Pasted image 20230131102034.png",
     "assets/Pasted image 20230131102030.png",
     "assets/Pasted image 20230131102037.png",
