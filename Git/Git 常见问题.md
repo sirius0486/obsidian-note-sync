@@ -53,7 +53,25 @@ git checkout -b newBranch <sha>
 
 ### branch 操作
 ```sh
-# 1. 创建新的 branch
+# 1. 查看 本地 所有branch
+git branch
+
+# 2. 查看 本地和远端 所有branch
+git branch -a
+
+# 3. 创建新的 branch
+git checkout -b <newBranch>
+
+# 4. 重命名 branch
+git branch -m <oldBranch> <newBranch>
+
+# 5. 删除本地或远程分支
+
+# 删除远程分支 origin 
+git push -d origin <branch_name>
+
+# 删除本地分支 local
+git branch -d <>
 
 ```
 
