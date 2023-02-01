@@ -2,9 +2,17 @@
 
 ### 拉取代码遇到冲突怎么办
 
-###  分支操作
+```sh
+# 1. merge
+git pull   # 等价于 git fetch + git merge 
 
-### 
+
+# 2. rebase
+git pull --rebase
+
+```
+
+
 
 ## 本地 git 操作
 
@@ -71,9 +79,24 @@ git branch -m <oldBranch> <newBranch>
 git push -d origin <branch_name>
 
 # 删除本地分支 local
-git branch -d <>
+git branch -d <branch_name>
 
 ```
+
+### 将多个 commit 合并成一个 commit
+```sh
+# git log 查看 commit 历史
+* b1b8189 - (HEAD -> master) Commit-3
+* 5756e15 - Commit-2
+* e7ba81d - Commit-1
+* 5d39ff2 - Commit-0
+
+# 假如合并前三个 commit 为一个, 那么我们k'y
+
+
+```
+
+
 
 ## 版本回滚相关
 
