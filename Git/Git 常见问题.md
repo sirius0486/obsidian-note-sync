@@ -25,6 +25,8 @@ git stash pop
 # 如果文件是新建的, 也就是 untracked 的状态, 是不能直接使用 git stash 的
 git stash save -u
 
+# 就是新建了文件，但是没有用 `git add .` 追踪文件，那么 `git stash` 是无法存储的
+
 ```
 
 ### 其他分支有你需要的代码, 通过 cherry-pick 加入到你的分支
