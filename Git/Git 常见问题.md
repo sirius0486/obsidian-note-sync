@@ -26,15 +26,39 @@ git commit --amend
 # 方法二
 git rebase -i HEAD~{number}
 
-# number 表示
+# number 表示 你要编辑 commit 的个数
 ```
 
 ### 恢复到 commit 之前, add 之后的状态?
 
-### 
+```sh
+# 回到 git add 后，commit 前
+git reset --soft HEAD~1
 
+# 回到 git add 之前
+git reset HEAD~1
+
+# 这种方式比较危险。会抛弃所有的更改
+git reset --hard HEAD~1
+```
+
+### 误删了一个 commit, 如何 通过 git reflog 恢复?
+```sh
+git reflog
+# reflog能看到所有 commit 记录, 包括被删除的, 找到要恢复位置的 commit sha
+
+# -b 不带，默认当前 branch
+git checkout -b newBranch <sha>
+```
+
+### branch 操作
+```sh
+# 1. 创建新的 branch
+
+```
 
 ## 版本回滚相关
+
 ### git reset 和 git revert 的区别
 > [!note] > 撤销(revert)被设计为撤销公开的提交(比如已经push)的安全方式，git reset被设计为重设本地更改
 
