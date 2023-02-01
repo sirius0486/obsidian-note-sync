@@ -177,7 +177,20 @@ git revert是用一次逆向的commit“中和”之前的提交，因此日后�
 - merge 合并代码会产生一次新的 commit
 - rebase 则会保持提交树的线性
 - rebase 分为 自动式 和 交互式 (-i)
+- 未解决完冲突, 可以 `git merge --abort` 中止合并操作
 
-## 多项目管理
+## 项目管理
+
 ### git submodule 和 monorepos
 某些项目需要包含并使用另外一个项目, 则可以把该项目当做项目的子模块, 它允许你将一个 Git 仓库作为另一个 Git 仓库的子目录。它能让你将另一个仓库克隆到自己的项目中，同时还保持提交的独立
+
+### git hooks
+
+-   在使用 Git 的项目中，我们可以为项目设置 Git Hooks 来帮我们在提交代码的各个阶段做一些代码检查等工作
+-   钩子（Hooks） 都被存储在 Git 目录下的 hooks 子目录中。也就是绝大部分项目中的 `.git/hook` 目录
+
+### pre-commit
+
+-   `pre-commit` 就是在代码提交之前做些东西，比如代码打包，代码检测，称之为钩子（hook）
+-   在 commit 之前执行一个函数（callback）。这个函数成功执行完之后，再继续 commit，但是失败之后就阻止 commit
+-   在 .git->hooks->下面有个 pre-commit.sample* ，这个里面就是默认的函数(脚本)样本
