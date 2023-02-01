@@ -38,6 +38,15 @@ git cherry-pick <commit_Ids>
 
 ## 本地 git 操作
 
+### git init 做了什么?
+
+从根本上来讲 Git 是一套内容寻址 (content-addressable) 文件系统，在此之上提供了一个 VCS 用户界面。
+
+当你在一个新目录或已有目录内执行 git init 时，Git 会创建一个 .git 目录， 几乎所有 Git 存储和操作的内容都位于该目录下。如果你要备份或复制一个库， 基本上将这一目录拷贝至其他地方就可以了。
+
+其中有四个重要的文件或目录：HEAD 及 index 文件，objects 及 refs 目录。 objects 目录存储所有数据内容，refs 目录存储指向数据 (分支) 的提交对象的指针，HEAD 文件指向当前分支，index 文件保存了暂存区域信息。
+
+
 ### 如何恢复到 git add 之前?
 
 ```sh
