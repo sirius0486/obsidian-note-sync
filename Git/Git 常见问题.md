@@ -12,6 +12,16 @@ git pull --rebase
 
 ```
 
+### 正在开发遇到其他分支紧急 bug 需要修复, 如何处理?
+```sh
+# 功能未完成 commit bu可以使用 stash 临时保持内容 , 
+git stash
+
+# 修完 bug 后再切回 开发分支 弹出原来的代码
+git stash pop
+
+```
+
 
 
 ## 本地 git 操作
@@ -85,14 +95,34 @@ git branch -d <branch_name>
 
 ### 将多个 commit 合并成一个 commit
 ```sh
-# git log 查看 commit 历史
+#查看 commit 历史
+git log
+
+>>> output
 * b1b8189 - (HEAD -> master) Commit-3
 * 5756e15 - Commit-2
 * e7ba81d - Commit-1
 * 5d39ff2 - Commit-0
 
-# 假如合并前三个 commit 为一个, 那么我们k'y
+# 假如合并前三个 commit 为一个, 那么我们可以
+git rebase -i 5d39ff2
+#or
+git rebase -i HEAD~3
 
+
+# 进入到 rebase 交互页面
+
+pick e7ba81d Commit-1
+pick 5756e15 Commit-2
+pick b1b8189 Commit-3
+
+# 改成如下
+
+pick e7ba81d Commit-1
+s 5756e15 Commit-2
+s b1b8189 Commit-3
+
+# 保存退出后, 进入新的界面, 填写此次合并后的 commit message
 
 ```
 
