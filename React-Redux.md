@@ -16,6 +16,9 @@
 - `state` 和 `view` 是一一对应的, 一个 `state` 对应一个 `view` , 换句话说你知道了 `state` 也就知道了 `view`
 
 ### action
+- `state` 的变化 会导致 `view` 的变化, `action` 就是 `view` 要改变 `state` 发出的动作
+- `action` 是一个对象, `type` 是 `action` 的名称 , 用于区分不同的 `action`
+- 改变 `state` 的唯一办法 就是 通过 `action` 通知 `store`
 
 ### dispatch
 dispatch()是 `View` 发出 Action 的唯一方法
