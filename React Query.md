@@ -13,7 +13,8 @@
 ### useQuery
 1.  `queryKey`
 2.  `queryFn`
-3. refetchInterval
+3. `refetchInterval`
+4. `enabled` 
 
 
 ```tsx
