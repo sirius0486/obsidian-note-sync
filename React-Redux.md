@@ -2,6 +2,14 @@
 > Redux 学习资源 
 > [Redux官方网站(英文)](https://react-redux.js.org/api/hooks)
 
+## Redux 和 React-redux
+
+- Redux 适用于 多个框架, react-redux 是 redux 作者对 react 版本 redux 的视线
+- 学习 React-redux 需要先了解 redux 基础概念
+
+#
+
+
 
 ## Provider
 
