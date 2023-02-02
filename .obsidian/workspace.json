@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ec50a0180c735238",
+        "id": "cdfe336bcf6337fa",
         "type": "tabs",
         "children": [
           {
-            "id": "cbb1614546928f18",
+            "id": "3b698c735b4e5a33",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "React-Redux/1. Redux 介绍和使用.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fea470f688984816",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React Query.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,17 +155,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cbb1614546928f18",
+  "active": "3b698c735b4e5a33",
   "lastOpenFiles": [
-    "Git/Git常见命令和原理.md",
+    "www.google.com.md",
     "React-Redux/1. Redux 介绍和使用.md",
-    "Snippets.md",
     "React Query.md",
     "README.md",
+    "官方网站.md",
+    "Git/Git常见命令和原理.md",
+    "Snippets.md",
     "Git/Git 常见问题.md",
     "assets/Pasted image 20230131102034.png",
-    "assets/Pasted image 20230131102030.png",
-    "assets/Pasted image 20230131102037.png",
-    "assets/Pasted image 20230131095344.png"
+    "assets/Pasted image 20230131102030.png"
   ]
 }
