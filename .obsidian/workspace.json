@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React-Hooks/useEffect.md",
+                "file": "React Query.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React-Hooks/useEffect.md",
+                "file": "React Query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React-Hooks/useEffect.md"
+                "file": "React Query.md"
               }
             }
           },
@@ -168,13 +167,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "be487c7efa1c515e",
+  "active": "3418bf48c3a6cc09",
   "lastOpenFiles": [
+    "React-Hooks/useEffect.md",
     "React-Redux.md",
     "React Query.md",
     "React-Hooks/useReducer.md",
     "React-Hooks/useTransition.md",
-    "React-Hooks/useEffect.md",
     "React-Hooks/useCallback.md",
     "React-Hooks/useContext.md",
     "React-Hooks/useMemo.md",
