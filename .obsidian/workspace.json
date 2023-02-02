@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e34b0cedaad373a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Git常见命令和原理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c04ddf5f9bd63c4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cbb1614546928f18",
             "type": "leaf",
             "state": {
@@ -44,19 +20,18 @@
             }
           },
           {
-            "id": "ebf6777afc45831b",
+            "id": "fea470f688984816",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Snippets.md",
+                "file": "React Query.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Snippets.md",
+                "file": "React-Redux/1. Redux 介绍和使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Snippets.md",
+                "file": "React-Redux/1. Redux 介绍和使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Snippets.md"
+                "file": "React-Redux/1. Redux 介绍和使用.md"
               }
             }
           },
@@ -192,17 +167,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ebf6777afc45831b",
+  "active": "cbb1614546928f18",
   "lastOpenFiles": [
-    "README.md",
-    "Snippets.md",
-    "React-Redux/1. Redux 介绍和使用.md",
-    "Git/Git 常见问题.md",
     "Git/Git常见命令和原理.md",
+    "React-Redux/1. Redux 介绍和使用.md",
+    "Snippets.md",
+    "React Query.md",
+    "README.md",
+    "Git/Git 常见问题.md",
     "assets/Pasted image 20230131102034.png",
     "assets/Pasted image 20230131102030.png",
     "assets/Pasted image 20230131102037.png",
-    "assets/Pasted image 20230131095344.png",
-    "assets/Pasted image 20230129180622.png"
+    "assets/Pasted image 20230131095344.png"
   ]
 }
