@@ -44,7 +44,7 @@
   },
   "README.md": "RiMarkdownFill",
   "React-Redux": {
-    "iconName": "PeReact",
+    "iconName": null,
     "inheritanceIcon": "PeReact"
   },
   "Snippets.md": "PeReact",
