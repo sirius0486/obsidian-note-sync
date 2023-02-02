@@ -2,14 +2,30 @@
 > Redux 学习资源 
 > [Redux官方网站(英文)](https://react-redux.js.org/api/hooks)
 
+## Redux
+> [!tip] Redux 有几个重要的概念
+
+### store
+- store 就是保存数据的地方, 可以看做是一个数据仓库, 需要用的时候从里面取, 理论上整个应用只能有一个 store
+- 
+
+### state
+- `state` 和 `view` 是一一对应的, 一个 `state` 对应一个 `view`
+
+### action
+
+
+### reducer
+
+- `Store` 收到 `Action` 以后，必须给出一个新的 `State`，这样 View 才会发生变化。这种 `State` 的计算过程就叫做 `Reducer`。
+
+- `Reducer` 是一个函数，它接受 `Action` 和当前 `State` 作为参数，返回一个新的 `State`
+
+
 ## Redux 和 React-redux
 
 - Redux 适用于 多个框架, react-redux 是 redux 作者对 react 版本 redux 的视线
 - 学习 React-redux 需要先了解 redux 基础概念
-
-#
-
-
 
 ## Provider
 
