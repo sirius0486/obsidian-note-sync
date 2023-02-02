@@ -16,7 +16,11 @@ const postQuery = useQuery({
 useEffect( () => {
 	setIsLoading(true);
 
-	fetch('http://www.xxx.x')
+	fetch('http://www.xxx.xxxx')
+		.then( res => res.json() )
+		.then( setData() )
+		.catch( setError)
+		.fianlly(  () => setIsLoading(false) );
 })
 ```
 
