@@ -48,5 +48,6 @@
     "inheritanceIcon": "PeReact"
   },
   "Snippets.md": "PeReact",
-  "React Query.md": "PeReact"
+  "React Query.md": "PeReact",
+  "React-Redux.md": "PeReact"
 }
