@@ -24,6 +24,8 @@ root.render(
     <App />
   </Provider>
 )
+
+// Provider 的唯一作用 就是 传入 store 对象
 ```
 
 
