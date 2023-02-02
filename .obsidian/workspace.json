@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React-Redux.md",
+                "file": "React Query.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React-Redux.md",
+                "file": "React Query.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React-Redux.md",
+                "file": "React Query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React-Redux.md"
+                "file": "React Query.md"
               }
             }
           },
@@ -157,8 +157,8 @@
   },
   "active": "3418bf48c3a6cc09",
   "lastOpenFiles": [
-    "React Query.md",
     "React-Redux.md",
+    "React Query.md",
     "Snippets.md",
     "README.md",
     "React-Hooks/React-Redux.md",
