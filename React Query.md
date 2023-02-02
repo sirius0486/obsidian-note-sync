@@ -6,6 +6,18 @@
 
 ```tsx
 
+const postQuery = useQuery({
+	queryKey: ["posts"],
+	queryFn: getPosts,
+})
+
+
+// 传统写法
+useEffect( () => {
+	setIsLoading(true);
+
+	fetch('http://www.xxx.x')
+})
 ```
 
 ## hooks
