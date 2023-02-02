@@ -21,7 +21,8 @@
 - 改变 `state` 的唯一办法 就是 通过 `action` 通知 `store`
 
 ### dispatch
-dispatch()是 `View` 发出 Action 的唯一方法
+
+- `dispatch`()是 `View` 发出 `Action` 的唯一方法
 
 ### reducer
 
