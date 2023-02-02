@@ -11,8 +11,9 @@
 ## hooks
 
 ### useQuery
-1.  queryKey
-2. queryFn
+1.  `queryKey`
+2.  `queryFn`
+3. refetchInterval
 
 
 ```tsx
