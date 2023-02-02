@@ -170,15 +170,15 @@
   },
   "active": "be487c7efa1c515e",
   "lastOpenFiles": [
+    "React-Redux.md",
+    "React Query.md",
+    "React-Hooks/useReducer.md",
+    "React-Hooks/useTransition.md",
+    "React-Hooks/useEffect.md",
     "React-Hooks/useCallback.md",
     "React-Hooks/useContext.md",
-    "React-Hooks/useEffect.md",
     "React-Hooks/useMemo.md",
-    "React-Hooks/useReducer.md",
     "React-Hooks/useState.md",
-    "React-Hooks/useTransition.md",
-    "React Query.md",
-    "React-Hooks/useRef.md",
-    "React-Redux.md"
+    "React-Hooks/useRef.md"
   ]
 }
