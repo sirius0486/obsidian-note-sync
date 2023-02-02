@@ -7,13 +7,18 @@
 
 ### store
 - store 就是保存数据的地方, 可以看做是一个数据仓库, 需要用的时候从里面取, 理论上整个应用只能有一个 store
-- 
+
+### view
+- `view` 就是视图层 或者 UI, 也就是我们看到的页面
 
 ### state
-- `state` 和 `view` 是一一对应的, 一个 `state` 对应一个 `view`
+- `state` 可以理解为 `store` 某个时刻的 数据 , `Store`对象包含所有数据
+- `state` 和 `view` 是一一对应的, 一个 `state` 对应一个 `view` , 换句话说你知道了 `state` 也就知道了 `view`
 
 ### action
 
+### dispatch
+dispatch()是 `View` 发出 Action 的唯一方法
 
 ### reducer
 
