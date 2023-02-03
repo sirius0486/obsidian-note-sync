@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "88f0c4ec2577f7ba",
+        "id": "03054e204905cad6",
         "type": "tabs",
         "children": [
           {
-            "id": "3418bf48c3a6cc09",
+            "id": "ef9c625852ada4e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React Query.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be487c7efa1c515e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React-Hooks/useEffect.md",
+                "file": "Git/Git 常见问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React Query.md",
+                "file": "Git/Git 常见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React Query.md",
+                "file": "Git/Git 常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React Query.md"
+                "file": "Git/Git 常见问题.md"
               }
             }
           },
@@ -167,17 +155,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3418bf48c3a6cc09",
+  "active": "ef9c625852ada4e9",
   "lastOpenFiles": [
+    "Git/Git撤销文件修改.md",
+    "Git/Git常见命令和原理.md",
     "React-Hooks/useEffect.md",
-    "React-Redux.md",
     "React Query.md",
+    "React-Redux.md",
     "React-Hooks/useReducer.md",
     "React-Hooks/useTransition.md",
     "React-Hooks/useCallback.md",
     "React-Hooks/useContext.md",
-    "React-Hooks/useMemo.md",
-    "React-Hooks/useState.md",
-    "React-Hooks/useRef.md"
+    "React-Hooks/useMemo.md"
   ]
 }
