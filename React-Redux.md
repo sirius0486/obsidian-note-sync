@@ -4,6 +4,7 @@
 
 ## Redux
 > [!tip] Redux 有几个重要的概念
+> 新版本推荐使用` redux-toolkit` + `react-redux`
 
 ### store
 - store 就是保存数据的地方, 可以看做是一个数据仓库, 需要用的时候从里面取, 理论上整个应用只能有一个 store
@@ -29,6 +30,9 @@
 - `Store` 收到 `Action` 以后，必须给出一个新的 `State`，这样 View 才会发生变化。这种 `State` 的计算过程就叫做 `Reducer`。
 
 - `Reducer` 是一个函数，它接受 `Action` 和当前 `State` 作为参数，返回一个新的 `State`
+
+### playload
+- 什么是 playload
 
 
 ## Redux 和 React-redux
@@ -104,7 +108,7 @@ function connect(mapStateToProps?, mapDispatchToProps?, mergeProps?, options?)
 -   创建一个index.ts做为主入口
 -   创建一个festures文件夹用来装所有的store
 -   创建一个counterSlice.ts文件，并导出简单的加减方法
-
+-   每个单独的
 
 ### index.tsx
 
@@ -506,3 +510,12 @@ transition: 0s;
 
 }
 ```
+
+
+## Q&A
+
+### 什么时候选择 redux ?
+- 需要全局管理的数据, 如 用户登录信息, 
+- 多组件需要共用
+
+### redux 和其他状态管理库的区别?
