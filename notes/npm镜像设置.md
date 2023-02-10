@@ -19,3 +19,10 @@ npm config get registry
 ```sh
 npm cache clean --force
 ```
+
+5. 更新 package dependcy 版本
+```sh
+npm i -g npm-check-updates
+ncu -u
+npm install
+```
