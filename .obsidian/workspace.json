@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ef9c625852ada4e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React-Redux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67e4e4ef7f1539d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React-Hooks/useReducer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2470d1a221a09481",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React-Hooks/useState.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "53b0a7a324ed893a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React-Hooks/useEffect.md",
+                "file": "notes/npm镜像设置.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React-Hooks/useReducer.md",
+                "file": "notes/npm镜像设置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React-Hooks/useReducer.md",
+                "file": "notes/npm镜像设置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React-Hooks/useReducer.md"
+                "file": "notes/npm镜像设置.md"
               }
             }
           },
@@ -192,17 +155,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "67e4e4ef7f1539d0",
+  "active": "53b0a7a324ed893a",
   "lastOpenFiles": [
-    "React-Hooks/React-fiber.md",
     "React-Redux.md",
-    "React-Hooks/useState.md",
     "React-Hooks/useEffect.md",
+    "React-Hooks/useState.md",
+    "React-Hooks/useReducer.md",
+    "React-Hooks/React-fiber.md",
     "React-Hooks/useTransition.md",
     "notes/npm镜像设置.md",
     "Snippets.md",
     "React Query.md",
-    "React-Hooks/useReducer.md",
     "Git/Git 常见问题.md"
   ]
 }
