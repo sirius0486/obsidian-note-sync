@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/npm镜像设置.md",
+                "file": "React Query.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/npm镜像设置.md",
+                "file": "React Query.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/npm镜像设置.md",
+                "file": "React Query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/npm镜像设置.md"
+                "file": "React Query.md"
               }
             }
           },
@@ -157,13 +157,13 @@
   },
   "active": "53b0a7a324ed893a",
   "lastOpenFiles": [
+    "notes/npm镜像设置.md",
     "React-Redux.md",
     "React-Hooks/useEffect.md",
     "React-Hooks/useState.md",
     "React-Hooks/useReducer.md",
     "React-Hooks/React-fiber.md",
     "React-Hooks/useTransition.md",
-    "notes/npm镜像设置.md",
     "Snippets.md",
     "React Query.md",
     "Git/Git 常见问题.md"
