@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React Query.md",
+                "file": "Git/Git常见命令和原理.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React Query.md",
+                "file": "Git/Git常见命令和原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React Query.md",
+                "file": "Git/Git常见命令和原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React Query.md"
+                "file": "Git/Git常见命令和原理.md"
               }
             }
           },
@@ -157,15 +157,15 @@
   },
   "active": "53b0a7a324ed893a",
   "lastOpenFiles": [
+    "Git/Git 常见问题.md",
+    "Git/Git 学习资源.md",
+    "React Query.md",
     "notes/npm镜像设置.md",
     "React-Redux.md",
     "React-Hooks/useEffect.md",
     "React-Hooks/useState.md",
     "React-Hooks/useReducer.md",
     "React-Hooks/React-fiber.md",
-    "React-Hooks/useTransition.md",
-    "Snippets.md",
-    "React Query.md",
-    "Git/Git 常见问题.md"
+    "React-Hooks/useTransition.md"
   ]
 }
