@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React Query.md",
+                "file": "TypeScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React Query.md",
+                "file": "TypeScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React Query.md",
+                "file": "TypeScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React Query.md"
+                "file": "TypeScript.md"
               }
             }
           },
@@ -170,11 +170,11 @@
   },
   "active": "29d433a82d70a1f7",
   "lastOpenFiles": [
+    "React Query.md",
     "TypeScript.md",
     "Git/Git 常见问题.md",
     "Git/Git常见命令和原理.md",
     "Git/Git 学习资源.md",
-    "React Query.md",
     "notes/npm镜像设置.md",
     "React-Redux.md",
     "React-Hooks/useEffect.md",
