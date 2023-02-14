@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React-Redux.md",
+                "file": "React Query.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React-Redux.md",
+                "file": "React Query.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React-Redux.md",
+                "file": "React Query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React-Redux.md"
+                "file": "React Query.md"
               }
             }
           },
@@ -157,13 +157,13 @@
   },
   "active": "29d433a82d70a1f7",
   "lastOpenFiles": [
+    "React-Redux.md",
     "TypeScript - React.md",
     "React Query.md",
     "Git/Git 常见问题.md",
     "Git/Git常见命令和原理.md",
     "Git/Git 学习资源.md",
     "notes/npm镜像设置.md",
-    "React-Redux.md",
     "React-Hooks/useEffect.md",
     "React-Hooks/useState.md",
     "React-Hooks/useReducer.md"
