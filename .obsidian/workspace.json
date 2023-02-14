@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React-Hooks/useEffect.md",
+                "file": "React-Redux.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React-Hooks/useEffect.md",
+                "file": "React-Redux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React-Hooks/useEffect.md",
+                "file": "React-Redux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React-Hooks/useEffect.md"
+                "file": "React-Redux.md"
               }
             }
           },
@@ -157,15 +157,15 @@
   },
   "active": "29d433a82d70a1f7",
   "lastOpenFiles": [
+    "React-Hooks/useState.md",
+    "React-Hooks/useTransition.md",
+    "React-Hooks/useEffect.md",
     "React Query.md",
     "React-Redux.md",
     "TypeScript - React.md",
     "Git/Git 常见问题.md",
     "Git/Git常见命令和原理.md",
     "Git/Git 学习资源.md",
-    "notes/npm镜像设置.md",
-    "React-Hooks/useEffect.md",
-    "React-Hooks/useState.md",
-    "React-Hooks/useReducer.md"
+    "notes/npm镜像设置.md"
   ]
 }
