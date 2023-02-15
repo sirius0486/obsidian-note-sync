@@ -280,7 +280,29 @@ function createLoggedPair<S extends string | number, T extends string | num
 
 ## Partial
 `Partial` changes all the properties in an object to be optional.
+Partial 可以使得一个对象里的所有属性变为可选属性
 
+```ts
+interface Point {
+	x: number,
+	y: number,
+}
+
+// `Partial` 使得  x 和 y 变为可选属性
+let pointPart: Partial<Point> = {}; 
+pointPart.x = 10;
+
+```
+
+## Record
+> Record 可以简单地定义一个对象类型
+
+```ts
+const nameAgeMap: Record<string, number> = {
+  'Alice': 21,
+  'Bob': 25
+};
+```
 
 ## tsx
 得益于 `React` 的广泛使用度 , `TypeScript` 也支持  `jsx` , 所以也有 `typeScript` 版的 jsx
