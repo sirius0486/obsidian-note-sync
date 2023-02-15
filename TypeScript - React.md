@@ -7,6 +7,7 @@
 > 定义接口的形状
 
 ```ts
+
 interface IUser {
   name: string,
   age: number,
