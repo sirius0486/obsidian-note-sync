@@ -1,5 +1,7 @@
 `const cachedValue = useMemo(calculateValue, dependencies)`
 
+> 保存返回的结果 就叫做 **缓存**( `memoization`) , 这就是为什么这个 hook 叫做 `useMemo` 
+
 
 >[!tip] useMemo有以下作用
 >1. 跳过昂贵的重新计算   
