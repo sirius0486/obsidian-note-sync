@@ -278,6 +278,10 @@ function createLoggedPair<S extends string | number, T extends string | num
 
 ```
 
+## Partial
+`Partial` changes all the properties in an object to be optional.
+
+
 ## tsx
 得益于 `React` 的广泛使用度 , `TypeScript` 也支持  `jsx` , 所以也有 `typeScript` 版的 jsx
 
