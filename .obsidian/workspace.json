@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "summit学习计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "summit学习计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript - React.md"
+                "file": "summit学习计划.md"
               }
             }
           },
@@ -187,12 +188,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e9acd6d815b56ab3",
+  "active": "4310b68cabc0a795",
   "lastOpenFiles": [
+    "TypeScript - React.md",
     "英语单词- develop.md",
     "summit学习计划.md",
     "open source/admin.md",
-    "TypeScript - React.md",
     "React-Hooks/useContext.md",
     "React-Hooks/React-fiber.md",
     "React-Hooks/useReducer.md",
