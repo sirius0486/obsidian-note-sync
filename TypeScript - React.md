@@ -1,20 +1,18 @@
 
-## jsx
-
-
-## tsx
-
-### react hooks in typescirpt
-
-### useState
-### useEffect
-### useMemo
-### useCallback
-### useRef
-### useReducer
-
 ## tuples
 > 元组其实就是一个数组, 但元组运行数不同元素有不同的类型
+
+要定义一个元组，要指定数组中每个元素的类型
+```ts
+// define our tuple
+let ourTuple: [number, boolean, string];
+
+// initialize correctly  
+ourTuple = [5, false, 'Coding God was here'];
+```
+
+
+### obj 类型
 
 
 ## interface
@@ -59,6 +57,7 @@ let favoriteNum: myType = {"my favorite number is ", 42}
 
 
 但两者在某些情况下有区别
+1. 接口使用继承，类型别名则使用交集
 
 比如拓展类型上, `inerface` 通过 `extend` 关键字拓展 , type 通过 & 符号拓展
 
@@ -99,4 +98,39 @@ let favoriteNum: myType = {"my favorite number is ", 42}
     }
 ```
 
-interface 只可以ding类型别名除了定义对象类型外 还可以
+interface 只可以定义对象类型, 类型别名除了定义对象类型外 还可以
+
+
+
+## jsx
+
+
+## tsx
+
+### react hooks in typescirpt
+
+### useState
+```tsx
+
+```
+
+### useEffect
+```tsx
+
+```
+### useMemo
+```tsx
+
+```
+### useCallback
+```tsx
+
+```
+### useRef
+```tsx
+
+```
+### useReducer
+```tsx
+
+```
