@@ -229,9 +229,25 @@ function printStatusCode(code: string | number) {
 ```
 
 ### Casting
->[!info] Casting is the process of overriding a type.
+
+>  Casting is the process of overriding a type.
 > 有的时候我们需要转换类型,  casting 就是重写一个类型的过程
 
+转换类型我们有 2 种 方法: 
+1. 通过 ` as `
+2. 通过 ` <> `
+
+
+```ts
+// casting with  as  
+let x: unknown = 'hello';
+console.log((x as string).length);
+
+// casting with <>
+let x: unknown = 'hello';  
+console.log((<string>x).length);
+
+```
 
 
 
