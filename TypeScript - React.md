@@ -25,6 +25,28 @@ const userInfo : { name:string, age:number, address:Iaddress } = {
 
 ```
 
+## Optional Properties 
+> 有些参数和属性是可选的, 则可以在后面加 ?
+
+```ts
+const car: { type: string, mileage?: number } = { // no error  
+  type: "Toyota"  
+};  
+car.mileage = 2000;
+```
+
+## index signture
+
+```ts
+const nameAgeMap: { [index: string]: number } = {};
+nameAgeMap.Jack = 25; // no error
+nameAgeMap.Mark = "Fifty"; // Error: Type 'string' is not assignable to type 'number'.
+
+```
+
+## enum 
+> 枚举类型
+
 ## interface
 
 > 定义接口的形状
