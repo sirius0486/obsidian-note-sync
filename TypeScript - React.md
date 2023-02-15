@@ -58,5 +58,45 @@ let favoriteNum: myType = {"my favorite number is ", 42}
  > 它们非常相似, 并且在大多数情况下是相同的
 
 
-但是在某些情况下, 还是有略微区别
+但两者在某些情况下有区别
 
+比如拓展类型上, `inerface` 通过 `extend` 关键字拓展 , type 通过 & 符号拓展
+
+```ts
+// 定义一个类型为动物，字段为名字
+    interface Animal {
+        name:string
+    }
+    // 定义一个类型猴子，字段为吃香蕉
+    // 且继承动物类型
+    interface Monkey extends Animal {
+        eatBanana:boolean
+    }
+
+    let m : Monkey = {
+        name:'吉吉国王',
+        eatBanana:true
+    }
+//这样在 Monkey 类型中也有了name字段
+```
+
+而在 **type** 中，我们需要通过 & 符号来扩展我们的字段
+
+```ts
+ // 定义一个类型为动物，字段为名字
+    type Animal = {
+        name:string
+    }
+     // 定义一个类型猴子，字段为吃香蕉
+    //  并用 & 进行扩展
+    type Monkey = {
+        eatBanana:boolean
+    } & Animal
+
+    let m : Monkey = {
+        name:'吉吉国王',
+        eatBanana:true
+    }
+```
+
+interface 只可以ding类型别名除了定义对象类型外 还可以
