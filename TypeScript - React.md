@@ -298,6 +298,8 @@ pointPart.x = 10;
 > Record 可以简单地定义一个对象类型
 
 ```ts
+// Record<string, number>等同于 { [key: string]: number }
+
 const nameAgeMap: Record<string, number> = {
   'Alice': 21,
   'Bob': 25
