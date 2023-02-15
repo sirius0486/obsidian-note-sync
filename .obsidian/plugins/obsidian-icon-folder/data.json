@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiPlantFill",
       "RiGithubFill",
       "PeGit",
       "RiMarkdownFill",
-      "PeSpring",
-      "PeReact"
+      "PeSpring"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -50,5 +50,6 @@
   "Snippets.md": "PeReact",
   "React Query.md": "PeReact",
   "React-Redux.md": "PeReact",
-  "TypeScript - React.md": "PeReact"
+  "TypeScript - React.md": "PeReact",
+  "summit学习计划.md": "RiPlantFill"
 }
