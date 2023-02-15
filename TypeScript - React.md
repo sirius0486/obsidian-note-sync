@@ -205,6 +205,17 @@ const colorRectangle : ColorRectangle = {
 
 interface 只可以定义对象类型, 类型别名除了定义对象类型外 还可以
 
+## union type
+> 联合类型, 如果一个值有多种类型, 则可以使用联合类型
+
+```ts
+const printStatusCode (code: number | string ) {
+	console.log(`My status code is ${code}.`)
+}
+printStatusCode(404);
+printStatusCode('404');
+```
+
 
 
 ## jsx
