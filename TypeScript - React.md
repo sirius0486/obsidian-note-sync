@@ -12,20 +12,28 @@ ourTuple = [5, false, 'Coding God was here'];
 ```
 
 
-### obj 类型
+### object 类型
+```ts
+Interface Iaddress  {
+	streetId: 23
+	Road: 23
+}
 
+const userInfo : { name:string, age:number, address:Iaddress } = {
+
+}
+
+```
 
 ## interface
 
 > 定义接口的形状
 
 ```ts
-
 interface IUser {
   name: string,
   age: number,
 }
-
 
 function createUser(user: IUser) {
   console.log(user.name);
@@ -82,7 +90,7 @@ let favoriteNum: myType = {"my favorite number is ", 42}
 而在 **type** 中，我们需要通过 & 符号来扩展我们的字段
 
 ```ts
- // 定义一个类型为动物，字段为名字
+ // 定义一个类型为动物，字[[英语单词- develop]]段为名字
     type Animal = {
         name:string
     }

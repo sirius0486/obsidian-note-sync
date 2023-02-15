@@ -12,3 +12,6 @@ infer  推断
 让TypeScript "猜测 "一个值的类型被称为推断。
 
 assignment  分配, 任务
+
+
+Index Signatures 索引签名

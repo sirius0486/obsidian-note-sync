@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "afb0644313418ae1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "英语单词- develop.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "英语单词- develop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "英语单词- develop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript - React.md"
+                "file": "英语单词- develop.md"
               }
             }
           },
@@ -155,14 +168,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e9acd6d815b56ab3",
+  "active": "afb0644313418ae1",
   "lastOpenFiles": [
+    "TypeScript - React.md",
     "React-Hooks/useContext.md",
     "React-Hooks/React-fiber.md",
     "React-Hooks/useReducer.md",
     "React-Hooks/useMemo.md",
     "React-Hooks/useEffect.md",
-    "TypeScript - React.md",
     "React Snippets.md",
     "英语单词- develop.md",
     "summit学习计划.md",
