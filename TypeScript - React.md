@@ -263,11 +263,18 @@ console.log(((x as unknown) as number).length); // x is not actually a number so
 > 泛型允许创建 "类型变量"，可以用来创建类、函数和类型别名，不需要明确定义它们使用的类型。 泛型可以提高保证类型安全的同时提高函数的复用性
 
 ```ts
+
 function createPair<S, T>(v1: S, v2: T): [S, T] {  
   return [v1, v2];  
 }  
 console.log(createPair<string, number>('hello', 42)); // ['hello', 42]
 
+
+
+function createLoggedPair<S extends string | number, T extends string | number>(v1: S, v2: T): [S, T] {  
+  console.log(`creating pair: v1='${v1}', v2='${v2}'`);  
+  return [v1, v2];  
+}
 
 ```
 
@@ -282,6 +289,7 @@ console.log(createPair<string, number>('hello', 42)); // ['hello', 42]
  const [counter, setCounter] = useState<number>(0)
 
 // 引用类型
+ 
 
 ```
 
