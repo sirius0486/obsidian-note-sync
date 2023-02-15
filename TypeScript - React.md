@@ -258,15 +258,10 @@ console.log(((x as unknown) as number).length); // x is not actually a number so
 
 ```
 
-## jsx
-
-```jsx
-
-```
-
 ## tsx
+得益于 `React` 的广泛使用度 , `TypeScript` 也支持 `jsx`
 
-### react hooks in typescirpt
+## react hooks in typescirpt
 
 ### useState
 ```tsx
