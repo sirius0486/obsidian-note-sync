@@ -60,6 +60,20 @@ nameAgeMap.Mark = "Fifty"; // Error: Type 'string' is not assignable to type 'nu
 > 枚举类型 是一个特殊的类, 代表一组常量(不可变)
 > 枚举类型只有 2 种类型,  number 和 string
 
+
+```ts
+enum myEnum {
+	myFirstConst = "first",
+	mySecondConst = "second"
+};
+
+
+// 不赋值的话 第一项从 0 开始 每项递增
+
+```
+
+
+
 ## interface
 
 > 定义接口的形状
