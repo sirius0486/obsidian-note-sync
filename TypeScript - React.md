@@ -62,34 +62,26 @@ nameAgeMap.Mark = "Fifty"; // Error: Type 'string' is not assignable to type 'nu
 
 
 ```ts
+// 不赋值的话 第一项从 0 开始 每项递增
+// 相应的就是 数值类型
+enum numberEnum {
+	one,
+	two,
+	three
+}
+
+// 等价于
+enum numberEnum {
+	one = 0,
+	two = 1,
+	three = 2
+}
+
+// 这是一个 字符串类型 的 枚举类型
 enum myEnum {
 	myFirstConst = "first",
 	mySecondConst = "second"
 };
-
-
-// 不赋值的话 第一项从 0 开始 每项递增
-
-```
-
-
-
-## interface
-
-> 定义接口的形状
-
-```ts
-interface IUser {
-  name: string,
-  age: number,
-}
-
-function createUser(user: IUser) {
-  console.log(user.name);
-}
- 
-const tom = { name: 'Tom jerry', age: "21" };
-createUser(tom);
 ```
 
 ## type aliases
@@ -103,6 +95,27 @@ type myType = {
 }
 
 let favoriteNum: myType = {"my favorite number is ", 42}
+
+
+// 也可以套娃
+type CarYear = number  
+type CarType = string  
+type CarModel = string  
+type Car = {  
+  year: CarYear,  
+  type: CarType,  
+  model: CarModel  
+}  
+  
+const carYear: CarYear = 2023 
+const carType: CarType = "Toyota"  
+const carModel: CarModel = "Corolla"  
+const car: Car = {  
+  year: carYear,  
+  type: carType,  
+  model: carModel  
+};
+
 ```
 
 
