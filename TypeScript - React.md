@@ -289,7 +289,13 @@ function createLoggedPair<S extends string | number, T extends string | num
  const [counter, setCounter] = useState<number>(0)
 
 // 引用类型
- 
+ // type UserInfo =  string:[]
+ interface UserInfo  {
+	 name: string,
+	 age: number
+ }
+
+const [userInfo, setUserInfo] = useState<UserInfo>(['汤姆'])
 
 ```
 
