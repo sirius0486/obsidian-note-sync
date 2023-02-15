@@ -228,7 +228,13 @@ function printStatusCode(code: string | number) {
 
 ```
 
-### 
+### Casting
+>[!info] Casting is the process of overriding a type.
+> 有的时候我们需要转换类型,  casting 就是重写一个类型的过程
+
+
+
+
 
 ## jsx
 
