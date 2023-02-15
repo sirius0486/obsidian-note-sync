@@ -7,5 +7,8 @@ strongly typed   强类型
 
 infer  推断
 
->  Having TypeScript "guess" the type of a value is called **infer**.
+>[!note]  Having TypeScript "guess" the type of a value is called **infer**.
  
+让TypeScript "猜测 "一个值的类型被称为推断。
+
+assignment  分配, 任务

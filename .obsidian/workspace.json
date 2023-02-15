@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f258fb136cad6a48",
+        "id": "e60a3845a2c02c3e",
         "type": "tabs",
         "children": [
           {
-            "id": "e65fe638b20022fb",
+            "id": "e9acd6d815b56ab3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a3508e0243036faa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "英语单词- develop.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "571dd4e20341e61c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React-Hooks/useEffect.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "TypeScript - React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "TypeScript - React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语单词- develop.md"
+                "file": "TypeScript - React.md"
               }
             }
           },
@@ -180,17 +155,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a3508e0243036faa",
+  "active": "e9acd6d815b56ab3",
   "lastOpenFiles": [
-    "TypeScript - React.md",
-    "React-Hooks/useEffect.md",
-    "summit学习计划.md",
-    "React-Hooks/useMemo.md",
-    "React-Hooks/useReducer.md",
-    "React-Hooks/React-fiber.md",
     "React-Hooks/useContext.md",
-    "React-Hooks/useCallback.md",
-    "React-Hooks/useState.md",
-    "React-Hooks/useRef.md"
+    "React-Hooks/React-fiber.md",
+    "React-Hooks/useReducer.md",
+    "React-Hooks/useMemo.md",
+    "React-Hooks/useEffect.md",
+    "TypeScript - React.md",
+    "React Snippets.md",
+    "英语单词- develop.md",
+    "summit学习计划.md",
+    "React-Hooks/useCallback.md"
   ]
 }

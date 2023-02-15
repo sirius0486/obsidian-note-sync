@@ -47,10 +47,10 @@
     "iconName": null,
     "inheritanceIcon": "PeReact"
   },
-  "Snippets.md": "PeReact",
   "React Query.md": "PeReact",
   "React-Redux.md": "PeReact",
   "TypeScript - React.md": "PeReact",
   "summit学习计划.md": "RiPlantFill",
-  "英语单词- develop.md": "RiEnglishInput"
+  "英语单词- develop.md": "RiEnglishInput",
+  "React Snippets.md": "PeReact"
 }
