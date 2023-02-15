@@ -216,6 +216,17 @@ printStatusCode(404);
 printStatusCode('404');
 ```
 
+> 调用值为联合类型的方法时 , 只能调用公有的方法, 否则会报错
+
+```ts
+function printStatusCode(code: string | number) {
+  console.log(`My status code is ${code.toUpperCase()}.`) // error: Property 'toUpperCase' does not exist ontype 'string | number'.
+  Property 'toUpperCase' does not exist on type 'number'
+}
+
+// toUpperCase 只存在于 string 类型, number 类型没有
+
+```
 
 
 ## jsx
