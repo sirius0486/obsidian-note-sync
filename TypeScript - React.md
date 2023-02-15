@@ -48,7 +48,6 @@ nameAgeMap.Mark = "Fifty"; // Error: Type 'string' is not assignable to type 'nu
 1. 字符串索引
 2. 数字索引
 ```ts
-
 // 字符串索引
 
 
@@ -118,6 +117,42 @@ const car: Car = {
 
 ```
 
+## interface
+
+> 接口定义`对象的形状`, 和类型别名很相似, 但仅用于对象类型
+
+```ts
+interface IUser {
+  name: string,
+  age: number,
+}
+
+function createUser(user: IUser) {
+  console.log(user.name);
+}
+ 
+const tom = { name: 'Tom jerry', age: "21" };
+createUser(tom);
+```
+
+>[!tip] 拓展接口其实是创建一个新的接口, 只不过实在原来的接口上增加新的属性或方法
+
+```ts
+interface Rectangle {
+	height: number,
+	width: number,
+}
+
+interface ColorRectangle extends Rectangle {
+	color: string
+}
+
+const colorRectangle : ColorRectangle = {
+	height: 100,
+	width: 100,
+	color: 'red'
+}
+```
 
 ### 接口和类型别名的区别
 
