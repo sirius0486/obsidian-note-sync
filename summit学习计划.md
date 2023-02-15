@@ -4,7 +4,7 @@
 ## 第一个月 
 
 - [x] TWU   Asteroid 运营平台 & Asteroid 门户平台
-	- [x]  设计技术 React & Java (SpringBoot)
+	- [x]  涉及技术 React & Java (SpringBoot)
 
 ## 第二个月
 
