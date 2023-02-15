@@ -7,21 +7,18 @@
 > 定义接口的形状
 
 ```ts
-
 interface IUser {
-
+  name: string,
+  age: number,
 }
 
-interface LabeledValue {
-  label: string;
+
+function createUser(user: IUser) {
+  console.log(user.name);
 }
  
-function printLabel(labeledObj: LabeledValue) {
-  console.log(labeledObj.label);
-}
- 
-let myObj = { size: 10, label: "Size 10 Object" };
-printLabel(myObj);
+const tom = { name: 'Tom jerry', age: "21" };
+createUser(tom);
 ```
 
 ## type aliases
