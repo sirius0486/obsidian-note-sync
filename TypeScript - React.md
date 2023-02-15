@@ -36,12 +36,16 @@ car.mileage = 2000;
 ```
 
 ## index signture
+> 索引签名可用于没有定义属性列表的对象。
+
+ts 中索引签名有 2 种 
+1. 字符串索引
+2. 数字索引
 
 ```ts
 const nameAgeMap: { [index: string]: number } = {};
 nameAgeMap.Jack = 25; // no error
 nameAgeMap.Mark = "Fifty"; // Error: Type 'string' is not assignable to type 'number'.
-
 ```
 
 ## enum 
