@@ -233,9 +233,10 @@ function printStatusCode(code: string | number) {
 >  Casting is the process of overriding a type.
 > 有的时候我们需要转换类型,  casting 就是重写一个类型的过程
 
-转换类型我们有 2 种 方法: 
+转换类型我们有 3 种 方法: 
 1. 通过 ` as `
 2. 通过 ` <> `
+3. 强制类型转换 Force casting
 
 
 ```ts
@@ -247,14 +248,20 @@ console.log((x as string).length);
 let x: unknown = 'hello';  
 console.log((<string>x).length);
 
+// warning!!! <. 在 tsx 中是不起作用的
+
+
+// force casting
+let x = 'hello';
+
+console.log(((x as unknown) as number).length); // x is not actually a number so this will return undefined
+
 ```
-
-
-
 
 ## jsx
 
 ```jsx
+
 ```
 
 ## tsx
