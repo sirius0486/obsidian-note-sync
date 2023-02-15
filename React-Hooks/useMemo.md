@@ -15,4 +15,14 @@
 2.  ❗️防止不必要的 re-render。
 3.  ❗️防止不必要的重复计算
 
+```jsx
+import { useMemo } from 'react';
 
+function TodoList({ todos, tab }) {
+  const visibleTodos = useMemo(
+    () => filterTodos(todos, tab),
+    [todos, tab]
+  );
+  // ...
+}
+```
