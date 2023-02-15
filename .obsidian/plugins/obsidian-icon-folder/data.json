@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "PeReact",
       "RiEnglishInput",
       "RiPlantFill",
       "RiGithubFill",
-      "PeGit",
-      "RiMarkdownFill"
+      "PeGit"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -53,5 +53,6 @@
   "summit学习计划.md": "RiPlantFill",
   "英语单词- develop.md": "RiEnglishInput",
   "React Snippets.md": "PeReact",
-  "open source": "RiGithubFill"
+  "open source": "RiGithubFill",
+  "open source/admin.md": "PeReact"
 }
