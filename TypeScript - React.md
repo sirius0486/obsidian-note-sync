@@ -258,13 +258,30 @@ console.log(((x as unknown) as number).length); // x is not actually a number so
 
 ```
 
+## generics
+
+> 泛型允许创建 "类型变量"，可以用来创建类、函数和类型别名，不需要明确定义它们使用的类型。 泛型可以提高保证类型安全的同时提高函数的复用性
+
+```ts
+function createPair<S, T>(v1: S, v2: T): [S, T] {  
+  return [v1, v2];  
+}  
+console.log(createPair<string, number>('hello', 42)); // ['hello', 42]
+
+
+```
+
 ## tsx
-得益于 `React` 的广泛使用度 , `TypeScript` 也支持 `jsx`
+得益于 `React` 的广泛使用度 , `TypeScript` 也支持  `jsx` , 所以也有 `typeScript` 版的 jsx
 
 ## react hooks in typescirpt
 
 ### useState
 ```tsx
+// 基本类型
+ const [counter, setCounter] = useState<number>(0)
+
+// 引用类型
 
 ```
 
