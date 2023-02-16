@@ -9,7 +9,7 @@
 ### Redux-toolkit
 Redux Toolkit 是官方推荐的编写 Redux 逻辑的方法
 早期的redux的编写逻辑过于的繁琐和麻烦并且代码通常分拆在多个文件中
-可以把 Redux-toolkit 实质上是对
+可以把 Redux-toolkit 实质上是对原生 Redux 的二次封装,  通常以 缩写 RTK 代称
 
 ### store
 - store 就是保存数据的地方, 可以看做是一个数据仓库, 需要用的时候从里面取, 理论上整个应用只能有一个 store
