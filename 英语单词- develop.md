@@ -13,10 +13,18 @@ assignment  分配, 任务
 
 Index Signatures 索引签名
 
+parameter 参数
 
- 数据结构
+statement 语句
 
-算法
+expression 表达式
+
+datastructure 数据结构
+
+alogromith 算法
 
 backup 备份
 
+operation 操作
+
+specific 具体的 特定的
