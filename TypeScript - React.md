@@ -327,13 +327,12 @@ const [userInfo, setUserInfo] = useState<UserInfo>(['汤姆'])
 
 ```
 
-### useEffect
-```tsx
-
-```
 ### useMemo
 ```tsx
-
+const memoizeValue = useMemo<string> ( () => {
+	computeExpressValue(a,b)
+	
+}, [a , b] )
 ```
 ### useCallback
 ```tsx
@@ -341,6 +340,16 @@ const [userInfo, setUserInfo] = useState<UserInfo>(['汤姆'])
 ```
 ### useRef
 ```tsx
+import React from "react";
+
+export const App: React.FC = () => {
+  const myRef = useRef<HTMLElement | null>(null)
+
+  return (
+    <main className="App" ref={myRef}>
+      <h1>My title</h1>
+    </main>
+  );
 
 ```
 ### useReducer
