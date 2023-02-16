@@ -3,7 +3,9 @@ Implicit Type  隐式类型
 
 loosely typed / weakly typed    弱类型   
 strongly typed   强类型
+assembly 汇编，安装，装配
 abbreviate 缩写
+substantial 实质的，真正的 
 infer  推断
 expand 拓展
 
@@ -32,6 +34,10 @@ specific 具体的 特定的
 
 loop 循环
 
+equivalent 等价的
+
 alternate 替代的 备用的
+
+description 描述
 
 compatible 兼容的
