@@ -3,8 +3,9 @@ Implicit Type  隐式类型
 
 loosely typed / weakly typed    弱类型   
 strongly typed   强类型
-
+abbreviate 缩写
 infer  推断
+expand 拓展
 
 >[!note]  Having TypeScript "guess" the type of a value is called **infer**.
 > 让TypeScript "猜测 "一个值的类型被称为推断。
@@ -28,3 +29,9 @@ backup 备份
 operation 操作
 
 specific 具体的 特定的
+
+loop 循环
+
+alternate 替代的 备用的
+
+compatible 兼容的
