@@ -6,6 +6,11 @@
 > [!tip] Redux 有几个重要的概念
 > 新版本推荐使用` redux-toolkit` + `react-redux`
 
+### Redux-toolkit
+Redux Toolkit 是官方推荐的编写 Redux 逻辑的方法
+早期的redux的编写逻辑过于的繁琐和麻烦并且代码通常分拆在多个文件中
+可以把 Redux-toolkit 实质上是对
+
 ### store
 - store 就是保存数据的地方, 可以看做是一个数据仓库, 需要用的时候从里面取, 理论上整个应用只能有一个 store
 
