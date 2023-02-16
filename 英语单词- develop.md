@@ -9,6 +9,9 @@ abbreviate 缩写
 substantial 实质的，真正的 
 infer  推断
 expand 拓展
+semicolon 分号
+processor 处理机，处理程序 
+transaction 事务
 
 >[!note]  Having TypeScript "guess" the type of a value is called **infer**.
 > 让TypeScript "猜测 "一个值的类型被称为推断。
