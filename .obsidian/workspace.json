@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "React-Redux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "React-Redux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语单词- develop.md"
+                "file": "React-Redux.md"
               }
             }
           },
@@ -190,12 +189,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "afb0644313418ae1",
+  "active": "e9acd6d815b56ab3",
   "lastOpenFiles": [
+    "summit学习计划.md",
+    "英语单词- develop.md",
     "React-Redux.md",
     "TypeScript - React.md",
-    "英语单词- develop.md",
-    "summit学习计划.md",
     "open source/admin.md",
     "React-Hooks/useContext.md",
     "React-Hooks/React-fiber.md",
