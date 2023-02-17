@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React-Redux.md",
+                "file": "英语单词- develop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React-Redux.md",
+                "file": "英语单词- develop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React-Redux.md"
+                "file": "英语单词- develop.md"
               }
             }
           },
@@ -189,8 +190,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e9acd6d815b56ab3",
+  "active": "afb0644313418ae1",
   "lastOpenFiles": [
+    "React-Redux.md",
     "TypeScript - React.md",
     "英语单词- develop.md",
     "summit学习计划.md",
@@ -199,7 +201,6 @@
     "React-Hooks/React-fiber.md",
     "React-Hooks/useReducer.md",
     "React-Hooks/useMemo.md",
-    "React-Hooks/useEffect.md",
-    "React Snippets.md"
+    "React-Hooks/useEffect.md"
   ]
 }
