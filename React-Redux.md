@@ -524,3 +524,4 @@ transition: 0s;
 - 多组件需要共用
 
 ### redux 和其他状态管理库的区别?
+- zustand
