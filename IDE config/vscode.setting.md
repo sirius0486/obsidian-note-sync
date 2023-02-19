@@ -242,11 +242,10 @@ Anthony's VS Code Settings
 - vitesse theme / atom theme
 - Jetbrain Mono / Input Mono
 
-
-
 ## 备忘录
 - markdown 打开自动预览
 - 自动换行
+- 安装 Input Mono , Jetbrain Mono, 终端字体
 - 连体字开启
 - 绿色注释
 - 自动格式化
