@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "27ff2232f4fefca8",
+        "id": "5997c7d1e418961b",
         "type": "tabs",
         "children": [
           {
-            "id": "95c031e6ccf1eacb",
+            "id": "5f5343c902e90272",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vscode.setting.md",
+                "file": "IDE config/vscode.setting.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vscode.setting.md",
+                "file": "IDE config/vscode.setting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vscode.setting.md",
+                "file": "IDE config/vscode.setting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vscode.setting.md"
+                "file": "IDE config/vscode.setting.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -163,8 +163,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "95c031e6ccf1eacb",
+  "active": "5f5343c902e90272",
   "lastOpenFiles": [
+    "og-image.png.md",
+    "IDE config/vscode.setting.md",
     "英语单词- develop.md",
     "summit学习计划.md",
     "React-Redux.md",
@@ -172,8 +174,6 @@
     "open source/admin.md",
     "React-Hooks/useContext.md",
     "React-Hooks/React-fiber.md",
-    "React-Hooks/useReducer.md",
-    "React-Hooks/useMemo.md",
-    "React-Hooks/useEffect.md"
+    "React-Hooks/useReducer.md"
   ]
 }
