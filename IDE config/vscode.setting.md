@@ -46,6 +46,13 @@ Anthony's VS Code Settings
 - Import Cost
 - Error Lens
 
+### beauty
+
+- file icons / vscode icons
+- vitesse theme / atom theme
+- Jetbrain Mono / Input Mono
+
+
 
 
 ## 备忘录
