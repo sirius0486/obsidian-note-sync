@@ -225,16 +225,18 @@ Anthony's VS Code Settings
 - UnoCSS
 
 ### preview
+> 增强文件预览
 - Svg Preview
 - Image Preview
 - MDX
 
 ### debug
+> 主要是调试相关
 - Import Cost
 - Error Lens
 
 ### beauty
-> 这里包含 字体, 主题, 
+> 这里包含 字体, 主题, icon 配置
 
 - file icons / vscode icons
 - vitesse theme / atom theme
