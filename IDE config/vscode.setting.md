@@ -17,36 +17,97 @@ Anthony's VS Code Settings
 ### .vscode/settings.json
 ```json
 {
+  // Visuals
   "workbench.iconTheme": "file-icons",
   "workbench.colorTheme": "Vitesse Light",
-  "editor.fontSize": 13,
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontLigatures": true,
-  "editor.wordWrap": "on",
-  "editor.formatOnSave": true,
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.suggestSmartCommit": true,
+  "git.enableSmartCommit": true,
+  "git.untrackedChanges": "separate",
+
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.simpleDialog.enable": true,
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "reactSnippets.settings.prettierEnabled": true,
+  
+  // Editor
+  "editor.fontSize": 13,
+  "editor.fontFamily": "Input Mono, JetBrains Mono, monospace",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
   "editor.tokenColorCustomizations": {
     "comments": "#1fd160"
   },
-  "terminal.integrated.fontFamily": "MesloLGM NF",
+  "editor.accessibilitySupport": "off",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderWhitespace": "boundary",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true, // this allows ESLint to auto fix on save
+    "source.organizeImports": false
+  },
+  
   "explorer.confirmDelete": false,
-  "git.suggestSmartCommit": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "reactSnippets.settings.prettierEnabled": true,
-  "unocss.root": ["packages/client"]
+  "explorer.confirmDragAndDrop": false,
+
+  "terminal.integrated.fontFamily": "MesloLGM NF",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.tabs.enabled": true,
+
+  "search.exclude": {
+    "**/.git": true,
+    "**/.github": true,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/logs": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/tmp": true,
+    "**/yarn.lock": true
+  },
+
+  // Extension configs
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": false,
+  "errorLens.enabledDiagnosticLevels": [
+    "warning",
+    "error"
+  ],
+  "errorLens.excludeBySource": [
+    "cSpell",
+    "Grammarly",
+    "eslint"
+  ],
+
 }
-
-
-```
-
-### .vscode/extensions.json
-
-```json
 
 ```
 
@@ -173,11 +234,11 @@ Anthony's VS Code Settings
 - Error Lens
 
 ### beauty
+> 这里包含 字体, 主题, 
 
 - file icons / vscode icons
 - vitesse theme / atom theme
 - Jetbrain Mono / Input Mono
-
 
 
 
