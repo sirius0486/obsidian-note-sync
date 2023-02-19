@@ -26,8 +26,29 @@ Anthony's VS Code Settings
 
 ## plugins
 
+### git
+- git lens
+- git graph
+- git history
 
-## 
+
+### snippets
+- volar 
+- ES7+ React/Redux/React-Native snippets
+- UnoCSS
+
+### preview
+- Svg Preview
+- Image Preview
+- MDX
+
+### debug
+- Import Cost
+- Error Lens
+
+
+
+## 备忘录
 - markdown 打开自动预览
 - 自动换行
 - 连体字开启
