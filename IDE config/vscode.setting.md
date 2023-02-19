@@ -15,7 +15,34 @@ Anthony's VS Code Settings
 ## setting
 
 ### .vscode/settings.json
+```json
+{
+  "workbench.iconTheme": "file-icons",
+  "workbench.colorTheme": "Vitesse Light",
+  "editor.fontSize": 13,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#1fd160"
+  },
+  "terminal.integrated.fontFamily": "MesloLGM NF",
+  "explorer.confirmDelete": false,
+  "git.suggestSmartCommit": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "reactSnippets.settings.prettierEnabled": true,
+  "unocss.root": ["packages/client"]
+}
 
+
+```
 
 ### .vscode/extensions.json
 
