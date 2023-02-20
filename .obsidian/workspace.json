@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDE config/vscode.setting.md",
+                "file": "Github Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDE config/vscode.setting.md",
+                "file": "Github Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDE config/vscode.setting.md"
+                "file": "Github Guide.md"
               }
             }
           },
@@ -175,10 +176,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5f5343c902e90272",
+  "active": "d91d4f7e86f84492",
   "lastOpenFiles": [
-    "Github Guide.md",
     "IDE config/vscode.setting.md",
+    "Github Guide.md",
     "og-image.png.md",
     "英语单词- develop.md",
     "summit学习计划.md",
