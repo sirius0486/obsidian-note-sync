@@ -414,3 +414,27 @@ export default function App() {
   );
 }
 ```
+
+
+## React.FC
+
+>[!error] 错误的写法 !
+
+
+```tsx
+function RoundButton(): React.FC {
+	return <div>"hello world"</div>;
+}
+```
+
+>[!tip] 正确的写法
+
+```tsx
+const RoundButton: React.FC = () => {
+  return <div>"hello world"</div>;
+}
+```
+
+在第一种情况下，你说的是函数返回什么，但在第二种情况下，你说的是函数是什么。
+
+第二种情况是正确的。`React.FC` 是一个函数类型。你的第二个块说你的函数是 `React.FC`，这意味着它接受 `props`
