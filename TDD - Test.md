@@ -11,9 +11,14 @@
 
 `React Testing Library needs a DOM to operate. Change your jest config `testEnvironment` to `jsdom` and you'll be set.`
 
-React Testing Libra
+React Testing Libray 需要一个 DOM 来操作 , 
+
+> [!info] > 解决办法: `pnpm add -D @testing-library/jest-dom`
 
 
+#### Question: ReactJS and Typescript : refers to a value, but is being used as a type here (TS2749)
+
+> [!info] > 解决办法:  更改文件后缀 `ts`   为 `.tsx`
 
 ## Vitest
 
