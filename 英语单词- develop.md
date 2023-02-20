@@ -48,5 +48,4 @@ compatible 兼容的
 
 
 
-twchn_finance@thoughtworks.com
 
