@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "5997c7d1e418961b",
+        "id": "aa60d8c494fff35f",
         "type": "tabs",
         "children": [
           {
-            "id": "5f5343c902e90272",
+            "id": "981e6d7ff686109f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDE config/vscode.setting.md",
+                "file": "open source/Github Guide.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d91d4f7e86f84492",
+            "id": "037c61974bc554eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github Guide.md",
+                "file": "TDD - Test.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Github Guide.md",
+                "file": "TDD - Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Github Guide.md",
+                "file": "TDD - Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Github Guide.md"
+                "file": "TDD - Test.md"
               }
             }
           },
@@ -163,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,10 +177,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d91d4f7e86f84492",
+  "active": "5e1905ad40e668a1",
   "lastOpenFiles": [
+    "open source/Github Guide.md",
     "IDE config/vscode.setting.md",
-    "Github Guide.md",
     "og-image.png.md",
     "英语单词- develop.md",
     "summit学习计划.md",
