@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d91d4f7e86f84492",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Github Guide.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -165,15 +177,15 @@
   },
   "active": "5f5343c902e90272",
   "lastOpenFiles": [
-    "og-image.png.md",
+    "Github Guide.md",
     "IDE config/vscode.setting.md",
+    "og-image.png.md",
     "英语单词- develop.md",
     "summit学习计划.md",
     "React-Redux.md",
     "TypeScript - React.md",
     "open source/admin.md",
     "React-Hooks/useContext.md",
-    "React-Hooks/React-fiber.md",
-    "React-Hooks/useReducer.md"
+    "React-Hooks/React-fiber.md"
   ]
 }
