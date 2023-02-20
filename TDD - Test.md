@@ -20,6 +20,15 @@ React Testing Libray 需要一个 DOM 来操作 ,
 
 > [!info] > 解决办法:  更改文件后缀 `ts`   为 `.tsx`
 
+### Question: Property 'toHaveTextContent' does not exist on type Assertion`<HTMLElemen>
+
+> [!info] > 解决办法 : 暂未解决
+
+
+
+
+
+
 ## Vitest
 
 
