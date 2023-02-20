@@ -49,3 +49,12 @@ compatible 兼容的
 
 
 
+1.  项目负责人批准邮件
+
+2.  weibin kang
+
+3.  项目 Code (Jigsaw 项目名称)
+
+4. Dell  U2415  24'' 1920 x 1200   数量 1
+
+5. 西安 office
