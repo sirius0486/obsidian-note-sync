@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "8713556c301677ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随笔.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "037c61974bc554eb",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "随笔.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "随笔.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语单词- develop.md"
+                "file": "随笔.md"
               }
             }
           },
@@ -175,11 +188,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "981e6d7ff686109f",
+  "active": "8713556c301677ba",
   "lastOpenFiles": [
+    "英语单词- develop.md",
     "TDD - Test.md",
     "open source/Github Guide.md",
-    "英语单词- develop.md",
     "TypeScript - React.md",
     "IDE config/vscode.setting.md",
     "og-image.png.md",
