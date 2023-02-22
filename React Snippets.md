@@ -71,9 +71,13 @@ export default defineConfig({
 > import react module
 
 ```ts
-
+import React from 'react'
 ```
 
+### imrse
+```ts
+import React, { useState, useEffect } from 'react'
+```
 
 ### rafce
 > (create a arrow react component)
