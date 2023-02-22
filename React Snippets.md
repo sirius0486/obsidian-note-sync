@@ -63,3 +63,46 @@ export default defineConfig({
 });
 
 ```
+
+
+## Webstorm & Idea
+
+### imr
+> import react module
+
+```ts
+
+```
+
+
+### rafce
+> (create a arrow react component)
+```ts
+import React from 'react'
+
+const $1 = () => {
+  return <div>$0</div>
+}
+
+export default $1
+```
+
+
+### arrow
+> create a arrow function
+```ts
+const $1$ = () => {
+    $END$
+};
+```
+
+
+### state
+> useStateSnippet
+```ts
+const [$STATE$, $SET_STATE$] = useState($INITIAL_STATES$);
+```
+
+
+
+## VS Code
