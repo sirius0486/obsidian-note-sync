@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React Snippets.md",
+                "file": "TypeScript - React.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React Snippets.md",
+                "file": "TypeScript - React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React Snippets.md",
+                "file": "TypeScript - React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React Snippets.md"
+                "file": "TypeScript - React.md"
               }
             }
           },
@@ -165,6 +165,7 @@
   },
   "active": "8713556c301677ba",
   "lastOpenFiles": [
+    "React Snippets.md",
     "TypeScript - React.md",
     "随笔.md",
     "React-Hooks/useEffect.md",
@@ -173,7 +174,6 @@
     "TDD - Test.md",
     "open source/Github Guide.md",
     "IDE config/vscode.setting.md",
-    "og-image.png.md",
-    "summit学习计划.md"
+    "og-image.png.md"
   ]
 }
