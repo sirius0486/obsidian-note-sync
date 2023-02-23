@@ -538,6 +538,10 @@ function loggingIdentity<T> (arg:T) : T {
 
 我们将创建一个接口来描述我们的约束条件。在这里，我们将创建一个接口，它有一个单一的.length属性，然后我们将使用这个接口和extends关键字来表示我们的约束条件
 
-interface Lengthw {}
+interface Lengthwise {
+	length: number;
+}
+
+function loggingIdentity
 
 ```
