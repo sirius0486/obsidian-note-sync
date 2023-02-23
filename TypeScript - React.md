@@ -438,3 +438,40 @@ const RoundButton: React.FC = () => {
 在第一种情况下，你说的是函数返回什么，但在第二种情况下，你说的是函数是什么。
 
 第二种情况是正确的。`React.FC` 是一个函数类型。你的第二个块说你的函数是 `React.FC`，这意味着它接受 `props`
+
+
+
+## 泛型 generics
+
+> 泛型可以看做是**类型变量** , 
+
+```ts
+// a JavaScript object
+const user = {
+  name: 'John',
+  status: 'online',
+};
+
+// and its TypeScript type
+type User = {
+  name: string;
+  status: string;
+};
+
+
+// 可以看到 JavaScript 关心的是变量的值
+
+// TypeScript 关心的是变量的类型
+```
+
+`<>`  的语法最开始会比较奇怪, 但很快就可以适应
+
+```ts
+// generic type definition
+type User<StatusOptions> = {
+  name: string;
+  status: StatusOptions;
+};
+
+
+```
