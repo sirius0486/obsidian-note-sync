@@ -562,3 +562,23 @@ Instead, we need to pass in values whose type has all the required properties:
 loggingIdentity({ length: 10, value: 3 });
 
 ```
+
+
+在通用约束条件中使用类型参数
+
+
+```ts
+function getProperty<Type, Key extends keyof Type>(obj: Type, key: Key) {
+  return obj[key];
+}
+ 
+let x = { a: 1, b: 2, c: 3, d: 4 };
+ 
+getProperty(x, "a");
+getProperty(x, "m");  // error !
+
+Argument of type '"m"' is not assignable to parameter of type '"a" | "b" | "c" | "d"'.
+
+类型为 "m "的参数不能分配给类型为 "a"|"b"|"c"|"d "的参数。
+
+```
