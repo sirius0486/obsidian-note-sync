@@ -447,6 +447,8 @@ const RoundButton: React.FC = () => {
 
 为什么需要泛型 ?  因为在很多情况下, 我们希望一个函数的类型是动态的, 就是函数返回与其实参相同的类型
 
+React 中 TSX 使用 **箭头函数** 和 **泛型** 识别有问题
+
 
 ```ts
 // a JavaScript object
