@@ -523,7 +523,41 @@ function loggingIdentity<Type>(arg: Array<Type>): Array<Type> {
 ### 泛型接口
 
 ```ts
-const GenericList = <>
+// example 1
+
+interface IProcessor<T> { 
+    result:T;
+    process(a: T, b: T) => T;
+}
+
+// example 2
+interface KeyPair<T, U> {
+    key: T;
+    value: U;
+}
+
+let kv1: KeyPair<number, string> = { key:1, value:"Steve" }; // OK
+let kv2: KeyPair<number, number> = { key:1, value:12345 }; // OK
+
+
+// example 3
+const GenericList = <T extends unknown> ({
+	data,
+	renderItem.
+	keyExtractor
+}: Props<T>) => {
+	return (
+		<div>
+			{data.map((item) => (
+				<div key={keyExtractor(item)} className="item" >
+					{renderItem(item)}
+				</div >
+			))}
+		</div>
+	);
+};
+
+export default GenericList;
 ```
 
 
