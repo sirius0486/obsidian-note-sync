@@ -494,5 +494,24 @@ function loggingIdentity<Type>(arg: Type): Type {
 
 在这里 打印 arg.length 会报错,  因为 Type 可以代表任何类型, 如果使用该函数却传入一个 number 类型, 那么就会报错, number 并没有 .length 这个属性
 
+
+我们实际上是想让这个函数在Type的数组上工作，而不是直接在Type上工作。既然我们在处理数组，那么.length成员应该是可用的。我们可以像创建其他类型的数组那样来描述它。
+
+function loggingIdentity<Type>(arg: Type[] ): Type[] {
+
+	console.log( arg.length )
+	return arg;
+}
+
+你可以把loggingIdentity的类型理解为 "通用函数loggingIdentity接收一个类型参数Type和一个参数arg，参数arg是一个Type数组，并返回一个Type数组。"如果我们传入一个数字数组，我们会得到一个数字数组，因为Type会绑定到数字。这允许我们使用我们的通用类型变量Type作为我们正在处理的类型的一部分，而不是整个类型，给我们更大的灵活性。
+
+function loggingIdentity<Type>(arg: Array<Type>): Array<Type> {
+  
+  console.log(arg.length); 
+  // Array has a .length, so no more error
+  
+  return arg;
+}
+
 ```
 
