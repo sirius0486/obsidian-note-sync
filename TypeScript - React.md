@@ -479,3 +479,20 @@ StatusOptions is called a "type variable" and User is said to be a "generic type
 StatusOptions 在这里被叫做 类型变量  ,  User 是 泛型
 
 ```
+
+
+### 泛型的使用
+
+```ts
+function loggingIdentity<Type>(arg: Type): Type {
+ 
+	console.log(arg.length);
+	//Property 'length' does not exist on type 'Type'.
+  
+  return arg;
+}
+
+在这里 打印 arg.length 会报错,  因为 Type 可以代表任何类型, 如果使用该函数却传入一个 number 类型, 那么就会报错, number 并没有 .length 这个属性
+
+```
+
