@@ -542,6 +542,23 @@ interface Lengthwise {
 	length: number;
 }
 
-function loggingIdentity
+function loggingIdentity<Type extend Lengthwise>(arg: Type): Type {
+	  
+	  console.log(arg.length); 
+	  // Now we know it has a .length property, so no more error
+	  return arg;
+}
+
+现在泛型函数被限制了, 所以它将不在对任何和所有的类型起作用
+
+loggingIdentity(3);
+
+Argument of type 'number' is not assignable to parameter of type 'Lengthwise'.
+类型为'number'的参数不能赋值给类型为'Lengthwise'的参数。
+
+Instead, we need to pass in values whose type has all the required properties:
+相反，我们需要传入其类型具有所有所需属性的值。
+
+loggingIdentity({ length: 10, value: 3 });
 
 ```
