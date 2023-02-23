@@ -443,7 +443,7 @@ const RoundButton: React.FC = () => {
 
 ## 泛型 generics
 
-> 泛型可以看做是**类型变量** , 
+> 泛型可以看做是**类型变量** , 变量可以有不同的值, 泛型可以有不同的类型
 
 ```ts
 // a JavaScript object
@@ -473,5 +473,9 @@ type User<StatusOptions> = {
   status: StatusOptions;
 };
 
+// 在这里 
+StatusOptions is called a "type variable" and User is said to be a "generic type".
+
+StatusOptions 在这里被叫做 类型变量  ,  User 是 泛型
 
 ```
