@@ -520,3 +520,24 @@ function loggingIdentity<Type>(arg: Array<Type>): Array<Type> {
 ```ts
 
 ```
+
+
+### 泛型约束
+
+```ts
+在我们的loggingIdentity例子中，我们希望能够访问arg的.length属性，但是编译器无法证明每个类型都有一个.length属性，所以它警告我们不能做这个假设
+
+function loggingIdentity<T> (arg:T) : T {
+
+	console.log(arg.length);
+	//Property 'length' does not exist on type 'Type'.
+  return arg;
+}
+
+我们希望限制这个函数与任何和所有类型一起工作，而不是与任何和所有同时具有.length属性的类型一起工作。只要这个类型有这个成员，我们就允许它，但它必须至少有这个成员。要做到这一点，我们必须把我们的要求作为一个约束条件列在Type可以是什么。
+
+我们将创建一个接口来描述我们的约束条件。在这里，我们将创建一个接口，它有一个单一的.length属性，然后我们将使用这个接口和extends关键字来表示我们的约束条件
+
+interface Lengthw {}
+
+```
