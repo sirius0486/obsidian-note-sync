@@ -515,3 +515,8 @@ function loggingIdentity<Type>(arg: Array<Type>): Array<Type> {
 
 ```
 
+### 泛型接口
+
+```ts
+
+```
