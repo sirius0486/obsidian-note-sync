@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "207fcb8888d1ab5b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.15"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +163,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "207fcb8888d1ab5b",
+  "active": "8713556c301677ba",
   "lastOpenFiles": [
     "TypeScript - React.md",
     "React Snippets.md",
