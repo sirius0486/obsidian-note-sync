@@ -39,18 +39,15 @@ npm install
 
 安装速度会比 yarn 和 pnpm 慢一点(很多😅) , 且会占用更多的磁盘空间 (重复安装同一个依赖库)
 
-
 ### yarn
 
-`Yarn` 相较于 `npm` 要新一点, 由Facebook开发。 通过  `npm i -g yarn` 全局安装 yarn
+`Yarn` 相较于 `npm` 要新一点, 由Facebook开发。 通过  `npm i -g yarn` 全局安装 `yarn`
 
 会比 `npm` 快一点 ，并且使用一个扁平的`node_modules`目录 (将嵌套依赖拍平)，避免了**软件包的重复**
 
-
-
 ### pnpm
 
-> `pnpm`  的 p 是 performance(高性能) 的意思, 作者对 npm 和 yarn 的性能和磁盘占用感到不满意故开发,  如今已经被广大流行开源项目采用,  如 Vue 等
+> `pnpm`  的 p 是 performance(高性能) 的意思, 作者对 npm 和 yarn 的性能和磁盘占用感到不满意故开发,  如今已经被广大流行开源项目采用,  如 Vue 等,  通过 `npm i -g pnpm` 全局安装 `pnpm`
 
 `pnpm` 比 `npm` 和 `yarn` 要 快得多 , 而且也更节省 磁盘空间 
 
