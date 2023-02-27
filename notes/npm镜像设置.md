@@ -32,6 +32,8 @@ npm install
 
 > pnpm 优势最大且已经广泛被社区接纳 , 但 npm 是官方维护且不断吸收其他包管理的优点 
 
+如果可以,  选择应该是  `pnpm > yarn > npm`
+
 ### npm
 只要你安装了 `Node.js` , 那么你就有安装 `npm` 
 
@@ -47,5 +49,10 @@ npm install
 
 
 ### pnpm
+
+> `pnpm`  的 p 是 performance(高性能) 的意思, 作者对 npm 和 yarn 的性能和磁盘占用感到不满意故开发,  如今已经被广大流行开源项目采用,  如 Vue 等
+
+`pnpm` 比 `npm` 和 `yarn` 要 快得多 , 因为它是使用 `hardlink` (硬链接) 和 symlink 
+
 
 PNPM是另一个较新的软件包管理器，声称比NPM和Yarn更快、更有效。它使用硬链接和符号链接，在磁盘上只保存一个版本的软件包，这就减少了磁盘的使用和安装时间12。它还支持NPM和Yarn的大部分功能。
