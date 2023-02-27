@@ -26,3 +26,14 @@ npm i -g npm-check-updates
 ncu -u
 npm install
 ```
+
+
+## npm, yarn 和 pnpm 的区别
+
+> pnpm 又是
+
+### npm
+
+### yarn
+
+### pnpm
