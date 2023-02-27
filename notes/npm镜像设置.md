@@ -52,7 +52,7 @@ npm install
 
 > `pnpm`  的 p 是 performance(高性能) 的意思, 作者对 npm 和 yarn 的性能和磁盘占用感到不满意故开发,  如今已经被广大流行开源项目采用,  如 Vue 等
 
-`pnpm` 比 `npm` 和 `yarn` 要 快得多 , 因为它是使用 `hardlink` (硬链接) 和 symlink 
+`pnpm` 比 `npm` 和 `yarn` 要 快得多 , 因为它是使用 `hardlink` (硬链接) 和 symlink(软链接) 来解决依赖重复的问题 
 
 因此无论你在多少个项目中安装多少次依赖, 在你的磁盘上只会存在一个, 所以安装速度要快得多(同理磁盘占用)
 
