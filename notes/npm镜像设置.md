@@ -30,9 +30,13 @@ npm install
 
 ## npm, yarn 和 pnpm 的区别
 
-> pnpm 又是
+> pnpm 优势更大, 但 npm 是官方维护
 
 ### npm
+只要你安装了 `Node.js` , 那么你就有安装 `npm` 
+
+安装速度会比 yarn 和 pnpm 慢一点(很多😅) , 而且会占用更多的磁盘空间 (会重复)
+
 
 ### yarn
 
