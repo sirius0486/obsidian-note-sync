@@ -621,3 +621,19 @@ Argument of type '"m"' is not assignable to parameter of type '"a" | "b" | "c" |
 类型为 "m "的参数不能分配给类型为 "a"|"b"|"c"|"d "的参数。
 
 ```
+
+## @types 和 *.d.ts
+
+@types 是 npm 的一个分支，用来存放 *.d.ts 文件**，如果对应的 npm 包存放在 @types 中，要使用必须下载！ 如果是自己本地的 *.d.ts 申明文件，则和@types没有任何关系！
+
+
+### @types
+
+
+### *.d.ts
+
+> `.d.ts` 文件是ts用来声明变量，模块，type，interface 等
+
+> 那在这种后缀的ts文件声明这些东西和在纯ts文件声明这些东西又什么区别呢？
+
+在 `.d.ts` 声明变量或者模块等东西之后，在其他地方可以不用import导入这些东西就可以直接用，而且有语法提示。
