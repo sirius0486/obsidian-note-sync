@@ -624,10 +624,13 @@ Argument of type '"m"' is not assignable to parameter of type '"a" | "b" | "c" |
 
 ## @types 和 *.d.ts
 
-> 两者都是为了 让 js 文件 可以被 TS 识别 , 现在主流是 @types
+> 两者都是为了 让 js 文件 可以被 TS 识别 , 使得JS能够完成静态代码分析，推断代码中存在的类型错误或者进行类型提示
+> 
+> 现在主流是 @types , 安装后会在库添加 对应 index.d.ts 文件
 
-1. 自己写, 直接 .ts, 如果你之前的代码是 js , 可以加上  .d.ts
-2. 使用 JavaScript 的库 , 没有 @types , ze
+1. 自己写TS项目,  直接 .ts,  不需要声明 .d.ts 文件
+2. 如果你之前的代码是 js , 可以加上  .d.ts
+3. 在 TS 中 使用 JavaScript 的库 , 没有 @types , 则自己声明 d.ts 文件
 
 
 @types 是 npm 的一个分支，用来存放 `.d.ts` 文件，如果对应的 npm 包存放在 @types 中，要使用必须下载！ 如果是自己本地的 *.d.ts 申明文件，则和@types没有任何关系！
