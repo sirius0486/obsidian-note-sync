@@ -627,6 +627,16 @@ Argument of type '"m"' is not assignable to parameter of type '"a" | "b" | "c" |
 @types 是 npm 的一个分支，用来存放 `.d.ts` 文件，如果对应的 npm 包存放在 @types 中，要使用必须下载！ 如果是自己本地的 *.d.ts 申明文件，则和@types没有任何关系！
 
 
+```shell
+# 
+npm install --save-dev @types/lodash
+
+
+# 
+
+```
+
+
 ### @types
 
 
