@@ -624,21 +624,26 @@ Argument of type '"m"' is not assignable to parameter of type '"a" | "b" | "c" |
 
 ## @types 和 *.d.ts
 
+> 两者都是为了 让 js 文件 可以被 TS 识别 , 现在主流是 @types
+
+1. 自己写, 直接 .ts, 如果你之前的代码是 js , 可以加上  .d.ts
+2. 使用 JavaScript 的库 , 没有 @types , ze
+
+
 @types 是 npm 的一个分支，用来存放 `.d.ts` 文件，如果对应的 npm 包存放在 @types 中，要使用必须下载！ 如果是自己本地的 *.d.ts 申明文件，则和@types没有任何关系！
-
-
-```shell
-# 
-npm install --save-dev @types/lodash
-
-
-# 
-
-```
-
 
 ### @types
 
+> DefinitelyTyped是一个集中的资源库，包含了几乎所有javascript库的类型声明文件。
+```shell
+#  如果在 TypeScript 中使用 lodash , 需要安装对应的@type 库来获得提示
+
+npm install --save-dev @types/lodash
+
+
+# 这将在node_modules/@types/lodash 文件夹下为loadash库添加一个类型声明文件。  index.d.ts
+
+```
 
 ### *.d.ts
 
