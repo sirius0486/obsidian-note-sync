@@ -313,7 +313,42 @@ class Animal {
 Animal.say() // hello!
 ```
 
+### 装饰器工厂
+单独装饰器本身有一种缺点，就是除了传入要装饰的数据之外，装饰器本身的功能不能通过传参去自定义，想要通过传参自定义装饰器的功能，我们可以使用装饰器工厂。
 
+装饰器工厂通过 `@expression(args)` 形式使用，装饰器工厂中的 `expression` 会返回一个装饰器函数，`args` 是用户想自定义传入的参数
+
+ ```ts
+giveSay 就是一个装饰器工厂，接收一个参数 name，通过这个参数用户可以传入自定义想传入的数据。
+
+返回的装饰器函数接收 target 参数，使用装饰器工厂所修饰的数据（如下面代码中的 Animal1 和 Animal2） 会被作为 target 参数传入。
+
+ function giveSay(name: string) {
+  return function(target: any) {
+      target.say = function () {
+      console.log('hello! My name is ' + name)
+    }
+  }
+}
+
+@giveSay('Yuanbao')
+class Animal1 {
+  static say: Function;
+  constructor() {
+  }
+}
+
+Animal1.say() // hello! My name is Yuanbao
+
+@giveSay('Facai')
+class Animal2 {
+  static say: Function;
+  constructor() {
+  }
+}
+
+Animal2.say() // hello! My name is Facai
+```
 
 
 ## Partial
