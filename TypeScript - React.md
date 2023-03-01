@@ -659,8 +659,10 @@ npm install --save-dev @types/lodash
 
 
 ## 还不会的
+
 1. Keyof 索引查询  
-2. T[K] 索引访问  
-3. In 遍历联合类型  
-4. as重映射  
-5. Extends?:条件判断
+2. 装饰器 decorator
+3. T[K] 索引访问  
+4. In 遍历联合类型  
+5. as重映射  
+6. Extends?:条件判断
