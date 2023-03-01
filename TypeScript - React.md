@@ -278,6 +278,23 @@ function createLoggedPair<S extends string | number, T extends string | num
 
 ```
 
+## Decorator
+
+> 装饰器的三个能力
+
+1.  **替换**：将所修饰的元素替换成其他值（用其他方法替换所修饰的方法，用其他属性替换所修饰的属性等等） ；
+2.  **访问**：通过访问器来访问所修饰元素的能力；   
+3.  **初始化**：初始化所修饰的元素。
+
+装饰器起到了对数据的装饰(加工的)作用，可以被附加到**类、方法、访问器、属性、参数** 上。
+
+```ts
+
+```
+
+
+
+
 ## Partial
 `Partial` changes all the properties in an object to be optional.
 Partial 可以使得一个对象里的所有属性变为可选属性
