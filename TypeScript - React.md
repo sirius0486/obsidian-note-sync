@@ -384,6 +384,13 @@ const nameAgeMap: Record<string, number> = {
 
 ## react hooks in typescirpt
 
+> 写**业务** 用 type , 写 **库** 用 `interface` 
+
+type里写数组
+
+![[WeChatWorkScreenshot_2bcd86d6-c8a0-47f9-bdbb-22fb3398477a.png]]
+
+
 ### useState
 ```tsx
 // 基本类型
