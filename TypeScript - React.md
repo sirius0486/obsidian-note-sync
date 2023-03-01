@@ -288,8 +288,29 @@ function createLoggedPair<S extends string | number, T extends string | num
 
 装饰器起到了对数据的装饰(加工的)作用，可以被附加到**类、方法、访问器、属性、参数** 上。
 
-```ts
+### usage
 
+装饰器通过  `@expression` 的 形式使用, `expression` 是一个函数，会在运行时被调用，被装饰的数据会作为参数传入到这个函数中
+
+```ts
+1. 下述代码中的 decorator 就是一个装饰器函数，
+2. 接收一个 target 参数，decorator 装饰器修饰了 Animal 这个类，
+3. Animal 类就被作为 target 参数传入到了 decorator 函数中。
+
+function decorator(target: any) {
+  target.say = function () {
+    console.log('hello!')
+  }
+}
+
+@decorator
+class Animal {
+  static say: Function;
+  constructor() {
+  }
+}
+
+Animal.say() // hello!
 ```
 
 
