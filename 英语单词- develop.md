@@ -12,6 +12,7 @@ expand 拓展
 semicolon 分号
 processor 处理机，处理程序 
 transaction 事务
+pacify 稳定, 安抚
 
 >[!note]  Having TypeScript "guess" the type of a value is called **infer**.
 > 让TypeScript "猜测 "一个值的类型被称为推断。
