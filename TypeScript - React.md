@@ -741,8 +741,40 @@ npm install --save-dev @types/lodash
 ## 还不会的
 
 1. Keyof 索引查询  
-2. 装饰器 decorator
-3. T[K] 索引访问  
-4. In 遍历联合类型  
-5. as重映射  
-6. Extends?:条件判断
+2. omit 关键字
+3. 装饰器 decorator
+4. T[K] 索引访问  
+5. In 遍历联合类型  
+6. as重映射  
+7. Extends?:条件判断
+
+
+## 未整理
+
+泛型就是类型的变量, 实际中可能还需要约束类型, 通过 extend 关键字约束具体类型
+```ts
+interface Lengthwise {
+    length: number;
+}
+
+function loggingIdentity<T extends Lengthwise>(arg: T): T {
+    console.log(arg.length);
+    return arg;
+}
+```
+
+### omit
+在 TypeScript 中，`Omit` 是一个工具类型，用于创建一个新类型，它将某个类型中的指定属性从中剔除，得到一个不具有指定属性的新类型。
+
+
+```ts
+interface Person {
+  name: string;
+  age: number;
+  gender: string;
+}
+
+type PersonWithoutGender = Omit<Person, 'gender'>; // name age
+type PersonWithNameOnly = Omit<Person, "gender" | "age">; // name
+
+```
