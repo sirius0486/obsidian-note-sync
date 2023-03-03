@@ -778,3 +778,19 @@ type PersonWithoutGender = Omit<Person, 'gender'>; // name age
 type PersonWithNameOnly = Omit<Person, "gender" | "age">; // name
 
 ```
+
+
+### keyof
+`keyof` 是一个关键字，它可以用于获取一个类型的所有键（键名）的联合类型。在 TypeScript 中，`keyof` 的用法通常是与索引类型配合使用，用于动态访问和操作类型的属性。
+```ts
+type Person = {
+  name: string;
+  age: number;
+  gender: "male" | "female";
+};
+
+// 我们可以使用 `keyof` 获取 `Person` 类型的所有键，代码如下：
+type PersonKeys = keyof Person;
+// 等价于 type PersonKeys = "name" | "age" | "gender";
+
+```
