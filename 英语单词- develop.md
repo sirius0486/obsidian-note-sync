@@ -13,6 +13,8 @@ semicolon 分号
 processor 处理机，处理程序 
 transaction 事务
 pacify 稳定, 安抚
+panic 恐慌
+compiler 编译器
 
 >[!note]  Having TypeScript "guess" the type of a value is called **infer**.
 > 让TypeScript "猜测 "一个值的类型被称为推断。
@@ -47,15 +49,3 @@ description 描述
 
 compatible 兼容的
 
-
-
-
-1.  项目负责人批准邮件
-
-2.  weibin kang
-
-3.  项目 Code (Jigsaw 项目名称)
-
-4. Dell  U2415  24'' 1920 x 1200   数量 1
-
-5. 西安 office
