@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bb303eb5522c994e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "resume.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "resume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "resume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript - React.md"
+                "file": "resume.md"
               }
             }
           },
@@ -163,10 +176,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8713556c301677ba",
+  "active": "bb303eb5522c994e",
   "lastOpenFiles": [
-    "英语单词- develop.md",
+    "resume.md",
     "TypeScript - React.md",
+    "英语单词- develop.md",
     "assets/WeChatWorkScreenshot_2bcd86d6-c8a0-47f9-bdbb-22fb3398477a.png",
     "React-Redux.md",
     "notes/npm镜像设置.md",
