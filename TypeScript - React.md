@@ -434,7 +434,7 @@ export const App: React.FC = () => {
       <h1>My title</h1>
     </main>
   );
-
+};
 ```
 ### useReducer
 ```tsx
