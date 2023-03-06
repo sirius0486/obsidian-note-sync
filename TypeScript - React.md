@@ -754,7 +754,7 @@ npm install --save-dev @types/lodash
 
 ## 还不会的
 
-1. Keyof 索引查询  
+1. Keyof 索引查询  extends 子类型
 2. omit 关键字
 3. 装饰器 decorator
 4. T[K] 索引访问  
