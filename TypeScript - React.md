@@ -1,4 +1,17 @@
 
+### union
+```ts
+function formatCommandline(command: string[] | string) {
+  let line = '';
+  if (typeof command === 'string') {
+    line = command.trim();
+  } else {
+    line = command.join(' ').trim();
+  }
+  // Do stuff with line: string
+}
+```
+
 ## tuples
 > 元组其实就是一个数组, 但元组运行数不同元素有不同的类型
 
