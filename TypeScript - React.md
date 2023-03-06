@@ -745,6 +745,7 @@ npm install --save-dev @types/lodash
 
 > `.d.ts` 文件是ts用来声明变量，模块，type，interface 等
 
+`.d.ts` 文件扩展名指定这个文件是一个声明文件
 
 >[!tip] 那在这种后缀的ts文件声明这些东西和在纯ts文件声明这些东西又什么区别呢？
 
