@@ -15,6 +15,7 @@ processor 处理机，处理程序
 transaction 事务
 pacify 稳定, 安抚
 panic 恐慌
+concise 简洁的
 compiler 编译器
 
 >[!note]  Having TypeScript "guess" the type of a value is called **infer**.
