@@ -130,7 +130,7 @@ fun exporeDoWhile() {
 ```
 
 ### break & label & return
-
+在 Kotlin 中任何表达式都可以用标签（label）来标记。 标签的格式为标识符后跟 @ 符号，例如：abc@、fooBar@都是有效的标签。 要为一个表达式加标签，我们只要在其前加标签即可。
 ```kotlin
 // break 跳出循环
 for (i in 1..5 ) {
