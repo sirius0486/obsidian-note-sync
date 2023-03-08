@@ -1,6 +1,7 @@
 Explicit Type  显式类型
 Implicit Type  隐式类型
 Concise 简洁的
+companion 
 syntax 语法
 loosely typed / weakly typed    弱类型   
 strongly typed   强类型

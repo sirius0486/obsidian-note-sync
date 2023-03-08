@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "英语单词- develop.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "0de35acc37b28688",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kotlin.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8b4bd5c18b49392c",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kotlin.md",
+                "file": "英语单词- develop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kotlin.md",
+                "file": "英语单词- develop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kotlin.md"
+                "file": "英语单词- develop.md"
               }
             }
           },
@@ -177,11 +163,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0de35acc37b28688",
+  "active": "8713556c301677ba",
   "lastOpenFiles": [
-    "resume.md",
-    "Kotlin.md",
+    "未命名.canvas",
+    "未命名 1.canvas",
     "TypeScript - React.md",
+    "Kotlin.md",
+    "resume.md",
     "随笔.md",
     "英语单词- develop.md",
     "assets/WeChatWorkScreenshot_2bcd86d6-c8a0-47f9-bdbb-22fb3398477a.png",
