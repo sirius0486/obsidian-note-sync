@@ -173,11 +173,24 @@
 -  一个物理用户 = 一个AWS用户
 - 将用户分配给组，并将权限分配给组
 - 创建一个强大的密码策略
-- 使用并强制使用多因素认证（MFA）。
+- 使用并强制使用**多因素认证（MFA）**
 - 创建和使用角色，为AWS服务赋予权限
-- 使用访问密钥进行程序化访问（CLI / SDK）。
+- 使用访问密钥进行程序化访问（CLI / SDK）
 - 使用IAM凭证报告审核您的账户权限 
-- 不要共享IAM用户和访问密钥
+- **不要共享IAM用户和访问密钥**
+
+### IAM Section – Summary
+- 用户(Users)：映射到一个物理用户，有AWS控制台的密码
+- 组(Groups)：只包含用户
+- 策略(Policies)。JSON文档，概述了用户或组的权限 
+- 角色(Roles)：用于EC2实例或AWS服务
+- 安全性(Security)。MFA + 密码策略
+- 访问密钥(Access Keys)：使用CLI或SDK访问AWS
+- 审计(Audit)。IAM凭证报告和IAM访问顾问
+
+
+## EC2
+
 
 ## Dynamo DB
 
@@ -219,5 +232,4 @@ docClient.put(params, (err, data) => {
 
 ## Lambda
 ## S3
-## EC2
 
