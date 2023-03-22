@@ -202,7 +202,17 @@
 	
 • Knowing EC2 is fundamental to understand how the Cloud works `了解EC2是了解云计算工作的基础`
 
+### EC2 sizing & configuration options
 
+- 操作系统（OS）: `Linux`、`Windows或` `Mac OS `
+- 多少计算能力和核心（CPU）
+- 多少随机存取内存(RAM)
+- 多少存储空间。
+	- 网络连接的（EBS和EFS） 
+	- 硬件（EC2实例库）
+- 网卡：网卡的速度，公共IP地址
+- 防火墙规则：安全组
+- 启动脚本（首次启动时配置）: EC2用户数据
 
 
 ## Dynamo DB
