@@ -149,8 +149,35 @@
 	- 移动SDK（Android，iOS，...）
 	- 物联网设备SDK（嵌入式C，Arduino，...)
 - `AWS CLI`是建立在`AWS SDK for Python`之上的。
-
 ![[Pasted image 20230322131352.png]]
+### IAM Roles for Services
+• Some AWS service will need to perform actions on your behalf
+• To do so, we will assign permissions to AWS services with IAM Roles
+• Common roles:
+	• EC2 Instance Roles
+	• Lambda Function Roles
+	• Roles for CloudFormation
+
+![[Pasted image 20230322131621.png]]
+### IAM Security Tools
+
+• **IAM Credentials Report (account-level)**  
+	• a report that lists all your account's users and the status of their various credentials
+
+• **IAM Access Advisor (user-level)**  
+	• Access advisor shows the service permissions granted to a user and when those services were last accessed.  
+	• You can use this information to revise your policies.
+
+### IAM指南和最佳实践
+- 除了设置AWS账户，不要使用根账户 
+-  一个物理用户 = 一个AWS用户
+- 将用户分配给组，并将权限分配给组
+- 创建一个强大的密码策略
+- 使用并强制使用多因素认证（MFA）。
+- 创建和使用角色，为AWS服务赋予权限
+- 使用访问密钥进行程序化访问（CLI / SDK）。
+- 使用IAM凭证报告审核您的账户权限 
+- 不要共享IAM用户和访问密钥
 
 ## Dynamo DB
 
