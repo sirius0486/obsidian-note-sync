@@ -1,5 +1,11 @@
+## 链接
+1. 官方文档（EN）： [https://react.dev/](https://react.dev/)
+1. 官方文档（ZH）： [https://react.jscn.org/](https://react.jscn.org/)
+3. MDN： https://developer.mozilla.org/zh-CN/
+4. 现代 JavaScript 教程: https://zh.javascript.info/
+
 ## Hooks中 useEffect 模拟生命周期
-```js
+```tsx
 // 模拟 componentDidMount 
 useEffect(() => {
       // Your Code ...
@@ -12,7 +18,7 @@ useEffect(() => {
       // 函数会在每次渲染后调用
  });
   
-//模拟 componentWillUnmount
+// 模拟 componentWillUnmount
 useEffect( ( ) => {
   return ( ) => {
     console.log('will unmount');
@@ -21,14 +27,8 @@ useEffect( ( ) => {
 }, [ ] );
 ```
 
-## 链接
-官方文档（beta）： https://beta.reactjs.org/
-官方文档（beta）：https://www.freecodecamp.org/chinese/news/how-to-use-axios-with-react/
-MDN：https://developer.mozilla.org/zh-CN/
-现代 JavaScript 教程: https://zh.javascript.info/
-
 ### 条件判断
-```js
+```tsx
 function Item({ name, isPacked }) {
   return (
     <li className="item">
@@ -44,7 +44,7 @@ function Item({ name, isPacked }) {
 }
 ```
 ### 渲染列表
-```js
+```tsx
  const listItems = people.map(person =>
     <li>{person}</li>
   );
@@ -52,7 +52,7 @@ function Item({ name, isPacked }) {
 ```
 
 ### 发起Get请求
-```js
+```tsx
 useEffect(() => {
     axios.get(baseURL).then((response) => {
       setPost(response.data);
@@ -62,7 +62,7 @@ useEffect(() => {
 
 
 ### 发起Post请求
-```js
+```tsx
    axios
       .post(baseURL, {
         title: "Hello World!",

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS.md",
+                "file": "open source/admin-template.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS.md",
+                "file": "open source/admin-template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS.md",
+                "file": "open source/admin-template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS.md"
+                "file": "open source/admin-template.md"
               }
             }
           },
@@ -178,12 +178,16 @@
   },
   "active": "44410967893d3589",
   "lastOpenFiles": [
+    "open source/Github Guide.md",
+    "open source/admin-template.md",
+    "notes/React 常用操作.md",
+    "notes/Obsidian插件.md",
+    "AWS.md",
     "assets/Pasted image 20230322131621.png",
     "assets/Pasted image 20230322131352.png",
     "assets/Pasted image 20230322130636.png",
     "assets/Pasted image 20230322112640.png",
     "IDE config/shell config.md",
-    "AWS.md",
     "assets/Pasted image 20230322093637.png",
     "summit学习计划.md",
     "TDD - Test.md",
@@ -203,7 +207,6 @@
     "React Snippets.md",
     "React-Hooks/useEffect.md",
     "assets/Pasted image 20230221101544.png",
-    "open source/Github Guide.md",
     "og-image.png.md"
   ]
 }

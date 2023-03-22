@@ -54,12 +54,12 @@
   "英语单词- develop.md": "RiEnglishInput",
   "React Snippets.md": "PeReact",
   "open source": "RiGithubFill",
-  "open source/admin.md": "PeReact",
   "IDE config": "PeVue",
   "open source/Github Guide.md": "RiGithubFill",
   "TDD - Test.md": "LoAngularjs-fill",
   "Kotlin.md": "RiCodepenLine",
   "IDE config/shell config.md": "RiTerminalBoxFill",
   "IDE config/vscode.setting.md": "PeVscode",
-  "AWS.md": "RiCloudLine"
+  "AWS.md": "RiCloudLine",
+  "open source/admin-template.md": "PeReact"
 }
