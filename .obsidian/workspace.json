@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shell config.md",
+                "file": "Git/Git alias设置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "shell config.md",
+                "file": "Git/Git alias设置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shell config.md"
+                "file": "Git/Git alias设置.md"
               }
             }
           },
@@ -176,10 +175,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5cc6fe2cd0da9ded",
+  "active": "8713556c301677ba",
   "lastOpenFiles": [
-    "Git/Git alias设置.md",
     "shell config.md",
+    "Git/Git alias设置.md",
     "TypeScript - React.md",
     "IDE config/vscode.setting.md",
     "Kotlin.md",
