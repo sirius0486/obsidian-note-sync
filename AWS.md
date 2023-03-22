@@ -5,6 +5,11 @@
 • **Groups** only contain users, not other groups  
 • Users don’t have to belong to a group, and user can belong to multiple groups
 
+### Permissions
+用户或组可以被分配称为策略 (`policies`) 的 `JSON` 文件
+1. 这些策略定义了用户的权限(`permissions`)
+2. 在AWS中，你要应用最小权限原则：不要给用户超过需要的权限
+
 ## Dynamo DB
 
 - partition key
