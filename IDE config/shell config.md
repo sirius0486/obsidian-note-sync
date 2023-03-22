@@ -54,7 +54,7 @@ alias start="npm run start"
 alias dev="npm run dev"
 alias test="npm run test"
 alias test:ui="npm run test:ui"
-alias build="npm run build"
+alias build="npm run build"[[AWS]]
 alias coverage="npm run coverage"
 alias vitepress="yarn docs:dev"
 
