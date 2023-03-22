@@ -258,6 +258,14 @@
 - 3389 = RDP（远程桌面协议）--登录Windows实例
 - 5436 = PostgreSql - 数据库
 
+### EC2 Section - Summary
+- EC2实例。AMI（操作系统）+实例大小（CPU+RAM）+存储+安全组+EC2用户数据
+- 安全组。连接到EC2实例的防火墙
+- EC2用户数据。在实例首次启动时启动的脚本
+- SSH：启动一个终端进入我们的EC2实例（端口22）
+- EC2 Instance Role(实例角色)：链接到IAM角色
+- 购买选项。按需、现货、保留（标准+可转换+计划）、专用主机、专用实例
+
 ## Dynamo DB
 
 - partition key
