@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "PeVscode",
+      "RiTerminalBoxFill",
       "RiCodepenLine",
       "LoAngularjs-fill",
-      "PeVue",
-      "PeReact",
-      "RiEnglishInput"
+      "PeVue"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -58,5 +58,7 @@
   "IDE config": "PeVue",
   "open source/Github Guide.md": "RiGithubFill",
   "TDD - Test.md": "LoAngularjs-fill",
-  "Kotlin.md": "RiCodepenLine"
+  "Kotlin.md": "RiCodepenLine",
+  "IDE config/shell config.md": "RiTerminalBoxFill",
+  "IDE config/vscode.setting.md": "PeVscode"
 }
