@@ -25,7 +25,7 @@
 ## 第四个月
 - [ ] 尝试 host 一些会议 
 - [ ] 独立完成中等难度的卡, pair 完成中等难度的卡
-- [ ] AWS 
+- [ ] AWS ( lambda , s3, DynamoDB )
 - [ ] BuildKite , CI / CD 相关 , path to Production
 
 
