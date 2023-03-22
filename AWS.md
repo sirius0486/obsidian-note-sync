@@ -1,15 +1,20 @@
-## 使用 AWS
+## Access AWS
 
 ### 访问AWS
 • To access AWS, you have three options:
-	• **AWS Management Console (protected by password + MFA)**
-	• **AWS Command Line Interface (CLI):** protected by access keys
+	• **AWS Management Console (protected by password + MFA)** , 
+		`AWS管理控制台` , 由密码 + MFA 保护
+	• **AWS Command Line Interface (CLI):** protected by access keys, 
+		 `AWS命令行界面` , 受访问密钥保护
 	• **AWS Software Developer Kit (SDK)** - for code: protected by access keys
+		`AWS软件开发者工具包` , 用于代码, 受访问密钥保护
 • Access Keys are generated through the AWS Console
+	`访问密钥(access keys)`是通过 `AWS控制台` 生成的
 • Users manage their own access keys
-• **Access Keys are secret, just like a password. Don’t share them** 
-• Access Key ID ~= username
-• Secret Access Key ~= password
+	用户管理自己的 访问密钥`(access keys)`
+• Access Key ID ~= username , Access Key ID 等同于 用户名
+• Secret Access Key ~= password , Access Key 等同于 密码
+• **Access Keys are secret, just like a password. Don’t share them** , 不要分享密钥
 
 ## IAM : Users & Groups
 • **IAM** = Identity and Access Management, Global service  
