@@ -532,7 +532,7 @@ const RoundButton: React.FC = () => {
 
 第二种情况是正确的。`React.FC` 是一个函数类型。你的第二个块说你的函数是 `React.FC`，这意味着它接受 `props`
 
-
+![[Pasted image 20230322231437.png]]
 
 ## 泛型 generics
 

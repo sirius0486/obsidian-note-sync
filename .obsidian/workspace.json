@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS.md",
+                "file": "TypeScript - React.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS.md",
+                "file": "TypeScript - React.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS.md",
+                "file": "TypeScript - React.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS.md"
+                "file": "TypeScript - React.md"
               }
             }
           },
@@ -178,6 +178,8 @@
   },
   "active": "44410967893d3589",
   "lastOpenFiles": [
+    "assets/Pasted image 20230322231437.png",
+    "AWS.md",
     "TypeScript - React.md",
     "英语单词- develop.md",
     "随笔.md",
@@ -186,7 +188,6 @@
     "open source/Github Guide.md",
     "notes/React 常用操作.md",
     "notes/Obsidian插件.md",
-    "AWS.md",
     "assets/Pasted image 20230322131621.png",
     "assets/Pasted image 20230322131352.png",
     "assets/Pasted image 20230322130636.png",
