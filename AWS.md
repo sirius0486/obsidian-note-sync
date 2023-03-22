@@ -131,7 +131,26 @@
 
 ![[Pasted image 20230322130636.png]]
 ### AWS CLI
+> 它是开源的 https://github.com/aws/aws-cli
 
+- `AWS CLI` 是一个使你能够使用命令行的命令与 `AWS服务` 互动的工具
+- 直接访问 AWS服务 的 公共API
+- 你可以开发脚本来管理你的资源
+- 使用`AWS管理控制台`的替代方案
+
+### AWS SDK
+> AWS Software Development Kit  `AWS软件开发工具包`
+
+- 特定语言的API(一组库)
+- 使你能够以编程方式访问和管理AWS服务
+- 嵌入您的应用程序中
+- 支持
+	- SDK（JavaScript、Python、PHP、.NET、Ruby、Java、Go、Node.js、C++）
+	- 移动SDK（Android，iOS，...）
+	- 物联网设备SDK（嵌入式C，Arduino，...)
+- `AWS CLI`是建立在`AWS SDK for Python`之上的。
+
+![[Pasted image 20230322131352.png]]
 
 ## Dynamo DB
 
