@@ -190,6 +190,19 @@
 
 
 ## EC2
+• EC2 is one of the most popular of AWS’ offering
+	`EC2 是AWS最受欢迎的产品之一`
+• EC2 = Elastic Compute Cloud = Infrastructure as a Service
+	`EC2 = 弹性计算云 = 基础设施即服务`
+• It mainly consists in the capability of :  主要包括以下功能:
+	• Renting virtual machines (EC2)  `租用虚拟机（EC2）`
+	• Storing data on virtual drives (EBS)  `在虚拟驱动器上存储数据（EBS)`
+	• Distributing load across machines (ELB) `在机器之间分配负载（ELB）`
+	• Scaling the services using an auto-scaling group (ASG) `使用自动扩展组（ASG）扩展服务`
+	
+• Knowing EC2 is fundamental to understand how the Cloud works `了解EC2是了解云计算工作的基础`
+
+
 
 
 ## Dynamo DB
