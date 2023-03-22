@@ -44,15 +44,20 @@
 
 ### Policies Structure
 
-- **Version** : 
-- **Id** : 
+- **Version** :  policy language version , 政策语言版本
+- **Id** :  `Policies` 政策的标识符
 - **Statement**: 
-	- **Sid**
-	- **Effect**
-	- **Principal**
-	- **Action**
-	- **Resource**: 
+	- **Sid**: 声明的标识符 (可选)
+	- **Effect** : 声明是否可以被 访问( Allow, Deny)
+	- **Principal**: 
+	- **Action**: 
+	- **Resource**: `Action` 使用的资源清单
 	- **Condition** : 该政策无效时的条件（可选）
+
+
+```json
+
+```
 
 
 ## Dynamo DB
