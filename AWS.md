@@ -42,6 +42,19 @@
 ![[Pasted image 20230322112640.png]]
 
 
+### Policies Structure
+
+- **Version** : 
+- **Id** : 
+- **Statement**: 
+	- **Sid**
+	- **Effect**
+	- **Principal**
+	- **Action**
+	- **Resource**: 
+	- **Condition** : 该政策无效时的条件（可选）
+
+
 ## Dynamo DB
 
 - partition key
