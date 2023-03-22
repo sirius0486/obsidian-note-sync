@@ -12,22 +12,34 @@
 
 ```json
 {
-"Version": "2012-10-17", "Statement": [
-{
-"Effect": "Allow", "Action": "ec2:Describe*", "Resource": "*"
-}, {
-}, {
-] }
-"Effect": "Allow",
-"Action": "elasticloadbalancing:Describe*", "Resource": "*"
-"Effect": "Allow",
-"Action": [
-"cloudwatch:ListMetrics", "cloudwatch:GetMetricStatistics", "cloudwatch:Describe*"
-],
-    "Resource": "*"
+  "Version": "2012-10-17", 
+  "Statement": [
+    {
+      "Effect": "Allow", 
+      "Action": "ec2:Describe*",
+      "Resource": "*"
+    }, 
+    {
+      "Effect": "Allow",
+      "Action": "elasticloadbalancing:Describe*", 
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+            "cloudwatch:ListMetrics", 
+            "cloudwatch:GetMetricStatistics", 
+            "cloudwatch:Describe*"
+      ],
+      "Resource": "*"
+   }
+  ]
 }
-NOT FOR DISTRIBUTION © Stephane Maarek www.datacumulus.com
 ```
+
+### Policies inheritance
+> 权限继承
+![[Pasted image 20230322112640.png]]
 
 
 ## Dynamo DB
