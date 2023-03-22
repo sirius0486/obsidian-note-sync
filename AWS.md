@@ -10,6 +10,26 @@
 1. 这些策略定义了用户的权限(`permissions`)
 2. 在AWS中，你要应用最小权限原则：不要给用户超过需要的权限
 
+```json
+{
+"Version": "2012-10-17", "Statement": [
+{
+"Effect": "Allow", "Action": "ec2:Describe*", "Resource": "*"
+}, {
+}, {
+] }
+"Effect": "Allow",
+"Action": "elasticloadbalancing:Describe*", "Resource": "*"
+"Effect": "Allow",
+"Action": [
+"cloudwatch:ListMetrics", "cloudwatch:GetMetricStatistics", "cloudwatch:Describe*"
+],
+    "Resource": "*"
+}
+NOT FOR DISTRIBUTION © Stephane Maarek www.datacumulus.com
+```
+
+
 ## Dynamo DB
 
 - partition key
