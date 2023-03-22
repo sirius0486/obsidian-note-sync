@@ -1,3 +1,16 @@
+## 使用 AWS
+
+### 访问AWS
+• To access AWS, you have three options:
+	• **AWS Management Console (protected by password + MFA)**
+	• **AWS Command Line Interface (CLI):** protected by access keys
+	• **AWS Software Developer Kit (SDK)** - for code: protected by access keys
+• Access Keys are generated through the AWS Console
+• Users manage their own access keys
+• **Access Keys are secret, just like a password. Don’t share them** 
+• Access Key ID ~= username
+• Secret Access Key ~= password
+
 ## IAM : Users & Groups
 • **IAM** = Identity and Access Management, Global service  
 • **Root account** created by default, shouldn’t be used or shared  
@@ -90,13 +103,22 @@
 	- 防止密码重复使用
 
 ### MFA
-> Multi Factor Authentication 多重因素验证
+> `Multi Factor Authentication` 多重因素验证
 
 - 用户可以访问你的账户，并有可能改变配置或删除你的AWS账户中的资源
 - 你想保护你的 `Root Accounts`(根用户)和 `IAM users`
-- MFA = 你知道的密码 + 你拥有的安全设备
-- MFA的主要好处: 如果密码被盗或被黑，账户就不会受到影响
+- `MFA` = 你知道的密码 + 你拥有的安全设备
+- `MFA`的主要好处: 如果密码被盗或被黑，账户就不会受到影响
 
+> AWS 提供以下 MFA 设备选择
+
+- Virtual MFA device
+	- Google Authenticator (只能在移动设备上使用
+	- )
+	- Authy
+- Universal 2nd Factor(U2F) Security Key
+- Hardware Key Fob MFA Device
+- Hardware Key Fob MFA Device for AWS GovCloud (US)
 
 ## Dynamo DB
 
