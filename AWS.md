@@ -44,19 +44,35 @@
 
 ### Policies Structure
 
-- **Version** :  policy language version , 政策语言版本
+- **Version** :  `policy language version` , 政策语言版本
 - **Id** :  `Policies` 政策的标识符
-- **Statement**: 
-	- **Sid**: 声明的标识符 (可选)
-	- **Effect** : 声明是否可以被 访问( Allow, Deny)
-	- **Principal**: 
+- **Statement**: `声明`
+	- **Sid**:  `Statement` 的标识符 (可选)
+	- **Effect** : `Statement` 是否可以被 访问( Allow, Deny)
+	- **Principal**:  -   account/user/role towhichthispolicyappliedto
 	- **Action**: 
 	- **Resource**: `Action` 使用的资源清单
 	- **Condition** : 该政策无效时的条件（可选）
 
-
 ```json
-
+{
+  "Version": "2012-10-17", 
+  "Id": "S3-Account-Permissions",
+  "Statement": [
+    {
+      "Sid": "1", 
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": ["arn:aws:iam::123456789012:root"]
+      },
+      "Action":[
+        "s3:GetObject",
+        "s3:PutObject"
+      ],
+      "Resource":["arn:aws:s3:::mybucket/*"]
+    }
+  ]
+}
 ```
 
 
