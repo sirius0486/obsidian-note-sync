@@ -266,6 +266,17 @@
 - EC2 Instance Role(实例角色)：链接到IAM角色
 - 购买选项。按需、现货、保留（标准+可转换+计划）、专用主机、专用实例
 
+### AMI Overview
+• AMI = Amazon Machine Image
+• AMI are a customization of an EC2 instance
+	• You add your own software, configuration, operating system, monitoring...
+	• Faster boot / configuration time because all your software is pre-packaged
+• AMI are built for a specific region (and can be copied across regions)
+• You can launch EC2 instances from:
+	• A Public AMI: AWS provided
+	• Your own AMI: you make and maintain them yourself
+	• An AWS Marketplace AMI: an AMI someone else made (and potentially sells)
+
 ## Dynamo DB
 
 - partition key
