@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "随笔.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "随笔.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "随笔.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript - React.md"
+                "file": "随笔.md"
               }
             }
           },
@@ -165,11 +165,12 @@
   },
   "active": "c49527cf65a5cbda",
   "lastOpenFiles": [
+    "英语单词- develop.md",
+    "TypeScript - React.md",
     "Git/Git commit规范.md",
     "Git/Git 学习资源.md",
     "Git/Git 常见问题.md",
     "Git/Git撤销文件修改.md",
-    "TypeScript - React.md",
     "open source/Github Guide.md",
     "open source/admin-template.md",
     "IDE config/vscode.setting.md",
@@ -183,7 +184,6 @@
     "Kotlin.md",
     "React Snippets.md",
     "assets/Pasted image 20230322231437.png",
-    "英语单词- develop.md",
     "随笔.md",
     "notes/React 常用操作.md",
     "notes/Obsidian插件.md",
