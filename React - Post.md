@@ -14,6 +14,15 @@ concurrent mode , 并发模式
 "use client";
 import {use, cache} from "react";
 
+const fetchUser = cache(id:number) =>
+	fetch(`http://localhost:3000/${id}.json?q=1`).then((res)=> res.json()
+);
+
+function LastName({id}:{id:number}) {
+	const data = use(fetchUser(id));
+	return <div>First: {data.first} </div>
+}
+
 ```
 
 
@@ -39,3 +48,6 @@ function DatabaseNote({ id }) {
 
 - 对异步操作的友好支持
 - 支持 使用 `async / await`
+
+
+### renderToString
