@@ -11,8 +11,12 @@
             "id": "0bd002667176c2aa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "open source/Github Guide.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "open source/Github Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "open source/Github Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "open source/Github Guide.md"
+              }
             }
           },
           {
@@ -157,6 +165,11 @@
   },
   "active": "0bd002667176c2aa",
   "lastOpenFiles": [
+    "open source/admin-template.md",
+    "open source/Github Guide.md",
+    "Kotlin.md",
+    "AWS.md",
+    "英语单词- develop.md",
     "assets/WeChatWorkScreenshot_2bcd86d6-c8a0-47f9-bdbb-22fb3398477a.png",
     "assets/Pasted image 20230322231437.png",
     "assets/Pasted image 20230322131621.png",
@@ -167,25 +180,19 @@
     "assets/Pasted image 20230221101544.png",
     "assets/Pasted image 20230221101529.png",
     "assets/Pasted image 20230206104550.png",
-    "assets/Pasted image 20230129180622.png",
     "TDD - Test.md",
     "随笔.md",
-    "英语单词- develop.md",
     "TypeScript - React.md",
     "Git/Git commit规范.md",
     "Git/Git 学习资源.md",
     "Git/Git 常见问题.md",
     "Git/Git撤销文件修改.md",
-    "open source/Github Guide.md",
-    "open source/admin-template.md",
     "IDE config/vscode.setting.md",
     "IDE config/shell config.md",
     "summit学习计划.md",
     "README.md",
     "React-Redux.md",
     "React Query.md",
-    "AWS.md",
-    "Kotlin.md",
     "React Snippets.md",
     "notes/React 常用操作.md",
     "notes/Obsidian插件.md",

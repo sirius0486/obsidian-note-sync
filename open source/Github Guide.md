@@ -1,3 +1,5 @@
+### 开源软件指南
+[New Tab (opensource.guide)](https://opensource.guide/zh-hans/)
 
 ## Github action
 

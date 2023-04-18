@@ -318,3 +318,8 @@ docClient.put(params, (err, data) => {
 ## Lambda
 ## S3
 
+## CloudFormation
+好的，我来举个例子。假设你想在 AWS 上部署一个网站，你需要创建一个 Amazon EC2 实例来运行你的网站，一个 Amazon RDS 数据库实例来存储你的数据，以及一个 Amazon S3 存储桶来存储你的静态文件。如果你不使用 AWS CloudFormation，你需要手动创建这些资源，并且手动配置它们之间的关系。
+
+但是，如果你使用 AWS CloudFormation，你只需要创建一个模板来描述这些资源以及它们之间的关系。然后，AWS CloudFormation 会自动为你创建和配置这些资源。这样，你就可以更快地部署你的网站，并且更容易地管理它。
+

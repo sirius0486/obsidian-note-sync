@@ -17,6 +17,7 @@ transaction 事务
 pacify 稳定, 安抚
 panic 恐慌
 compiler 编译器
+tenant 租户
 
 >[!note]  Having TypeScript "guess" the type of a value is called **infer**.
 > 让TypeScript "猜测 "一个值的类型被称为推断。
