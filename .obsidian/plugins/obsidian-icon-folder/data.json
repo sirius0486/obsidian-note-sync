@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "PeReact",
       "RiCloudLine",
       "PeVscode",
       "RiTerminalBoxFill",
-      "RiCodepenLine",
-      "LoAngularjs-fill"
+      "RiCodepenLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -59,5 +59,6 @@
   "IDE config/shell config.md": "RiTerminalBoxFill",
   "IDE config/vscode.setting.md": "PeVscode",
   "AWS.md": "RiCloudLine",
-  "open source/admin-template.md": "PeReact"
+  "open source/admin-template.md": "PeReact",
+  "React - Post.md": "PeReact"
 }
