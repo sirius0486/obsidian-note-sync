@@ -29,3 +29,7 @@ function DatabaseNote({ id }) {
   return <NoteWithMarkdown note={note} />;
 }
 ```
+
+
+- 对异步操作的友好支持
+- 支持 使用 `async / await`
