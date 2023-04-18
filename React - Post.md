@@ -8,7 +8,13 @@ concurrent mode , 并发模式
 ## experiemental
 ### use
 - 无限循环问题
-### 
+### cache
+
+```ts
+"use client";
+import {use, cache} from "react";
+
+```
 
 
 ### Server Side Components
