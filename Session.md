@@ -1,3 +1,8 @@
+## package Manager
+
+### pnpm
+pnpm 是一个 Node.js 包管理器，它可以用来代替 npm 或 Yarn。pnpm 支持 Monorepo，可以通过 `pnpm-workspace.yaml` 文件在多个子项目之间共享依赖项。pnpm 的 monorepo 特性和 Yarn Workspaces、Lerna 类似，都是为了解决多个相关项目共享代码和依赖项的问题。
+
 ### Monorepo
 如果你打算把前后端都放在同一个 repo 里面，可以考虑使用 monorepo 工具来
 进行依赖管理和复用。
@@ -28,7 +33,8 @@ Monorepo的优点包括：
 
 ### example
 
-> 使用Lerna管理的一个monorepo例子
+
+> 使用`Lerna`管理的一个`monorepo`例子
 
 ```json
 my-project/
@@ -45,3 +51,12 @@ my-project/
       package.json
       src/
 ```
+
+在上面的示例中，my-project 是根目录，packages 是子目录，每个子目录都是一个单独的 package，其中 package-1 和 package-2 可能是独立的 npm 包，而 shared-package 则可能包含被多个子目录共享的代码和依赖项。lerna.json 文件则包含 Lerna 的配置信息，以帮助管理工具协调子目录之间的依赖关系和版本控制。
+
+
+
+
+
+
+
