@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "AWS.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "AWS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "AWS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语单词- develop.md"
+                "file": "AWS.md"
               }
             }
           },
@@ -167,24 +167,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "0fa9a319981d8339",
   "lastOpenFiles": [
+    "TDD - Test.md",
+    "TypeScript - React.md",
+    "英语单词- develop.md",
     "React - Post.md",
     "open source/Github Guide.md",
     "gitignore",
     "open source/admin-template.md",
     "Kotlin.md",
     "AWS.md",
-    "英语单词- develop.md",
     "assets/WeChatWorkScreenshot_2bcd86d6-c8a0-47f9-bdbb-22fb3398477a.png",
     "assets/Pasted image 20230322231437.png",
     "assets/Pasted image 20230322131621.png",
@@ -195,9 +197,7 @@
     "assets/Pasted image 20230221101544.png",
     "assets/Pasted image 20230221101529.png",
     "assets/Pasted image 20230206104550.png",
-    "TDD - Test.md",
     "随笔.md",
-    "TypeScript - React.md",
     "Git/Git commit规范.md",
     "Git/Git 学习资源.md",
     "Git/Git 常见问题.md",
