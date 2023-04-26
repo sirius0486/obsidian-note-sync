@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Session.md",
+                "file": "Session - package Manager.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Session.md",
+                "file": "Session - package Manager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Session.md",
+                "file": "Session - package Manager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Session.md"
+                "file": "Session - package Manager.md"
               }
             }
           },
@@ -191,7 +191,7 @@
   "active": "848f21a8657d3d3a",
   "lastOpenFiles": [
     "AWS.md",
-    "Session.md",
+    "Session - package Manager.md",
     "TDD - Test.md",
     "TypeScript - React.md",
     "英语单词- develop.md",
