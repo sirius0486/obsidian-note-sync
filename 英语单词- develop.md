@@ -19,6 +19,9 @@ panic 恐慌
 compiler 编译器
 tenant 租户
 
+Can I get some ketchup?  我能点些番茄酱吗？
+Can I get a little more lettuce, please?  可以请你再多给我一些生菜吗？
+
 >[!note]  Having TypeScript "guess" the type of a value is called **infer**.
 > 让TypeScript "猜测 "一个值的类型被称为推断。
  
