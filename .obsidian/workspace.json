@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "fe-interview-2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "fe-interview-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "fe-interview-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语单词- develop.md"
+                "file": "fe-interview-2023.md"
               }
             }
           },
@@ -165,6 +165,8 @@
   },
   "active": "a40dbfc50884da75",
   "lastOpenFiles": [
+    "未命名.md",
+    "英语单词- develop.md",
     "fe-interview-2023.md",
     "Session - package Manager.md",
     "AWS.md",
@@ -172,7 +174,6 @@
     "README.md",
     "TDD - Test.md",
     "TypeScript - React.md",
-    "英语单词- develop.md",
     "React - Post.md",
     "gitignore",
     "open source/admin-template.md",
@@ -202,7 +203,6 @@
     "notes/Obsidian插件.md",
     "Git/Git alias设置.md",
     "未命名.canvas",
-    "未命名 1.canvas",
-    "resume.md"
+    "未命名 1.canvas"
   ]
 }

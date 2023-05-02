@@ -1,3 +1,15 @@
+## 未整理
+
+dll文件 
+webRTC 
+前端埋点 SSE 单工通信
+Navagate API  看网络信息 强网弱网
+Interveral.observer 图片懒加载
+vite 生产环境和开发环境差异
+vue2 和 vue3  diff对比差异
+sass @rule
+
+
 ## 计算机原理
 
 ### AOT 和 JIT 的区别
