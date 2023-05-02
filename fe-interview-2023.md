@@ -2,13 +2,17 @@
 
 dll文件 
 webRTC 
+fullter  v8  JIT 和 AOP引擎
 前端埋点 SSE 单工通信
 Navagate API  看网络信息 强网弱网
 Interveral.observer 图片懒加载
 vite 生产环境和开发环境差异
 vue2 和 vue3  diff对比差异
 sass @rule
-
+webComponents 与 微前端
+proxy / reflect 
+es6 解构赋值的原理 ，  for of 原理
+{} 没有 iterator ， 但是可以解构
 
 ## 计算机原理
 
