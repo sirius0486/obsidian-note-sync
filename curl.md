@@ -125,11 +125,20 @@ curl -X DELETE www.example.com
 　　</form>
 ```
 
+则可以用curl这样上传文件
 ```bash
-
-
+curl --form upload=@localfilename --form press=OK [URL]
 ```
 
+
+### Referer字段
+
+```bash
+有时你需要在http request头信息中，提供一个referer字段，表示你是从哪里跳转过来的。
+
+curl --referer http://www.example.com http://www.example.com
+
+```
 
 
 ### HTTP动词
@@ -143,33 +152,46 @@ curl -X DELETE www.example.com
 
 ```
 
-
-
-### HTTP动词
+### User Agent字段
 
 ```bash
-curl默认的HTTP动词是GET，使用`-X`参数可以支持其他动词
-
-curl -X POST www.example.com
-
-curl -X DELETE www.example.com
+curl --user-agent "[User Agent]" [URL]
 
 ```
 
-
-
-### HTTP动词
+### Cookie
 
 ```bash
-curl默认的HTTP动词是GET，使用`-X`参数可以支持其他动词
+使用`--cookie`参数，可以让curl发送cookie。
 
-curl -X POST www.example.com
+curl --cookie "name=xxx" www.example.com
 
-curl -X DELETE www.example.com
+至于具体的cookie的值，可以从http response头信息的`Set-Cookie`字段中得到。
+
+`-c cookie-file`可以保存服务器返回的cookie到文件，`-b cookie-file`可以使用这个文件作为cookie信息，进行后续的请求。
+
+curl -c cookies http://example.com  
+curl -b cookies http://example.com
 
 ```
 
+### 增加头信息
 
+有时需要在http request之中，自行增加一个头信息。`--header`参数就可以起到这个作用
+
+```bash
+# 有时需要在http request之中，自行增加一个头信息。`--header`参数就可以起到这个作用
+
+curl --header "Content-Type:application/json" http://example.com
+```
+
+### HTTP认证
+
+```bash
+# 有些网域需要HTTP认证，这时curl需要用到`--user`参数
+
+curl --user name:password example.com
+```
 
 ## 参考链接
 - [curl用法指南](http://www.ruanyifeng.com/blog/2019/09/curl-reference.html)
