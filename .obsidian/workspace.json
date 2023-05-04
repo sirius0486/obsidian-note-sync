@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "Session - package Manager.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "Session - package Manager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "Session - package Manager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语单词- develop.md"
+                "file": "Session - package Manager.md"
               }
             }
           },
@@ -165,14 +165,14 @@
   },
   "active": "a40dbfc50884da75",
   "lastOpenFiles": [
+    "fe-interview-2023.md",
     "Session - package Manager.md",
+    "英语单词- develop.md",
     "README.md",
     "React-Redux.md",
     "React Query.md",
     "React - Post.md",
-    "fe-interview-2023.md",
     "未命名.md",
-    "英语单词- develop.md",
     "AWS.md",
     "open source/Github Guide.md",
     "TDD - Test.md",

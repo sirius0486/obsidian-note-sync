@@ -1,5 +1,7 @@
 ## 未整理
-
+https://github.com/message163/interview
+https://blog.skk.moe/post/why-you-should-not-fetch-data-directly-in-use-effect/
+https://juejin.cn/post/7210048692623114298?share_token=1d81ed19-2c07-42cb-af24-8e17a2ac5c07
 dll文件 
 webRTC 
 fullter  v8  JIT 和 AOP引擎
@@ -13,6 +15,8 @@ webComponents 与 微前端
 proxy / reflect 
 es6 解构赋值的原理 ，  for of 原理
 {} 没有 iterator ， 但是可以解构
+灰度发布  css bem架构
+网关怎么做 网关熔断怎么做 网关分流怎么做 网关加密怎么做
 
 ## 计算机原理
 
