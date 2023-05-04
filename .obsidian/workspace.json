@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bda88ae7c0600f15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "curl.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Session - package Manager.md",
+                "file": "curl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Session - package Manager.md",
+                "file": "curl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Session - package Manager.md"
+                "file": "curl.md"
               }
             }
           },
@@ -163,16 +176,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a40dbfc50884da75",
+  "active": "bda88ae7c0600f15",
   "lastOpenFiles": [
-    "fe-interview-2023.md",
     "Session - package Manager.md",
+    "curl.md",
+    "fe-interview-2023.md",
     "英语单词- develop.md",
     "README.md",
     "React-Redux.md",
     "React Query.md",
     "React - Post.md",
-    "未命名.md",
     "AWS.md",
     "open source/Github Guide.md",
     "TDD - Test.md",
