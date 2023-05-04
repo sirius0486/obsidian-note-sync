@@ -90,18 +90,85 @@ curl --trace-ascii output.txt www.sina.com
 ```
 
 
-### 显示通信过程
+### 发送表单信息
 
 ```bash
+
+# GET 把数据附在网址后面即可
+curl domain_url/endPoint?data=xxx
+
+# POST 需要用到--data参数
+curl -X POST --data "data=xxx" example.com/form.cgi
 
 ```
 
 
-### 显示通信过程
+### HTTP动词
+
+```bash
+curl默认的HTTP动词是GET，使用`-X`参数可以支持其他动词
+
+curl -X POST www.example.com
+
+curl -X DELETE www.example.com
+
+```
+
+
+### 文件上传
+
+假定文件上传的表单长这个样子
+```html
+　　<form method="POST" enctype='multipart/form-data' action="upload.cgi">  
+　　　　<input type=file name=upload>  
+　　　　<input type=submit name=press value="OK">  
+　　</form>
+```
 
 ```bash
 
+
 ```
+
+
+
+### HTTP动词
+
+```bash
+curl默认的HTTP动词是GET，使用`-X`参数可以支持其他动词
+
+curl -X POST www.example.com
+
+curl -X DELETE www.example.com
+
+```
+
+
+
+### HTTP动词
+
+```bash
+curl默认的HTTP动词是GET，使用`-X`参数可以支持其他动词
+
+curl -X POST www.example.com
+
+curl -X DELETE www.example.com
+
+```
+
+
+
+### HTTP动词
+
+```bash
+curl默认的HTTP动词是GET，使用`-X`参数可以支持其他动词
+
+curl -X POST www.example.com
+
+curl -X DELETE www.example.com
+
+```
+
 
 
 ## 参考链接
