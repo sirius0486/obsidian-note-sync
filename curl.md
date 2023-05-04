@@ -76,6 +76,30 @@ EagleId: 2ff62a9816831930809321638
 ### 显示通信过程
 
 ```bash
+`-v`参数可以显示一次http通信的整个过程，包括端口连接和http request头信息。
+
+# example
+
+curl -v www.sina.com
+
+如果需要输出到文件查看更详细的通信信息， 那么可以
+
+curl --trace output.txt www.sina.com
+
+curl --trace-ascii output.txt www.sina.com
+```
+
+
+### 显示通信过程
+
+```bash
+
+```
+
+
+### 显示通信过程
+
+```bash
 
 ```
 
