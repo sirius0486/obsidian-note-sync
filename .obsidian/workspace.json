@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fe-interview-2023.md",
+                "file": "英语单词- develop.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fe-interview-2023.md",
+                "file": "英语单词- develop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fe-interview-2023.md",
+                "file": "英语单词- develop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fe-interview-2023.md"
+                "file": "英语单词- develop.md"
               }
             }
           },
@@ -165,16 +165,18 @@
   },
   "active": "a40dbfc50884da75",
   "lastOpenFiles": [
+    "Session - package Manager.md",
+    "README.md",
+    "React-Redux.md",
+    "React Query.md",
+    "React - Post.md",
+    "fe-interview-2023.md",
     "未命名.md",
     "英语单词- develop.md",
-    "fe-interview-2023.md",
-    "Session - package Manager.md",
     "AWS.md",
     "open source/Github Guide.md",
-    "README.md",
     "TDD - Test.md",
     "TypeScript - React.md",
-    "React - Post.md",
     "gitignore",
     "open source/admin-template.md",
     "Kotlin.md",
@@ -196,8 +198,6 @@
     "IDE config/vscode.setting.md",
     "IDE config/shell config.md",
     "summit学习计划.md",
-    "React-Redux.md",
-    "React Query.md",
     "React Snippets.md",
     "notes/React 常用操作.md",
     "notes/Obsidian插件.md",

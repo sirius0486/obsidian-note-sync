@@ -18,7 +18,9 @@ pacify 稳定, 安抚
 panic 恐慌
 compiler 编译器
 tenant 租户
-
+rehearse 排练
+vanity 虚荣
+dignity 
 Can I get some ketchup?  我能点些番茄酱吗？
 Can I get a little more lettuce, please?  可以请你再多给我一些生菜吗？
 
