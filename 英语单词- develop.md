@@ -22,7 +22,7 @@ rehearse 排练
 vanity 虚荣
 dignity 尊严
 bypass  
-ßsurpass
+surpass
 eliminate
 
 Can I get some ketchup?  我能点些番茄酱吗？
