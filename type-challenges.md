@@ -100,7 +100,11 @@ type PromiseType<T extends Promise<any>> = T extends Promise<infer U> ? U : neve
 
 ```
 
-我们可以这样shi'y
+我们可以这样使用  promiseType
+
+```ts
+
+```
 
 
 ### Readonly Types
@@ -109,7 +113,18 @@ type PromiseType<T extends Promise<any>> = T extends Promise<infer U> ? U : neve
 type ReadonlyProps<T> = { readonly [P in keyof T]: T[P] };
 ```
 
+我们可以这样使用  promiseType
 
-## 参考链接
+```ts
+
+```
+
+
+## Exam
+
+### MyPick
+
+
+## References
 
 - [TypeScript Advanced Types for Next.js | Bits and Pieces](https://blog.bitsrc.io/typescript-advanced-types-for-next-js-examples-and-best-practices-in-2023-a3a3946a353e)
