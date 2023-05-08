@@ -1,3 +1,4 @@
+invokable
 Explicit Type  显式类型
 Implicit Type  隐式类型
 Concise 简洁的
@@ -24,7 +25,9 @@ dignity 尊严
 bypass  
 surpass
 eliminate
-
+    
+BRB 是英语 "be right back" 的缩写，意思是“马上回来”。
+FYI 是英语“for your information”的缩写，意思是“供你参考”、“提供信息”或“告知”
 Can I get some ketchup?  我能点些番茄酱吗？
 Can I get a little more lettuce, please?  可以请你再多给我一些生菜吗？
 
