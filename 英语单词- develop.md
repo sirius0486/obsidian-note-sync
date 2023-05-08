@@ -25,7 +25,7 @@ dignity 尊严
 bypass  
 surpass
 eliminate
-    
+less prone to errors.  更不容易出错
 BRB 是英语 "be right back" 的缩写，意思是“马上回来”。
 FYI 是英语“for your information”的缩写，意思是“供你参考”、“提供信息”或“告知”
 Can I get some ketchup?  我能点些番茄酱吗？
