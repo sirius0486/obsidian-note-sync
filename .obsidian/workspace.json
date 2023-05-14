@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RxJs.md",
+                "file": "English Template.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "English Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "English Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语单词- develop.md"
+                "file": "English Template.md"
               }
             }
           },
@@ -208,14 +208,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4140664d91aecf1f",
+  "active": "08c5a5b52ada0bba",
   "lastOpenFiles": [
-    "English Template.md",
-    "type-challenges.md",
+    "Session - package Manager.md",
     "RxJs.md",
     "英语单词- develop.md",
+    "English Template.md",
+    "type-challenges.md",
     "curl.md",
-    "Session - package Manager.md",
     "fe-interview-2023.md",
     "README.md",
     "React-Redux.md",
