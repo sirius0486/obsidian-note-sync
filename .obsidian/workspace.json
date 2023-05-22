@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "19f2c3af8dbaee36",
+        "id": "b536027d5c5d92d4",
         "type": "tabs",
         "children": [
           {
-            "id": "bda88ae7c0600f15",
+            "id": "de335eec92892561",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语单词- develop.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "230c92477e0fec74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "type-challenges.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4140664d91aecf1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "英语单词- develop.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08c5a5b52ada0bba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "English Template.md",
+                "file": "fp-ts.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8b4bd5c18b49392c",
@@ -130,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "English Template.md",
+                "file": "fp-ts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "English Template.md",
+                "file": "fp-ts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "English Template.md"
+                "file": "fp-ts.md"
               }
             }
           },
@@ -195,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,12 +173,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "08c5a5b52ada0bba",
+  "active": "de335eec92892561",
   "lastOpenFiles": [
-    "Session - package Manager.md",
-    "RxJs.md",
     "英语单词- develop.md",
+    "session/universe.md",
+    "session/vite.md",
+    "session/package Manager.md",
+    "session",
+    "TypeScript - React.md",
+    "fp-ts.md",
     "English Template.md",
+    "RxJs.md",
+    "assets/WeChatWorkScreenshot_3bf77cdd-315b-4381-8ab6-e46a5bfd7bfd.png",
     "type-challenges.md",
     "curl.md",
     "fe-interview-2023.md",
@@ -224,7 +195,6 @@
     "AWS.md",
     "open source/Github Guide.md",
     "TDD - Test.md",
-    "TypeScript - React.md",
     "gitignore",
     "open source/admin-template.md",
     "Kotlin.md",
@@ -237,16 +207,12 @@
     "assets/Pasted image 20230322093637.png",
     "assets/Pasted image 20230221101544.png",
     "assets/Pasted image 20230221101529.png",
-    "assets/Pasted image 20230206104550.png",
     "随笔.md",
     "Git/Git commit规范.md",
     "Git/Git 学习资源.md",
     "Git/Git 常见问题.md",
     "Git/Git撤销文件修改.md",
     "IDE config/vscode.setting.md",
-    "IDE config/shell config.md",
-    "summit学习计划.md",
-    "React Snippets.md",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
