@@ -60,10 +60,13 @@ flow更加“FP”，但在学习fp-ts时，我们发现pipe更容易理解，�
 
 
 `flow` vs `pipe`
+- Use `pipe()` to create a value
+- Use `flow()` to create another function
+
 ```ts
+const result = pipe(3, double, increment, square) //49
 
-
-
+const getResult = flow(double, increment, square) //  A function
 ```
 
 ## option
