@@ -91,8 +91,16 @@ import * as 0 frin "fp-ts/Option";
 O.some(value: A) => Option<A>  // always a Some<A>
 O.none => Option<A>   // always a None
 
-O.fromPr
+O.fromPredicate(f: (value: A) => boolean) => (a: A) => Option<A>  // returns Some<A> if f returns true, None otherwise
+O.fromNullable(value: A) => Option<A> // None if value is null or undefined, Some<A> otherwise
+
 ```
+
+你可能会认为只是将 null 检查 替换成了 None 检查， 确实是这样的， 但也不完全是这样
+
+`const map = <A, b>(f: (a: A) => B) => (opt： Option) => Option`
+
+如果 opt 是 Some，则 map 将从 Some 中取出该值，将其分配给 a，然后运行给定的函数 f(a)，并返回一个新的 Some 与结果。 如果 opt 是 None，则 map 只返回 None，因为没有“value”可以应用于 f。 这意味着我们不需要检查 opt 是否是 Some 或 None，因为 map 已经替我们完成了这个任务。
 
 
 ## Links
