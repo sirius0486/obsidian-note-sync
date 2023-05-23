@@ -85,6 +85,14 @@ Option是一个“容器”，用于存储类型A的可选值。
 
 fp-ts中所有类型都是纯数据类型，而不是类，因此fp-ts提供了函数来帮助我们创建和操作这些实例。对于Option，您可以按如下方式导入这些函数：
 
+```ts
+import * as 0 frin "fp-ts/Option";
+
+O.some(value: A) => Option<A>  // always a Some<A>
+O.none => Option<A>   // always a None
+
+O.fromPr
+```
 
 
 ## Links
