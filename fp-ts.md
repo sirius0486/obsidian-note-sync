@@ -106,7 +106,33 @@ O.fromNullable(value: A) => Option<A> // None if value is null or undefined, Som
 const some = O.some(2);
 const none = O.none;
 const doubledSomeOption = O.map((n: number) => n * 2)(some);  // Some(4)
+const doubleNoneOption = O.map( (n: number) => n * 2)(none);  // None
+
+const double = (n: number): number => n * 2;
+const doubleOption = O.map(double)(some); // Some(4)
+
+const doubleOptionPipe = pipe(
+	some,
+	O.map(double)
+); // Some(4)
 ```
+
+## flatten
+
+## chain
+
+## getOrElse
+
+## fold
+
+## toNullable, toUndefined
+
+## Either
+
+### map
+
+### mapLeft
+
 
 
 ## Links
