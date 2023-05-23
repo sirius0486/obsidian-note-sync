@@ -58,6 +58,14 @@ const resultWithPipe = pipe(" some-string ", clean, len, double);
 flow更加“FP”，但在学习fp-ts时，我们发现pipe更容易理解，但它们执行类似功能并不重要。
 在我们的代码中，大多数情况下会使用pipe而不是flow。使用pipe的好处是类型推断按预期工作，这意味着您无需显式添加管道内部函数的参数类型。但这并非总是flow所具备的。
 
+
+`flow` vs `pipe`
+```ts
+
+
+
+```
+
 ## option
 > `null` 和 `undefined` 是运行时错误的主要原因,  在 `fp-ts`  中我们使用 option 代替 null 和 undefined， 因为使用 `null` 会让人感到模糊不清 ， 到底是 “没有值” 还是 “空值” 
 
