@@ -102,6 +102,12 @@ O.fromNullable(value: A) => Option<A> // None if value is null or undefined, Som
 
 如果 opt 是 Some，则 map 将从 Some 中取出该值，将其分配给 a，然后运行给定的函数 f(a)，并返回一个新的 Some 与结果。 如果 opt 是 None，则 map 只返回 None，因为没有“value”可以应用于 f。 这意味着我们不需要检查 opt 是否是 Some 或 None，因为 map 已经替我们完成了这个任务。
 
+```ts
+const some = O.some(2);
+const none = O.none;
+const doubledSomeOption = O.map((n: number) => n * 2)(some);  // Some(4)
+```
+
 
 ## Links
 
