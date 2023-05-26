@@ -35,3 +35,31 @@ git reset HEAD .
 ```bash
 git reset commit_id
 ```
+
+## git初始配置
+
+### 用户名和邮箱
+```shell
+# 全局设置
+git config --global user.name 'Your User Name'
+git config --global user.email 'Your User email'
+
+# 当前项目设置
+git config user.name 'Your User Name'
+git config user.email 'Your User email'
+
+# 查看配置信息是否正确
+git config --list
+```
+
+
+### 自动追踪远程分支
+
+```shell
+git config --global push.default current
+git config --global push.autoSetupRemote true
+
+# 查看自动追踪上游分支是否正确
+git config --get push.default
+git config --get push.autoSetupRemote
+```
