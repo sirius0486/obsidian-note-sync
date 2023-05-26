@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "PeReact",
-      "RiCloudLine",
       "PeVscode",
-      "RiTerminalBoxFill",
-      "RiCodepenLine"
+      "RiNpmjsFill",
+      "PeReact",
+      "PeVue",
+      "PeJs"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -19,7 +19,8 @@
       "right": 4,
       "bottom": 0,
       "left": 0
-    }
+    },
+    "iconInTabsEnabled": false
   },
   "assets": "📁",
   "React-Hooks": {
@@ -27,7 +28,7 @@
     "inheritanceIcon": "PeReact"
   },
   "React-Router": {
-    "iconName": "RiRouterFill",
+    "iconName": "PeReact",
     "inheritanceIcon": "PeReact"
   },
   "Git": {
@@ -60,5 +61,17 @@
   "IDE config/vscode.setting.md": "PeVscode",
   "AWS.md": "RiCloudLine",
   "open source/admin-template.md": "PeReact",
-  "React - Post.md": "PeReact"
+  "session": "RiCodepenLine",
+  "curl.md": "RiDownloadCloudFill",
+  "English Template.md": "RiEnglishInput",
+  "fp-ts.md": "PeTs",
+  "RxJs.md": "PeTs",
+  "type-challenges.md": "PeTs",
+  "notes/React-Interview.md": "PeReact",
+  "notes/fe-interview-2023.md": "PeJs",
+  "notes/Vue-Interview.md": "PeVue",
+  "notes/React 常用操作.md": "PeReact",
+  "notes/npm镜像设置.md": "RiNpmjsFill",
+  "notes/小满zs-Interview.md": "PeJs",
+  "notes/工具插件集合.md": "PeVscode"
 }

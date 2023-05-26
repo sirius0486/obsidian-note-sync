@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "0107e6094f2c2904",
+        "id": "446fefc1bc38ee6e",
         "type": "tabs",
         "children": [
           {
-            "id": "c8d0f7cdb0bfa2a7",
+            "id": "7263dd8fcf0d83ea",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "notes/Vue-Interview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e76f947c6f4887f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/小满zs-Interview.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDE config/shell config.md",
+                "file": "notes/小满zs-Interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDE config/shell config.md",
+                "file": "notes/小满zs-Interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDE config/shell config.md"
+                "file": "notes/小满zs-Interview.md"
               }
             }
           },
@@ -167,15 +184,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1406b7c5eaa064e8",
+  "active": "3e76f947c6f4887f",
   "lastOpenFiles": [
+    "notes/fe-interview-2023.md",
+    "notes/小满zs-Interview.md",
+    "notes/Vue-Interview.md",
+    "notes/工具插件集合.md",
+    "fp-ts.md",
+    "RxJs.md",
+    "notes/React-Interview.md",
+    "notes/Vue - interview",
+    "React-Router/未命名.canvas",
+    "English Template.md",
+    "IDE config/shell config.md",
     "Git/Git alias设置.md",
     "Git/Git commit规范.md",
     "Git/Git 学习资源.md",
     "Git/Git 常见问题.md",
     "Git/Git撤销文件修改.md",
     "Git/GIt常见命令和原理.md",
-    "fp-ts.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "英语单词- develop.md",
@@ -184,22 +211,14 @@
     "session/package Manager.md",
     "session",
     "TypeScript - React.md",
-    "English Template.md",
-    "RxJs.md",
     "assets/WeChatWorkScreenshot_3bf77cdd-315b-4381-8ab6-e46a5bfd7bfd.png",
     "type-challenges.md",
     "curl.md",
-    "fe-interview-2023.md",
     "README.md",
     "React-Redux.md",
     "React Query.md",
-    "React - Post.md",
     "AWS.md",
-    "open source/Github Guide.md",
-    "TDD - Test.md",
     "gitignore",
-    "open source/admin-template.md",
-    "Kotlin.md",
     "assets/WeChatWorkScreenshot_2bcd86d6-c8a0-47f9-bdbb-22fb3398477a.png",
     "assets/Pasted image 20230322231437.png",
     "assets/Pasted image 20230322131621.png",
