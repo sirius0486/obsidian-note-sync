@@ -21,6 +21,18 @@ alias gl='git log'
 alias grl='git reflog'
 ```
 
+### powershell
+> 如果你想在windows下使用 git别名 除了在 git bash中配置外，也可以为powershell 配置
+
+```powershell
+# 在powershell配置文件中添加以下代码， 如果没有该配置文件可以运行 创建配置文件
+
+
+
+
+
+```
+
 ## npm
 ```sh
 alias start="npm run start"
