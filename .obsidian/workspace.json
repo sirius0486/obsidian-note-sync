@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9a0a1872623b37f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "随笔.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8b4bd5c18b49392c",
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/小满zs-Interview.md",
+                "file": "随笔.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/小满zs-Interview.md",
+                "file": "随笔.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/小满zs-Interview.md"
+                "file": "随笔.md"
               }
             }
           },
@@ -167,11 +180,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,10 +198,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e76f947c6f4887f",
+  "active": "1f80e52afda2c7ec",
   "lastOpenFiles": [
-    "notes/fe-interview-2023.md",
     "notes/小满zs-Interview.md",
+    "随笔.md",
+    "notes/fe-interview-2023.md",
     "notes/Vue-Interview.md",
     "notes/工具插件集合.md",
     "fp-ts.md",
@@ -217,7 +232,6 @@
     "README.md",
     "React-Redux.md",
     "React Query.md",
-    "AWS.md",
     "gitignore",
     "assets/WeChatWorkScreenshot_2bcd86d6-c8a0-47f9-bdbb-22fb3398477a.png",
     "assets/Pasted image 20230322231437.png",
