@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "随笔.md",
+                "file": "English - Corner.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "随笔.md",
+                "file": "English - Corner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "随笔.md",
+                "file": "English - Corner.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "随笔.md"
+                "file": "English - Corner.md"
               }
             }
           },
@@ -198,10 +198,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1f80e52afda2c7ec",
+  "active": "9a0a1872623b37f2",
   "lastOpenFiles": [
     "notes/小满zs-Interview.md",
-    "随笔.md",
+    "English - Corner.md",
     "notes/fe-interview-2023.md",
     "notes/Vue-Interview.md",
     "notes/工具插件集合.md",
