@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8b4bd5c18b49392c",
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "English - Corner.md",
+                "file": "notes/小满zs-Interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "English - Corner.md",
+                "file": "notes/小满zs-Interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "English - Corner.md"
+                "file": "notes/小满zs-Interview.md"
               }
             }
           },
@@ -184,7 +183,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,10 +197,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9a0a1872623b37f2",
+  "active": "3e76f947c6f4887f",
   "lastOpenFiles": [
-    "notes/小满zs-Interview.md",
     "English - Corner.md",
+    "notes/小满zs-Interview.md",
     "notes/fe-interview-2023.md",
     "notes/Vue-Interview.md",
     "notes/工具插件集合.md",
