@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS.md",
+                "file": "阅读链接.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阅读链接.md",
+                "file": "Learning Resource.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,15 +183,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2dbf1d013d364b6d",
+  "active": "cfb10c12540fb1b8",
   "lastOpenFiles": [
     "AWS.md",
+    "Learning Resource.md",
     "阅读链接.md",
     "Kotlin.md",
     "open source/Github Guide.md",
     "English - Corner.md",
     "fp-ts.md",
-    "Learning Resource.md",
     "Front-end Roadmap.md",
     "notes/Vue-Interview.md",
     "RxJs.md",

@@ -8,6 +8,7 @@
 
 > React learning resources
 - https://react.gg/?s=visualized
+- https://react.gg/visualized
 
 > Vue  learning resources
 https://vuejs.org/
