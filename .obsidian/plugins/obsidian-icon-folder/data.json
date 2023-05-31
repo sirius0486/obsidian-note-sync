@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "📓",
       "RiFilePdfFill",
       "RiCharacterRecognitionFill",
       "PeJs",
-      "RiEnglishInput",
-      "📚"
+      "RiEnglishInput"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -79,5 +79,6 @@
   "English - Corner.md": "RiEnglishInput",
   "Front-end Roadmap.md": "PeJs",
   "金句.md": "RiCharacterRecognitionFill",
-  "PDF": "RiFilePdfFill"
+  "PDF": "RiFilePdfFill",
+  "知识整理归纳.md": "📓"
 }
