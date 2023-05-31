@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiCharacterRecognitionFill",
       "PeJs",
       "RiEnglishInput",
       "📚",
-      "PeVscode",
-      "RiNpmjsFill"
+      "PeVscode"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -77,5 +77,6 @@
   "Learning Resource.md": "📚",
   "阅读链接.md": "📚",
   "English - Corner.md": "RiEnglishInput",
-  "Front-end Roadmap.md": "PeJs"
+  "Front-end Roadmap.md": "PeJs",
+  "金句.md": "RiCharacterRecognitionFill"
 }

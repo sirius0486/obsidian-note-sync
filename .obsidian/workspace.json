@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "58d9a66be113f6c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "金句.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2dbf1d013d364b6d",
             "type": "leaf",
             "state": {
@@ -185,9 +197,11 @@
   },
   "active": "cfb10c12540fb1b8",
   "lastOpenFiles": [
-    "AWS.md",
+    "英语单词- develop.md",
     "Learning Resource.md",
+    "金句.md",
     "阅读链接.md",
+    "AWS.md",
     "Kotlin.md",
     "open source/Github Guide.md",
     "English - Corner.md",
@@ -200,7 +214,6 @@
     "TypeScript - React.md",
     "type-challenges.md",
     "TDD - Test.md",
-    "英语单词- develop.md",
     "notes/小满zs-Interview.md",
     "notes/fe-interview-2023.md",
     "notes/工具插件集合.md",
@@ -212,7 +225,6 @@
     "Git/Git commit规范.md",
     "Git/Git 学习资源.md",
     "Git/Git 常见问题.md",
-    "Git/Git撤销文件修改.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "session",
