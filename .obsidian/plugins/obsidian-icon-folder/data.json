@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiEnglishInput",
       "📚",
       "PeVscode",
       "RiNpmjsFill",
-      "PeReact",
-      "PeVue"
+      "PeReact"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -74,5 +74,7 @@
   "notes/npm镜像设置.md": "RiNpmjsFill",
   "notes/小满zs-Interview.md": "PeJs",
   "notes/工具插件集合.md": "PeVscode",
-  "Learning Resource.md": "📚"
+  "Learning Resource.md": "📚",
+  "阅读链接.md": "📚",
+  "English - Corner.md": "RiEnglishInput"
 }

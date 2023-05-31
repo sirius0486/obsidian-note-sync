@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning Resource.md",
+                "file": "阅读链接.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning Resource.md",
+                "file": "阅读链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning Resource.md",
+                "file": "阅读链接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning Resource.md"
+                "file": "阅读链接.md"
               }
             }
           },
@@ -209,10 +209,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cfb10c12540fb1b8",
+  "active": "1406b7c5eaa064e8",
   "lastOpenFiles": [
-    "阅读链接.md",
     "Learning Resource.md",
+    "阅读链接.md",
     "fp-ts.md",
     "notes/Vue-Interview.md",
     "Kotlin.md",
