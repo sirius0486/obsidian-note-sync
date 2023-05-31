@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "cfb10c12540fb1b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning Resource.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9a0a1872623b37f2",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读链接.md",
+                "file": "Learning Resource.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读链接.md",
+                "file": "Learning Resource.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读链接.md"
+                "file": "Learning Resource.md"
               }
             }
           },
@@ -197,10 +209,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "61c2544dc47c8530",
+  "active": "cfb10c12540fb1b8",
   "lastOpenFiles": [
-    "fp-ts.md",
     "阅读链接.md",
+    "Learning Resource.md",
+    "fp-ts.md",
     "notes/Vue-Interview.md",
     "Kotlin.md",
     "RxJs.md",
@@ -228,7 +241,6 @@
     "未命名 1.canvas",
     "session/universe.md",
     "session/vite.md",
-    "session/package Manager.md",
     "session",
     "assets/WeChatWorkScreenshot_3bf77cdd-315b-4381-8ab6-e46a5bfd7bfd.png",
     "gitignore",
