@@ -341,3 +341,8 @@ Synthetics 的测试脚本可以使用 JavaScript 和 Python 语言编写，用�
 • 使用SNS：发布/订阅模型
 
 • 使用Kinesis：实时流模型
+
+
+
+
+## Serveless

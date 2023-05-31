@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3e76f947c6f4887f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fp-ts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61c2544dc47c8530",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learning Resource.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cfb10c12540fb1b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阅读链接.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a0a1872623b37f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "English - Corner.md",
+                "file": "Kotlin.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning Resource.md",
+                "file": "Kotlin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning Resource.md",
+                "file": "Kotlin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning Resource.md"
+                "file": "Kotlin.md"
               }
             }
           },
@@ -191,12 +154,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,17 +171,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "61c2544dc47c8530",
+  "active": "cfb10c12540fb1b8",
   "lastOpenFiles": [
+    "AWS.md",
+    "open source/Github Guide.md",
+    "English - Corner.md",
     "阅读链接.md",
-    "Front-end Roadmap.md",
-    "Learning Resource.md",
     "fp-ts.md",
+    "Learning Resource.md",
+    "Front-end Roadmap.md",
     "notes/Vue-Interview.md",
     "Kotlin.md",
     "RxJs.md",
     "README.md",
-    "English - Corner.md",
     "English Template.md",
     "TypeScript - React.md",
     "type-challenges.md",
@@ -237,10 +201,8 @@
     "Git/Git 学习资源.md",
     "Git/Git 常见问题.md",
     "Git/Git撤销文件修改.md",
-    "Git/GIt常见命令和原理.md",
     "未命名.canvas",
     "未命名 1.canvas",
-    "session/universe.md",
     "session",
     "assets/WeChatWorkScreenshot_3bf77cdd-315b-4381-8ab6-e46a5bfd7bfd.png",
     "gitignore",
