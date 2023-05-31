@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "金句.md",
+                "file": "English Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识整理归纳.md",
+                "file": "English Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识整理归纳.md",
+                "file": "English Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识整理归纳.md"
+                "file": "English Template.md"
               }
             }
           },
@@ -208,11 +207,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "35d0af9d8b53d15f",
+  "active": "cfb10c12540fb1b8",
   "lastOpenFiles": [
     "金句.md",
-    "阅读链接.md",
     "知识整理归纳.md",
+    "阅读链接.md",
     "Learning Resource.md",
     "PDF/P8大佬的算法解题笔记.pdf",
     "PDF/2023前端王修炼手册.pdf",
