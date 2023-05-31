@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "金句.md",
+                "file": "Learning Resource.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "金句.md",
+                "file": "Learning Resource.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "金句.md"
+                "file": "Learning Resource.md"
               }
             }
           },
@@ -195,10 +196,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cfb10c12540fb1b8",
+  "active": "2dbf1d013d364b6d",
   "lastOpenFiles": [
-    "阅读链接.md",
     "金句.md",
+    "阅读链接.md",
     "PDF/P8大佬的算法解题笔记.pdf",
     "PDF/2023前端王修炼手册.pdf",
     "PDF/AWS Certified Solutions Architect Slides v15.pdf",
