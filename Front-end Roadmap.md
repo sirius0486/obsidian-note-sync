@@ -45,10 +45,19 @@
 
 react/ vue + npm/yarn/pnpm  + webpack/vite
 
+学习时长: 1个月+  (入门)    +∞(进阶,源码)
+学习难度: 五颗星
+
 ## stage 4 
 > TypeScript
 
 typescript   (rx.js)
 
+学习时长: 1个月+  (入门)    +∞(进阶,源码)
+学习难度: 五颗星
+
 ## stage 5  
 node.js  + express / koa / nest.js / next.js / nuxt.js 
+
+学习时长: 1个月+  (入门)    +∞(进阶,源码)
+学习难度: 五颗星
