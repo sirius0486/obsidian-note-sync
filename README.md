@@ -78,7 +78,7 @@ export default Projects;
 
 ## 维护者
 
-- [lavard](https://github.com/lalalavard)
+- [keqing](https://github.com/keqing77)
 
 ## 协议
 
@@ -88,8 +88,8 @@ export default Projects;
 
 ### 前端
 - [x] Next.js
-- [ ] React Query  
-- [ ] React-redux
+- [ ] React Query.  (也许RSC 并不需要 服务端状态管理了)  
+- [ ] React-redux   (抛弃redux， 选择 zustand / jotai )
 - [ ] React Router
 
 ### 后端
