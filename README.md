@@ -98,7 +98,7 @@ export default Projects;
 - [ ] JPA
 - [ ] PostgreSQL
 - [ ] Spring Security
-- [ ] Nest.js
+- [ ] Nest.js / TRPC
 - [ ] TypeOrm or Prisma.js
 
 ### Git
@@ -111,3 +111,4 @@ export default Projects;
 - [ ] 摄影技巧
 - [ ] 剪辑技巧
 - [ ] 时间管理
+- [ ] 理财
