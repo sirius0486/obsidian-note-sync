@@ -9,17 +9,27 @@
 ## stage 1   
 > HTML + CSS
 
-这个阶段是前端梦开始的地方，是准备踏入前端殿堂的第一道槛， 
+### 切图仔
 
+这个阶段是前端梦开始的地方，是准备踏入前端殿堂的第一道槛， 这个阶段你需要掌握基本的HTML标签用法和了解每个标签的功能和属性，同时会使用CSS为网站添加样式，能够实现响应式伸缩的静态网页， 如果你走过了这个阶段，那么你可以获得一份月薪3000的切图仔工作，能够根据PSD/XD/
+
+
+
+### 学习时长:
+
+### 学习难度:  1颗星
 
 ## stage 2  
 > JavaScript 核心语法 + ES6
 
 ## stage 3   
 > 一门JS框架 
+
 react/ vue + npm/yarn/pnpm  + webpack/vite
 
 ## stage 4 
+> TypeScript
+
 typescript   (rx.js)
 
 ## stage 5  
