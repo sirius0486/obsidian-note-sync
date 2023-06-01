@@ -40,7 +40,7 @@
 
 学习时长: 2 ~ 3 个月
 学习难度: 五颗星
-
+检验标准：使用JavaScript完成一个代办清单的应用开发， 或者给阶段一编写的页面添加JS交互
 
 
 ## stage 3   
@@ -52,6 +52,7 @@ react/ vue + npm/yarn/pnpm  + webpack/vite
 
 学习时长: 1个月+  (入门)    +∞(进阶,源码)
 学习难度: 五颗星
+检验标准：使用JavaScript完成一个代办清单的应用开发， 或者给阶段一编写的页面添加JS交互
 
 ## stage 4 
 > TypeScript
@@ -60,9 +61,11 @@ typescript   (rx.js)
 
 学习时长: 1个月+  (入门)    +∞(进阶,源码)
 学习难度: 五颗星
+检验标准：分别使用TypeScript 和 TypeScript + 某前端框架 完成一个代办清单的应用开发，尝试解决 类型体操 简单难度题目
 
 ## stage 5  
 node.js  + express / koa / nest.js / next.js / nuxt.js 
 
 学习时长: 1个月+  (入门)    +∞(进阶,源码)
 学习难度: 五颗星
+检验标准：完成一个前后端分离的项目开发， 可以是xx后台管理， xx博客，项目类型无所谓，重点是运用这些技术
