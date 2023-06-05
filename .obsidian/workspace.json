@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识整理归纳.md",
+                "file": "阅读链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识整理归纳.md",
+                "file": "阅读链接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识整理归纳.md"
+                "file": "阅读链接.md"
               }
             }
           },
@@ -183,12 +184,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2dbf1d013d364b6d",
+  "active": "449113bfc57bbbf3",
   "lastOpenFiles": [
+    "知识整理归纳.md",
     "阅读链接.md",
     "金句.md",
     "README.md",
-    "知识整理归纳.md",
     "Front-end Roadmap.md",
     "Learning Resource.md",
     "English Template.md",
