@@ -63,7 +63,6 @@
   "open source/admin-template.md": "PeReact",
   "session": "RiCodepenLine",
   "curl.md": "RiDownloadCloudFill",
-  "English Template.md": "RiEnglishInput",
   "fp-ts.md": "PeTs",
   "RxJs.md": "PeTs",
   "type-challenges.md": "PeTs",
@@ -76,9 +75,11 @@
   "notes/工具插件集合.md": "PeVscode",
   "Learning Resource.md": "📚",
   "阅读链接.md": "📚",
-  "English - Corner.md": "RiEnglishInput",
   "Front-end Roadmap.md": "PeJs",
   "金句.md": "RiCharacterRecognitionFill",
   "PDF": "RiFilePdfFill",
-  "知识整理归纳.md": "📓"
+  "知识整理归纳.md": "📓",
+  "English/English - Corner.md": "RiEnglishInput",
+  "English": "RiEnglishInput",
+  "English/English Template.md": "RiEnglishInput"
 }
