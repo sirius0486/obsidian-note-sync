@@ -505,7 +505,7 @@ Anthony's VS Code Settings
 		"})"
 		],
 		"description": "test snapshot body"
-	},
+	}
 }
 ```
 
