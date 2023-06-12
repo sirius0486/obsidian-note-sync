@@ -196,3 +196,32 @@ git revert是用一次逆向的commit“中和”之前的提交，因此日后�
 -   `pre-commit` 就是在代码提交之前做些东西，比如代码打包，代码检测，称之为钩子（hook）
 -   在 commit 之前执行一个函数（callback）。这个函数成功执行完之后，再继续 commit，但是失败之后就阻止 commit
 -   在 .git->hooks->下面有个 pre-commit.sample* ，这个里面就是默认的函数(脚本)样本
+
+### 清空所有commit信息
+> 有时候Git不小心将一些敏感信息提交，所以需要删除提交记录以彻底清除提交信息，以得到一个干净的仓库且代码不变
+
+1. 删除 `.git` 文件夹 重新 `git init`  , 最后 `git push -f` 覆盖
+	- 如果项目有多个分支，请慎用这种方法，因为还原成本很高！
+2. 新建分支然后覆盖原分支
+```bash
+# 1. Checkout
+git checkout --orphan new_branch
+
+# 2. Add all the files
+git add .
+
+# 3. Commit the changes
+git commit -am "commit message"
+
+# 4. Delete the branch
+git branch -D main
+
+# 5. Rename the current branch to main
+git branch -m main
+
+# 6. Force update your repository
+git push -f origin main
+```
+
+
+### 修改之前commit的author name
