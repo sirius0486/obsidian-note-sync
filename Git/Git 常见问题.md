@@ -225,3 +225,20 @@ git push -f origin main
 
 
 ### 修改之前commit的author name
+
+```bash
+# 使用 --amend 来修改最近的commit
+git commit --amend --author="John Doe <john@doe.org>"
+
+# 使用 git rebase -i Head^{commit_number} 来修改多个 commit
+
+git rebase -i HEAD^{commit_number}
+
+# 将 pick 修改为 Edit
+# 逐个修改
+
+
+```
+ git rebase --continue
+
+```
