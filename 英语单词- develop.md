@@ -75,3 +75,5 @@ compatible 兼容的
 - NBD:     No big deal            …没什么大不了的
 - IM:      Instant Message   即时消息
 - LMK:  Let me know 让我知道 / 告诉我
+- N/A：Not Applicable  不适用
+- OMW:  On my way  在路上
