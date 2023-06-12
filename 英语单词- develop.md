@@ -73,4 +73,5 @@ compatible 兼容的
 - FAQ： Frequently Asked Question  常见问题
 - NSFW：  Not Safe For Work  不适用于工作场所
 - NBD:     No big deal            …没什么大不了的
-- IM:      Instant Message 即时消息
+- IM:      Instant Message   即时消息
+- LMK:  Let me know 让我知道 / 告诉我
