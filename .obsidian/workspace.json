@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读链接.md",
+                "file": "知识整理归纳.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读链接.md",
+                "file": "知识整理归纳.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读链接.md"
+                "file": "知识整理归纳.md"
               }
             }
           },
@@ -184,11 +183,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3cfba299efaeeb82",
+  "active": "2dbf1d013d364b6d",
   "lastOpenFiles": [
+    "阅读链接.md",
     "知识整理归纳.md",
     "金句.md",
-    "阅读链接.md",
     "English/English - Corner.md",
     "English/English Template.md",
     "English",
