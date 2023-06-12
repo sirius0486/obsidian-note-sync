@@ -74,4 +74,11 @@ compatible 兼容的
 -   TL;DR: Too Long; Didn’t Read. 太长懒得看。也有很多文档在做简略描述之前会写这么一句
 -   TBD: To Be Done(or Defined/Discussed/Decided/Determined).  
     根据语境不同意义有所区别，但一般都是还没搞定的意思
--  FYI： 
+-  FYI： For your Information  让你知道一下 / 供你参考
+- CC：  Carbon copy  抄送
+- OOO:  Out of Office   不上班 不在办公室
+- PS:  postscript   附言
+- ASAP： As soon as possible  尽快
+- NRN： Not reply Necessary   
+- FAQ： Frequently Asked Question  常见问题
+- NSFW：  Not Safe For Work  bu
