@@ -237,8 +237,7 @@ git rebase -i HEAD^{commit_number}
 # 将 pick 修改为 Edit
 # 逐个修改
 
+git rebase --continue
 
-```
- git rebase --continue
-
+git push -f
 ```
