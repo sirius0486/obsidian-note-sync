@@ -1,12 +1,13 @@
 ## 单词
 matrix   webinar
 bring to the spring
-phrase
-invokable
+mandatory 强制的
+phrase 短语
+invokable 可调用的
 Explicit Type  显式类型
 Implicit Type  隐式类型
 Concise 简洁的
-companion 
+companion  伴侣
 syntax 语法
 loosely typed / weakly typed    弱类型   
 strongly typed   强类型
@@ -27,8 +28,8 @@ rehearse 排练
 vanity 虚荣
 dignity 尊严
 bypass  
-surpass
-eliminate
+surpass    超过
+eliminate 排除
 less prone to errors.  更不容易出错
 Can I get some ketchup?  我能点些番茄酱吗？
 Can I get a little more lettuce, please?  可以请你再多给我一些生菜吗？
