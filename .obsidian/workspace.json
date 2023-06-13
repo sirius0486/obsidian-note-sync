@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阅读链接.md",
+                "file": "Git/Git commit规范.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读链接.md",
+                "file": "Git/Git commit规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读链接.md",
+                "file": "Git/Git commit规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读链接.md"
+                "file": "Git/Git commit规范.md"
               }
             }
           },
@@ -198,9 +198,11 @@
   },
   "active": "3cfba299efaeeb82",
   "lastOpenFiles": [
-    "TypeScript - React.md",
+    "Git/GIt常见命令和原理.md",
+    "Git/Git撤销文件修改.md",
     "知识整理归纳.md",
     "阅读链接.md",
+    "TypeScript - React.md",
     "英语单词- develop.md",
     "Git/Git 常见问题.md",
     "金句.md",
@@ -228,8 +230,6 @@
     "type-challenges.md",
     "notes/小满zs-Interview.md",
     "notes/fe-interview-2023.md",
-    "notes/工具插件集合.md",
-    "notes/React-Interview.md",
     "notes/Vue - interview",
     "React-Router/未命名.canvas",
     "未命名.canvas",
