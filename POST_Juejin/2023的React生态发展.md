@@ -1,5 +1,6 @@
 ---
 highlight: atom-one-dark
+theme: condensed-night-purple
 ---
 > 原文链接 🔗 [The React Ecosystem in 2023](https://www.builder.io/blog/react-js-in-2023)
 
@@ -400,6 +401,14 @@ export default function App() {
 
 虽然`React`源码是使用`Flow`， 但是我相信大多数人开发React应用添加类型检查首选都是`TypeScript`
 
+> 个人顺道分享一些觉得质量不错的 `TypeScript` 学习 & 练习 资源
+- [handbook](https://www.typescriptlang.org/docs/handbook/intro.html)  TS 官方手册
+- [type-challenges]() TS 类型体操
+- [Type-Level TypeScript](https://type-level-typescript.com/) 通过做题来学TS
+- [TypeScript on Exercism](https://exercism.org/tracks/typescript) 类似 LeetCode 做题学 TS
+- [learn.microsoft.com](https://learn.microsoft.com/zh-cn/training/browse/?terms=typescript) 微软官方出品的TS教程
+
+
 ## 文档生成器
 
 文档是任何软件项目的重要组成部分。对于创建文档应用程序，[Docusaurus](https://docusaurus.io/) 是一个非常好的选择。当然，您也可以使用 [Next.js]() 和类似 [Nextra](https://nextra.site/) 的库。
@@ -437,6 +446,3 @@ Meta React相关的开源项目几乎所有文档都是用 [Docusaurus](https://
 -   [**react-dropzone**](https://react-dropzone.js.org/) 用于文件上传
 
 
-## 结论
-
-React生态系统在2023年继续快速发展和增长，提供了许多优秀的工具和库来构建高质量的React应用程序。无论您是刚开始使用React还是经验丰富的React开发人员，都有许多选项可帮助您保持高效并构建出色的用户体验。
