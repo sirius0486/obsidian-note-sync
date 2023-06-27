@@ -30,23 +30,21 @@ const rca = [
 | sourceRecord     |   ✅  | has `sourceRecord` in DB            |
 
 
-test_email : lkay2333+dev1@gmail.com
+test_email : lkay2333+dev@gmail.com
 
 ### pre data
 
 ```ts
+// sourceRecord in DB
 sourceRecord: {
 	source_name: rca
 	source_id_: 8b88dcae-2e84-4989-bd59-9d517a00d5e5 
-	email_or_lockeId: E:lkay2333+dev1@gmail.com
+	email_or_lockeId: E:lkay2333+dev@gmail.com
 }
 
 // auth0 users
 app_meatadata {
-	lockeId: 666666,
-	// hasSourceChecked:{
-	//    rca: undefined
-    // }
+	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
 }
 
 ```
@@ -69,7 +67,7 @@ app_meatadata {
 - [ ]  no match `source_name`  -> no match `client_id`
 
 
-test_email : lkay2333+dev1@gmail.com
+test_email : lkay2333+dev@gmail.com
 
 ### pre data
 
@@ -80,10 +78,7 @@ sourceRecord: {
 
 // auth0 users
 app_meatadata {
-	lockeId: 666666,
-	// hasSourceChecked:{
-	//    rca: undefined
-    // }
+	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
 }
 
 ```
@@ -102,7 +97,7 @@ app_meatadata {
 | hasSourceChecked |   ✅  | have checked `hasSourceChecked` before |
 | sourceRecord     |  ✅  | have `sourceRecord` in DB         |
 
-test_email : lkay2333+dev1@gmail.com
+test_email : lkay2333+dev@gmail.com
 
 ### pre data
 
@@ -137,7 +132,7 @@ app_meatadata {
 | hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
 | sourceRecord     |   ❌ | does not have `sourceRecord` in DB         |
 
-test_email : lkay2333+not_exist@gmail.com
+test_email : lkay2333+dev@gmail.com
 
 ### pre data
 
@@ -180,7 +175,7 @@ app_meatadata {
 | Encounter a error when getSourceRecord     |   ❌ | deploy `aws-bridge` older version , endpoint didn't exist, would throw error         |
 
 
-test_email : lkay2333+not_exist@gmail.com
+test_email : test_email : lkay2333+dev@gmail.com
 
 ### pre data
 
