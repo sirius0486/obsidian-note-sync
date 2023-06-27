@@ -57,6 +57,38 @@ app_meatadata {
 
 ### pre condition 
 
+- [ ]  no match `source_name`  -> 
+
+test_email : lkay2333+dev1@gmail.com
+
+### pre data
+
+```ts
+sourceRecord: {
+	source_name: rca_not_existed
+	source_id_: 8b88dcae-2e84-4989-bd59-9d517a00d5e5 
+	email_or_lockeId: E:lkay2333+dev1@gmail.com
+}
+
+// auth0 users
+app_meatadata {
+	lockeId: 666666,
+	// hasSourceChecked:{
+	//    rca: undefined
+    // }
+}
+
+```
+
+### output
+ - [ ] updated sourceInfo in token  
+ - [ ] set sourceChecked like     `app_meatadata { rca: true }`
+ - [ ]  update email to lockeId  `email_or_lockeId`
+
+## case3
+
+### pre condition 
+
 - [ ]  login as a `rca` users
  - [ ] has checked `hasSourceChecked` before
  - [ ] has `sourceRecord` in DB
@@ -86,7 +118,7 @@ app_meatadata {
  - [ ] should not include `sourceInfo` in token  
 
 
-## case3
+## case4
 
 ### pre condition 
 
@@ -126,7 +158,7 @@ app_meatadata {
 ```
 
 
-## case4
+## case5
 
 ### pre condition 
 
