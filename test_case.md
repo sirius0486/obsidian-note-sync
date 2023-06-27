@@ -105,12 +105,12 @@ test_email : lkay2333+dev@gmail.com
 sourceRecord: {
 	source_name: rca
 	source_id_: 8b88dcae-2e84-4989-bd59-9d517a00d5e5 
-	email_or_lockeId: L: 666666
+	email_or_lockeId: L:54373d21-7a2d-56e6-9d2e-afaac50df33f
 }
 
 // auth0 users
 app_meatadata {
-	lockeId: 666666,
+	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
     hasSourceChecked:{
 	    rca: true
     }
@@ -138,16 +138,12 @@ test_email : lkay2333+dev@gmail.com
 
 ```ts
 sourceRecord: {
-	// empty
+
 }
 
 // auth0 users
 app_meatadata {
-	lockeId: 666666,
-     // empty
-    //hasSourceChecked:{
-	
-    //}
+	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
 }
 
 ```
@@ -157,6 +153,7 @@ app_meatadata {
  - [ ]  only need to set `hasSourceChecked to true` like :
 ```ts
 app_meatadata {
+	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
     hasSourceChecked:{
 		rca: true
     }
@@ -180,11 +177,13 @@ test_email : test_email : lkay2333+dev@gmail.com
 ### pre data
 
 ```ts
+sourceRecord: {
+
+}
 
 // auth0 users
 app_meatadata {
-	lockeId: 666666,
-    
+	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
     hasSourceChecked:{
 	
     }
