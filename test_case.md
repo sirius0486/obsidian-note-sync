@@ -126,13 +126,14 @@ app_meatadata {
 ```
 
 
-## case3
+## case4
 
 ### pre condition 
 
 - [ ]  login as a `rca` users
-- [ ]  doesn't have checked `hasSourceChecked` before
-- [ ]  doesn't have `sourceRecord` in DB
+- [ ]  haven't checked `hasSourceChecked` before
+- [ ]  have `sourceRecord` in DB
+- [ ]  face error when get source record ( deploy older version , endpoint didn't exist)
 
 test_email : lkay2333+not_exist@gmail.com
 
@@ -140,7 +141,9 @@ test_email : lkay2333+not_exist@gmail.com
 
 ```ts
 sourceRecord: {
-	// empty
+	source_name: rca
+	source_id_: 8b88dcae-2e84-4989-bd59-9d517a00d5e5 
+	email_or_lockeId: L: 666666
 }
 
 // auth0 users
@@ -155,12 +158,6 @@ app_meatadata {
 ```
 
 ### output
- - [ ]  should not include `SourceInfo` in token
- - [ ]  only need to set `hasSourceChecked to true` like :
-```ts
-app_meatadata {
-    hasSourceChecked:{
-		rca: true
-    }
-}
-```
+ - [ ]  throw error 
+ - [ ]  should  include `SourceInfo` in token
+ - [ ]  set  `email_or_lockeId` to lockeId
