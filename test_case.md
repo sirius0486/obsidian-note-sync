@@ -132,32 +132,52 @@ app_meatadata {
 
 - [ ]  login as a `rca` users
 - [ ]  haven't checked `hasSourceChecked` before
-- [ ]  have `sourceRecord` in DB
-- [ ]  face error when get source record ( deploy older version , endpoint didn't exist)
+- [ ]  face error when get source record ( deploy `aws-bridge` older version , endpoint didn't exist, would throw error )
 
 test_email : lkay2333+not_exist@gmail.com
 
 ### pre data
 
 ```ts
-sourceRecord: {
-	source_name: rca
-	source_id_: 8b88dcae-2e84-4989-bd59-9d517a00d5e5 
-	email_or_lockeId: L: 666666
-}
 
 // auth0 users
 app_meatadata {
 	lockeId: 666666,
-     // empty
-    //hasSourceChecked:{
+    
+    hasSourceChecked:{
 	
-    //}
+    }
 }
 
 ```
 
 ### output
  - [ ]  throw error 
- - [ ]  should  include `SourceInfo` in token
- - [ ]  set  `email_or_lockeId` to lockeId
+
+## case5
+
+### pre condition 
+
+- [ ]  login as a `rca` users
+- [ ]  haven't checked `hasSourceChecked` before
+- [ ]  face error when get source record ( deploy `aws-bridge` older version , endpoint didn't exist, would throw error )
+
+test_email : lkay2333+not_exist@gmail.com
+
+### pre data
+
+```ts
+
+// auth0 users
+app_meatadata {
+	lockeId: 666666,
+    
+    hasSourceChecked:{
+	
+    }
+}
+
+```
+
+### output
+ - [ ]  throw error 
