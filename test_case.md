@@ -51,13 +51,13 @@ app_meatadata {
 ### output
  - [ ] updated sourceInfo in token  
  - [ ] set sourceChecked like     `app_meatadata { rca: true }`
- - [ ]  update email to lockeId  `email_or_lockeId`
+ - [ ] update email to lockeId  `email_or_lockeId`
 
 ## case2
 
 ### pre condition 
 
-- [ ]  no match `source_name`  -> 
+- [ ]  no match `source_name`  -> no match `client_id`
 
 test_email : lkay2333+dev1@gmail.com
 
@@ -81,9 +81,8 @@ app_meatadata {
 ```
 
 ### output
- - [ ] updated sourceInfo in token  
- - [ ] set sourceChecked like     `app_meatadata { rca: true }`
- - [ ]  update email to lockeId  `email_or_lockeId`
+ - [ ] should not include `SourceInfo` in token  
+
 
 ## case3
 
