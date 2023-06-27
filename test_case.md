@@ -19,10 +19,15 @@ const rca = [
 ]
 ```
 
-## user1
+## case1
 
 ### pre condition 
-login as a `rca users`  which `has sourceRecord in DB` & `haven't check before`
+
+ - [ ] login as a `rca` users
+ - [ ] haven't checked hasSourceChecked before
+ - [ ] has sourceRecord in DB
+
+test_email : lkay2333+dev1@gmail.com
 
 ### pre data
 
@@ -48,10 +53,15 @@ app_meatadata {
  - [ ] set sourceChecked like     `app_meatadata { rca: true }`
  - [ ]  update email to lockeId  `email_or_lockeId`
 
-## user2
+## case2
 
 ### pre condition 
-login as a `rca users`  which `has sourceRecord in DB` & `have check before`
+
+- [ ]  login as a `rca` users
+ - [ ] has checked hasSourceChecked before
+ - [ ] has sourceRecord in DB
+
+test_email : lkay2333+dev1@gmail.com
 
 ### pre data
 
@@ -74,15 +84,17 @@ app_meatadata {
 
 ### output
  - [ ] should not include `sourceInfo` in token  
- - [ ] `email_or_lockeId`  already updated to lockeId 
 
 
-## user3
+## case3
 
 ### pre condition 
-login as a `rca users`  which `doesn't has sourceRecord in DB` & `have check before`
 
-test_email : lkay2333+
+- [ ]  login as a `rca` users
+- [ ]  - [ ] doesn't have sourceRecord in DB
+ - [ ] doesn't have checked hasSourceChecked before
+
+test_email : lkay2333+not_exist@gmail.com
 
 ### pre data
 
@@ -103,5 +115,4 @@ app_meatadata {
 ```
 
 ### output
- - [ ] should not include `sourceInfo` in token  
- - [ ] `email_or_lockeId`  already updated to lockeId 
+ - [ ] 
