@@ -24,8 +24,8 @@ const rca = [
 ### pre condition 
 
  - [ ] login as a `rca` users
- - [ ] haven't checked hasSourceChecked before
- - [ ] has sourceRecord in DB
+ - [ ] haven't checked `hasSourceChecked` before
+ - [ ] has `sourceRecord` in DB
 
 test_email : lkay2333+dev1@gmail.com
 
@@ -58,8 +58,8 @@ app_meatadata {
 ### pre condition 
 
 - [ ]  login as a `rca` users
- - [ ] has checked hasSourceChecked before
- - [ ] has sourceRecord in DB
+ - [ ] has checked `hasSourceChecked` before
+ - [ ] has `sourceRecord` in DB
 
 test_email : lkay2333+dev1@gmail.com
 
@@ -91,8 +91,8 @@ app_meatadata {
 ### pre condition 
 
 - [ ]  login as a `rca` users
-- [ ]  - [ ] doesn't have sourceRecord in DB
- - [ ] doesn't have checked hasSourceChecked before
+- [ ]  doesn't have checked `hasSourceChecked` before
+- [ ]  doesn't have `sourceRecord` in DB
 
 test_email : lkay2333+not_exist@gmail.com
 
@@ -115,4 +115,52 @@ app_meatadata {
 ```
 
 ### output
- - [ ] 
+ - [ ]  should not include `SourceInfo` in token
+ - [ ]  only need to set `hasSourceChecked to true` like :
+```ts
+app_meatadata {
+    hasSourceChecked:{
+		rca: true
+    }
+}
+```
+
+
+## case3
+
+### pre condition 
+
+- [ ]  login as a `rca` users
+- [ ]  doesn't have checked `hasSourceChecked` before
+- [ ]  doesn't have `sourceRecord` in DB
+
+test_email : lkay2333+not_exist@gmail.com
+
+### pre data
+
+```ts
+sourceRecord: {
+	// empty
+}
+
+// auth0 users
+app_meatadata {
+	lockeId: 666666,
+     // empty
+    //hasSourceChecked:{
+	
+    //}
+}
+
+```
+
+### output
+ - [ ]  should not include `SourceInfo` in token
+ - [ ]  only need to set `hasSourceChecked to true` like :
+```ts
+app_meatadata {
+    hasSourceChecked:{
+		rca: true
+    }
+}
+```
