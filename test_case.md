@@ -25,7 +25,7 @@ const rca = [
 
 
 
-| Syntax      | Description | Test Text     |
+| Conditio      | statua | Description     |
 | :---        |    :----:   |          ---: |
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      |
