@@ -64,7 +64,7 @@ app_meatadata {
 |:---------------- |:------:| -----------:|
 | sourceName       |   ❌   | no match `source_name` |
 | hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
-| sourceRecord     |  ❌  | has `sourceRecord` in DB            |
+| sourceRecord     |  ❌  |          |
 
 - [ ]  no match `source_name`  -> no match `client_id`
 
