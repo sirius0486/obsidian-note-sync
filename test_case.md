@@ -64,9 +64,10 @@ app_meatadata {
 |:---------------- |:------:| -----------:|
 | sourceName       |   ❌   | no match `source_name` |
 | hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
-| sourceRecord     |  ❌  |          |
+| sourceRecord     |  ❌  | can find sourceRecord         |
 
 - [ ]  no match `source_name`  -> no match `client_id`
+
 
 test_email : lkay2333+dev1@gmail.com
 
@@ -95,9 +96,11 @@ app_meatadata {
 
 ### pre condition 
 
-- [ ]  login as a `rca` users
- - [ ] has checked `hasSourceChecked` before
- - [ ] has `sourceRecord` in DB
+| Condition        | Status | Description |
+|:---------------- |:------:| -----------:|
+| sourceName       |   ✅  | login as a `rca` users|
+| hasSourceChecked |   ✅  | have checked `hasSourceChecked` before |
+| sourceRecord     |  ✅  | have `sourceRecord` in DB         |
 
 test_email : lkay2333+dev1@gmail.com
 
@@ -128,9 +131,11 @@ app_meatadata {
 
 ### pre condition 
 
-- [ ]  login as a `rca` users
-- [ ]  doesn't have checked `hasSourceChecked` before
-- [ ]  doesn't have `sourceRecord` in DB
+| Condition        | Status | Description |
+|:---------------- |:------:| -----------:|
+| sourceName       |   ✅  | login as a `rca` users|
+| hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
+| sourceRecord     |   ❌ | does not have `sourceRecord` in DB         |
 
 test_email : lkay2333+not_exist@gmail.com
 
@@ -171,6 +176,13 @@ app_meatadata {
 - [ ]  login as a `rca` users
 - [ ]  haven't checked `hasSourceChecked` before
 - [ ]  face error when get source record ( deploy `aws-bridge` older version , endpoint didn't exist, would throw error )
+
+| Condition        | Status | Description |
+|:---------------- |:------:| -----------:|
+| sourceName       |   ✅  | login as a `rca` users|
+| hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
+| sourceRecord     |   ❌ | does not have `sourceRecord` in DB         |
+
 
 test_email : lkay2333+not_exist@gmail.com
 
