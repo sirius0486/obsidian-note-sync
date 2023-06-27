@@ -76,10 +76,11 @@ https://vuejs.org/
 
 
 ## UI
+> 6个实现UI设计效果的CSS生成工具
 
-Type scale  
-Happy hues  
-Fontjoy  
-Css peeper  
-Avataaars generator  
-Brumm.af
+1. [Type scale](https://typescale.com/)   - 字体缩放
+2. [Happy hues ](https://www.happyhues.co/)  - 颜色主题配置
+3. [Fontjoy](https://fontjoy.com/)
+4. [Css peeper](https://csspeeper.com/)  
+5. [Avataaars generator](https://getavataaars.com/)  
+6. [Brumm.af](https://shadows.brumm.af/)
