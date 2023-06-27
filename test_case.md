@@ -173,15 +173,11 @@ app_meatadata {
 
 ### pre condition 
 
-- [ ]  login as a `rca` users
-- [ ]  haven't checked `hasSourceChecked` before
-- [ ]  face error when get source record ( deploy `aws-bridge` older version , endpoint didn't exist, would throw error )
-
 | Condition        | Status | Description |
 |:---------------- |:------:| -----------:|
 | sourceName       |   ✅  | login as a `rca` users|
 | hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
-| sourceRecord     |   ❌ | does not have `sourceRecord` in DB         |
+| Encounter a error when getSourceRecord     |   ❌ | deploy `aws-bridge` older version , endpoint didn't exist, would throw error         |
 
 
 test_email : lkay2333+not_exist@gmail.com
