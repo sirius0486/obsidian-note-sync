@@ -80,7 +80,7 @@ https://vuejs.org/
 
 1. [Type scale](https://typescale.com/)   - 字体缩放
 2. [Happy hues ](https://www.happyhues.co/)  - 颜色主题配置
-3. [Fontjoy](https://fontjoy.com/)
-4. [Css peeper](https://csspeeper.com/)  
-5. [Avataaars generator](https://getavataaars.com/)  
-6. [Brumm.af](https://shadows.brumm.af/)
+3. [Fontjoy](https://fontjoy.com/) - 字体生成器
+4. [Css peeper](https://csspeeper.com/)  - 提取CSS 拓展
+5. [Avataaars generator](https://getavataaars.com/)  - 头像生成器
+6. [Brumm.af](https://shadows.brumm.af/) - 阴影生成器
