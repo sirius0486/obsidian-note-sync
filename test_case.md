@@ -64,8 +64,7 @@ app_meatadata {
 | hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
 | sourceRecord     |  ❌  | can find sourceRecord         |
 
-- [ ]  no match `source_name`  -> no match `client_id`
-
+- [ ]  no match `client_id`  -> no match `source_name` 
 
 test_email : lkay2333+dev@gmail.com
 
