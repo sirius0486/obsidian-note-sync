@@ -199,6 +199,8 @@ app_meatadata {
 
 ### pre condition 
 
+rca use  myRea client
+
 | Condition        | Status | Description |
 |:---------------- |:------:| -----------:|
 | sourceName       |   ✅  | login as a `rca` users|
@@ -219,7 +221,7 @@ sourceRecord: {
 app_meatadata {
 	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
     hasSourceChecked:{
-	
+		rca: true
     }
 }
 
