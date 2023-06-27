@@ -23,14 +23,11 @@ const rca = [
 
 ### pre condition 
 
-
-
-| Conditio      | statua | Description     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
-
-
+| Condition        | Status | Description |
+|:---------------- |:------:| -----------:|
+| sourceName       |   ✅  | login as a `rca` users |
+| hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
+| sourceRecord     |   ✅  | has `sourceRecord` in DB            |
 
  - [ ] login as a `rca` users
  - [ ] haven't checked `hasSourceChecked` before
