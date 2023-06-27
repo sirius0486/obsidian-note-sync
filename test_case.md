@@ -199,11 +199,11 @@ app_meatadata {
 
 ### pre condition 
 
-rca use  myRea client
+
 
 | Condition        | Status | Description |
 |:---------------- |:------:| -----------:|
-| sourceName       |   ✅  | login as a `rca` users|
+| sourceName       |   ✅  | login as a `rca` users, rca use  myRea client|
 | hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
 | Encounter a error when getSourceRecord     |   ❌ | deploy `aws-bridge` older version , endpoint didn't exist, would throw error         |
 
@@ -228,4 +228,14 @@ app_meatadata {
 ```
 
 ### output
- - [ ]  throw error 
+ - [ ]  set myRea to true
+```ts
+// auth0 users
+app_meatadata {
+	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
+    hasSourceChecked:{
+		rca: true,
+		myRea: true
+    }
+}
+```
