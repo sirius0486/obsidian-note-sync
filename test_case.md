@@ -27,7 +27,7 @@ login as a `rca users`  which `has sourceRecord in DB` & `haven't check before`
 ### pre data
 
 ```ts
-suorceRecord: {
+sourceRecord: {
 	source_name: rca
 	source_id_: 8b88dcae-2e84-4989-bd59-9d517a00d5e5 
 	email_or_lockeId: E:lkay2333+dev1@gmail.com
@@ -35,8 +35,10 @@ suorceRecord: {
 
 // auth0 users
 app_meatadata {
-	lockeId: 666666
-    rca: undefined
+	lockeId: 666666,
+	// hasSourceChecked:{
+	//    rca: undefined
+    // }
 }
 
 ```
@@ -54,10 +56,10 @@ login as a `rca users`  which `has sourceRecord in DB` & `have check before`
 ### pre data
 
 ```ts
-suorceRecord: {
+sourceRecord: {
 	source_name: rca
 	source_id_: 8b88dcae-2e84-4989-bd59-9d517a00d5e5 
-	email_or_lockeId: E:lkay2333+dev1@gmail.com
+	email_or_lockeId: L: 666666
 }
 
 // auth0 users
@@ -71,6 +73,35 @@ app_meatadata {
 ```
 
 ### output
- - [ ] update email to lockeId `email_or_lockeId`
- - [ ] updated sourceInfo in token  
- - [ ] set sourceChecked like     `app_meatadata { rca: true }`
+ - [ ] should not include `sourceInfo` in token  
+ - [ ] `email_or_lockeId`  already updated to lockeId 
+
+
+## user3
+
+### pre condition 
+login as a `rca users`  which `doesn't has sourceRecord in DB` & `have check before`
+
+test_email : lkay2333+
+
+### pre data
+
+```ts
+sourceRecord: {
+	// empty
+}
+
+// auth0 users
+app_meatadata {
+	lockeId: 666666,
+     // empty
+    //hasSourceChecked:{
+	
+    //}
+}
+
+```
+
+### output
+ - [ ] should not include `sourceInfo` in token  
+ - [ ] `email_or_lockeId`  already updated to lockeId 
