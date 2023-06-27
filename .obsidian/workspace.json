@@ -42,8 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e7b6159b369a42a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test_case.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -117,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识整理归纳.md",
+                "file": "test_case.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识整理归纳.md",
+                "file": "test_case.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识整理归纳.md"
+                "file": "test_case.md"
               }
             }
           },
@@ -195,11 +208,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2dbf1d013d364b6d",
+  "active": "e7b6159b369a42a8",
   "lastOpenFiles": [
-    "英语单词- develop.md",
-    "阅读链接.md",
     "知识整理归纳.md",
+    "test_case.md",
+    "阅读链接.md",
+    "英语单词- develop.md",
     "React-Hooks/useEffect.md",
     "POST_Juejin/2023的React生态发展.md",
     "POST_Juejin",
@@ -229,7 +243,6 @@
     "Kotlin.md",
     "open source/Github Guide.md",
     "fp-ts.md",
-    "notes/Vue-Interview.md",
     "notes/Vue - interview",
     "React-Router/未命名.canvas",
     "未命名.canvas",
