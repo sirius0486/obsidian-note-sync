@@ -194,3 +194,36 @@ app_meatadata {
 
 ### output
  - [ ]  throw error 
+
+## case6
+
+### pre condition 
+
+| Condition        | Status | Description |
+|:---------------- |:------:| -----------:|
+| sourceName       |   ✅  | login as a `rca` users|
+| hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
+| Encounter a error when getSourceRecord     |   ❌ | deploy `aws-bridge` older version , endpoint didn't exist, would throw error         |
+
+
+test_email : test_email : lkay2333+dev@gmail.com
+
+### pre data
+
+```ts
+sourceRecord: {
+
+}
+
+// auth0 users
+app_meatadata {
+	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
+    hasSourceChecked:{
+	
+    }
+}
+
+```
+
+### output
+ - [ ]  throw error 
