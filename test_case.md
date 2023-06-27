@@ -197,7 +197,7 @@ app_meatadata {
 ```
 
 ### output
- - [ ]  throw error 
+ - [ ]  throw  InternalServerErrorException error 
 
 ## case6
 
