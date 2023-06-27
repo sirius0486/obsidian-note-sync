@@ -133,7 +133,7 @@ app_meatadata {
 | hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
 | sourceRecord     |   ❌ | does not have `sourceRecord` in DB         |
 
-test_email : lkay2333+dev@gmail.com
+test_email : lkay2333+dev4@gmail.com
 
 ### pre data
 
@@ -170,7 +170,7 @@ app_meatadata {
 |:---------------- |:------:| -----------:|
 | sourceName       |   ✅  | login as a `rca` users, but use  `myRea` client|
 | hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
-| Encounter a error when getSourceRecord     |   ❌ | deploy `aws-bridge` older version , endpoint didn't exist, would throw error         |
+| SourceRecord     |   ❌ |  does not have `sourceRecord` in DB |
 
 
 test_email : test_email : lkay2333+dev5@gmail.com
@@ -222,24 +222,8 @@ app_meatadata {
 
 test_email : test_email : lkay2333+dev6@gmail.com
 
-[1b4c214](https://git.realestate.com.au/Locke/auth0-aws-bridge/commit/1b4c2144eee099e7be4c40192292465c2959196f)
+deploy this version: [1b4c214](https://git.realestate.com.au/Locke/auth0-aws-bridge/commit/1b4c2144eee099e7be4c40192292465c2959196f)
 
-### pre data
-
-```ts
-sourceRecord: {
-
-}
-
-// auth0 users
-app_meatadata {
-	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
-    hasSourceChecked:{
-	
-    }
-}
-
-```
 
 ### output
- - [ ]  throw  InternalServerErrorException error 
+ - [ ]  throw  `InternalServerErrorException` error 
