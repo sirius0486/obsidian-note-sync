@@ -6,8 +6,7 @@ const MYREA_CLIENTS = [
 '2fb06dqab95hci46dgldph0382',  
 '67itphfaasklu3uo5htb953r04',  
 '3b13kuk1s7s18c5olh3t3o2jmt',  
-'4ccqj6b2b9439q7tdctvmlrdne',  
-'hQW11zQer3bjwcqk5ZxBRzZDTRgqEBt8'  // default client in locke_demo
+'4ccqj6b2b9439q7tdctvmlrdne'
 ];  
   
 const RCA_CLIENTS = [  
@@ -16,9 +15,11 @@ const RCA_CLIENTS = [
 '6q3ro4100mm73lp5pbrq7rdj5h',  
 '4pe9tnm1ob1g9e94a08itldueg',  
 '49jott98s687hs7979ic5dm0l0',  
-'2i429vaqutmpits0itbluc4fh3',  
-'hQW11zQer3bjwcqk5ZxBRzZDTRgqEBt8'  
+'2i429vaqutmpits0itbluc4fh3'  
 ]
+
+'hQW11zQer3bjwcqk5ZxBRzZDTRgqEBt8'  // default client in locke_demo
+
 ```
 
 ## case1
@@ -86,6 +87,7 @@ app_meatadata {
 
 ### output
  - [ ] should not include `SourceInfo` in token  
+ - [ ] `hasSourceChecked`  still empty
 
 
 ## case3
