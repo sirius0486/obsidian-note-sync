@@ -197,7 +197,7 @@ app_meatadata {
 ```
 
 ### output
- - [ ]  set myRea to true
+ - [ ]  set  hasSourceChecked -  `myRea` to true
 ```ts
 // auth0 users
 app_meatadata {
