@@ -29,9 +29,6 @@ const rca = [
 | hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
 | sourceRecord     |   ✅  | has `sourceRecord` in DB            |
 
- - [ ] login as a `rca` users
- - [ ] haven't checked `hasSourceChecked` before
- - [ ] has `sourceRecord` in DB
 
 test_email : lkay2333+dev1@gmail.com
 
@@ -63,6 +60,12 @@ app_meatadata {
 
 ### pre condition 
 
+| Condition        | Status | Description |
+|:---------------- |:------:| -----------:|
+| sourceName       |   ❌   | no match `source_name` |
+| hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
+| sourceRecord     |  ❌  | has `sourceRecord` in DB            |
+
 - [ ]  no match `source_name`  -> no match `client_id`
 
 test_email : lkay2333+dev1@gmail.com
@@ -71,9 +74,7 @@ test_email : lkay2333+dev1@gmail.com
 
 ```ts
 sourceRecord: {
-	source_name: rca_not_existed
-	source_id_: 8b88dcae-2e84-4989-bd59-9d517a00d5e5 
-	email_or_lockeId: E:lkay2333+dev1@gmail.com
+
 }
 
 // auth0 users
