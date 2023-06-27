@@ -177,6 +177,8 @@ app_meatadata {
 
 test_email : test_email : lkay2333+dev@gmail.com
 
+[1b4c214](https://git.realestate.com.au/Locke/auth0-aws-bridge/commit/1b4c2144eee099e7be4c40192292465c2959196f)
+
 ### pre data
 
 ```ts
