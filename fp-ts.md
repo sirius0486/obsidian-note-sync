@@ -151,3 +151,12 @@ const doubleOptionPipe = pipe(
 https://www.rea-group.com/about-us/news-and-insights/blog/introduction-to-fp-ts-part-1/
 
 https://web.microsoftstream.com/video/9813a6bc-3d5a-4295-950d-5caca073cc99?list=studio
+
+
+## 未整理
+
+TE.of 表示 不确定 返回的是 left 还是 right,  TE.filterorElse 做简单验证 过滤或者返回其他
+plpe 表示一系列函数的组合   flow则是 pipe 的变体 ， 执行从左到右的函数组合
+如果后一个函数 依赖前一个函数的结果 可以用 chain  ,   if else , async/await/  , 一系列函数组合  前面出错了继续往下走
+map 和 chain,   map ->  （）=> a => b   同级  string -> number ,  chian == flat map ,   promise -> string..etc   会执行了 
+chainFirst  继续接受之前的参数， 而不依赖之前函数的结果 (拿不到) 
