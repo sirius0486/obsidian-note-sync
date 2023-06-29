@@ -250,3 +250,10 @@ PT:     112lqg4crpvoi8a2nkr9de9lf7
 RCA:  2i429vaqutmpits0itbluc4fh3 3b13kuk1s7s18c5olh3t3o2jmt
 
 https://settings.locke-dev.rea-group.com/global-sign-out?client_id=112lqg4crpvoi8a2nkr9de9lf7&redirect_uri=https://locke-demo.locke-dev.rea-group.com/profile
+
+
+https://settings.locke-dev.rea-group.com/forbidden.html
+
+
+
+https://settings.locke-dev.rea-group.com/global-sign-out?client_id=112lqg4crpvoi8a2nkr9de9lf7&redirect_uri=https://locke-demo.locke-dev.rea-group.com/profile
