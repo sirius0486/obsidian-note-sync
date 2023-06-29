@@ -69,4 +69,25 @@ const Child = ({ onIncrement }) => {
 ```
 
 
-##
+## React 组件懒加载
+
+```jsx
+const LazyComponent = lazy(() => import("./LazyComponent"));
+
+function App() {
+  return (
+    <div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <LazyComponent />
+      </Suspense>
+    </div>
+  );
+}
+
+```
+
+## React 高阶组件 HOC
+
+```jsx
+
+```
