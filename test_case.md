@@ -228,3 +228,25 @@ deploy this version: [1b4c214](https://git.realestate.com.au/Locke/auth0-aws-bri
 
 ### output
  - [ ]  throw  `InternalServerErrorException` error 
+
+
+
+## UI client
+
+https://settings.locke-dev.rea-group.com/delete?client_id=112lqg4crpvoi8a2nkr9de9lf7&redirect_uri=https://locke-demo.locke-dev.rea-group.com/profile
+
+https://settings.locke-dev.rea-group.com/global-sign-out?client_id=112lqg4crpvoi8a2nkr9de9lf7&redirect_uri=https://locke-demo.locke-dev.rea-group.com/profile
+
+https://settings.locke-dev.rea-group.com/delete?client_id=2i429vaqutmpits0itbluc4fh3&redirect_uri=https://locke-demo.locke-dev.rea-group.com/profile
+
+### prod
+pT:  7fj1shu31fnrbgf8at0olfhm9q   
+
+rca:   4pe9tnm1ob1g9e94a08itldueg 1p48kcl0ftem2iee52ih34034
+
+
+### dev
+PT:     112lqg4crpvoi8a2nkr9de9lf7
+RCA:  2i429vaqutmpits0itbluc4fh3 3b13kuk1s7s18c5olh3t3o2jmt
+
+https://settings.locke-dev.rea-group.com/global-sign-out?client_id=112lqg4crpvoi8a2nkr9de9lf7&redirect_uri=https://locke-demo.locke-dev.rea-group.com/profile
