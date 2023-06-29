@@ -89,5 +89,14 @@ function App() {
 ## React 高阶组件 HOC
 
 ```jsx
+// React HOC
+function withLogging(WrappedComponent) {
+  return function LogWrapper(props) {
+    console.log(`渲染 ${WrappedComponent.name}`);
+    return <WrappedComponent {...props} />;
+  };
+}
 
+// usage
+const LoggedComponent = withLogging(MyComponent);
 ```
