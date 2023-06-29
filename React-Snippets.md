@@ -45,8 +45,28 @@ function Example() {
 ## React 子组件修改父组件状态 (传递函数 prop)
 
 ```jsx
-function Parent() {
-	const [count, setCount] = useState(0);
+import { useState } from "react";
 
-}
+const Parent = () => {
+  const [count, setCount] = useState(0);
+
+  const handleIncrement = () => {
+    setCount(count + 1);
+  };
+
+  return (
+    <div>
+      <Child onIncrement={handleIncrement} />
+      <p>Count: {count}</p>
+    </div>
+  );
+};
+
+const Child = ({ onIncrement }) => {
+  return <button onClick={onIncrement}> +1 </button>;
+};
+
 ```
+
+
+##
