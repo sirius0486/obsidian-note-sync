@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript Snippets.md",
+                "file": "阅读链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript Snippets.md",
+                "file": "阅读链接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript Snippets.md"
+                "file": "阅读链接.md"
               }
             }
           },
@@ -220,8 +220,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "97f33295f3351d1a",
+  "active": "6ac4ca624c23fe72",
   "lastOpenFiles": [
+    "金句.md",
+    "type-challenges.md",
     "阅读链接.md",
     "JavaScript Snippets.md",
     "英语单词- develop.md",
@@ -239,7 +241,6 @@
     "React-Hooks/useEffect.md",
     "POST_Juejin/2023的React生态发展.md",
     "POST_Juejin",
-    "金句.md",
     "Git/Git commit规范.md",
     "TypeScript - React.md",
     "Git/GIt常见命令和原理.md",
@@ -249,7 +250,6 @@
     "English/English Template.md",
     "English",
     "IDE config/vscode.setting.md",
-    "Front-end Roadmap.md",
     "PDF/P8大佬的算法解题笔记.pdf",
     "PDF/2023前端王修炼手册.pdf",
     "PDF/AWS Certified Solutions Architect Slides v15.pdf",
