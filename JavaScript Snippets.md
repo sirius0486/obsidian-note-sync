@@ -29,3 +29,21 @@ Window 对象是浏览器全局对象，表示浏览器应用窗口，包含许�
 - window.close() 可以关闭浏览器窗口。
 
 需要注意的是，并非所有这些属性和方法都能正常使用，因为浏览器可能出于安全原因，会把它们禁用。
+
+
+## jsconfig.json
+
+> How to: Enable JavaScript auto-import suggestions in VS Code
+
+```json
+// jsconfig.json at project root
+
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "jsx": "preserve",
+    "checkJs": true
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
+```
