@@ -77,8 +77,8 @@ test_email : lkay2333+dev1@gmail.com
 // sourceRecord in DB
 sourceRecord: {
 	source_name: rca
-	source_id_: 5b68dcae-2e84-4989-bd59-9d517a00d5e5 
-	email_or_lockeId: E:lkay2333+dev1@gmail.com
+	source_id_: test1001
+	email_or_lockeId: L:a1d8f09a-030f-420d-abc0-65dc0d94044f
 }
 
 // auth0 users
@@ -103,27 +103,30 @@ app_meatadata {
 | lockeId       |   ❌  | users lockeId not existed in DB |
 | hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
 | sourceRecord     |   ✅  | has `sourceRecord` in DB            |
-| client     |   ✅  | rca clients list -> 1p48kcl0ftem2iee52ih34034            |
+| client     |   ✅  | rca clients list -> 5j47i153ecsr36fmsut62oe1c6            |
 
-test_email : lkay2333+dev3@gmail.com
+test_email : lkay2333+dev2@gmail.com
 
 ### pre data
 
 ```ts
 sourceRecord: {
-	
+	source_name: rca
+	source_id_: test1002
+	email_or_lockeId: E:lkay2333+dev2@gmail.com
 }
 
 // auth0 users
 app_meatadata {
-	clientId: 1p48kcl0ftem2iee52ih34034,
+	 
 }
 
 ```
 
 ### output
- - [ ] should not include `SourceInfo` in token  
- - [ ] `hasSourceChecked`  still empty
+ - [ ] should include `SourceInfo` in token 
+ - [ ] update `email` to lockeId
+ - [ ] appmeatadata: { 5j47i153ecsr36fmsut62oe1c6 : true }
 
 ## case4
 
@@ -131,38 +134,35 @@ app_meatadata {
 
 | Condition        | Status | Description |
 |:---------------- |:------:| -----------:|
-| sourceName       |   ✅  | login as a `rca` users|
-| hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
-| sourceRecord     |   ❌ | does not have `sourceRecord` in DB         |
+| lockeId       |   ❌  | users lockeId not existed in DB |
+| hasSourceChecked |   ✅  | have checked `hasSourceChecked` before |
+| sourceRecord     |   ✅  | has `sourceRecord` in DB            |
+| client     |   ✅  | rca clients list -> 5j47i153ecsr36fmsut62oe1c6            |
 
-test_email : lkay2333+dev4@gmail.com
+test_email : lkay2333+dev2@gmail.com
 
 ### pre data
 
 ```ts
 sourceRecord: {
-
+	source_name: rca
+	source_id_: test1002
+	email_or_lockeId: E:lkay2333+dev2@gmail.com
 }
 
 // auth0 users
 app_meatadata {
-	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
+    hasSourceChecked:{
+	    5j47i153ecsr36fmsut62oe1c6: true
+    }
 }
 
 ```
 
 ### output
- - [ ]  should not include `SourceInfo` in token
- - [ ]  only need to set `hasSourceChecked to true` like :
-```ts
-app_meatadata {
-	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
-    hasSourceChecked:{
-		rca: true
-    }
-}
-```
-
+ - [ ] should include `SourceInfo` in token 
+ - [ ] update `email` to lockeId
+ - [ ] appmeatadata: { 5j47i153ecsr36fmsut62oe1c6 : true }
 
 ## case5
 
