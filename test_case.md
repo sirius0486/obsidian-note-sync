@@ -244,6 +244,10 @@ pT:  7fj1shu31fnrbgf8at0olfhm9q
 
 rca:   4pe9tnm1ob1g9e94a08itldueg 1p48kcl0ftem2iee52ih34034
 
+https://settings-prod.locke-dev.rea-group.com/global-sign-out?client_id=7fj1shu31fnrbgf8at0olfhm9q&redirect_uri=https://locke-demo-prod.locke-dev.rea-group.com/profile
+
+https://settings-prod.locke-dev.rea-group.com/forbidden.html
+
 
 ### dev
 PT:     112lqg4crpvoi8a2nkr9de9lf7
