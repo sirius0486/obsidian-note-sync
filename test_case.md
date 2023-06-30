@@ -55,7 +55,7 @@ app_meatadata {
 
 ### output
  - [ ] updated sourceInfo in token   ->  `test1001 &  rca`
- - [ ] set sourceChecked like     `app_meatadata { clentID: true }`
+ - [ ] set `sourceChecked` like     `app_meatadata { clentID: true }`
  
 
 ## case2
@@ -125,8 +125,8 @@ app_meatadata {
 
 ### output
  - [ ] should include `SourceInfo` in token 
- - [ ] update `email` to lockeId
- - [ ] appmeatadata: { 5j47i153ecsr36fmsut62oe1c6 : true }
+ - [ ] update `email` to `lockeId`
+ - [ ] appmeatadata: { `5j47i153ecsr36fmsut62oe1c6` : true }
 
 ## case4
 
@@ -193,14 +193,46 @@ app_meatadata {
 ### output
  - [ ] update `hasSourceChecked`  to `true` 
 
-
 ## case6
 
 ### pre condition 
 
 | Condition        | Status | Description |
 |:---------------- |:------:| -----------:|
-| endpoint get error       |   ❌  | get error when call |
+| lockeId       |   ❌  | users lockeId not existed in DB |
+| hasSourceChecked |   ✅   | have checked `hasSourceChecked` before |
+| sourceRecord     |   ❌  | has `sourceRecord` in DB            |
+| client     |   ✅  | rca clients list -> 5j47i153ecsr36fmsut62oe1c6            |
+
+test_email : lkay2333+dev3@gmail.com
+
+### pre data
+
+```ts
+sourceRecord: {
+
+}
+
+// auth0 users
+app_meatadata {
+	hasSourceCheck: {
+		5j47i153ecsr36fmsut62oe1c6: true
+	}
+}
+
+```
+
+### output
+ - [ ] should not include `SourceInfo` in token  
+
+
+## case7
+
+### pre condition 
+
+| Condition        | Status | Description |
+|:---------------- |:------:| -----------:|
+| endpoint get error       |   ❌  | get error in auth0 side |
 | client     |   ✅  | rca clients list -> 5j47i153ecsr36fmsut62oe1c6            |
 
 test_email : lkay2333+dev3@gmail.com
@@ -220,7 +252,7 @@ app_meatadata {
 ```
 
 ### output
- - [ ] update `hasSourceChecked`  to `true` 
+ - [ ] throw error , use can not login in successfully
 
 
 
