@@ -263,3 +263,114 @@ https://settings.locke-dev.rea-group.com/forbidden.html
 
 
 https://settings.locke-dev.rea-group.com/global-sign-out?client_id=112lqg4crpvoi8a2nkr9de9lf7&redirect_uri=https://locke-demo.locke-dev.rea-group.com/profile
+
+
+
+```ts
+import { Request, Response } from 'express';
+import { pipe } from 'fp-ts/function';
+import * as TE from 'fp-ts/TaskEither';
+import { getUserSource } from '../services/userSourceService';
+import { errorHandler } from './errorHandler';
+import {ApiError, InvalidParameterError} from "../services/apiError";
+
+type queryParams = {
+  locke_id: string;
+  email: string;
+  source_name: string;
+}
+
+export const getUserSourceHandler = (request: Request, response: Response) => pipe(
+  request.query as queryParams,
+  TE.right,
+  TE.filterOrElse<ApiError, queryParams>( ({ locke_id, email, source_name}) => !!email && !!locke_id && !!source_name,
+    () => new InvalidParameterError('locke id , email and source_name are required.') ),
+  TE.chain(( {locke_id, email, source_name}) => getUserSource( locke_id, email, source_name )),
+  TE.map((userSourceRecord) => {
+    response.status(200).send(userSourceRecord);
+  }),
+  TE.mapLeft((error) => {
+    errorHandler(response, error)
+  })
+)();
+
+import { QueryCommandInput, QueryCommandOutput, UpdateCommandInput, UpdateCommandOutput } from "@aws-sdk/lib-dynamodb";  
+import * as TE from "fp-ts/TaskEither";  
+import { ApiError } from "./apiError";  
+import { pipe } from "fp-ts/function";  
+import { DynamoDBClient } from "../clients/dynamoDBClient";  
+import { handleError } from "./handleError";  
+import config from '../utils/config';  
+  
+export type UserSource = {  
+source_id: string;  
+source_name: string;  
+email_or_locke_id: string;  
+}  
+  
+export const getUserSource = (locke_id: string, email: string, source_name: string): TE.TaskEither<ApiError, UserSource | undefined> => pipe(  
+locke_id,  
+getUserSourceInfoByLockeId,  
+TE.chain<ApiError, UserSource | undefined, UserSource | undefined>((userSourceByLockeId) =>  
+userSourceByLockeId ? TE.right(userSourceByLockeId) : pipe(  
+getUserSourceInfoByEmail(email),  
+TE.chain<ApiError, UserSource[] | undefined, UserSource | undefined>((userSources) => pipe(  
+userSources,  
+(userSources) => (userSources || []).find(user => user.source_name === source_name),  
+(userSource) => userSource ? updateSourceAttributionsEmailToLockeId(userSource, locke_id) : TE.right(undefined)  
+)  
+)  
+)  
+));  
+  
+const getUserSourceInfoByLockeId = (locke_id: string): TE.TaskEither<ApiError, UserSource | undefined> => pipe(  
+({  
+TableName: config.userSourceAttributionsTable,  
+IndexName: 'locke_id_index',  
+KeyConditionExpression:  
+"email_or_locke_id = :lockeId",  
+ExpressionAttributeValues: {  
+":lockeId": `L:${ locke_id }`,  
+},  
+}) as QueryCommandInput,  
+new DynamoDBClient().query,  
+TE.map<QueryCommandOutput, UserSource | undefined>(result => result?.Items?.[0] as UserSource | undefined ),  
+TE.mapLeft(handleError(`Get user source info by locke id`))  
+)  
+  
+const getUserSourceInfoByEmail = (email: string): TE.TaskEither<ApiError, UserSource[] | undefined> => pipe(  
+({  
+TableName: config.userSourceAttributionsTable,  
+IndexName: 'locke_id_index',  
+KeyConditionExpression:  
+"email_or_locke_id = :email",  
+ExpressionAttributeValues: {  
+":email": `E:${ email }`,  
+},  
+}) as QueryCommandInput,  
+new DynamoDBClient().query,  
+TE.map<QueryCommandOutput, UserSource[] | undefined>(result => result?.Items as UserSource[] | undefined ),  
+TE.mapLeft(handleError(`Get user source info by email`))  
+)  
+  
+const updateSourceAttributionsEmailToLockeId = ( userSource: UserSource, lockeId: string ): TE.TaskEither<ApiError, UserSource> => pipe(  
+({  
+TableName: config.userSourceAttributionsTable,  
+IndexName: 'locke_id_index',  
+Key: {  
+source_id: `${ userSource.source_id }`,  
+source_name: `${ userSource.source_name }`  
+},  
+UpdateExpression: 'SET email_or_locke_id = :email_or_locke_id',  
+ConditionExpression: 'begins_with(email_or_locke_id, :emailPrefix)',  
+ExpressionAttributeValues: {  
+':email_or_locke_id': `L:${ lockeId }`,  
+':emailPrefix': 'E:'  
+},  
+ReturnValues: 'ALL_NEW'  
+}) as unknown as UpdateCommandInput,  
+new DynamoDBClient().update,  
+TE.map<UpdateCommandOutput, UserSource>(( result ) => result.Attributes as UserSource ),  
+TE.mapLeft(handleError(`update user source attributions email to locke_id`))  
+)
+```
