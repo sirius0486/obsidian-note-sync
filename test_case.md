@@ -31,6 +31,7 @@ const RCA_CLIENTS = [
 | lockeId       |   ✅  | users lockeId existed in DB |
 | hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
 | sourceRecord     |   ✅  | has `sourceRecord` in DB            |
+| client     |   ✅  | rca clients list -> 1p48kcl0ftem2iee52ih34034            |
 
 
 test_email : lkay2333+dev1@gmail.com
@@ -63,9 +64,10 @@ app_meatadata {
 
 | Condition        | Status | Description |
 |:---------------- |:------:| -----------:|
-| sourceName       |   ✅  | login as a `rca` users|
-| hasSourceChecked |   ✅  | have checked `hasSourceChecked` before |
-| sourceRecord     |  ✅  | have `sourceRecord` in DB         |
+| lockeId       |   ✅  | users lockeId existed in DB |
+| hasSourceChecked |   ✅  | haven't checked `hasSourceChecked` before |
+| sourceRecord     |   ✅  | has `sourceRecord` in DB            |
+| client     |   ✅  | rca clients list -> 1p48kcl0ftem2iee52ih34034            |
 
 test_email : lkay2333+dev1@gmail.com
 
