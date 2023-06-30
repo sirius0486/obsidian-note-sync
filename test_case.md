@@ -85,7 +85,7 @@ sourceRecord: {
 app_meatadata {
 	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
     hasSourceChecked:{
-	    rca: true
+	    1p48kcl0ftem2iee52ih34034: true
     }
 }
 
@@ -100,11 +100,10 @@ app_meatadata {
 
 | Condition        | Status | Description |
 |:---------------- |:------:| -----------:|
-| sourceName       |   ❌   | no match `source_name` |
+| lockeId       |   ❌  | users lockeId not existed in DB |
 | hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
-| sourceRecord     |  ❌  | can find sourceRecord         |
-
-- [ ]  no match `client_id`  -> no match `source_name` 
+| sourceRecord     |   ✅  | has `sourceRecord` in DB            |
+| client     |   ✅  | rca clients list -> 1p48kcl0ftem2iee52ih34034            |
 
 test_email : lkay2333+dev3@gmail.com
 
@@ -112,12 +111,12 @@ test_email : lkay2333+dev3@gmail.com
 
 ```ts
 sourceRecord: {
-
+	
 }
 
 // auth0 users
 app_meatadata {
-	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
+	clientId: 1p48kcl0ftem2iee52ih34034,
 }
 
 ```
