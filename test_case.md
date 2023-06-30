@@ -41,21 +41,21 @@ test_email : lkay2333+dev1@gmail.com
 // sourceRecord in DB
 sourceRecord: {
 	source_name: rca
-	source_id_: test1111a5-271c-4389-b539-8ba49da9aaba 
-	email_or_lockeId: E:lkay2333+dev1@gmail.com
+	source_id_: test1001
+	email_or_lockeId: L:a1d8f09a-030f-420d-abc0-65dc0d94044f
 }
 
 // auth0 users app_metadata
 app_meatadata {
-	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
+	lockeId: a1d8f09a-030f-420d-abc0-65dc0d94044f,
 }
 
 ```
 
 ### output
- - [ ] updated sourceInfo in token  
- - [ ] set sourceChecked like     `app_meatadata { rca: true }`
- - [ ] update email to lockeId  `email_or_lockeId`
+ - [ ] updated sourceInfo in token   ->  test1001 &  rca
+ - [ ] set sourceChecked like     `app_meatadata { clentID: true }`
+ 
 
 ## case2
 
