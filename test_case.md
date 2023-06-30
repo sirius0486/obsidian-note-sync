@@ -160,9 +160,8 @@ app_meatadata {
 ```
 
 ### output
- - [ ] should include `SourceInfo` in token 
- - [ ] update `email` to lockeId
- - [ ] appmeatadata: { 5j47i153ecsr36fmsut62oe1c6 : true }
+ - [ ] should not include `SourceInfo` in token 
+
 
 ## case5
 
@@ -170,16 +169,12 @@ app_meatadata {
 
 | Condition        | Status | Description |
 |:---------------- |:------:| -----------:|
-| sourceName       |   ✅  | login as a `rca` users, but use  `myRea` client|
-| hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
-| SourceRecord     |   ❌ |  does not have `sourceRecord` in DB |
+| lockeId       |   ❌  | users lockeId not existed in DB |
+| hasSourceChecked |   ❌  | have checked `hasSourceChecked` before |
+| sourceRecord     |   ❌  | has `sourceRecord` in DB            |
+| client     |   ✅  | rca clients list -> 5j47i153ecsr36fmsut62oe1c6            |
 
-
-test_email : test_email : lkay2333+dev5@gmail.com
-
-login as a `rca` users, but use  `myRea` client
-- 1. add metadata in auth0 
-- 2. replace client_id in auth0
+test_email : lkay2333+dev3@gmail.com
 
 ### pre data
 
@@ -190,26 +185,14 @@ sourceRecord: {
 
 // auth0 users
 app_meatadata {
-	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
-    hasSourceChecked:{
-		rca: true
-    }
+
 }
 
 ```
 
 ### output
- - [ ]  set  hasSourceChecked -  `myRea` to true
-```ts
-// auth0 users
-app_meatadata {
-	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
-    hasSourceChecked:{
-		rca: true,
-		myRea: true
-    }
-}
-```
+ - [ ] update `hasSourceChecked`  to `true` 
+
 
 ## case6
 
@@ -217,18 +200,27 @@ app_meatadata {
 
 | Condition        | Status | Description |
 |:---------------- |:------:| -----------:|
-| sourceName       |   ✅  | login as a `rca` users|
-| hasSourceChecked |   ❌  | haven't checked `hasSourceChecked` before |
-| Encounter a error when getSourceRecord     |   ❌ | deploy `aws-bridge` older version , endpoint didn't exist, would throw error         |
+| endpoint get error       |   ❌  | get error when call |
+| client     |   ✅  | rca clients list -> 5j47i153ecsr36fmsut62oe1c6            |
 
+test_email : lkay2333+dev3@gmail.com
 
-test_email : test_email : lkay2333+dev6@gmail.com
+### pre data
 
-deploy this version: [1b4c214](https://git.realestate.com.au/Locke/auth0-aws-bridge/commit/1b4c2144eee099e7be4c40192292465c2959196f)
+```ts
+sourceRecord: {
 
+}
+
+// auth0 users
+app_meatadata {
+
+}
+
+```
 
 ### output
- - [ ]  throw  `InternalServerErrorException` error 
+ - [ ] update `hasSourceChecked`  to `true` 
 
 
 
