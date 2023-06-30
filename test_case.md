@@ -5,7 +5,7 @@ rca:  1p48kcl0ftem2iee52ih34034, 5j47i153ecsr36fmsut62oe1c6
 
 https://id-dev.realestate.com.au/authorize?client_id=1p48kcl0ftem2iee52ih34034&response_type=code&audience=default&scope=openid+profile+email+phone+offline_access&redirect_uri=https%3A%2F%2Flocke-demo.locke-dev.rea-group.com%2Fauth%2Fcallback&connection=email
 
-https://id-dev.realestate.com.au/authorize?client_id=1p48kcl0ftem2iee52ih34034&response_type=code&audience=default&scope=openid+profile+email+phone+offline_access&redirect_uri=https%3A%2F%2Flocke-demo.locke-dev.rea-group.com%2Fauth%2Fcallback&connection=email
+https://id-dev.realestate.com.au/authorize?client_id=5j47i153ecsr36fmsut62oe1c6&response_type=code&audience=default&scope=openid+profile+email+phone+offline_access&redirect_uri=https%3A%2F%2Flocke-demo.locke-dev.rea-group.com%2Fauth%2Fcallback&connection=email
 
 
 ### client_id list
