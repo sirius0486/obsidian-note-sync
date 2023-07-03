@@ -72,8 +72,8 @@ curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -d "
 ```
 
 ### output
- - [ ] updated sourceInfo in token   ->  `test1001 &  rca`     profile page  ❌
- - [x] set `sourceChecked` like     `app_meatadata { clentID: true }`   auth0
+ - [ ] updated sourceInfo in token   ->  `test1001 &  rca`     profile page  
+ - [ ] set `sourceChecked` like     `app_meatadata { clentID: true }`   auth0
  
 
 ## case2
