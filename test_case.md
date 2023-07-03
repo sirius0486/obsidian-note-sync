@@ -250,7 +250,7 @@ app_meatadata {
 | endpoint get error       |   ❌  | get error in auth0 side |
 | client     |   ✅  | rca clients list -> 5j47i153ecsr36fmsut62oe1c6            |
 
-test_email : lkay2333+dev3@gmail.com
+test_email : lkay2333+dev4@gmail.com
 
 ### pre data
 
