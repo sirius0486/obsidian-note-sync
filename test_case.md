@@ -219,6 +219,7 @@ app_meatadata {
 
 ### output
  - [x] update `hasSourceChecked`  to `true` 
+ - [x] should not include source info in token
 
 ## case6
 
