@@ -59,13 +59,15 @@ test_email : lkay2333+dev1@gmail.com
 sourceRecord: {
 	source_name: rca
 	source_id_: test1001
-	email_or_lockeId: L:a1d8f09a-030f-420d-abc0-65dc0d94044f
+	email_or_lockeId: L:generated_new_one
 }
 
 // auth0 users app_metadata
 app_meatadata {
-	lockeId: a1d8f09a-030f-420d-abc0-65dc0d94044f,
+	lockeId: generated_new_one,
 }
+
+curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -d "{\"email\":\"lkay2333+dev1@gmail.com\"}" -H "accept: */*" -H "Authorization: Basic NmtkZDh2cHFjYTZycWJhN3M0YmJiMHU4aGg6MW9ibGZpbXByOGI3bm9rdW9zMTNvdDFiZWg5Z2htaXFnMW1yZjdqbzZ0cGxhYjg1MTlhdg==" -H "Content-Type: application/json"
 
 ```
 
