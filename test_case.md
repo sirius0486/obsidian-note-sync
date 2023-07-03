@@ -39,6 +39,13 @@ const RCA_CLIENTS = [
 
 ```
 
+test_case_prod1  rca  L:generate new one
+test_case_prod2 rca  E:lkay2333+dev2@gmail.com
+
+
+rca
+
+
 ## case1
 
 ### pre condition 
