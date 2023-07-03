@@ -152,8 +152,8 @@ app_meatadata {
 ```
 
 ### output
- - [x] update `email` to `lockeId`
  - [x] should include `SourceInfo` in token 
+ - [x] update `email` to `lockeId`
  - [x] appmeatadata: { `5j47i153ecsr36fmsut62oe1c6` : true }
 
 ## case4
@@ -189,7 +189,6 @@ app_meatadata {
 
 ### output
  - [x] should not include `SourceInfo` in token 
-
 
 ## case5
 
