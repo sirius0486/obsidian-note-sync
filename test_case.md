@@ -238,7 +238,7 @@ app_meatadata {
 ```
 
 ### output
- - [ ] should not include `SourceInfo` in token  
+ - [x] should not include `SourceInfo` in token  
 
 
 ## case7
@@ -268,6 +268,7 @@ app_meatadata {
 
 ### output
  - [ ] throw error , use can not login in successfully
+ - [ ] leave a sceenShot for this one because will cost a long time to deploy older version have error
 
 
 
