@@ -69,8 +69,8 @@ app_meatadata {
 ```
 
 ### output
- - [x] updated sourceInfo in token   ->  `test1001 &  rca`
- - [x] set `sourceChecked` like     `app_meatadata { clentID: true }`
+ - [ ] updated sourceInfo in token   ->  `test1001 &  rca`
+ - [ ] set `sourceChecked` like     `app_meatadata { clentID: true }`
  
 
 ## case2
@@ -107,7 +107,7 @@ app_meatadata {
 ```
 
 ### output
- - [x] should not include `sourceInfo` in token  
+ - [ ] should not include `sourceInfo` in token  
 
 ## case3
 
@@ -139,9 +139,9 @@ app_meatadata {
 ```
 
 ### output
- - [x] should include `SourceInfo` in token 
- - [x] update `email` to `lockeId`
- - [x] appmeatadata: { `5j47i153ecsr36fmsut62oe1c6` : true }
+ - [ ] should include `SourceInfo` in token 
+ - [ ] update `email` to `lockeId`
+ - [ ] appmeatadata: { `5j47i153ecsr36fmsut62oe1c6` : true }
 
 ## case4
 
@@ -175,7 +175,7 @@ app_meatadata {
 ```
 
 ### output
- - [x] should not include `SourceInfo` in token 
+ - [ ] should not include `SourceInfo` in token 
 
 
 ## case5
@@ -206,7 +206,7 @@ app_meatadata {
 ```
 
 ### output
- - [x] update `hasSourceChecked`  to `true` 
+ - [ ] update `hasSourceChecked`  to `true` 
 
 ## case6
 
@@ -238,7 +238,7 @@ app_meatadata {
 ```
 
 ### output
- - [x] should not include `SourceInfo` in token  
+ - [ ] should not include `SourceInfo` in token  
 
 
 ## case7
