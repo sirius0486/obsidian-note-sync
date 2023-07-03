@@ -49,13 +49,12 @@ const RCA_CLIENTS = [
 | sourceRecord     |   ✅  | has `sourceRecord` in DB            |
 | client     |   ✅  | rca clients list -> 1p48kcl0ftem2iee52ih34034            |
 
-
 test_email : lkay2333+dev1@gmail.com
 
 ### pre data
 
 ```ts
-// sourceRecord in DB
+// sourceRecord in DB called user-source-attributions
 sourceRecord: {
 	source_name: rca
 	source_id_: test1001
