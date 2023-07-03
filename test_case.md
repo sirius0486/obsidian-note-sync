@@ -268,7 +268,7 @@ app_meatadata {
 ```
 
 ### output
- - [ ] throw error , use can not login in successfully
+ - [x] throw error , use can not login in successfully
  - [ ] leave a sceenShot for this one because will cost a long time to deploy older version have error
 
 ![[Pasted image 20230703141847.png]]
