@@ -207,7 +207,7 @@ app_meatadata {
 ```
 
 ### output
- - [ ] update `hasSourceChecked`  to `true` 
+ - [x] update `hasSourceChecked`  to `true` 
 
 ## case6
 
@@ -239,7 +239,7 @@ app_meatadata {
 ```
 
 ### output
- - [ ] should not include `SourceInfo` in token  
+ - [x] should not include `SourceInfo` in token  
 
 
 ## case7
