@@ -69,7 +69,7 @@ app_meatadata {
 ```
 
 ### output
- - [ ] updated sourceInfo in token   ->  `test1001 &  rca`
+ - [x] updated sourceInfo in token   ->  `test1001 &  rca`
  - [x] set `sourceChecked` like     `app_meatadata { clentID: true }`
  
 
@@ -206,7 +206,7 @@ app_meatadata {
 ```
 
 ### output
- - [ ] update `hasSourceChecked`  to `true` 
+ - [x] update `hasSourceChecked`  to `true` 
 
 ## case6
 
