@@ -82,7 +82,7 @@ app_meatadata {
 
 
 // dev( use propTrack)
- curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic MTEybHFnNGNycHZvaThhMm5rcjlkZTlsZjc6aXVjNGFjYTJoaGcxczZ1cnY1aDE1YTZjMHZqbHR0cW01ZG11NTZiaGdscm9ub2tpYjly" -H "Content-Type: application/json" -d "{\"email\":\"jimson.test+test1234-1@gmail.com\"}"
+ curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic MTEybHFnNGNycHZvaThhMm5rcjlkZTlsZjc6aXVjNGFjYTJoaGcxczZ1cnY1aDE1YTZjMHZqbHR0cW01ZG11NTZiaGdscm9ub2tpYjly" -H "Content-Type: application/json" -d "{\"email\":\"lkay2333+dev1@gmail.com\"}"
 ```
 
 ### output
