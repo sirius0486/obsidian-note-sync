@@ -42,10 +42,6 @@ const RCA_CLIENTS = [
 test_case_prod1  rca  L:generate new one
 test_case_prod2 rca  E:lkay2333+dev2@gmail.com
 
-
-rca
-
-
 ## case1
 
 ### pre condition 
@@ -156,8 +152,8 @@ app_meatadata {
 ```
 
 ### output
- - [x] should include `SourceInfo` in token 
  - [x] update `email` to `lockeId`
+ - [x] should include `SourceInfo` in token 
  - [x] appmeatadata: { `5j47i153ecsr36fmsut62oe1c6` : true }
 
 ## case4
