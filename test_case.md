@@ -67,7 +67,12 @@ app_meatadata {
 	lockeId: generated_new_one,
 }
 
-curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -d "{\"email\":\"lkay2333+dev1@gmail.com\"}" -H "accept: */*" -H "Authorization: Basic NmtkZDh2cHFjYTZycWJhN3M0YmJiMHU4aGg6MW9ibGZpbXByOGI3bm9rdW9zMTNvdDFiZWg5Z2htaXFnMW1yZjdqbzZ0cGxhYjg1MTlhdg==" -H "Content-Type: application/json"
+
+// need to  connect the VPN first
+ curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic <id:secret>" -H "Content-Type: application/json" -d "{\"email\":\"jimson.test+test1234-1@gmail.com\"}"
+
+// prod clientId:clientSecret after base64 encode
+
 
 ```
 
