@@ -156,9 +156,9 @@ app_meatadata {
 ```
 
 ### output
- - [ ] should include `SourceInfo` in token 
- - [ ] update `email` to `lockeId`
- - [ ] appmeatadata: { `5j47i153ecsr36fmsut62oe1c6` : true }
+ - [x] should include `SourceInfo` in token 
+ - [x] update `email` to `lockeId`
+ - [x] appmeatadata: { `5j47i153ecsr36fmsut62oe1c6` : true }
 
 ## case4
 
@@ -222,8 +222,8 @@ app_meatadata {
 ```
 
 ### output
- - [ ] update `hasSourceChecked`  to `true` 
- - [ ] should not include source info in token
+ - [x] update `hasSourceChecked`  to `true` 
+ - [x] should not include source info in token
 
 ## case6
 
