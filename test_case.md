@@ -124,7 +124,7 @@ app_meatadata {
 ```
 
 ### output
- - [ ] should not include `sourceInfo` in token  
+ - [x] should not include `sourceInfo` in token  
 
 ## case3
 
