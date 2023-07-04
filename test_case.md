@@ -70,15 +70,19 @@ app_meatadata {
 	lockeId: generated_new_one,
 }
 
+// lk admin au 
+2g19j074kivp4pd8rrteu6fdep:8na3aeov5tik95m9p2hrn72up3lfek7ec9443tp1rj9jua0q73
 
 // need to  connect the VPN first
- curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic <id:secret>" -H "Content-Type: application/json" -d "{\"email\":\"jimson.test+test1234-1@gmail.com\"}"
+curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic <id:secret>" -H "Content-Type: application/json" -d "{\"email\":\"jimson.test+test1234-1@gmail.com\"}"
 
 // prod( use propTrack)  clientId:clientSecret after base64 encode
+MmcxOWowNzRraXZwNHBkOHJydGV1NmZkZXA6OG5hM2Flb3Y1dGlrOTVtOXAyaHJuNzJ1cDNsZmVrN2VjOTQ0M3RwMXJqOWp1YTBxNzMy
 
+curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic MmcxOWowNzRraXZwNHBkOHJydGV1NmZkZXA6OG5hM2Flb3Y1dGlrOTVtOXAyaHJuNzJ1cDNsZmVrN2VjOTQ0M3RwMXJqOWp1YTBxNzMy" -H "Content-Type: application/json" -d "{\"email\":\"lkay2333+dev1@gmail.com\"}"
 
 // dev( use propTrack)
- curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic MTEybHFnNGNycHZvaThhMm5rcjlkZTlsZjc6aXVjNGFjYTJoaGcxczZ1cnY1aDE1YTZjMHZqbHR0cW01ZG11NTZiaGdscm9ub2tpYjly" -H "Content-Type: application/json" -d "{\"email\":\"lkay2333+dev1@gmail.com\"}"
+curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic MTEybHFnNGNycHZvaThhMm5rcjlkZTlsZjc6aXVjNGFjYTJoaGcxczZ1cnY1aDE1YTZjMHZqbHR0cW01ZG11NTZiaGdscm9ub2tpYjly" -H "Content-Type: application/json" -d "{\"email\":\"lkay2333+dev1@gmail.com\"}"
 ```
 
 ### output
