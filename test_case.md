@@ -21,7 +21,7 @@ test-dev-02 rca E:lkay2333+dev2@gmail.com
 test-dev-01 rca L: generated_locked_id
 
 
-https://id-dev.realestate.com.au/authorize?client_id=112lqg4crpvoi8a2nkr9de9lf7&response_type=code&audience=default&scope=openid+profile+email+phone+offline_access&redirect_uri=https%3A%2F%2Fwww.realestate.com.au&connection=email
+https://id-dev.realestate.com.au/authorize?client_id=112lqg4crpvoi8a2nkr9de9lf7&response_type=code&audience=default&scope=openid+profile+email+phone+offline_access&redirect_uri=https%3A%2F%2Flocke-demo.locke-dev.rea-group.com%2Fauth%2Fcallback&connection=email
 
 ```
 
