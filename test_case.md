@@ -20,9 +20,12 @@ MmcxOWowNzRraXZwNHBkOHJydGV1NmZkZXA6OG5hM2Flb3Y1dGlrOTVtOXAyaHJuNzJ1cDNsZmVrN2Vj
 test-dev-02 rca E:lkay2333+dev2@gmail.com
 test-dev-01 rca L: generated_locked_id
 
+lkay2333+dev2@gmail.com
 
 https://id-dev.realestate.com.au/authorize?client_id=112lqg4crpvoi8a2nkr9de9lf7&response_type=code&audience=default&scope=openid+profile+email+phone+offline_access&redirect_uri=https%3A%2F%2Flocke-demo.locke-dev.rea-group.com%2Fauth%2Fcallback&connection=email
 
+
+https://id-dev.realestate.com.au/authorize?client_id=3b13kuk1s7s18c5olh3t3o2jmt&response_type=code&audience=default&scope=openid+profile+email+phone+offline_access&redirect_uri=https%3A%2F%2Flocke-demo.locke-dev.rea-group.com%2Fauth%2Fcallback&connection=email
 ```
 
 ![[Pasted image 20230703144634.png]]
