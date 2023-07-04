@@ -73,16 +73,16 @@ app_meatadata {
 	lockeId: generated_new_one,
 }
 
-// use admin-api create user to create a new user in auth0
+// use admin-api create user to create a new user in auth0 *need VPN connected*
 curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic aFFXMTF6UWVyM2Jqd2NxazVaeEJSelpEVFJncUVCdDg6cDZMQW9haklwSThoN1c2RllNcC13amhHMlRnNkpCQkozQ3ZpdHo5ektXeFlPcEctU3BsamV2bThsbEZYdm10Vw==" -H "Content-Type: application/json" -d "{\"email\":\"lkay2333+dev1@gmail.com\"}"
 
 ```
 
 ### output
- - [ ] updated sourceInfo in token  
+ - [x] updated sourceInfo in token  
 	 -  `custom: source_name : test-dev-01 
 	 -  `custom: source_name: rca`      in   **profile page** after login  
- - [ ] set `sourceChecked` like     `app_meatadata { clentID: true }`   auth0
+ - [x] set `sourceChecked` like     `app_meatadata { clentID: true }`   auth0
  
 
 ## case2
