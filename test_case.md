@@ -59,7 +59,7 @@ test_case_prod2 rca  E:lkay2333+dev2@gmail.com
 | sourceRecord     |   ✅  | has `sourceRecord` in DB            |
 | client     |   ✅  | rca clients list -> 1p48kcl0ftem2iee52ih34034            |
 
-test_email : lkay2333+dev1@gmail.com.    lkay2333+prod1@gmail.com
+test_email : lkay2333+dev1@gmail.com
 
 ### pre data
 
@@ -77,7 +77,7 @@ app_meatadata {
 }
 
 // use admin-api create user to create a new user in auth0
-curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic MmcxOWowNzRraXZwNHBkOHJydGV1NmZkZXA6OG5hM2Flb3Y1dGlrOTVtOXAyaHJuNzJ1cDNsZmVrN2VjOTQ0M3RwMXJqOWp1YTBxNzMy" -H "Content-Type: application/json" -d "{\"email\":\"lkay2333+dev1@gmail.com\"}"
+curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic " -H "Content-Type: application/json" -d "{\"email\":\"lkay2333+dev1@gmail.com\"}"
 
 ```
 
@@ -97,7 +97,7 @@ curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "
 | sourceRecord     |   ✅  | has `sourceRecord` in DB            |
 | client     |   ✅  | rca clients list -> 1p48kcl0ftem2iee52ih34034            |
 
-test_email : lkay2333+dev1@gmail.com.    lkay2333+prod1@gmail.com
+test_email : lkay2333+dev1@gmail.com
 
 ### pre data
 
@@ -133,7 +133,7 @@ app_meatadata {
 | sourceRecord     |   ✅  | has `sourceRecord` in DB            |
 | client     |   ✅  | rca clients list -> 5j47i153ecsr36fmsut62oe1c6            |
 
-test_email : lkay2333+dev2@gmail.com             lkay2333+prod2@gmail.com
+test_email : lkay2333+dev2@gmail.com           
 
 ### pre data
 
@@ -167,7 +167,7 @@ app_meatadata {
 | sourceRecord     |   ✅  | has `sourceRecord` in DB            |
 | client     |   ✅  | rca clients list -> 5j47i153ecsr36fmsut62oe1c6            |
 
-test_email : lkay2333+dev2@gmail.com          lkay2333+prod2@gmail.com
+test_email : lkay2333+dev2@gmail.com    
 
 ### pre data
 
@@ -201,7 +201,7 @@ app_meatadata {
 | sourceRecord     |   ❌  | has `sourceRecord` in DB            |
 | client     |   ✅  | rca clients list -> 5j47i153ecsr36fmsut62oe1c6            |
 
-test_email : lkay2333+dev3@gmail.com.    lkay2333+prod3@gmail.com
+test_email : lkay2333+dev3@gmail.com
 
 ### pre data
 
