@@ -5,13 +5,16 @@
 rea: 3b13kuk1s7s18c5olh3t3o2jmt
 rca: 2i429vaqutmpits0itbluc4fh3
 
-https://id-dev.realestate.com.au/authorize?client_id=3b13kuk1s7s18c5olh3t3o2jmt&response_type=code&audience=default&scope=openid+profile+email+phone+offline_access&redirect_uri=http://localhost:3000&connection=email
-
 prod:
 rea:   1slo5q0g99ss1e5cfctkdj3ni6, 63b4th825kkloal0u0b677vahs
 rca:  1p48kcl0ftem2iee52ih34034, 5j47i153ecsr36fmsut62oe1c6
 
-https://id-dev.realestate.com.au/authorize?client_id=1p48kcl0ftem2iee52ih34034&response_type=code&audience=default&scope=openid+profile+email+phone+offline_access&redirect_uri=https%3A%2F%2Flocke-demo.locke-dev.rea-group.com%2Fauth%2Fcallback&connection=email
+
+// lk admin au 
+2g19j074kivp4pd8rrteu6fdep:8na3aeov5tik95m9p2hrn72up3lfek7ec9443tp1rj9jua0q732
+
+// prod   clientId:clientSecret after base64 encode
+MmcxOWowNzRraXZwNHBkOHJydGV1NmZkZXA6OG5hM2Flb3Y1dGlrOTVtOXAyaHJuNzJ1cDNsZmVrN2VjOTQ0M3RwMXJqOWp1YTBxNzMy
 
 ![[Pasted image 20230703144634.png]]
 
@@ -73,21 +76,14 @@ app_meatadata {
 	lockeId: generated_new_one,
 }
 
-// lk admin au 
-2g19j074kivp4pd8rrteu6fdep:8na3aeov5tik95m9p2hrn72up3lfek7ec9443tp1rj9jua0q732
+// use admin-api create user to create a new user in auth0
+curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic MmcxOWowNzRraXZwNHBkOHJydGV1NmZkZXA6OG5hM2Flb3Y1dGlrOTVtOXAyaHJuNzJ1cDNsZmVrN2VjOTQ0M3RwMXJqOWp1YTBxNzMy" -H "Content-Type: application/json" -d "{\"email\":\"lkay2333+dev1@gmail.com\"}"
 
-// prod   clientId:clientSecret after base64 encode
-MmcxOWowNzRraXZwNHBkOHJydGV1NmZkZXA6OG5hM2Flb3Y1dGlrOTVtOXAyaHJuNzJ1cDNsZmVrN2VjOTQ0M3RwMXJqOWp1YTBxNzMy
-
-curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic MmcxOWowNzRraXZwNHBkOHJydGV1NmZkZXA6OG5hM2Flb3Y1dGlrOTVtOXAyaHJuNzJ1cDNsZmVrN2VjOTQ0M3RwMXJqOWp1YTBxNzMy" -H "Content-Type: application/json" -d "{\"email\":\"lkay2333+prod1@gmail.com\"}"
-
-// dev( use propTrack)
-curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic MTEybHFnNGNycHZvaThhMm5rcjlkZTlsZjc6aXVjNGFjYTJoaGcxczZ1cnY1aDE1YTZjMHZqbHR0cW01ZG11NTZiaGdscm9ub2tpYjly" -H "Content-Type: application/json" -d "{\"email\":\"lkay2333+dev1@gmail.com\"}"
 ```
 
 ### output
- - [x] updated sourceInfo in token   ->  `test1001 &  rca`     profile page  
- - [x] set `sourceChecked` like     `app_meatadata { clentID: true }`   auth0
+ - [ ] updated sourceInfo in token   ->  `test1001 &  rca`     profile page  
+ - [ ] set `sourceChecked` like     `app_meatadata { clentID: true }`   auth0
  
 
 ## case2
