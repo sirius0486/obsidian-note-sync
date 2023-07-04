@@ -73,7 +73,7 @@ app_meatadata {
 // lk admin au 
 2g19j074kivp4pd8rrteu6fdep:8na3aeov5tik95m9p2hrn72up3lfek7ec9443tp1rj9jua0q732
 
-// prod( use propTrack)  clientId:clientSecret after base64 encode
+// prod   clientId:clientSecret after base64 encode
 MmcxOWowNzRraXZwNHBkOHJydGV1NmZkZXA6OG5hM2Flb3Y1dGlrOTVtOXAyaHJuNzJ1cDNsZmVrN2VjOTQ0M3RwMXJqOWp1YTBxNzMy
 
 curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic MmcxOWowNzRraXZwNHBkOHJydGV1NmZkZXA6OG5hM2Flb3Y1dGlrOTVtOXAyaHJuNzJ1cDNsZmVrN2VjOTQ0M3RwMXJqOWp1YTBxNzMy" -H "Content-Type: application/json" -d "{\"email\":\"lkay2333+prod1@gmail.com\"}"
