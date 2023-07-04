@@ -16,6 +16,11 @@ rca:  1p48kcl0ftem2iee52ih34034, 5j47i153ecsr36fmsut62oe1c6
 
 // prod   clientId:clientSecret after base64 encode
 MmcxOWowNzRraXZwNHBkOHJydGV1NmZkZXA6OG5hM2Flb3Y1dGlrOTVtOXAyaHJuNzJ1cDNsZmVrN2VjOTQ0M3RwMXJqOWp1YTBxNzMy
+
+test-dev-02 rca E:lkay2333+dev2@gmail.com
+test-dev-01 rca L: generated_locked_id
+
+
 ```
 
 ![[Pasted image 20230703144634.png]]
