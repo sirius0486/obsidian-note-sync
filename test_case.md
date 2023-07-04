@@ -77,12 +77,14 @@ app_meatadata {
 }
 
 // use admin-api create user to create a new user in auth0
-curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic " -H "Content-Type: application/json" -d "{\"email\":\"lkay2333+dev1@gmail.com\"}"
+curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic aFFXMTF6UWVyM2Jqd2NxazVaeEJSelpEVFJncUVCdDg6cDZMQW9haklwSThoN1c2RllNcC13amhHMlRnNkpCQkozQ3ZpdHo5ektXeFlPcEctU3BsamV2bThsbEZYdm10Vw==" -H "Content-Type: application/json" -d "{\"email\":\"lkay2333+dev1@gmail.com\"}"
 
 ```
 
 ### output
- - [ ] updated sourceInfo in token   ->  `test1001 &  rca`     profile page  
+ - [ ] updated sourceInfo in token  
+	 -  `custom: source_name : test-dev-01 
+	 -  `custom: source_name: rca`      in   **profile page** after login  
  - [ ] set `sourceChecked` like     `app_meatadata { clentID: true }`   auth0
  
 
@@ -120,7 +122,7 @@ app_meatadata {
 ```
 
 ### output
- - [x] should not include `sourceInfo` in token  
+ - [ ] should not include `sourceInfo` in token  
 
 ## case3
 
@@ -152,9 +154,9 @@ app_meatadata {
 ```
 
 ### output
- - [x] should include `SourceInfo` in token 
- - [x] update `email` to `lockeId`
- - [x] appmeatadata: { `5j47i153ecsr36fmsut62oe1c6` : true }
+ - [ ] should include `SourceInfo` in token 
+ - [ ] update `email` to `lockeId`
+ - [ ] appmeatadata: { `5j47i153ecsr36fmsut62oe1c6` : true }
 
 ## case4
 
@@ -188,7 +190,7 @@ app_meatadata {
 ```
 
 ### output
- - [x] should not include `SourceInfo` in token 
+ - [ ] should not include `SourceInfo` in token 
 
 ## case5
 
@@ -218,8 +220,8 @@ app_meatadata {
 ```
 
 ### output
- - [x] update `hasSourceChecked`  to `true` 
- - [x] should not include source info in token
+ - [ ] update `hasSourceChecked`  to `true` 
+ - [ ] should not include source info in token
 
 ## case6
 
