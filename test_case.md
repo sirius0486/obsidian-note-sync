@@ -2,6 +2,7 @@
 
 > dev:  
 
+```js
 rea: 3b13kuk1s7s18c5olh3t3o2jmt
 rca: 2i429vaqutmpits0itbluc4fh3
 
@@ -15,11 +16,10 @@ rca:  1p48kcl0ftem2iee52ih34034, 5j47i153ecsr36fmsut62oe1c6
 
 // prod   clientId:clientSecret after base64 encode
 MmcxOWowNzRraXZwNHBkOHJydGV1NmZkZXA6OG5hM2Flb3Y1dGlrOTVtOXAyaHJuNzJ1cDNsZmVrN2VjOTQ0M3RwMXJqOWp1YTBxNzMy
+```
 
 ![[Pasted image 20230703144634.png]]
 
-prod_test1 myRea L:
-prod_test2 rca       E: lkay2333+prod2@gmail.com
 
 ### client_id list
 ```ts
@@ -42,11 +42,8 @@ const RCA_CLIENTS = [
 ]
 
 'hQW11zQer3bjwcqk5ZxBRzZDTRgqEBt8'  // default client in locke_demo dev
-'LzSGQNnJ0x9xx8u9s252Yy0jLmY0mdzW'.  //  locke_demo prod
 ```
 
-test_case_prod1  rca  L:generate new one
-test_case_prod2 rca  E:lkay2333+dev2@gmail.com
 
 ## case1
 
@@ -115,7 +112,7 @@ sourceRecord: {
 app_meatadata {
 	lockeId: 54373d21-7a2d-56e6-9d2e-afaac50df33f,
     hasSourceChecked:{
-	    1p48kcl0ftem2iee52ih34034: true
+	    clientId: true
     }
 }
 
