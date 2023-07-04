@@ -3,6 +3,10 @@
 > dev:  
 
 ```js
+https://settings-prod.locke-dev.rea-group.com/api/authenticate?redirect_path=%2Fglobal-sign-out%3Fclient_id%3D7fj1shu31fnrbgf8at0olfhm9q%26redirect_uri%3Dhttps%3A%2F%2Flocke-demo-prod.locke-dev.rea-group.com%2Fprofile
+
+
+
 rea: 3b13kuk1s7s18c5olh3t3o2jmt
 rca: 2i429vaqutmpits0itbluc4fh3
 
