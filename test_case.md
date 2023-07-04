@@ -15,6 +15,9 @@ https://id-dev.realestate.com.au/authorize?client_id=1p48kcl0ftem2iee52ih34034&r
 
 ![[Pasted image 20230703144634.png]]
 
+prod_test1 myRea L:
+prod_test2 rca       E: lkay2333+prod2@gmail.com
+
 ### client_id list
 ```ts
 const MYREA_CLIENTS = [  
