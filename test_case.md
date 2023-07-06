@@ -311,11 +311,11 @@ https://admin-management-api.locke-dev.rea-group.com/user/global-logout
 
 $ echo -n "<client_id>:<client_secret>" | bash64 -w 0
 
-hQW11zQer3bjwcqk5ZxBRzZDTRgqEBt8:
+hQW11zQer3bjwcqk5ZxBRzZDTRgqEBt8:p6LAoajIpI8h7W6FYMp-wjhG2Tg6JBBJ3Cvitz9zKWxYOpG-Spljevm8llFXvmtW
 
 
 
-curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user/global-logout" -H "accept: */*" -H "Authorization: Basic <id:secret>" -H "Content-Type: application/json" -d "{\"email\":\"lkay2333@gmail.com\"}"
+curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user/global-logout" -H "accept: */*" -H "Authorization: Basic aFFXMTF6UWVyM2Jqd2NxazVaeEJSelpEVFJncUVCdDg6cDZMQW9haklwSThoN1c2RllNcC13amhHMlRnNkpCQkozQ3ZpdHo5ektXeFlPcEctU3BsamV2bThsbEZYdm10Vw==" -H "Content-Type: application/json" -d "{\"email\":\"lkay2333@gmail.com\"}"
 
 ```
 
