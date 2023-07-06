@@ -318,6 +318,9 @@ curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user/globa
 
 ```
 
+1. confirm   -> no problem -> deploy to dev
+2. test   , call admin-api in auth0 ,   check log in cloud watch   cognito whether logout
+
 
 ### prod
 
