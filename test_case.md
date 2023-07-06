@@ -294,3 +294,30 @@ app_meatadata {
 
 ### output
  - [x] throw error , use can not login in successfully
+
+
+
+
+
+
+### global sign out
+
+
+### dev
+```js
+
+https://admin-management-api.locke-dev.rea-group.com/user/global-logout
+
+
+$ echo -n "<client_id>:<client_secret>" | bash64 -w 0
+
+hQW11zQer3bjwcqk5ZxBRzZDTRgqEBt8:
+
+
+
+curl -i -X POST "https://admin-management-api.locke-dev.rea-group.com/user" -H "accept: */*" -H "Authorization: Basic <id:secret>" -H "Content-Type: application/json" -d "{\"email\":\"jimson.test+test1234-1@gmail.com\"}"
+
+```
+
+
+### prod
