@@ -336,3 +336,23 @@ $ echo -n "<client_id>:<client_secret>" | bash64 -w 0
 curl -i -X POST "https://api.id.realestate.com.au/admin/user/global-logout" -H "accept: */*" -H "Authorization: Basic <clientId:clientSecret>" -H "Content-Type: application/json" -d "{\"email\":\"lkay2333@gmail.com\"}"
 
 ```
+
+
+
+
+
+
+
+
+## global sign out
+
+### src/utils/constants.ts
+```ts
+export const LOCKE_USER_POOL_TABLE = 'locke-userpool-au-dev';
+```
+
+
+### src/services/globalSignOutService.ts
+```ts
+
+```
