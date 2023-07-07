@@ -446,4 +446,370 @@ export const getGlobalSignOutUser = async (lockeId: string) => {
 ```
 
 
-### 
+### src/clients/cognitoClient.ts
+
+```ts
+import {
+  CognitoIdentityProviderClient,
+  AdminCreateUserCommand,
+  AdminCreateUserCommandInput,
+  AdminCreateUserCommandOutput,
+  AdminSetUserPasswordCommand,
+  AdminSetUserPasswordCommandInput,
+  AdminSetUserPasswordCommandOutput,
+  AdminUpdateUserAttributesCommand,
+  AdminUpdateUserAttributesCommandInput,
+  AdminUpdateUserAttributesCommandOutput,
+  AdminGetUserCommand,
+  AdminGetUserCommandOutput,
+  AdminGetUserCommandInput,
+  AdminDeleteUserCommand,
+  AdminDeleteUserCommandInput,
+  AdminDeleteUserCommandOutput,
+  AdminUserGlobalSignOutCommand,
+  AdminUserGlobalSignOutCommandInput,
+  AdminUserGlobalSignOutCommandOutput,
+} from "@aws-sdk/client-cognito-identity-provider";
+import { REGION } from '../utils/constants';
+
+export class CognitoClient {
+  private cognitoClient: CognitoIdentityProviderClient;
+
+  constructor() {
+    this.cognitoClient = new CognitoIdentityProviderClient({
+      region: REGION,
+    });
+  }
+
+  public async adminCreateUser(params: AdminCreateUserCommandInput): Promise<AdminCreateUserCommandOutput> {
+    return this.cognitoClient.send(new AdminCreateUserCommand(params));
+  }
+
+  public async adminSetPassword(params: AdminSetUserPasswordCommandInput): Promise<AdminSetUserPasswordCommandOutput> {
+    return this.cognitoClient.send(new AdminSetUserPasswordCommand(params));
+  }
+
+  public async adminUpdateUser(params: AdminUpdateUserAttributesCommandInput): Promise<AdminUpdateUserAttributesCommandOutput> {
+    return this.cognitoClient.send(new AdminUpdateUserAttributesCommand(params));
+  }
+
+  public async adminGetUser(params: AdminGetUserCommandInput): Promise<AdminGetUserCommandOutput> {
+    return this.cognitoClient.send(new AdminGetUserCommand(params));
+  }
+
+  public async adminDeleteUser(params: AdminDeleteUserCommandInput): Promise<AdminDeleteUserCommandOutput> {
+    return this.cognitoClient.send(new AdminDeleteUserCommand(params));
+  }
+
+  public async adminUserGlobalSignOut(params: AdminUserGlobalSignOutCommandInput): Promise<AdminUserGlobalSignOutCommandOutput> {
+    return this.cognitoClient.send(new AdminUserGlobalSignOutCommand(params));
+  }
+}
+
+```
+
+
+
+### test/auth0EventsHandler/handler.test.ts
+```ts
+import { EventType } from '@locke/locke-events-sdk';
+import { userSignUpEventHandler } from '../../src/auth0EventsHandler/userSignUpEventHandler';
+import { updateEmailEventHandler } from '../../src/auth0EventsHandler/updateEmailEventHandler';
+import { phoneNumberUpdateEventHandler } from '../../src/auth0EventsHandler/phoneNumberUpdateEventHandler';
+import { deleteUserEventHandler } from '../../src/auth0EventsHandler/deleteUserEventHandler';
+import { globalSignOutEventHandler } from '../../src/auth0EventsHandler/globalSignOutEventHandler';
+import { handleAuth0UserEvent } from '../../src/auth0EventsHandler/handler';
+import {
+  DeleteUserEventData,
+  LockeEvent,
+  SignupEventData,
+  UpdateEmailEventData,
+  UpdatePhoneNumberEventData,
+  GlobalSignOutEventData
+} from '../../src/utils/types';
+
+jest.mock('../../src/auth0EventsHandler/updateEmailEventHandler');
+jest.mock('../../src/auth0EventsHandler/userSignUpEventHandler');
+jest.mock('../../src/auth0EventsHandler/phoneNumberUpdateEventHandler');
+jest.mock('../../src/auth0EventsHandler/deleteUserEventHandler');
+jest.mock('../../src/auth0EventsHandler/globalSignOutEventHandler');
+
+describe('handleAuth0UserEvent',  () => {
+  beforeEach(() => {
+    (userSignUpEventHandler as jest.Mock).mockResolvedValue({});
+    (updateEmailEventHandler as jest.Mock).mockResolvedValue({});
+    (phoneNumberUpdateEventHandler as jest.Mock).mockResolvedValue({});
+    (deleteUserEventHandler as jest.Mock).mockResolvedValue({});
+    (globalSignOutEventHandler as jest.Mock).mockResolvedValue({});
+  });
+
+  afterEach(jest.resetAllMocks);
+
+  it('should call userSignUpEventHandler and transform data when event type is User_Signup ', () => {
+    const data = {
+      clientID: 'clientID',
+      triggerSource: 'PostConfirmation_ConfirmSignUp',
+      phoneNumber: '+8612345'
+    } as unknown as SignupEventData;
+    const payload = {
+      cloudEventsVersion: '1',
+      eventType: EventType.User_Signup,
+      data,
+    } as unknown as LockeEvent;
+
+    handleAuth0UserEvent(payload, 'sequenceNumber');
+    expect(userSignUpEventHandler).toBeCalledWith(data, 'sequenceNumber');
+  });
+
+  it('should call updateEmailEventHandler and transform data when event type is Update_Email ', () => {
+    const data = {
+      clientID: 'clientID',
+      newEmail: 'newemail@gmail.com'
+    } as unknown as UpdateEmailEventData;
+    const payload = {
+      eventType: EventType.Update_Email,
+      data,
+    } as unknown as LockeEvent;
+
+    handleAuth0UserEvent(payload, 'sequenceNumber');
+    expect(updateEmailEventHandler).toBeCalledWith(data, 'sequenceNumber');
+  });
+
+  it('should call phoneNumberUpdateEventHandler and transform data when event type is  Update_Phone_Number', () => {
+    const data = {
+      clientID: 'clientID',
+      phoneNumber: '+8612345'
+    } as unknown as UpdatePhoneNumberEventData;
+    const payload = {
+      eventType: EventType.Update_Phone_Number,
+      data,
+    } as unknown as LockeEvent;
+
+    handleAuth0UserEvent(payload, 'sequenceNumber');
+    expect(phoneNumberUpdateEventHandler).toBeCalledWith(data, 'sequenceNumber');
+  });
+
+  it('should call deleteUserEventHandler and transform data when event type is Delete_User', () => {
+    const data = {
+      clientID: 'clientID',
+      username: 'fake-locke-id'
+    } as unknown as DeleteUserEventData;
+    const payload = {
+      eventType: EventType.Delete_User,
+      data,
+    } as unknown as LockeEvent;
+
+    handleAuth0UserEvent(payload, 'sequenceNumber');
+    expect(deleteUserEventHandler).toBeCalledWith(data, 'sequenceNumber');
+  });
+
+  it('should call globalSignOutEventHandler and transform data when event type is Global_Sign_Out', () => {
+    const data = {
+      clientID: 'clientID',
+      username: 'fake-locke-id'
+    } as unknown as GlobalSignOutEventData;
+    const payload = {
+      eventType: EventType.Global_Sign_Out,
+      data,
+    } as unknown as LockeEvent;
+
+    handleAuth0UserEvent(payload, 'sequenceNumber');
+    expect(globalSignOutEventHandler).toBeCalledWith(data, 'sequenceNumber');
+  });
+});
+
+```
+
+### test/auth0EventsHandler/globalSignOutEventHandler.test.ts
+```ts
+import { globalSignOutUser, getGlobalSignOutUser } from '../../src/services/globalSignOutService';
+import { globalSignOutEventHandler } from '../../src/auth0EventsHandler/globalSignOutEventHandler';
+import { GlobalSignOutEventData } from '../../src/utils/types';
+import { operationErrorHandler } from "../../src/services/errorService";
+
+jest.mock('../../src/services/globalSignOutService');
+jest.mock('../../src/services/errorService');
+
+describe('globalSignOutEventHandler', () => {
+  const mockOperationErrorHandler = jest.fn();
+
+  it('should call global sign out user in cognito', async () => {
+    (getGlobalSignOutUser as jest.Mock).mockResolvedValue('user');
+    const data = {
+      username: 'test-username'
+    } as unknown as GlobalSignOutEventData;
+    await globalSignOutEventHandler(data, 'sequence-number');
+
+    expect(getGlobalSignOutUser).toHaveBeenCalledWith( 'test-username');
+    expect(globalSignOutUser).toHaveBeenCalledWith('test-username', 'sequence-number');
+  });
+
+  it('should log error user info and put metric when user failed to global sign out in cognito', async () => {
+    (operationErrorHandler as jest.Mock).mockImplementation(mockOperationErrorHandler);
+
+    const data = {
+      username: 'test-username'
+    } as unknown as GlobalSignOutEventData;
+    await globalSignOutEventHandler(data, 'sequenceNumber');
+
+    expect(getGlobalSignOutUser).toHaveBeenCalledWith('test-username');
+    expect(operationErrorHandler).toHaveBeenCalledWith(
+      'Global sign out User not found', `User not found for global sign out in Cognito with username: ${ data.username }`, { sequenceNumber: 'sequenceNumber'});
+  });
+});
+
+```
+
+### test/clients/cognitoClient.test.ts
+```ts
+import { CognitoClient } from '../../src/clients/cognitoClient';
+import {
+  CognitoIdentityProviderClient,
+  AdminCreateUserCommand,
+  AdminSetUserPasswordCommand,
+  AdminUpdateUserAttributesCommand,
+  AdminGetUserCommand,
+  AdminDeleteUserCommand,
+  AdminUserGlobalSignOutCommand
+} from '@aws-sdk/client-cognito-identity-provider';
+
+jest.mock('@aws-sdk/client-cognito-identity-provider');
+
+describe('CognitoClient', () => {
+  beforeEach(() => {
+    const mockSend = jest.fn(() => ({ promise: jest.fn() }));
+    (CognitoIdentityProviderClient as unknown as jest.Mock).mockImplementation(() => ({
+      send: mockSend
+    }));
+  });
+  afterEach(jest.clearAllMocks);
+
+  it('should create user', async () => {
+    (AdminCreateUserCommand as unknown as jest.Mock).mockImplementation(jest.fn);
+    const params = {
+      UserPoolId: 'fake-userpool-id',
+      Username: 'fake-locke-id'
+    };
+    await new CognitoClient().adminCreateUser(params);
+
+    expect(AdminCreateUserCommand).toHaveBeenCalledWith(params);
+  });
+
+  it('should call set password', async () => {
+    (AdminSetUserPasswordCommand as unknown as jest.Mock).mockImplementation(jest.fn);
+    const params = {
+      UserPoolId: 'fake-userpool-id',
+      Username: 'fake-locke-id',
+      Password: 'password',
+      Permanent: true
+    };
+    await new CognitoClient().adminSetPassword(params);
+
+    expect(AdminSetUserPasswordCommand).toHaveBeenCalledWith(params);
+  });
+
+  it('should call update user', async () => {
+    (AdminUpdateUserAttributesCommand as unknown as jest.Mock).mockImplementation(jest.fn);
+    const params = {
+      UserPoolId: 'fake-userpool-id',
+      Username: 'fake-locke-id',
+      UserAttributes: [],
+    };
+    await new CognitoClient().adminUpdateUser(params);
+
+    expect(AdminUpdateUserAttributesCommand).toHaveBeenCalledWith(params);
+  });
+
+  it('should call get user', async () => {
+    (AdminGetUserCommand as unknown as jest.Mock).mockImplementation(jest.fn);
+    const params = {
+      UserPoolId: 'fake-userpool-id',
+      Username: 'fake-locke-id',
+    };
+    await new CognitoClient().adminGetUser(params);
+
+    expect(AdminGetUserCommand).toHaveBeenCalledWith(params);
+  });
+
+  it('should call delete user', async () => {
+    (AdminDeleteUserCommand as unknown as jest.Mock).mockImplementation(jest.fn);
+    const params = {
+      UserPoolId: 'fake-userpool-id',
+      Username: 'fake-locke-id',
+    };
+    await new CognitoClient().adminDeleteUser(params);
+
+    expect(AdminDeleteUserCommand).toHaveBeenCalledWith(params);
+  });
+
+  it('should call global sign out user', async () => {
+    (AdminUserGlobalSignOutCommand as unknown as jest.Mock).mockImplementation(jest.fn);
+    const params = {
+      UserPoolId: 'fake-userpool-id',
+      Username: 'fake-locke-id',
+    };
+    await new CognitoClient().adminUserGlobalSignOut(params);
+
+    expect(AdminUserGlobalSignOutCommand).toHaveBeenCalledWith(params);
+  });
+});
+
+```
+
+
+### test/services/globalSignOutService.test.ts
+```ts
+import { CognitoClient } from '../../src/clients/cognitoClient';
+import { operationErrorHandler } from '../../src/services/errorService';
+import { globalSignOutUser } from '../../src/services/globalSignOutService';
+import { CognitoUser } from "../../src/services/cognitoUserService";
+import { logger } from '@locke/locke-logger-module';
+import config from "../../src/utils/config";
+
+jest.mock('@locke/locke-logger-module');
+jest.mock('../../src/services/metricService');
+jest.mock('../../src/clients/cognitoClient');
+jest.mock('../../src/services/errorService');
+describe('globalSignOutService', () => {
+  const mockGlobalSignOut = jest.fn();
+  const mockOperationErrorHandler = jest.fn();
+
+  beforeEach(() => {
+    (CognitoClient as jest.Mock).mockImplementation(() => ({
+      adminUserGlobalSignOut: mockGlobalSignOut,
+    }));
+    (operationErrorHandler as jest.Mock).mockImplementation(mockOperationErrorHandler);
+  });
+  afterEach(jest.clearAllMocks);
+
+  it('should call cognito client to global sign up user', async () => {
+    const user = {
+      email: 'test@gmail.com',
+      locke_id: 'locke_id',
+    } as unknown as CognitoUser;
+
+    await globalSignOutUser(user.locke_id, 'sequenceNumber');
+
+    expect(logger.info).toHaveBeenCalledWith(`Success global sign out user by ${ user.locke_id } from cognito userpool ${ config.userpoolID }`);
+    expect(mockGlobalSignOut).toHaveBeenCalledWith({
+      UserPoolId: config.userpoolID,
+      Username: user.locke_id,
+    });
+
+  });
+
+  it('should log the error message and call putOperationErrorMetricData', async () => {
+    (mockGlobalSignOut as jest.Mock).mockRejectedValue('error');
+    const user = {
+      email: 'test@gmail.com',
+      locke_id: 'locke_id',
+    } as unknown as CognitoUser;
+
+    await globalSignOutUser(user.locke_id, 'sequenceNumber');
+
+    expect(operationErrorHandler).toHaveBeenCalledWith(
+      'error', `Got error when global sign out user by ${ user.locke_id } from cognito userpool`, { sequenceNumber: 'sequenceNumber'});
+  });
+});
+
+```
