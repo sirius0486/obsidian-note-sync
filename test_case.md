@@ -346,45 +346,6 @@ curl -i -X POST "https://api.id.realestate.com.au/admin/user/global-logout" -H "
 
 ## global sign out
 
-### src/auth0EventsHandler/handler.ts
-```ts
-import {
-  isDeleteUserEvent,
-  isSignupEvent,
-  isUpdateEmailEvent,
-  isUpdatePhoneNumberEvent,
-  isGlobalSignOutEvent,
-  LockeEvent
-} from '../utils/types';
-import { userSignUpEventHandler } from './userSignUpEventHandler';
-import { phoneNumberUpdateEventHandler } from './phoneNumberUpdateEventHandler';
-import { updateEmailEventHandler } from './updateEmailEventHandler';
-import { deleteUserEventHandler } from './deleteUserEventHandler';
-import { logger } from '@locke/locke-logger-module';
-import { globalSignOutEventHandler } from './globalSignOutEventHandler';
-
-export const handleAuth0UserEvent = async (eventPayload: LockeEvent, sequenceNumber: string) => {
-  logger.info('auth0 event switch', { type: eventPayload.eventType, lockeId: eventPayload.data.username });
-  if (isSignupEvent(eventPayload)) {
-    return userSignUpEventHandler(eventPayload.data, sequenceNumber);
-  }
-  if (isUpdateEmailEvent(eventPayload)) {
-    return updateEmailEventHandler(eventPayload.data, sequenceNumber);
-  }
-  if (isUpdatePhoneNumberEvent(eventPayload)) {
-    return phoneNumberUpdateEventHandler(eventPayload.data, sequenceNumber);
-  }
-  if (isDeleteUserEvent(eventPayload)) {
-    return deleteUserEventHandler(eventPayload.data, sequenceNumber);
-  }
-  if (isGlobalSignOutEvent(eventPayload)) {
-    return globalSignOutEventHandler(eventPayload.data, sequenceNumber);
-  }
-};
-
-```
-
-
 ### src/auth0EventsHandler/globalSignOutEventHandler.ts
 ```ts
 import { GlobalSignOutEventData } from '../utils/types';
@@ -403,14 +364,6 @@ export const globalSignOutEventHandler = async (data: GlobalSignOutEventData, se
   }
 };
 ```
-
-
-
-### src/utils/constants.ts
-```ts
-export const LOCKE_USER_POOL_TABLE = 'locke-userpool-au-dev';
-```
-
 
 ### src/services/globalSignOutService.ts
 ```ts
@@ -444,70 +397,6 @@ export const getGlobalSignOutUser = async (lockeId: string) => {
 
 
 ```
-
-
-### src/clients/cognitoClient.ts
-
-```ts
-import {
-  CognitoIdentityProviderClient,
-  AdminCreateUserCommand,
-  AdminCreateUserCommandInput,
-  AdminCreateUserCommandOutput,
-  AdminSetUserPasswordCommand,
-  AdminSetUserPasswordCommandInput,
-  AdminSetUserPasswordCommandOutput,
-  AdminUpdateUserAttributesCommand,
-  AdminUpdateUserAttributesCommandInput,
-  AdminUpdateUserAttributesCommandOutput,
-  AdminGetUserCommand,
-  AdminGetUserCommandOutput,
-  AdminGetUserCommandInput,
-  AdminDeleteUserCommand,
-  AdminDeleteUserCommandInput,
-  AdminDeleteUserCommandOutput,
-  AdminUserGlobalSignOutCommand,
-  AdminUserGlobalSignOutCommandInput,
-  AdminUserGlobalSignOutCommandOutput,
-} from "@aws-sdk/client-cognito-identity-provider";
-import { REGION } from '../utils/constants';
-
-export class CognitoClient {
-  private cognitoClient: CognitoIdentityProviderClient;
-
-  constructor() {
-    this.cognitoClient = new CognitoIdentityProviderClient({
-      region: REGION,
-    });
-  }
-
-  public async adminCreateUser(params: AdminCreateUserCommandInput): Promise<AdminCreateUserCommandOutput> {
-    return this.cognitoClient.send(new AdminCreateUserCommand(params));
-  }
-
-  public async adminSetPassword(params: AdminSetUserPasswordCommandInput): Promise<AdminSetUserPasswordCommandOutput> {
-    return this.cognitoClient.send(new AdminSetUserPasswordCommand(params));
-  }
-
-  public async adminUpdateUser(params: AdminUpdateUserAttributesCommandInput): Promise<AdminUpdateUserAttributesCommandOutput> {
-    return this.cognitoClient.send(new AdminUpdateUserAttributesCommand(params));
-  }
-
-  public async adminGetUser(params: AdminGetUserCommandInput): Promise<AdminGetUserCommandOutput> {
-    return this.cognitoClient.send(new AdminGetUserCommand(params));
-  }
-
-  public async adminDeleteUser(params: AdminDeleteUserCommandInput): Promise<AdminDeleteUserCommandOutput> {
-    return this.cognitoClient.send(new AdminDeleteUserCommand(params));
-  }
-
-  public async adminUserGlobalSignOut(params: AdminUserGlobalSignOutCommandInput): Promise<AdminUserGlobalSignOutCommandOutput> {
-    return this.cognitoClient.send(new AdminUserGlobalSignOutCommand(params));
-  }
-}
-
-```
-
 
 
 ### test/auth0EventsHandler/handler.test.ts
