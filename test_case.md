@@ -346,6 +346,66 @@ curl -i -X POST "https://api.id.realestate.com.au/admin/user/global-logout" -H "
 
 ## global sign out
 
+### src/auth0EventsHandler/handler.ts
+```ts
+import {
+  isDeleteUserEvent,
+  isSignupEvent,
+  isUpdateEmailEvent,
+  isUpdatePhoneNumberEvent,
+  isGlobalSignOutEvent,
+  LockeEvent
+} from '../utils/types';
+import { userSignUpEventHandler } from './userSignUpEventHandler';
+import { phoneNumberUpdateEventHandler } from './phoneNumberUpdateEventHandler';
+import { updateEmailEventHandler } from './updateEmailEventHandler';
+import { deleteUserEventHandler } from './deleteUserEventHandler';
+import { logger } from '@locke/locke-logger-module';
+import { globalSignOutEventHandler } from './globalSignOutEventHandler';
+
+export const handleAuth0UserEvent = async (eventPayload: LockeEvent, sequenceNumber: string) => {
+  logger.info('auth0 event switch', { type: eventPayload.eventType, lockeId: eventPayload.data.username });
+  if (isSignupEvent(eventPayload)) {
+    return userSignUpEventHandler(eventPayload.data, sequenceNumber);
+  }
+  if (isUpdateEmailEvent(eventPayload)) {
+    return updateEmailEventHandler(eventPayload.data, sequenceNumber);
+  }
+  if (isUpdatePhoneNumberEvent(eventPayload)) {
+    return phoneNumberUpdateEventHandler(eventPayload.data, sequenceNumber);
+  }
+  if (isDeleteUserEvent(eventPayload)) {
+    return deleteUserEventHandler(eventPayload.data, sequenceNumber);
+  }
+  if (isGlobalSignOutEvent(eventPayload)) {
+    return globalSignOutEventHandler(eventPayload.data, sequenceNumber);
+  }
+};
+
+```
+
+
+### src/auth0EventsHandler/globalSignOutEventHandler.ts
+```ts
+import { GlobalSignOutEventData } from '../utils/types';
+import { getGlobalSignOutUser, globalSignOutUser } from "../services/globalSignOutService";
+import { logger } from '@locke/locke-logger-module';
+import { operationErrorHandler } from "../services/errorService";
+
+export const globalSignOutEventHandler = async (data: GlobalSignOutEventData, sequenceNumber: string) => {
+  const user = await getGlobalSignOutUser( data.username );
+  if (user) {
+    await globalSignOutUser(data.username, sequenceNumber);
+    logger.info(`Finish global sign out user with username: ${ data.username }`);
+  } else {
+    await operationErrorHandler('Global sign out User not found', `User not found for global sign out in Cognito with username: ${ data.username }`, { sequenceNumber });
+    logger.info(`Global sign out User not found with username ${ data.username }`);
+  }
+};
+```
+
+
+
 ### src/utils/constants.ts
 ```ts
 export const LOCKE_USER_POOL_TABLE = 'locke-userpool-au-dev';
@@ -354,5 +414,36 @@ export const LOCKE_USER_POOL_TABLE = 'locke-userpool-au-dev';
 
 ### src/services/globalSignOutService.ts
 ```ts
+import { logger } from '@locke/locke-logger-module';
+import config from '../utils/config';
+import { CognitoClient } from '../clients/cognitoClient';
+import { LOCKE_USER_POOL_TABLE } from "../utils/constants";
+import { operationErrorHandler } from './errorService';
+
+const getCommonParams = (lockeId: string) => ({
+  UserPoolId: config.userpoolID,
+  Username: lockeId
+});
+export const globalSignOutUser = async (lockeId: string, sequenceNumber: string) => {
+  try {
+    await new CognitoClient().adminUserGlobalSignOut(getCommonParams(lockeId));
+    logger.info(`Success global sign out user by ${ lockeId } from cognito user pool ${ config.userpoolID }`);
+  } catch (error) {
+    await operationErrorHandler(error, `Got error when global sign out user by ${ lockeId } from cognito user pool`, { sequenceNumber });
+  }
+};
+
+export const getGlobalSignOutUser = async (lockeId: string) => {
+  try {
+    return await new CognitoClient().adminGetUser(getCommonParams(lockeId));
+  } catch (error) {
+    await operationErrorHandler(error, `Failed to get user with locke_id ${ lockeId } from ${ LOCKE_USER_POOL_TABLE }`);
+    return;
+  }
+};
+
 
 ```
+
+
+### 
