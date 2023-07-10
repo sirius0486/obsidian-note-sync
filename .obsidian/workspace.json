@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2dbf1d013d364b6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "英语单词- develop.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6ac4ca624c23fe72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阅读链接.md",
+                "file": "知识整理归纳.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "知识整理归纳.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "知识整理归纳.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语单词- develop.md"
+                "file": "知识整理归纳.md"
               }
             }
           },
@@ -183,11 +171,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1406b7c5eaa064e8",
+  "active": "6ac4ca624c23fe72",
   "lastOpenFiles": [
-    "金句.md",
     "阅读链接.md",
     "英语单词- develop.md",
+    "金句.md",
     "知识整理归纳.md",
     "test_case.md",
     "assets/Pasted image 20230704141411.png",
