@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git commit规范.md",
+                "file": "Git/Git 常见问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git commit规范.md",
+                "file": "Git/Git 常见问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Git commit规范.md",
+                "file": "Git/Git 常见问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Git commit规范.md"
+                "file": "Git/Git 常见问题.md"
               }
             }
           },
@@ -186,7 +186,12 @@
   },
   "active": "59f062482ada85d1",
   "lastOpenFiles": [
+    "Git/Git 学习资源.md",
     "Git/Git alias设置.md",
+    "Git/Git commit规范.md",
+    "Git/GIt常见命令和原理.md",
+    "Git/Git撤销文件修改.md",
+    "Git/Git 常见问题.md",
     "TypeScript - React.md",
     "阅读链接.md",
     "金句.md",
@@ -210,12 +215,7 @@
     "React-Hooks/useEffect.md",
     "POST_Juejin/2023的React生态发展.md",
     "POST_Juejin",
-    "Git/Git commit规范.md",
-    "Git/GIt常见命令和原理.md",
-    "Git/Git撤销文件修改.md",
-    "Git/Git 常见问题.md",
     "English/English - Corner.md",
-    "English/English Template.md",
     "English",
     "PDF/P8大佬的算法解题笔记.pdf",
     "PDF/2023前端王修炼手册.pdf",
