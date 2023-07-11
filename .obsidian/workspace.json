@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "59f062482ada85d1",
+            "id": "0e14b0573b6d8986",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "金句.md",
+                "file": "JavaScript Snippets.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "金句.md",
+                "file": "JavaScript Snippets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "金句.md",
+                "file": "JavaScript Snippets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "金句.md"
+                "file": "JavaScript Snippets.md"
               }
             }
           },
@@ -184,16 +184,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "59f062482ada85d1",
+  "active": "0e14b0573b6d8986",
   "lastOpenFiles": [
-    "英语单词- develop.md",
+    "Learning Resource.md",
+    "阅读链接.md",
+    "README.md",
+    "TDD - Test.md",
+    "type-challenges.md",
     "知识整理归纳.md",
+    "英语单词- develop.md",
+    "金句.md",
     "React-Redux.md",
     "React Query.md",
-    "Learning Resource.md",
     "curl.md",
     "notes/npm镜像设置.md",
-    "阅读链接.md",
     "Git/Git撤销文件修改.md",
     "Git/GIt常见命令和原理.md",
     "Git/Git 常见问题.md",
@@ -201,20 +205,16 @@
     "Git/Git alias设置.md",
     "Git/Git commit规范.md",
     "TypeScript - React.md",
-    "金句.md",
     "test_case.md",
     "assets/Pasted image 20230704141411.png",
     "assets/Pasted image 20230703144634.png",
     "assets/Pasted image 20230703141847.png",
     "JavaScript Snippets.md",
-    "type-challenges.md",
     "React-Snippets.md",
-    "README.md",
     "RxJs.md",
     "fp-ts.md",
     "().md",
     "React-Hooks/useEffect.md",
-    "POST_Juejin/2023的React生态发展.md",
     "POST_Juejin",
     "English",
     "PDF/P8大佬的算法解题笔记.pdf",
