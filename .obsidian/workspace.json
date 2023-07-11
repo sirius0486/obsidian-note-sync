@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "Git/Git alias设置.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "Git/Git alias设置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "Git/Git alias设置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript - React.md"
+                "file": "Git/Git alias设置.md"
               }
             }
           },
@@ -186,6 +186,7 @@
   },
   "active": "59f062482ada85d1",
   "lastOpenFiles": [
+    "TypeScript - React.md",
     "阅读链接.md",
     "金句.md",
     "知识整理归纳.md",
@@ -209,7 +210,6 @@
     "POST_Juejin/2023的React生态发展.md",
     "POST_Juejin",
     "Git/Git commit规范.md",
-    "TypeScript - React.md",
     "Git/GIt常见命令和原理.md",
     "Git/Git撤销文件修改.md",
     "Git/Git 常见问题.md",
