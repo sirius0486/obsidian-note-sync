@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "阅读链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "阅读链接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript - React.md"
+                "file": "阅读链接.md"
               }
             }
           },
@@ -184,8 +183,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0e14b0573b6d8986",
+  "active": "6ac4ca624c23fe72",
   "lastOpenFiles": [
+    "TypeScript - React.md",
     "type-challenges.md",
     "RxJs.md",
     "README.md",
@@ -207,7 +207,6 @@
     "Git/Git 学习资源.md",
     "Git/Git alias设置.md",
     "Git/Git commit规范.md",
-    "TypeScript - React.md",
     "test_case.md",
     "assets/Pasted image 20230704141411.png",
     "assets/Pasted image 20230703144634.png",
