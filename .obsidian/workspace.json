@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript - React.md",
+                "file": "fp-ts.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读链接.md",
+                "file": "fp-ts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读链接.md",
+                "file": "fp-ts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读链接.md"
+                "file": "fp-ts.md"
               }
             }
           },
@@ -183,9 +184,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6ac4ca624c23fe72",
+  "active": "0e14b0573b6d8986",
   "lastOpenFiles": [
+    "notes/工具插件集合.md",
     "TypeScript - React.md",
+    "阅读链接.md",
     "type-challenges.md",
     "RxJs.md",
     "README.md",
@@ -193,7 +196,6 @@
     "Learning Resource.md",
     "Kotlin.md",
     "JavaScript Snippets.md",
-    "阅读链接.md",
     "TDD - Test.md",
     "知识整理归纳.md",
     "英语单词- develop.md",
@@ -213,7 +215,6 @@
     "assets/Pasted image 20230703141847.png",
     "React-Snippets.md",
     "fp-ts.md",
-    "().md",
     "POST_Juejin",
     "English",
     "PDF/P8大佬的算法解题笔记.pdf",
