@@ -162,3 +162,110 @@ plpe 表示一系列函数的组合   flow则是 pipe 的变体 ， 执行从左
 如果后一个函数 依赖前一个函数的结果 可以用 chain  ,   if else , async/await/  , 一系列函数组合  前面出错了继续往下走
 map 和 chain,   map ->  （）=> a => b   同级  string -> number ,  chian == flat map ,   promise -> string..etc   会执行了 
 chainFirst  继续接受之前的参数， 而不依赖之前函数的结果 (拿不到) 
+
+O 来 handle if else 的情况
+
+
+
+### publishLinkAccountSocialEvent
+
+```ts
+import {
+  EventSource,
+  EventType,
+  LinkAccountSocialEvent,
+  LinkAccountSocialEventInput,
+  ProviderName,
+  TriggerSource
+} from '@locke/locke-events-sdk';
+import { UserPool } from '../../../aws/userPool';
+import { putErrorMetricData } from '../../../common/putMetricData';
+import { tryToFindAttributeValueFromUser } from '../../../common/tryToFindAttributeValueFromUser';
+import { publishEvent } from '../../../events/eventPublisher';
+import { publishSignupEvent } from '../../../events/publishPreSignupEvent';
+import { logInfoFromError } from '../../../logging/logInfoFromError';
+import { logger } from '../../../logging/logger';
+import { getUserFromUserPool } from '../../shared/getUserFromUserPool';
+
+export type linkAccountSocialEventInputData = LinkAccountSocialEventInput['data'];
+
+const handleSocialLinkError = async (username: string, userPool: UserPool, others: object) => {
+  logger.error('send Link_Account_Social failed', { username, ...others });
+  await putErrorMetricData(userPool.getRegion(), 'Operation Error');
+};
+
+const publishLinkAccountSocialEvent = async (username: string, userPool: UserPool, isSocialSignUp, linkAccountSocialEventInputData:linkAccountSocialEventInputData | undefined ) => {
+  try {
+    const linkAccountSocialEventInput: LinkAccountSocialEventInput = {
+      eventSource: EventSource.Locke_Api,
+      data:  linkAccountSocialEventInputData || {
+        username,
+        userpoolID: userPool.getId(),
+        isSocialSignUp,
+        providerName: ProviderName[Symbol.hasInstance],
+        socialUserId: 'empty-social-user-id'
+      }
+    };
+
+    await publishEvent(userPool.getRegion(), new LinkAccountSocialEvent(linkAccountSocialEventInput), EventType.Link_Account_Social);
+  } catch (error) {
+    await handleSocialLinkError(username, userPool, logInfoFromError(error as Error))
+  }
+}
+
+const getIdentities = async (userPool: UserPool, username: string) => {
+  try {
+    const user = await getUserFromUserPool(userPool, username);
+    if (!user) {
+      await handleSocialLinkError(username, userPool, { message: 'user not found'});
+      return;
+    }
+    return tryToFindAttributeValueFromUser(user, 'identities');
+  } catch (error) {
+    await handleSocialLinkError(username, userPool, logInfoFromError(error as Error));
+  }
+};
+
+const getLinkAccountSocialEventInputData = async (userPool: UserPool, username: string) => {
+    const identities = await getIdentities(userPool, username) || '';
+    if (identities) {
+      const parsedIdentities = JSON.parse(identities);
+      const socialUserId = parsedIdentities[0].userId;
+      const providerName = parsedIdentities[0].providerName;
+      const isSocialSignUp = false;
+      const linkAccountSocialEventInputData: linkAccountSocialEventInputData = {
+        username: "",
+        userpoolID: "",
+        socialUserId,
+        providerName,
+        isSocialSignUp
+      };
+      return linkAccountSocialEventInputData;
+    }
+    return ;
+};
+
+export const publishAddSocialEvent = async (username: string, userPool: UserPool) => {
+  const linkAccountSocialEventInputData = await getLinkAccountSocialEventInputData(userPool, username);
+  await publishLinkAccountSocialEvent(username, userPool, false, linkAccountSocialEventInputData);
+}
+
+export const publishSocialUserSignUpEvents = async (username: string, email: string, userPool: UserPool, clientId: string) => {
+  const identities = await getIdentities(userPool, username) || '';
+  const linkAccountSocialEventInputData = await getLinkAccountSocialEventInputData(userPool, username);
+  await publishSignupEvent(
+    {
+      triggerSource: TriggerSource.PreSignUp_AdminCreateUser,
+      username,
+      clientID: clientId,
+      userpoolID: userPool.getId(),
+      region: userPool.getRegion(),
+      email,
+      identities
+    },
+    userPool.getRegion()
+  );
+  await publishLinkAccountSocialEvent(username, userPool, true, linkAccountSocialEventInputData);
+}
+
+```
