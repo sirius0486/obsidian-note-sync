@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/工具插件集合.md",
+                "file": "Spring-Boot/SpringBoot常用注解.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/工具插件集合.md",
+                "file": "Spring-Boot/SpringBoot常用注解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/工具插件集合.md",
+                "file": "Spring-Boot/SpringBoot常用注解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/工具插件集合.md"
+                "file": "Spring-Boot/SpringBoot常用注解.md"
               }
             }
           },
@@ -186,35 +186,35 @@
   },
   "active": "0e14b0573b6d8986",
   "lastOpenFiles": [
-    "fp-ts.md",
-    "阅读链接.md",
-    "notes/工具插件集合.md",
-    "TypeScript - React.md",
+    "AWS.md",
+    "Spring-Boot/SpringBoot常用注解.md",
+    "Kotlin.md",
+    "React-Redux.md",
+    "React-Snippets.md",
+    "TDD - Test.md",
     "type-challenges.md",
     "RxJs.md",
     "README.md",
-    "React Query.md",
-    "Learning Resource.md",
-    "Kotlin.md",
-    "JavaScript Snippets.md",
-    "TDD - Test.md",
     "知识整理归纳.md",
-    "英语单词- develop.md",
+    "阅读链接.md",
     "金句.md",
-    "React-Redux.md",
-    "curl.md",
-    "notes/npm镜像设置.md",
-    "Git/Git撤销文件修改.md",
-    "Git/GIt常见命令和原理.md",
-    "Git/Git 常见问题.md",
-    "Git/Git 学习资源.md",
-    "Git/Git alias设置.md",
-    "Git/Git commit规范.md",
-    "test_case.md",
+    "TypeScript - React.md",
+    "React Query.md",
+    "JavaScript Snippets.md",
+    "English/English - Corner.md",
+    "English/English Template.md",
+    "notes/fe-interview-2023.md",
+    "notes/React 常用操作.md",
+    "notes/React-Interview.md",
+    "notes/Vue-Interview.md",
+    "notes/小满zs-Interview.md",
+    "notes/工具插件集合.md",
+    "fp-ts.md",
+    "Learning Resource.md",
+    "英语单词- develop.md",
     "assets/Pasted image 20230704141411.png",
     "assets/Pasted image 20230703144634.png",
     "assets/Pasted image 20230703141847.png",
-    "React-Snippets.md",
     "POST_Juejin",
     "English",
     "PDF/P8大佬的算法解题笔记.pdf",
