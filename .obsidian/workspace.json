@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阅读链接.md",
-                "mode": "source",
+                "file": "fp-ts.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读链接.md",
+                "file": "fp-ts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读链接.md",
+                "file": "fp-ts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读链接.md"
+                "file": "fp-ts.md"
               }
             }
           },
@@ -185,8 +185,15 @@
   },
   "active": "6ac4ca624c23fe72",
   "lastOpenFiles": [
-    "金句.md",
+    "assets/WeChatWorkScreenshot_3bf77cdd-315b-4381-8ab6-e46a5bfd7bfd.png",
+    "fp-ts.md",
+    "curl.md",
+    "Front-end Roadmap.md",
+    "JavaScript Snippets.md",
+    "知识整理归纳.md",
+    "英语单词- develop.md",
     "阅读链接.md",
+    "金句.md",
     "Spring-Boot/SpringBoot常用注解.md",
     "AWS.md",
     "Kotlin.md",
@@ -196,21 +203,14 @@
     "type-challenges.md",
     "RxJs.md",
     "README.md",
-    "知识整理归纳.md",
     "TypeScript - React.md",
     "React Query.md",
-    "JavaScript Snippets.md",
     "English/English - Corner.md",
     "English/English Template.md",
     "notes/fe-interview-2023.md",
     "notes/React 常用操作.md",
     "notes/React-Interview.md",
     "notes/Vue-Interview.md",
-    "notes/小满zs-Interview.md",
-    "notes/工具插件集合.md",
-    "fp-ts.md",
-    "Learning Resource.md",
-    "英语单词- develop.md",
     "assets/Pasted image 20230704141411.png",
     "assets/Pasted image 20230703144634.png",
     "assets/Pasted image 20230703141847.png",
@@ -226,7 +226,6 @@
     "未命名.canvas",
     "未命名 1.canvas",
     "session",
-    "assets/WeChatWorkScreenshot_3bf77cdd-315b-4381-8ab6-e46a5bfd7bfd.png",
     "gitignore",
     "assets/WeChatWorkScreenshot_2bcd86d6-c8a0-47f9-bdbb-22fb3398477a.png",
     "assets/Pasted image 20230322231437.png",
