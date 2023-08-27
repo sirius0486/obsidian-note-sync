@@ -22,6 +22,16 @@ JWT 可以使用密钥（使用 **HMAC** 算法）或使用 **RSA** 或 **E
  }
 ```
 
+- `typ` 其实就是 `type` 的简写， **标识令牌的类型**
+- alg 其实就是  `algorithm` 的简写。 **标识使用的加密算法**
+
+当然 header 还包含很多字段， 如
+- **`jku`（JWK Set URL）**：指向包含JWT验证密钥的JWK（JSON Web Key）集合的URL
+- **`cty`（Content Type）**：表示JWT的内容类型。这个字段通常用于指定嵌入的内容，如JWS（JSON Web Signature）或JWE（JSON Web Encryption）
+- **`kid`（Key ID）**：表示用于签名或解码JWT的密钥的唯一标识符。
+- **`zip`（Compression Algorithm）**：表示用于JWT有效载荷的压缩算法。
+- 自定义字段： 根据需要，可以添加自定义字段来传递特定的元数据
+
 ### Playload
 **Payload（负载）**：负载包含有关声明的信息。声明是关于实体（通常是用户）和其他数据的声明。负载可以包含预定义的声明，如用户ID、到期时间等，还可以包含自定义的声明。例如：{"sub": "1234567890", "name": "John Doe", "exp": 1516239022}。
 
@@ -37,3 +47,7 @@ JWT 可以使用密钥（使用 **HMAC** 算法）或使用 **RSA** 或 **E
 ### JWT 如何保证签名不被篡改？
 
 ### JWT的优缺点分析？
+
+
+## 参考资料
+https://jwt.io/
