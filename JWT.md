@@ -101,8 +101,8 @@ Authorization: Bearer <token>
 
 如果令牌通过Authorization头部发送，跨源资源共享（CORS）将不会成为问题，因为它不使用cookies。下面的图示展示了如何获取JWT并用于访问API或资源：
 ![[Pasted image 20230827220705.png]]
-应用程序或客户端向授权服务器请求授权。这是通过不同的授权流程之一来完成的。例如，一个典型的符合OpenID Connect标准的Web应用程序将使用授权码流程
-1. 通过/oauth/authorize端点进行操作。
+
+1. 应用程序或客户端向授权服务器请求授权。这是通过不同的授权流程之一来完成的。例如，一个典型的符合`OpenID Connect`标准的Web应用程序将使用授权码流程通过 `/oauth/authorize` 端点进行操作
 2. 授权被批准后，授权服务器会向应用程序返回访问令牌。
 3. 应用程序使用访问令牌来访问受保护资源（如API）。
 
@@ -116,6 +116,9 @@ JWT 自身包含了身份验证所需要的所有信息，因此，我们的服�
 
 #### 安全
 使用 JWT 认证可以有效避免 CSRF 攻击，因为 JWT 一般是存在在 localStorage 中，使用 JWT 进行身份验证的过程中是不会涉及到 Cookie 的
+JWT和SAML令牌可以使用公钥/私钥对形式的X.509证书进行签名。与将XML用XML数字签名进行签名而不引入模糊不清的安全漏洞相比，这样做非常困难；而在处理JSON时则简单得多。
+### 体积小
+为什么我们应该使用JSON Web Tokens？让我们谈谈与Simple Web Tokens（SWT）和Security Assertion Markup Language Tokens（SAML）相比，JSON Web Tokens（JWT）的好处。由于JSON比XML更简洁，编码后的大小也更小，使得JWT比SAML更紧凑。这使得在HTML和HTTP环境中传递JWT成为一个不错的选择。
 
 ### 缺点
 #### 体积大
