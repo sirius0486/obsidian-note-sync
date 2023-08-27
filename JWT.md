@@ -121,7 +121,8 @@ JWT和SAML令牌可以使用公钥/私钥对形式的X.509证书进行签名。�
 为什么我们应该使用JSON Web Tokens？让我们谈谈与Simple Web Tokens（SWT）和Security Assertion Markup Language Tokens（SAML）相比，JSON Web Tokens（JWT）的好处。由于JSON比XML更简洁，编码后的大小也更小，使得JWT比SAML更紧凑。这使得在HTML和HTTP环境中传递JWT成为一个不错的选择。
 
 ### 缺点
-#### 体积大
+#### 安全风险
+
 
 ## Q & A
 
