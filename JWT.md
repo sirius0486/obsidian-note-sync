@@ -68,13 +68,28 @@ JWT 可以使用密钥（使用 **HMAC** 算法）或使用 **RSA** 或 **E
 
 要创建签名部分，您需要获取 `1.Header 编码的头部 `、`2.playload 编码的负载`、`3.一个密钥`，`4.头部中指定的算法`，并对其进行签名。
 
-例如，如果您想使用HMAC SHA256算法，则签名将按以下方式创建：
+例如，如果您想使用 `HMAC SHA256` 算法，则签名将按以下方式创建：
 ```
 HMACSHA256(
   base64UrlEncode(header) + "." +
   base64UrlEncode(payload),
   secret)
 ```
+
+**签名用于验证消息在传递过程中是否被更改**，对于使用私钥签名的令牌，它还可以验证JWT的发送者是否真实可信。
+
+将三部分放在一起，输出是 `由 . 分隔` 的三个 Base64-URL字符串，可以轻松地在HTML和HTTP环境中传递，与基于XML的标准（如SAML）相比更紧凑。
+
+下面展示了一个JWT，其中包含前面编码过的头部和负载，并使用一个密钥进行签名
+```json
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+```
+
+## JWT 如何工作？
+JSON Web Tokens（JWT）是如何工作的？在身份验证中，当用户成功使用其凭据登录时，将返回一个JSON Web Token。由于令牌是凭证，必须非常小心以防止安全问题。一般来说，您不应该保留超过所需时间的令牌。也不应该将敏感会话数据存储在浏览器存储中，因为缺乏安全性。
+
+每当用户想要访问受保护的路由或资源时，用户代理应该发送JWT，在通常情况下使用Bearer模式的Authorization头部。头部内容应如下所示：
 
 ## JWT 优缺点
 ### 优点
