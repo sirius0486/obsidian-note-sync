@@ -16,7 +16,7 @@ JWT 可以使用密钥（使用 **HMAC** 算法）或使用 **RSA** 或 **E
 • 信息交换：JSON Web Tokens是安全传输信息给各方的好方法。因为JWT可以进行签名（例如，使用公钥/私钥对），您可以确保发送者就是他们所声称的身份。此外，由于签名是通过头部和负载计算得出的，您还可以验证内容是否被篡改。
 
 
-**JWT通常以字符串形式表示，由三部分组成，通过点号（.）分隔开，每一部份都经过base64 编码， 一个JWT的例子是：**
+**JWT通常以字符串形式表示，由三部分组成，通过点号（.）分隔开，每一部份都经过base64 编码，如 `xxxxx.yyyyy.zzzzz` 下面👇是 一个JWT 的实际例子：**
 `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 `
 
@@ -44,7 +44,10 @@ JWT 可以使用密钥（使用 **HMAC** 算法）或使用 **RSA** 或 **E
 ### Playload
 > **Payload（负载）**：负载包含有关声明的信息。声明是关于实体（通常是用户）和其他数据的声明。
 
-Playload 是 JWT 的 第二部分， playload 有两种类型的声明：预定义声明和自定义声明
+`Playload` 是 `JWT` 的第二部分， playload 有三种类型的 `声明 (claims)`： 
+- **注册声明**  registered claims
+- **公共声明**  public claims
+- **私有声明** private claims
 ```json
 {
   "sub": "1234567890",
