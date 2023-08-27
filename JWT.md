@@ -66,7 +66,7 @@ JWT 可以使用密钥（使用 **HMAC** 算法）或使用 **RSA** 或 **E
 ### Signature
 > **Signature（签名）**：签名用于验证消息的完整性和验证发信人。签名的生成算法取决于头部中指定的加密算法。
 
-要创建签名部分，您需要获取 `1.Header 编码的头部 `、`2.playload 编码的负载`、`3.一个密钥`，`4.头部中指定的算法`，并对其进行签名。
+要创建签名部分，您需要获取 `1.Header 编码的头部 `、`2.playload 编码的负载`、`3.一个密钥(存放在服务端)`，`4.头部中指定的算法`，并对其进行签名。
 
 例如，如果您想使用 `HMAC SHA256` 算法，则签名将按以下方式创建：
 ```
@@ -112,7 +112,7 @@ Authorization: Bearer <token>
 ### 优点
 
 #### 无状态
-JWT 自身包含了身份验证所需要的所有信息，因此，我们的服务器不需要存储 Session 信息。这显然增加了系统的可用性和伸缩性，大大减轻了服务端的压力。因此 JWT 更符合设计 RESTful API 时的「Stateless（无状态）」原则 。
+JWT 自身包含了身份验证所需要的所有信息，因此，我们的服务器不需要存储 Session 信息。这显然增加了系统的可用性和伸缩性，大大减轻了服务端的压力。因此 JWT 更符合设计 RESTful API 时的「Stateless（无状态）」原则 。jwt的playload 可以存储一些常用信息，用于交换信息，有效地使用 JWT，可以降低服务器查询数据库的次数
 
 #### 安全
 使用 JWT 认证可以有效避免 CSRF 攻击，因为 JWT 一般是存在在 localStorage 中，使用 JWT 进行身份验证的过程中是不会涉及到 Cookie 的
@@ -122,6 +122,8 @@ JWT和SAML令牌可以使用公钥/私钥对形式的X.509证书进行签名。�
 
 ### 缺点
 #### 安全风险
+- 由于jwt的payload是使用base64编码的，并没有加密，因此jwt中不能存储敏感数据
+- JWT 是无状态的， 意味着在到期时间之前都无法撤销令牌，需要使用外部机制来实现。
 
 
 ## Q & A
@@ -152,4 +154,6 @@ JWT和SAML令牌可以使用公钥/私钥对形式的X.509证书进行签名。�
 
 
 ## 参考资料
-https://jwt.io/
+- https://jwt.io/ 
+- https://javaguide.cn/system-design/security/jwt-intro.html#payload
+- https://zhuanlan.zhihu.com/p/38942172
