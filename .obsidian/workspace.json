@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未整理句子.md",
+                "file": "Learning Resource.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未整理句子.md",
+                "file": "Learning Resource.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未整理句子.md",
+                "file": "Learning Resource.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未整理句子.md"
+                "file": "Learning Resource.md"
               }
             }
           },
@@ -186,8 +186,9 @@
   },
   "active": "408812334c4253df",
   "lastOpenFiles": [
-    "Git/Git commit规范.md",
+    "阅读链接.md",
     "未整理句子.md",
+    "Git/Git commit规范.md",
     "金句.md",
     "JWT.md",
     "PDF/OAuth 2实战.pdf",
@@ -203,7 +204,6 @@
     "知识整理归纳.md",
     "未命名.md",
     "英语单词- develop.md",
-    "阅读链接.md",
     "English/English - Corner.md",
     "fp-ts.md",
     "JavaScript Snippets.md",

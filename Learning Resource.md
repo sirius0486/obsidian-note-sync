@@ -24,7 +24,11 @@ https://vuejs.org/
 - https://api.github.com/users/keqing77/starred  
 - https://docs.github.com/en/rest/activity/starring?apiVersion=2022-11-28#star-a-repository
 
+## 资源库
+> svg & icon
 
+- https://techstack-generator.vercel.app/
+- https://ileriayo.github.io/markdown-badges/
 
 ## 前端著名程序员
 
