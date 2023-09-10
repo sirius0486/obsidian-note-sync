@@ -26,3 +26,28 @@
     -   `持续集成配置,自动化脚本等`
 -   revert - Reverts a previous commit
     -   `恢复先前的commit`
+
+
+## 未整理
+
+- blog: [📝](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- bug: [🐛](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- code: [💻](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- design: [🎨](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- doc: [📖](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- eventOrganizing: [📋](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- example: [💡](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- financial: [💵](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- fundingFinding: [🔍](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- ideas: [🤔](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- infra: [🚇](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- platform: [📦](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- plugin: [🔌](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- question: [💬](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- review: [👀](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- talk: [📢](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- test: [⚠️](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- tool: [🔧](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- translation: [🌍](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- tutorial: [✅](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)
+- video: [📹](https://www.notion.so/eb042ea27e9b406bb7f3968cdcc7335e?pvs=21)d
