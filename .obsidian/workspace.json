@@ -40,9 +40,19 @@
                 "currentVersion": "1.4.12"
               }
             }
+          },
+          {
+            "id": "7b01ef3b55ef877f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -204,7 +214,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2010961ed65270da",
+  "active": "7b01ef3b55ef877f",
   "lastOpenFiles": [
     "阅读链接.md",
     "未整理句子.md",
