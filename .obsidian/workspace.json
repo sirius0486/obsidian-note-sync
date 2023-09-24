@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "金句.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "金句.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "英语单词- develop.md",
+                "file": "金句.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "英语单词- develop.md"
+                "file": "金句.md"
               }
             }
           },
@@ -183,8 +183,10 @@
   },
   "active": "37966d23c14e8628",
   "lastOpenFiles": [
-    "金句.md",
     "英语单词- develop.md",
+    "Github/Github Profile.md",
+    "Github/Github Gist.md",
+    "金句.md",
     "Github/ReadME - template - zh.md",
     "Github/ReadME - template - en.md",
     "README.md",
@@ -212,8 +214,6 @@
     "assets/Pasted image 20230827220705.png",
     "assets/Pasted image 20230827220700.png",
     "未命名.md",
-    "English/English - Corner.md",
-    "Spring-Boot/SpringBoot常用注解.md",
     "assets/WeChatWorkScreenshot_3bf77cdd-315b-4381-8ab6-e46a5bfd7bfd.png",
     "assets/Pasted image 20230704141411.png",
     "assets/Pasted image 20230703144634.png",
