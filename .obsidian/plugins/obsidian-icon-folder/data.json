@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiGithubFill",
       "PeReact",
       "📓",
       "RiFilePdfFill",
-      "RiCharacterRecognitionFill",
-      "PeJs"
+      "RiCharacterRecognitionFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -81,5 +81,6 @@
   "知识整理归纳.md": "📓",
   "English/English - Corner.md": "RiEnglishInput",
   "English": "RiEnglishInput",
-  "React-Snippets.md": "PeReact"
+  "React-Snippets.md": "PeReact",
+  "Github": "RiGithubFill"
 }

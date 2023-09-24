@@ -78,3 +78,13 @@ compatible 兼容的
 - LMK:  Let me know 让我知道 / 告诉我
 - N/A：Not Applicable  不适用
 - OMW:  On my way  在路上
+
+## 未整理
+
+- 学习英语重要性
+	对于AI来说， Text is the universal protocal
+	对于程序的世界来说 , English is the universal language
+
+- 学英语是因为还有先进生产力工具掌握在英文区
+
+
