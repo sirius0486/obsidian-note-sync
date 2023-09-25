@@ -59,27 +59,30 @@ git clone `repoUrl`
 ## Todo List
 
 ### Front-End
-- [x] Next.js(app router)
+- [ ] TypeScript
+- [ ] JavaScript
 - [ ] React
 - [ ] React Query.  
 - [ ] React-redux   
+- [x] Next.js(app router)
 - [ ] Zustand / jotai
 - [ ] React Router
 
 ### Back-End
+- [x] Oauth 2.0
+- [x] OpenID Connect(OIDC)  / PKCE
+- [x] Json Web Token(JWT) 
+- [ ] TRPC
 - [ ] Spring MVC 
 - [ ] Spring Boot
 - [ ] JPA
 - [ ] PostgreSQL
-- [ ] Spring Security
-- [ ] Nest.js / TRPC
 - [ ] TypeOrm or Prisma
 
 ### Git
-- [x] git rebase
-- [x] git checkout
-- [x] git branch
-- [x] git cherry-pick
+- [x] git config
+- [x] git commands
+- [x] git tips
 
 ### Others
 - [ ] Thoughts
@@ -87,3 +90,4 @@ git clone `repoUrl`
 - [ ] AWS
 - [ ] IDE config
 - [ ] English
+- [ ] Mac

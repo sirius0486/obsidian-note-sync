@@ -21,16 +21,15 @@
 <div align="center">
 <strong>
 <samp>
-
-English · [简体中文](README_zh.md)
+[English](./README.md) · 简体中文
 
 </samp>
 </strong>
 </div>
 
-## QuickStart
+## 快速开始
 
-### Clone
+### 克隆
 
 ```bash
 # 克隆项目
@@ -39,7 +38,7 @@ git clone `repoUrl`
 ```
 
 
-## Matainer
+## 维护者
 
 <table>
     <tbody>
@@ -52,38 +51,42 @@ git clone `repoUrl`
 </table>
 
 
-## Liscense
+## 协议
 
 - [MIT](https://opensource.org/licenses/MIT)
 
-## Todo List
+## 待办清单
 
-### Front-End
-- [x] Next.js(app router)
+### 前端
+- [ ] TypeScript
+- [ ] JavaScript
 - [ ] React
 - [ ] React Query.  
 - [ ] React-redux   
+- [x] Next.js(app router)
 - [ ] Zustand / jotai
 - [ ] React Router
 
-### Back-End
+### 后端
+- [x] Oauth 2.0
+- [x] OpenID Connect(OIDC)  / PKCE
+- [x] Json Web Token(JWT) 
+- [ ] TRPC
 - [ ] Spring MVC 
 - [ ] Spring Boot
 - [ ] JPA
 - [ ] PostgreSQL
-- [ ] Spring Security
-- [ ] Nest.js / TRPC
 - [ ] TypeOrm or Prisma
 
 ### Git
-- [x] git rebase
-- [x] git checkout
-- [x] git branch
-- [x] git cherry-pick
+- [x] git config
+- [x] git commands
+- [x] git tips
 
-### Others
+### 其他
 - [ ] Thoughts
 - [ ] Ideas
 - [ ] AWS
 - [ ] IDE config
 - [ ] English
+- [ ] Mac
