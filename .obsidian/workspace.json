@@ -183,6 +183,10 @@
   },
   "active": "1406b7c5eaa064e8",
   "lastOpenFiles": [
+    "阅读记录/image.png",
+    "assets/image.png",
+    "阅读记录/图文.md",
+    "阅读记录/1984.md",
     "阅读记录/编程段子.md",
     "English/sentence.md",
     "随笔.md",
@@ -209,10 +213,7 @@
     "OpenSource",
     "README_zh.md",
     "TypeScript/fp-ts.md",
-    "Tools/curl.md",
-    "Tools/AWS.md",
     "Tools",
-    "Resource/Front-end Roadmap.md",
     "Resource",
     "Test",
     "阅读记录",
@@ -230,7 +231,6 @@
     "未命名 1.canvas",
     "assets/WeChatWorkScreenshot_2bcd86d6-c8a0-47f9-bdbb-22fb3398477a.png",
     "assets/Pasted image 20230322231437.png",
-    "assets/Pasted image 20230322131621.png",
-    "assets/Pasted image 20230322131352.png"
+    "assets/Pasted image 20230322131621.png"
   ]
 }
