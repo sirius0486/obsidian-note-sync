@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RiGithubFill",
-      "PeReact",
-      "📓",
-      "RiFilePdfFill",
-      "RiCharacterRecognitionFill"
+      "EdLink",
+      "📚",
+      "PeTs",
+      "RiAmazonFill",
+      "🧪"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -23,14 +23,6 @@
     "iconInTabsEnabled": false
   },
   "assets": "📁",
-  "React-Hooks": {
-    "iconName": "PeReact",
-    "inheritanceIcon": "PeReact"
-  },
-  "React-Router": {
-    "iconName": "PeReact",
-    "inheritanceIcon": "PeReact"
-  },
   "Git": {
     "iconName": "PeGit",
     "inheritanceIcon": "RiGithubFill"
@@ -65,5 +57,27 @@
   "PDF": "RiFilePdfFill",
   "English/English - Corner.md": "RiEnglishInput",
   "English": "RiEnglishInput",
-  "Github": "RiGithubFill"
+  "Github": "RiGithubFill",
+  "JavaScript": "PeJs",
+  "React/React-Hooks": {
+    "iconName": "PeReact",
+    "inheritanceIcon": "PeReact"
+  },
+  "React/React-Router": {
+    "iconName": "PeReact",
+    "inheritanceIcon": "PeReact"
+  },
+  "React/React Query.md": "PeReact",
+  "React": "PeReact",
+  "React/React-Snippets.md": "PeReact",
+  "React/TypeScript - React.md": "PeReact",
+  "Juejin": "RiWeiboFill",
+  "Oauth2.0": "🔒",
+  "Test": "🧪",
+  "Tools": "RiAmazonFill",
+  "TypeScript": "PeTs",
+  "TypeScript/fp-ts.md": "PeTs",
+  "TypeScript/type-challenges.md": "PeTs",
+  "阅读记录": "📚",
+  "Resource": "EdLink"
 }

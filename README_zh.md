@@ -1,5 +1,5 @@
 <h1 align="center">个人笔记</h1>
-<p align="center"><b>简单记录学习的一点一滴</b></p>
+<p align="center"><b>简单地记录学习的一点一滴</b></p>
 
 <p align="center">
 
@@ -22,15 +22,15 @@
 <strong>
 <samp>
 
-[English](README_en.md) · 简体中文
+English · [简体中文](README_zh.md)
 
 </samp>
 </strong>
 </div>
 
-## 快速开始
+## QuickStart
 
-### 安装
+### Clone
 
 ```bash
 # 克隆项目
@@ -38,33 +38,8 @@ git clone `repoUrl`
 
 ```
 
-### 项目结构:
 
-```
-├─── assets
-├─── Git
-│   └───api
-├─── React
-└─── Spring
-```
-
-### 使用方法
-
-```jsx
-import type { NextPage } from "next";
-import Head from "next/head";
-import Layout from "../components/layout";
-
-const Projects: NextPage = ({ projects }: any) => {
-  return <Layout>To be done...</Layout>;
-};
-
-export default Projects;
-```
-
-[→ see the demo](www.me.vercel.app)
-
-## 贡献者
+## Matainer
 
 <table>
     <tbody>
@@ -76,30 +51,29 @@ export default Projects;
     </tbody>
 </table>
 
-## 维护者
 
-- [keqing](https://github.com/keqing77)
-
-## 协议
+## Liscense
 
 - [MIT](https://opensource.org/licenses/MIT)
 
-## 学习计划
+## Todo List
 
-### 前端
-- [x] Next.js
-- [ ] React Query.  (也许RSC 并不需要 服务端状态管理了)  
-- [ ] React-redux   (抛弃redux， 选择 zustand / jotai )
+### Front-End
+- [x] Next.js(app router)
+- [ ] React
+- [ ] React Query.  
+- [ ] React-redux   
+- [ ] Zustand / jotai
 - [ ] React Router
 
-### 后端
+### Back-End
 - [ ] Spring MVC 
 - [ ] Spring Boot
 - [ ] JPA
 - [ ] PostgreSQL
 - [ ] Spring Security
 - [ ] Nest.js / TRPC
-- [ ] TypeOrm or Prisma.js
+- [ ] TypeOrm or Prisma
 
 ### Git
 - [x] git rebase
@@ -107,8 +81,9 @@ export default Projects;
 - [x] git branch
 - [x] git cherry-pick
 
-### 其他
-- [ ] 摄影技巧
-- [ ] 剪辑技巧
-- [ ] 时间管理
-- [ ] 理财
+### Others
+- [ ] Thoughts
+- [ ] Ideas
+- [ ] AWS
+- [ ] IDE config
+- [ ] English
