@@ -30,6 +30,10 @@ English · [简体中文](README_zh.md)
 
 ## QuickStart
 
+> This is a backup for my obsidian notes.
+
+I also post my notes on my [Notion](https://www.notion.so/keq) and [语雀](https://www.yuque.com/keqing77)
+
 ### Clone
 
 ```bash

@@ -29,6 +29,9 @@
 
 ## 快速开始
 
+> 这是我obsidian笔记的备份
+
+我的笔记也同步发布在 [Notion](https://www.notion.so/keq) 和 [语雀](https://www.yuque.com/keqing77)
 ### 克隆
 
 ```bash

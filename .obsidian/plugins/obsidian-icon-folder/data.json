@@ -32,7 +32,7 @@
     "inheritanceIcon": "📔"
   },
   "Spring-Boot": {
-    "iconName": "PeSpring",
+    "iconName": null,
     "inheritanceIcon": "PeSpring"
   },
   "README.md": "RiMarkdownFill",
@@ -40,12 +40,9 @@
     "iconName": null,
     "inheritanceIcon": "PeReact"
   },
-  "open source": "RiGithubFill",
   "IDE config": "PeVue",
-  "open source/Github Guide.md": "RiGithubFill",
   "IDE config/shell config.md": "RiTerminalBoxFill",
   "IDE config/vscode.setting.md": "PeVscode",
-  "open source/admin-template.md": "PeReact",
   "session": "RiCodepenLine",
   "notes/React-Interview.md": "PeReact",
   "notes/fe-interview-2023.md": "PeJs",
