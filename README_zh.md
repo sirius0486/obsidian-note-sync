@@ -1,5 +1,5 @@
-<h1 align="center">Obsidian notes</h1>
-<p align="center"><b>A simple record of learning</b></p>
+<h1 align="center">个人笔记</h1>
+<p align="center"><b>简单记录学习的一点一滴</b></p>
 
 <p align="center">
 
@@ -28,9 +28,9 @@
 </strong>
 </div>
 
-## QuickStart
+## 快速开始
 
-### Clone
+### 安装
 
 ```bash
 # 克隆项目
@@ -38,8 +38,33 @@ git clone `repoUrl`
 
 ```
 
+### 项目结构:
 
-## Matainer
+```
+├─── assets
+├─── Git
+│   └───api
+├─── React
+└─── Spring
+```
+
+### 使用方法
+
+```jsx
+import type { NextPage } from "next";
+import Head from "next/head";
+import Layout from "../components/layout";
+
+const Projects: NextPage = ({ projects }: any) => {
+  return <Layout>To be done...</Layout>;
+};
+
+export default Projects;
+```
+
+[→ see the demo](www.me.vercel.app)
+
+## 贡献者
 
 <table>
     <tbody>
@@ -51,19 +76,20 @@ git clone `repoUrl`
     </tbody>
 </table>
 
+## 维护者
 
-## Liscense
+- [keqing](https://github.com/keqing77)
+
+## 协议
 
 - [MIT](https://opensource.org/licenses/MIT)
 
-## Todo List
+## 学习计划
 
 ### 前端
-- [x] Next.js(app router)
-- [ ] React
-- [ ] React Query.  
-- [ ] React-redux   
-- [ ] Zustand / jotai
+- [x] Next.js
+- [ ] React Query.  (也许RSC 并不需要 服务端状态管理了)  
+- [ ] React-redux   (抛弃redux， 选择 zustand / jotai )
 - [ ] React Router
 
 ### 后端
@@ -73,7 +99,7 @@ git clone `repoUrl`
 - [ ] PostgreSQL
 - [ ] Spring Security
 - [ ] Nest.js / TRPC
-- [ ] TypeOrm or Prisma
+- [ ] TypeOrm or Prisma.js
 
 ### Git
 - [x] git rebase
