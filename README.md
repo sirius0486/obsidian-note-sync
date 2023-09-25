@@ -1,4 +1,4 @@
-<h1 align="center">Obsidian notes</h1>
+<h1 align="center">Obsidian Notes</h1>
 <p align="center"><b>A simple record of learning</b></p>
 
 <p align="center">
@@ -22,7 +22,7 @@
 <strong>
 <samp>
 
-[English](README_en.md) · 简体中文
+English · [简体中文](README_zh.md)
 
 </samp>
 </strong>
@@ -58,7 +58,7 @@ git clone `repoUrl`
 
 ## Todo List
 
-### 前端
+### Front-End
 - [x] Next.js(app router)
 - [ ] React
 - [ ] React Query.  
@@ -66,7 +66,7 @@ git clone `repoUrl`
 - [ ] Zustand / jotai
 - [ ] React Router
 
-### 后端
+### Back-End
 - [ ] Spring MVC 
 - [ ] Spring Boot
 - [ ] JPA
@@ -81,8 +81,9 @@ git clone `repoUrl`
 - [x] git branch
 - [x] git cherry-pick
 
-### 其他
-- [ ] 摄影技巧
-- [ ] 剪辑技巧
-- [ ] 时间管理
-- [ ] 理财
+### Others
+- [ ] Thoughts
+- [ ] Ideas
+- [ ] AWS
+- [ ] IDE config
+- [ ] English
