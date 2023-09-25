@@ -1,4 +1,8 @@
 ## 单词
+condensed - 浓缩的, 提炼
+wildcard - 通配符
+decouple with xxx  与什么解耦
+custodian   托管人
 matrix   webinar
 bring to the spring
 mandatory 强制的
