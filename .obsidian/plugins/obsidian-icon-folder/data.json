@@ -28,7 +28,7 @@
     "inheritanceIcon": "RiGithubFill"
   },
   "notes": {
-    "iconName": "📓",
+    "iconName": null,
     "inheritanceIcon": "📔"
   },
   "Spring-Boot": {
@@ -44,10 +44,6 @@
   "IDE config/shell config.md": "RiTerminalBoxFill",
   "IDE config/vscode.setting.md": "PeVscode",
   "session": "RiCodepenLine",
-  "notes/React 常用操作.md": "PeReact",
-  "notes/npm镜像设置.md": "RiNpmjsFill",
-  "notes/小满zs-Interview.md": "PeJs",
-  "notes/工具插件集合.md": "PeVscode",
   "PDF": "RiFilePdfFill",
   "English/English - Corner.md": "RiEnglishInput",
   "English": "RiEnglishInput",
