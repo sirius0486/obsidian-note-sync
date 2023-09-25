@@ -1,3 +1,20 @@
+## Skills
+- [ ]  Lambda
+- [ ]  CloudFront
+- [ ]  DynamoDB
+- [ ]  CloudWatch
+- [ ]  Kinesis
+- [ ]  Cognito
+- [ ]  S3
+- [ ]  Route53
+- [ ] KMS
+- [ ] SNS SQS
+- [ ] SES
+- [ ]  IAM
+- [ ] ApiGateway
+- [ ] Athena
+- [ ] EventBridge
+
 
 ## IAM : Users & Groups
 • **IAM** = Identity and Access Management, Global service  
