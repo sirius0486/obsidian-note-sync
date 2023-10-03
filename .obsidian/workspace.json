@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English/Why need to learn English.md",
+                "file": "README_zh.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "English/Why need to learn English.md",
+                "file": "README_zh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "English/Why need to learn English.md",
+                "file": "README_zh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "English/Why need to learn English.md"
+                "file": "README_zh.md"
               }
             }
           },
@@ -183,11 +183,11 @@
   },
   "active": "1f48376828dab2d5",
   "lastOpenFiles": [
+    "README.md",
+    "English/Why need to learn English.md",
     "English/vocabulary.md",
     "English/sentence.md",
-    "English/Why need to learn English.md",
     "README_zh.md",
-    "README.md",
     "English/learn-resource.md",
     "Oauth2.0/Oauth 2.0, OIDC, PKCE, JWT  全面介绍.md",
     "PDF/前端/面试/前端面试宝典（无Vue）.pdf",
