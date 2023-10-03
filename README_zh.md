@@ -32,6 +32,7 @@
 > 这是我obsidian笔记的备份
 
 我的笔记也同步发布在 [Notion](https://www.notion.so/keq) 和 [语雀](https://www.yuque.com/keqing77)
+其中的一些文章也被整理并发布在我的[个人播客](https://keqingblog.netlify.app/)和[稀土掘金](https://juejin.cn/user/994371074524862)
 ### 克隆
 
 ```bash

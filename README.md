@@ -33,7 +33,7 @@ English · [简体中文](README_zh.md)
 > This is a backup for my obsidian notes.
 
 I also post my notes on my [Notion](https://www.notion.so/keq) and [语雀](https://www.yuque.com/keqing77)
-
+Some of the articles are also organized and published on my personal [blog](https://keqingblog.netlify.app/) and [稀土掘金](https://juejin.cn/user/994371074524862)
 ### Clone
 
 ```bash
