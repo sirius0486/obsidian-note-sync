@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c0b2d7fa7151167c",
+        "id": "01cff37eed6e10d7",
         "type": "tabs",
         "children": [
           {
-            "id": "1f48376828dab2d5",
+            "id": "eba1445ff4b134a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "文章/那些年斗过名为GFW恶龙的勇者们.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "文章/那些年斗过名为GFW恶龙的勇者们.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "文章/那些年斗过名为GFW恶龙的勇者们.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "文章/那些年斗过名为GFW恶龙的勇者们.md"
-              }
+              "state": {}
             }
           },
           {
@@ -181,22 +173,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1f48376828dab2d5",
+  "active": "eba1445ff4b134a9",
   "lastOpenFiles": [
-    "assets/CleanShot 2023-10-04 at 21.08.20 1.png",
-    "assets/CleanShot 2023-10-04 at 21.08.20.png",
-    "assets/CleanShot 2023-10-04 at 21.07.26.png",
-    "assets/CleanShot 2023-10-04 at 21.01.06.png",
-    "assets/CleanShot 2023-10-04 at 20.58.53.png",
-    "assets/CleanShot 2023-10-04 at 20.57.52.png",
-    "assets/CleanShot 2023-10-04 at 20.55.22.png",
-    "assets/CleanShot 2023-10-04 at 20.48.41.png",
-    "assets/CleanShot 2023-10-04 at 20.41.54.png",
-    "文章/Mac 软件清单.md",
+    "assets/React/WeChatWorkScreenshot_2bcd86d6-c8a0-47f9-bdbb-22fb3398477a.png",
+    "assets/AWS/Pasted image 20230322231437.png",
+    "assets/AWS/Pasted image 20230322131621.png",
+    "assets/AWS/Pasted image 20230322131352.png",
+    "assets/AWS/Pasted image 20230322130636.png",
+    "assets/AWS/Pasted image 20230322112640.png",
+    "assets/AWS/Pasted image 20230322093637.png",
+    "assets/Pasted image 20230322093637.png",
+    "assets/React/Pasted image 20230206104550.png",
+    "assets/Git/git.png",
+    "assets/Git/3.png",
+    "assets/V2EX",
+    "assets/untitled folder",
+    "assets/React",
+    "assets/AWS",
+    "assets/Git",
     "文章/那些年斗过名为GFW恶龙的勇者们.md",
+    "assets/GFW",
+    "文章/Mac 软件清单.md",
     "文章/Mac shell & ssh config back up.md",
     "文章",
-    "English/F0a1arfaYAIY4Za.jpeg",
     "README_zh.md",
     "README.md",
     "English/Why need to learn English.md",
@@ -207,10 +206,6 @@
     "PDF/前端/面试/前端面试宝典（无Vue）.pdf",
     "PDF/前端/书籍/你不知道的 JavaScript（中卷）_ocr(1).pdf",
     "PDF/前端/书籍/你不知道的 JavaScript（下卷）_ocr(1).pdf",
-    "PDF/前端/书籍/你不知道的 JavaScript（上卷）_ocr(1).pdf",
-    "PDF/前端/书籍/Node即学即用.pdf",
-    "PDF/前端/书籍/CSS 揭秘 中文版.pdf",
-    "PDF/前端/书籍",
     "PDF/前端/面试/README.md",
     "PDF/前端/面试/08.React.md",
     "PDF/前端/面试/07.Vue.md",
@@ -219,9 +214,6 @@
     "PDF/前端/面试/03.HTML && CSS.md",
     "PDF/前端/面试/02.浏览器.md",
     "PDF/前端/面试/01.计算机网络.md",
-    "PDF/前端/面试",
-    "PDF/前端/前端面试宝典（无Vue）.pdf",
-    "PDF/TS类型体操思维导图.webp",
     "阅读记录/编程人生.md",
     "阅读记录/图文.md",
     "阅读记录/1984.md",
