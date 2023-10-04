@@ -73,7 +73,7 @@
 > ss(shadowsocks) 作者是clowwindy，他自己为了翻墙写了shadowsocks, 并在 自用一年很后在V2EX分享, 他觉得这个东西非常好用，速度快，而且不会被封锁，他就把源码共享在了github上，然后就火了，但是后来被请去喝茶，删了代码（实际移到别的分支），并且保证不再参与维护更新。
 
 - V2EX用户@clowwindy (本名祝博韬) 分享了一个自己自用一年多的翻墙工具：`Shadowsocks`，简称 `SS`,  并自用一年多后分享到 V2EX 上, 由于这个协议非常高效，而且使用json作为配置文件，配置起来非常方便，迅速赢得了很多用户，并在 v2ex上有了一个专属的节点
- ![[CleanShot 2023-10-04 at 20.41.54.png]]
+![1](https://github.com/keqing77/obsidian-note-sync/assets/48318812/77c84702-1332-406d-a47b-204b029437d3)
 - **2015年8月20日晚**, 知名开源翻墙项目 `shadowsocks` 的作者 ``@clowwindy` 遭到喝茶待遇
 	- `@clowwindy` 把他所维护的几个 `shadowsocks` 实现的代码仓库内的 `Issue` 面板全部关闭，所有帮助信息全部删除，所有的描述都改成了 `Something happened`。另外，他还清空了该组织的 `membership`，或者将所有成员全部转入隐私状态，不对外公开。
 	- 访问 V2EX shadowsocks 节点跳转到首页, 根据  `V2EX站长＠livid` 的发言来看，   `shadowsocks`  节点并非被移除而是对注册时间少于 1000 天的用户隐藏了
@@ -94,9 +94,10 @@
 
 - 22日晚, `@clowwindy` 删除所有 `github` 上的 `shadowsocks` 仓库，之前在 twitter 上发布了删除的相关动态。https://prinzeugen.net/clowwindy-has-removed-all-repository-of-shadowsocks-on-github/  同时 @clowwindy 明确表示不会继续开发 shadowsocks 项目
 - clowwindy 的存在在国内互联网已经被抹消 , 作为知乎员工的他，即便在知乎如今也无法找到他留下的痕迹， 感谢 clowwindy 点燃互联网自由的火炬, 向 clowwindy 一样为互联网自由而努力的斗士们
-![[CleanShot 2023-10-04 at 20.48.41.png]]
+![2](https://github.com/keqing77/obsidian-note-sync/assets/48318812/788b5467-f6ea-4740-8f54-865a3cf59e66)
 
 ### shadowsocksr — breakwa11
+
 > 从名字就看出来， `shadowsocksr` 简称 ssr ， 是 ss 的改进版本，ssr (shadowsocket-rocket) 看做是对 `ss(shadowsocket) 的继承和发展， SSR 原是 SS 的一个分支 由 breakwa11 - 破娃 主导` 
 > 
 > brakwa11 寓意 break wall ， 打破防火墙
@@ -104,7 +105,7 @@
 - 2015年， breakwa11 与 `@clowwindy` 争执，破娃发起了ss不安全论, 而且还提交了攻击代码
 	- 破娃起初使用 “misakamm” 的身份发布了 Shadowsocks-R ，并在获得一定用户后更换身份为 “breakwa11” 进行开发
 	- 初期SSR 并未遵守 GPL 开源协议 , 因此遭到 SS作者 和许多开发者抵制
-	- ![[CleanShot 2023-10-04 at 20.58.53.png]]
+	- ![5](https://github.com/keqing77/obsidian-note-sync/assets/48318812/20d6ab39-bf11-43ad-a110-d3ae4bf5c47d)
 - 喝茶事件后， breakwa11 与 clowwindy 和解, 并继承 SS 的意志
 	- SSR 随后全面开源, 破娃遭遇人肉攻击
 	- shadowsocks-rss主页已删除、SSR群组已解散、github项目及相关gist已删除
@@ -113,9 +114,10 @@
 	- 破娃酱的真实身份很难被知道，这个人有极强的反侦查意识，也懂得技术规避, [# 破娃酱(breakwa11)到底是男是女，如何分析？](https://archive.ph/bRKDJ)
 - **ShadowsocksR 停止更新后和遭遇人肉时间后破娃发言:**
 	- 这次的人肉事件，让我严重怀疑我自己做SSR是不是对的，首先不管资料对不对，从行为上看，就是有人希望我死，希望这个项目死，恨一个人能恨到如此程度。我知道我很做作，因此得罪了很多人，尤其最近公开SS可被检测的问题，更是让很多人义愤填膺，非要干掉我不可。尽管从我的角度看，我只是希望通过引起关注然后促进SS那边进行修改，这并不是希望SS死掉的意思，我每次提出的问题之后不是都得到了改进了吗，包括OTA和AEAD，AEAD我也是有参与设计的，你们可以问Syrone Wong，以及NoisyFox证实，而且ss-windows有一部分也是我参与修改的。但如今，人肉的资料我也稍微看了一下，真是太令人心寒，连对方的支付宝流水都拉出来了，这样真的好吗？我并不希望因为我自己的问题而害了另一个人。我期望和那些反对我的人来一笔交易，我可以以停止开发SSR作为交换，删除项目及相关的东西，以后不再出现，SSR群从此解散，账号注销，删除代码。对于我来说，这个项目不过是我用来证实自己的想法的一个东西，可有可无，制作也只是兴趣，扔掉也没有什么可惜的，反正替代品非常多，根本就不缺我这一个。你们老说我圈粉，你们真想太多了，真没这个必要。如果可以以这个换取另一人免受网络暴力，我也觉得这是值得的。相反的，如果人肉的结果仍然公开了，那就是我的行为已经救不了了，那我就可以继续开发SSR。不过也不会太久，估计最多只多坚持一年到我毕业之前。谢谢这两年来大家的支持，这次应该是真正的和大家再见，看结果吧，今天晚上12点以SSR群解散作为标志，如果解散了那就正式和大家说一声再见
-	- ![[CleanShot 2023-10-04 at 20.55.22.png]]
-	- ![[CleanShot 2023-10-04 at 20.57.52.png]]
-	- ![[CleanShot 2023-10-04 at 21.01.06.png]]
+	- ![3](https://github.com/keqing77/obsidian-note-sync/assets/48318812/7536ba7b-48e3-4081-89ae-7589d3950afc)
+	- ![4](https://github.com/keqing77/obsidian-note-sync/assets/48318812/a3425201-a232-4b2f-8071-26b1e9907f1c)
+	- ![6](https://github.com/keqing77/obsidian-note-sync/assets/48318812/9b087c7d-1e27-4fcd-8518-73a2ec45fcfa)
+
 
 ### 自由门
 - 墙外法轮功技术部门开发的VPN, 用于培养反共人群
@@ -142,8 +144,8 @@
 - 从2021年4月开始，V2EX域名再次被防火长城屏蔽[[9]](https://zh.m.wikipedia.org/zh-hans/V2EX#cite_note-10)。
 
 ## 评论摘抄
-- ![[CleanShot 2023-10-04 at 21.07.26.png]]
-- ![[CleanShot 2023-10-04 at 21.08.20.png]]![[CleanShot 2023-10-04 at 21.08.20 1.png]]
+- ![7](https://github.com/keqing77/obsidian-note-sync/assets/48318812/3e58bad5-75ce-4289-9a04-6bd4700b9a4b)
+- ![8](https://github.com/keqing77/obsidian-note-sync/assets/48318812/32a261e0-b94a-4033-a621-a5f22238b4b9)
 - 有时候想着干嘛不像周围人一样假装什么都不知道，麻木的活下去，但是又时不时的有一种窒息的感觉。是我太过敏感了吗？
 - 比翻不了墙更可悲的是大部分人不知道墙的存在
 - 我曾经对高墙之上的肉食者抱有的高度期望
