@@ -5,6 +5,7 @@
 - [四通桥事件完整过程](https://keq.notion.site/keq/416c098f9ca0451391c6508dcce5b6dd)
 - [阅后即焚：“GFW”的前世今生，一部“GFW”之父方滨兴的发家史 | gd1214b's blog](https://www.gd1214b.icu/post/r3oKMxMPu/)
 - [防火长城](https://zh.wikipedia.org/zh-cn/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E)
+- [Notion版本](https://keq.notion.site/keq/GFW-244996bfd1d147a683e4979d383abd58)
 
 ## 背景
 众所周知，中国有着两堵著名的墙， 其一是 `Great Wall` - 万里长城， 另一则是 `Great Fire Wall` - 防火墙，简称“墙”， 这堵防火墙将14亿中国人民与外界隔开，将特定网站或服务阻断。其作用是监控所有经过中国国家数据跨境安全网关的通讯，以干扰、阻断、屏蔽中国政府认为不符合其法律要求的传输内容。

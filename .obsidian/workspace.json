@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "01cff37eed6e10d7",
+        "id": "49e9bf31c3665c06",
         "type": "tabs",
         "children": [
           {
-            "id": "eba1445ff4b134a9",
+            "id": "1f9e88beb09392ce",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -173,8 +181,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eba1445ff4b134a9",
+  "active": "1f9e88beb09392ce",
   "lastOpenFiles": [
+    "README_zh.md",
+    "README.md",
+    "Git/Git alias设置.md",
+    "文章/Mac 软件清单.md",
+    "文章/那些年斗过名为GFW恶龙的勇者们.md",
     "assets/React/WeChatWorkScreenshot_2bcd86d6-c8a0-47f9-bdbb-22fb3398477a.png",
     "assets/AWS/Pasted image 20230322231437.png",
     "assets/AWS/Pasted image 20230322131621.png",
@@ -185,19 +198,14 @@
     "assets/Pasted image 20230322093637.png",
     "assets/React/Pasted image 20230206104550.png",
     "assets/Git/git.png",
-    "assets/Git/3.png",
     "assets/V2EX",
     "assets/untitled folder",
     "assets/React",
     "assets/AWS",
     "assets/Git",
-    "文章/那些年斗过名为GFW恶龙的勇者们.md",
     "assets/GFW",
-    "文章/Mac 软件清单.md",
     "文章/Mac shell & ssh config back up.md",
     "文章",
-    "README_zh.md",
-    "README.md",
     "English/Why need to learn English.md",
     "English/vocabulary.md",
     "English/sentence.md",
