@@ -61,6 +61,8 @@ git clone `repoUrl`
 
 - [那些年斗过名为GFW恶龙的勇者们](./文章/那些年斗过名为GFW恶龙的勇者们.md)
 - [Mac软件工具箱](./文章/那些年斗过名为GFW恶龙的勇者们.md)
+- [Oauth 2.0, OIDC, PKCE, JWT 全面介绍](./Oauth2.0/Oauth 2.0, OIDC, PKCE, JWT 全面介绍.md)
+- [Why need to learn English](./English/Why need to learn English.md)
 
 ## 待办清单
 
