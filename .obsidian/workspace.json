@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README_zh.md",
+                "file": "文章/那些年斗过名为GFW恶龙的勇者们.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README_zh.md",
+                "file": "文章/那些年斗过名为GFW恶龙的勇者们.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README_zh.md",
+                "file": "文章/那些年斗过名为GFW恶龙的勇者们.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README_zh.md"
+                "file": "文章/那些年斗过名为GFW恶龙的勇者们.md"
               }
             }
           },
@@ -183,11 +183,25 @@
   },
   "active": "1f48376828dab2d5",
   "lastOpenFiles": [
+    "assets/CleanShot 2023-10-04 at 21.08.20 1.png",
+    "assets/CleanShot 2023-10-04 at 21.08.20.png",
+    "assets/CleanShot 2023-10-04 at 21.07.26.png",
+    "assets/CleanShot 2023-10-04 at 21.01.06.png",
+    "assets/CleanShot 2023-10-04 at 20.58.53.png",
+    "assets/CleanShot 2023-10-04 at 20.57.52.png",
+    "assets/CleanShot 2023-10-04 at 20.55.22.png",
+    "assets/CleanShot 2023-10-04 at 20.48.41.png",
+    "assets/CleanShot 2023-10-04 at 20.41.54.png",
+    "文章/Mac 软件清单.md",
+    "文章/那些年斗过名为GFW恶龙的勇者们.md",
+    "文章/Mac shell & ssh config back up.md",
+    "文章",
+    "English/F0a1arfaYAIY4Za.jpeg",
+    "README_zh.md",
     "README.md",
     "English/Why need to learn English.md",
     "English/vocabulary.md",
     "English/sentence.md",
-    "README_zh.md",
     "English/learn-resource.md",
     "Oauth2.0/Oauth 2.0, OIDC, PKCE, JWT  全面介绍.md",
     "PDF/前端/面试/前端面试宝典（无Vue）.pdf",
@@ -207,28 +221,14 @@
     "PDF/前端/面试/01.计算机网络.md",
     "PDF/前端/面试",
     "PDF/前端/前端面试宝典（无Vue）.pdf",
-    "PDF/前端/你不知道的 JavaScript（中卷）_ocr(1).pdf",
     "PDF/TS类型体操思维导图.webp",
-    "English/F0a1arfaYAIY4Za.jpeg",
-    "PDF/Cynefin_framework_by_Edwin_Stoop.jpg",
-    "阅读记录/code.png",
-    "阅读记录/image.png",
     "阅读记录/编程人生.md",
-    "assets/image.png",
     "阅读记录/图文.md",
     "阅读记录/1984.md",
     "阅读记录/编程段子.md",
     "随笔.md",
     "Interviews/小满zs-Interview.md",
     "Interviews/前端面试题2023.md",
-    "Interviews/Vue面试题整理.md",
-    "Interviews/React面试题整理.md",
-    "React/React 常用操作.md",
-    "Tools/工具插件集合.md",
-    "assets/Pasted image 20230827220705.png",
-    "assets/Pasted image 20230827220700.png",
-    "assets/WeChatWorkScreenshot_3bf77cdd-315b-4381-8ab6-e46a5bfd7bfd.png",
-    "assets/Pasted image 20230704141411.png",
     "React-Router/未命名.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
