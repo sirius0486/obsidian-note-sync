@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "文章/Mac 软件清单.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "文章/Mac 软件清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "文章/Mac 软件清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "文章/Mac 软件清单.md"
               }
             }
           },
@@ -183,9 +183,9 @@
   },
   "active": "1f9e88beb09392ce",
   "lastOpenFiles": [
+    "README.md",
     "文章/那些年斗过名为GFW恶龙的勇者们.md",
     "README_zh.md",
-    "README.md",
     "Oauth2.0/Oauth.md",
     "English/WhyNeedToLearnEnglish.md",
     "English/vocabulary.md",
