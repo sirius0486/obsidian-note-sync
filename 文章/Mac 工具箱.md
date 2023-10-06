@@ -77,15 +77,15 @@ Mac 最为流行的终端软件非 `Item2` 莫属， 但开发体验最好的却
 
 ![[CleanShot 2023-10-06 at 20.00.58.png]]
 ### Dash
+开发者离线文档库，可通过订阅 setapp 免费获取。如果你需要经常翻阅某个文档，那么下载到Dash 离线观看也许体验更加良好。
+
 
 ### Telegram & Discord
 
 许多框架和服务都提供 Slack / Discord 的联系方式， 通过Discord 可以第一时间接受到 官方开发团队的一手消息，同时也见证着社区其他力量，以及练习英语，如果你有参与开源项目的打算，那么 Discord 是必备的， 或者你只是想开黑打游戏呢 🎮 ～
 
 ###  VS Code & Jetbrains
-
-
-### 
+因为做的是 Web 开发， 所以这两位大家相信都比较熟悉了，直接跳过了。
 
 ## 工具相关
 
@@ -112,6 +112,8 @@ Mac 最为流行的终端软件非 `Item2` 莫属， 但开发体验最好的却
 ### Live Wallpaper
 
 ### IRightMouse Pro
+国产开发团队出品的精品Mac应用 - 超级右键。
+因为Mac 系统原生的右键十分操蛋！如不能剪切，粘贴，新建文件等等。 超级右键则是增强系统右键功能，提升效率杠杠地！
 
 ### Rectangle
 
@@ -151,4 +153,9 @@ Mac 最为流行的终端软件非 `Item2` 莫属， 但开发体验最好的却
 同时也在 oneDrive， 不过 oneDrive 目前国内同步非常不稳定，无科学手段基本无法使用，但是偶尔也会和 PC 同步一些东西，加上 oneDrive 价格更加优惠，1T oneDrive 通过 office 365 家庭版拼车一年才 40+ ， 国区 iCloud 2T 一个月就 68¥ 了。
 ### Apple One
 
-如 Apple music ， Apple TV 等等， 用得不到
+Apple 营收最多的产品是 iPhone，营收第二不是 Mac 也不是 Ipad， 而是 Apple Service ，也就是苹果服务，其中很大部份来自于 苹果的订阅服务 Apple One。
+
+> **Apple One**是苹果公司推出的一项服务，将**Apple** Music、**Apple** TV Plus、**Apple** Arcade、**Apple** News Plus 和iCloud 存储整合在一起，该捆绑服务还**包括**新公布的**Apple** Fitness Plus。
+
+根据 iCloud 的容量分为 中杯，大杯，超大杯，以及未来 加入的 iCloud 12TB 版本， 可以看到 Apple One 支持 音乐，视频，游戏，新闻，云存储等服务，如果需要的话，还是挺不错的。
+友情提示： Apple One 没有在国区上线， 如果需要订阅，需要转区或者注册其他地区的Apple ID ， 如美区以及物美价廉的土耳其区等。
