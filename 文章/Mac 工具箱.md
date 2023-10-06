@@ -83,31 +83,47 @@ Mac 最为流行的终端软件非 `Item2` 莫属， 但开发体验最好的却
 ### Telegram & Discord
 
 许多框架和服务都提供 Slack / Discord 的联系方式， 通过Discord 可以第一时间接受到 官方开发团队的一手消息，同时也见证着社区其他力量，以及练习英语，如果你有参与开源项目的打算，那么 Discord 是必备的， 或者你只是想开黑打游戏呢 🎮 ～
-
+![[assets/5.png]]
 ###  VS Code & Jetbrains
 因为做的是 Web 开发， 所以这两位大家相信都比较熟悉了，直接跳过了。
 
 ## 工具相关
 
 ### Raycast
+> Mac 装机第一个需要安装的软件
+
+Raycast 是一个能大幅提升你日常效率的系统增强应用，通过Raycast，你可以快速启动某个应用或者进行一些操作， 只需要通过快捷键 `Command + 空格` 呼出，键入命令即可，你可以看做是Mac默认的Launcher(**Spotlight**)的高阶版， 与之类似的还有 `Alfred` ,但是需要付费， 而 Raycast 则是完全免费的！
 
 ### Setapp
+ > Setapp 是 Mac & iOS 的正版软件分销平台， 通过订阅 Setapp，你可以使用上千种软件，虽然好用的就那么几个～ 如果长期使用的话，还是建议将常用的软件直接永久买断， 因为 Setapp只会上架能被买断的软件，而不会上架订阅制的软件。
+ 
+以本人为例，通过家庭版订阅 Setapp， 每月 20 ¥ 即可以使用 Downie， Gifox，Clean Shot X，Clean My Mac， Popclip， Dash， Bartender， AirBuddy 等应用，还是挺实惠的～
 
+![[setapp.png]]
 ### PopClip
-
+鼠标工具小软件，通过该软件可以通过鼠标实现一键XX功能，如一键翻译，复制粘贴，搜索等等。比较有的时候想偷懒只想动鼠标～ 支持 setapp 订阅
+![[CleanShot 2023-10-06 at 20.43.31.png]]
 ### Gifox
+> Mac 最好用的 **Gif** 图制作软件
 
+简单快捷的操作同时带键位记录， 非常合适录制一些gif图， 支持 setapp 订阅。
+![[Pasted image 20231006204303.png]]
 ### Bartender
+从2021款 MacBook 开始，引入了万恶的刘海屏，使得电脑菜单栏有一部份被遮挡，使得本就不宽裕的应用图标显示区域雪上加霜，通过Bartender 可以缓解这个问题，隐藏不常用的图标以及将显示不下的图标都放在更多里，需要使用时再隔行展开，不会再出现软件图标塞进刘海里点不到了！！
 
 ### 1Password
-密码管理这块， 综合最佳还是老牌的 1Password
-
+密码管理这块， 综合最佳还是老牌的 1Password, 拼车下来一年也就40块，省去靠大脑记密码还会弄丢的尴尬场景，输入密码只需要一键调出，也能快速生成复杂密码来加强安全性。
+![[CleanShot 2023-10-06 at 20.44.41.png]]
 ### AirBuddy
+苹果全家桶的生态互联是吸引许多人入手的原因，但Apple显然将中心集中在iPhone，如查看可穿戴设备，链接动画等，但作为开发者，使用频率最多的是 Mac， 通过 AirBuddy， 则可以管理和监测 Apple相关设备， 还是蛮有意思的，价格也不贵，支持 setapp 订阅。
+![[2023-10-04 20.40.45.gif]]
 ### Input Source Pro
 
 ### CleanShot X
+> 原本使用的是**开源免费**的 `Snipaste X`  ， 但是订阅了 setapp 发现有更好用的 `Clean Shot X`  , 可以 **orc识图提取文字， 贴图， 滚动截图等**功能， Mac 上功能比较全面的截图软件
 
 ### CleanMyMac X
+Mac上比较老牌且口碑不错的 **清理/应用管理/硬件监控** 软件，支持 setapp 订阅
 
 ### Live Wallpaper
 
@@ -122,6 +138,7 @@ Mac 最为流行的终端软件非 `Item2` 莫属， 但开发体验最好的却
 
 ## 影音相关
 ### Downie
+支持 setapp 订阅
 ### Infuse 
 
 ### IINA
