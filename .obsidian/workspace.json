@@ -11,11 +11,9 @@
             "id": "1f9e88beb09392ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "文章/Mac 工具箱.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/CleanShot 2023-10-06 at 19.28.15.png"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "文章/Mac 工具箱.md",
+                "file": "assets/CleanShot 2023-10-06 at 19.28.15.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "文章/Mac 工具箱.md",
+                "file": "assets/CleanShot 2023-10-06 at 19.28.15.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "文章/Mac 工具箱.md"
+                "file": "assets/CleanShot 2023-10-06 at 19.28.15.png"
               }
             }
           },
@@ -183,18 +181,18 @@
   },
   "active": "1f9e88beb09392ce",
   "lastOpenFiles": [
+    "assets/CleanShot 2023-10-06 at 19.11.15.png",
+    "文章/Mac 工具箱.md",
     "assets/netease.gif",
     "assets/CleanShot 2023-10-06 at 22.11.21.png",
     "assets/CleanShot 2023-10-06 at 22.01.45.png",
     "assets/CleanShot 2023-10-06 at 22.01.04.png",
     "assets/CleanShot 2023-10-06 at 21.23.36.png",
-    "文章/Mac 工具箱.md",
     "assets/CleanShot 2023-10-06 at 21.19.08.png",
     "assets/CleanShot 2023-10-06 at 21.14.47.png",
     "assets/CleanShot 2023-10-06 at 21.11.35.png",
     "assets/CleanShot 2023-10-06 at 21.10.30.png",
     "assets/CleanShot 2023-10-06 at 21.10.07 1.png",
-    "assets/CleanShot 2023-10-06 at 21.10.07.png",
     "README.md",
     "文章/那些年斗过名为GFW恶龙的勇者们.md",
     "README_zh.md",
