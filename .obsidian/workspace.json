@@ -11,8 +11,12 @@
             "id": "3f64c5e54a9c59c5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -175,6 +183,9 @@
   },
   "active": "3f64c5e54a9c59c5",
   "lastOpenFiles": [
+    "README_zh.md",
+    "README.md",
+    "文章/Mac工具箱.md",
     "assets/Mac/surge.jpg",
     "assets/Mac/popclip.png",
     "assets/Mac/irightmouse.png",
@@ -185,16 +196,12 @@
     "assets/Mac/2023-10-06 23.28.34.gif",
     "assets/Mac/5.png",
     "assets/Mac/3.png",
-    "assets/Mac/2.png",
     "assets/Mac",
     "assets/untitled folder",
-    "文章/Mac 工具箱.md",
     "Oauth2.0/Oauth.md",
     "English/WhyNeedToLearnEnglish.md",
     "文章/Mac shell & ssh config back up.md",
     "文章/那些年斗过名为GFW恶龙的勇者们.md",
-    "README.md",
-    "README_zh.md",
     "English/vocabulary.md",
     "English/sentence.md",
     "Git/Git alias设置.md",

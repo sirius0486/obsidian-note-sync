@@ -60,7 +60,7 @@ git clone `repoUrl`
 ## 文章导航
 
 - [那些年斗过名为GFW恶龙的勇者们](./文章/那些年斗过名为GFW恶龙的勇者们.md)
-- [Mac软件工具箱](./文章/那些年斗过名为GFW恶龙的勇者们.md)
+- [Mac软件工具箱](./文章/Mac工具箱.md)
 - [Oauth 2.0, OIDC, PKCE, JWT 全面介绍](./Oauth2.0/Oauth.md)
 - [Why need to learn English](./English/WhyNeedToLearnEnglish.md)
 
