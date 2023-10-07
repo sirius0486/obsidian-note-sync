@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "49e9bf31c3665c06",
+        "id": "e490973c60723884",
         "type": "tabs",
         "children": [
           {
-            "id": "1f9e88beb09392ce",
+            "id": "3f64c5e54a9c59c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "English/WhyNeedToLearnEnglish.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "English/WhyNeedToLearnEnglish.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "English/WhyNeedToLearnEnglish.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "English/WhyNeedToLearnEnglish.md"
-              }
+              "state": {}
             }
           },
           {
@@ -181,30 +173,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1f9e88beb09392ce",
+  "active": "3f64c5e54a9c59c5",
   "lastOpenFiles": [
+    "assets/Mac/surge.jpg",
+    "assets/Mac/popclip.png",
+    "assets/Mac/irightmouse.png",
+    "assets/Mac/infuse.png",
+    "assets/Mac/downie.png",
+    "assets/Mac/cleanmymac.png",
+    "assets/Mac/Airbuddy.gif",
+    "assets/Mac/2023-10-06 23.28.34.gif",
+    "assets/Mac/5.png",
+    "assets/Mac/3.png",
+    "assets/Mac/2.png",
+    "assets/Mac",
+    "assets/untitled folder",
     "文章/Mac 工具箱.md",
-    "文章/Mac shell & ssh config back up.md",
-    "文章/那些年斗过名为GFW恶龙的勇者们.md",
-    "assets/Pasted image 20231006204303.png",
-    "assets/Pasted image 20231006195650.png",
-    "assets/Pasted image 20231006195136.png",
-    "assets/netease.gif",
-    "assets/CleanShot 2023-10-06 at 22.11.21.png",
-    "assets/CleanShot 2023-10-06 at 22.01.45.png",
-    "assets/CleanShot 2023-10-06 at 21.23.36.png",
-    "assets/CleanShot 2023-10-06 at 21.11.35.png",
-    "assets/CleanShot 2023-10-06 at 21.10.30.png",
-    "assets/CleanShot 2023-10-06 at 21.10.07 1.png",
-    "README.md",
-    "README_zh.md",
     "Oauth2.0/Oauth.md",
     "English/WhyNeedToLearnEnglish.md",
+    "文章/Mac shell & ssh config back up.md",
+    "文章/那些年斗过名为GFW恶龙的勇者们.md",
+    "README.md",
+    "README_zh.md",
     "English/vocabulary.md",
     "English/sentence.md",
     "Git/Git alias设置.md",
     "assets/V2EX",
-    "assets/untitled folder",
     "assets/React",
     "assets/AWS",
     "assets/Git",
@@ -213,7 +207,6 @@
     "English/learn-resource.md",
     "PDF/前端/面试/前端面试宝典（无Vue）.pdf",
     "PDF/前端/书籍/你不知道的 JavaScript（中卷）_ocr(1).pdf",
-    "PDF/前端/书籍/你不知道的 JavaScript（下卷）_ocr(1).pdf",
     "PDF/前端/面试/README.md",
     "PDF/前端/面试/08.React.md",
     "PDF/前端/面试/07.Vue.md",
