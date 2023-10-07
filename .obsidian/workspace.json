@@ -11,9 +11,11 @@
             "id": "1f9e88beb09392ce",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/CleanShot 2023-10-06 at 19.28.15.png"
+                "file": "文章/那些年斗过名为GFW恶龙的勇者们.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/CleanShot 2023-10-06 at 19.28.15.png",
+                "file": "文章/那些年斗过名为GFW恶龙的勇者们.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/CleanShot 2023-10-06 at 19.28.15.png",
+                "file": "文章/那些年斗过名为GFW恶龙的勇者们.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/CleanShot 2023-10-06 at 19.28.15.png"
+                "file": "文章/那些年斗过名为GFW恶龙的勇者们.md"
               }
             }
           },
@@ -181,18 +183,18 @@
   },
   "active": "1f9e88beb09392ce",
   "lastOpenFiles": [
-    "assets/CleanShot 2023-10-06 at 19.11.15.png",
-    "文章/Mac 工具箱.md",
+    "assets/Pasted image 20231006204303.png",
+    "assets/Pasted image 20231006195650.png",
+    "assets/Pasted image 20231006195136.png",
     "assets/netease.gif",
     "assets/CleanShot 2023-10-06 at 22.11.21.png",
     "assets/CleanShot 2023-10-06 at 22.01.45.png",
-    "assets/CleanShot 2023-10-06 at 22.01.04.png",
     "assets/CleanShot 2023-10-06 at 21.23.36.png",
-    "assets/CleanShot 2023-10-06 at 21.19.08.png",
-    "assets/CleanShot 2023-10-06 at 21.14.47.png",
     "assets/CleanShot 2023-10-06 at 21.11.35.png",
     "assets/CleanShot 2023-10-06 at 21.10.30.png",
     "assets/CleanShot 2023-10-06 at 21.10.07 1.png",
+    "assets/CleanShot 2023-10-06 at 21.10.07.png",
+    "文章/Mac 工具箱.md",
     "README.md",
     "文章/那些年斗过名为GFW恶龙的勇者们.md",
     "README_zh.md",
