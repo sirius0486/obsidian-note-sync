@@ -109,9 +109,11 @@ Raycast 是一个能大幅提升你日常效率的系统增强应用，通过Ray
 ### Gifox
 > Mac 最好用的 **Gif** 图制作软件
 简单快捷的操作同时带键位记录， 非常合适录制一些gif图， 支持 setapp 订阅。
+![gifox](https://github.com/keqing77/obsidian-note-sync/assets/48318812/e59c11ac-f873-4151-85cb-a3a11613cab3)
 
 ### Bartender
 从2021款 MacBook 开始，引入了万恶的刘海屏，使得电脑菜单栏有一部份被遮挡，使得本就不宽裕的应用图标显示区域雪上加霜，通过Bartender 可以缓解这个问题，隐藏不常用的图标以及将显示不下的图标都放在更多里，需要使用时再隔行展开，不会再出现软件图标塞进刘海里点不到了！！
+![bartender](https://github.com/keqing77/obsidian-note-sync/assets/48318812/d110c847-e581-40e0-bc55-fd2594780a40)
 
 ### 1Password
 密码管理这块， 综合最佳还是老牌的 1Password, 拼车下来一年也就40块，省去靠大脑记密码还会弄丢的尴尬场景，输入密码只需要一键调出，也能快速生成复杂密码来加强安全性。
@@ -123,36 +125,47 @@ Raycast 是一个能大幅提升你日常效率的系统增强应用，通过Ray
 ### Input Source Pro
 如果你经常需要在不同应用间切换中英文，那么推荐它
 在你切换不同应用时候，记住之前应用所使用的输入法，保证丝滑的码字体验，而不会切换应用先需要切换中英文而卡壳了～
+![inputsource](https://github.com/keqing77/obsidian-note-sync/assets/48318812/0f011fdd-7636-4687-bdf0-99948c38e680)
 
 ### CleanShot X
 > 原本使用的是**开源免费**的 `Snipaste X`  ， 但是订阅了 setapp 发现有更好用的 `Clean Shot X`  , 可以 **orc识图提取文字， 贴图， 滚动截图等**功能， Mac 上功能比较全面的截图软件
 
+![CleanShotX](https://github.com/keqing77/obsidian-note-sync/assets/48318812/992ea028-ae3d-4856-af33-eff5b22dc824)
+
 ### CleanMyMac X
 Mac上比较老牌且口碑不错的**系统清理软件**，支持 setapp 订阅
 提供软件卸载，垃圾清除，优化内存，监测硬件等功能， UI 精致美观，使用门槛基本一看就会～
+![cleanmymac](https://github.com/keqing77/obsidian-note-sync/assets/48318812/cdcc1bf4-f472-4bc8-95fb-58e9b7a3aff3)
 
 ### Live Wallpaper
 相信大多数使用Windows的朋友们都使用过Steam的 壁纸引擎(WallPaper Engine)，丰富的动态壁纸库让你的桌面一下子引人注目起来，而Mac的这款软件也是类似的，虽然壁纸数量和Win的差别巨大，但依然有成千上万张高质量壁纸，效果还是非常惊艳的。
+![livewallpaper](https://github.com/keqing77/obsidian-note-sync/assets/48318812/6649c5b6-3ec9-4e66-ab31-8e46cf768663)
 
 ### IRightMouse Pro
 国产开发团队出品的精品Mac应用 - 超级右键。
 因为Mac 系统原生的右键十分操蛋！如不能剪切，粘贴，新建文件等等。 超级右键则是增强系统右键功能，提升效率杠杠地！
+![irightmouse](https://github.com/keqing77/obsidian-note-sync/assets/48318812/3bd51774-3778-4906-9603-817958d5c55b)
 
 ### Rectangle
 Mac 上免费好用的窗口管理软件， 通过简单的快捷键将应用排列在屏幕不同的位置
+![rectangle](https://github.com/keqing77/obsidian-note-sync/assets/48318812/0d90bc3f-241f-497d-8e79-0fb81073d49b)
 
 ### OpenAI translator
 划词翻译软件
+
+![openai](https://github.com/keqing77/obsidian-note-sync/assets/48318812/f8e138d6-8e89-40d8-b4bb-676ad29a7d8d)
 
 
 ## 影音相关
 ### Downie
 Mac上最好用的视频下载软件， 复制URL即可下载视频，包括合集，支持B站，油管等众多平台， 支持 setapp 订阅。
+![downie](https://github.com/keqing77/obsidian-note-sync/assets/48318812/24195ded-182a-41a9-8240-a1078fe1f44f)
 
 ### Infuse 
 Apple 平台最全能的视频播放软件， 如果你使用苹果全家桶，尤其是 Apple TV ，那么Infuse 绝对不可以错过，Infuse 已经覆盖 iPhone、iPod touch、iPad、Apple TV、Mac 全系产品，只需要订阅一次即可在苹果任意客户端下使用。
 
 作为一款视频播放器，支持的视频格式、解码能力、串流协议最为广泛，还支持杜比视界和杜比音频，无缝串流等，
+![infuse](https://github.com/keqing77/obsidian-note-sync/assets/48318812/62f602e0-998d-4959-9a11-54ff510735cc)
 
 除此之外， Infuse 能够对剧集和电影按照常见的类别进行自动归类
 
@@ -161,6 +174,7 @@ Mac 免费最好用的本地视频播放器， Infuse 很好， 但并不是针�
 
 ### Spotify
 全球最大的音乐&播客流媒体平台，免费收听全球各地的歌曲。但是曲库缺少比较冷门和中文翻唱的中文歌曲。
+![Spotify](https://github.com/keqing77/obsidian-note-sync/assets/48318812/fde252af-773a-43a8-be19-fc9b9de97453)
 
 ### 网易云音乐
 听听二次元动漫歌曲和一些翻唱，民谣。
