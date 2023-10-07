@@ -4,6 +4,7 @@
 - [中文互联网中“讨论”的消亡](https://www.gcores.com/articles/121924)
 - [四通桥事件完整过程](https://keq.notion.site/keq/416c098f9ca0451391c6508dcce5b6dd)
 - [阅后即焚：“GFW”的前世今生，一部“GFW”之父方滨兴的发家史 | gd1214b's blog](https://www.gd1214b.icu/post/r3oKMxMPu/)
+- [「中国数字时代」从无到有的“翻墙罪”：为中国网民量身定做的“网络枷锁”](https://test.enuotime.com/memory020)
 - [防火长城](https://zh.wikipedia.org/zh-cn/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E)
 - [Notion版本](https://keq.notion.site/keq/GFW-244996bfd1d147a683e4979d383abd58)
 
@@ -72,7 +73,7 @@
 
 ### shadowsocks - clowwindy
 > ss(shadowsocks) 作者是clowwindy，他自己为了翻墙写了shadowsocks, 并在 自用一年很后在V2EX分享, 他觉得这个东西非常好用，速度快，而且不会被封锁，他就把源码共享在了github上，然后就火了，但是后来被请去喝茶，删了代码（实际移到别的分支），并且保证不再参与维护更新。
-
+- **2012年4月20日**,clowwindy 将 `shadowsocks` 开源，他打开了通往自由世界的大门, 让无数人拿到这把通往自由世界的大门的钥匙
 - V2EX用户@clowwindy (本名祝博韬) 分享了一个自己自用一年多的翻墙工具：`Shadowsocks`，简称 `SS`,  并自用一年多后分享到 V2EX 上, 由于这个协议非常高效，而且使用json作为配置文件，配置起来非常方便，迅速赢得了很多用户，并在 v2ex上有了一个专属的节点
 ![1](https://github.com/keqing77/obsidian-note-sync/assets/48318812/77c84702-1332-406d-a47b-204b029437d3)
 - **2015年8月20日晚**, 知名开源翻墙项目 `shadowsocks` 的作者 ``@clowwindy` 遭到喝茶待遇
@@ -88,6 +89,8 @@
  I believe you guys will make great stuff with Network Extensions.
  Cheers!   `https://github.com/shadowsocks/shadowsocks-iOS/issues/124 (web archive)`
 
+![clowwindy1](https://github.com/keqing77/obsidian-note-sync/assets/48318812/1d5dc33d-4fed-4e8c-a02f-6b9b2fef9b68)
+
 翻译成中文则是：
 > 两天前，警察来找我，希望我停止这方面的工作。今天他们要求我从GitHub上删除所有的代码。我没有选择，只能服从。
 > 我希望有一天我会生活在一个国家，在那里我可以自由地写任何我喜欢的代码，而不用担心。
@@ -96,6 +99,7 @@
 - 22日晚, `@clowwindy` 删除所有 `github` 上的 `shadowsocks` 仓库，之前在 twitter 上发布了删除的相关动态。https://prinzeugen.net/clowwindy-has-removed-all-repository-of-shadowsocks-on-github/  同时 @clowwindy 明确表示不会继续开发 shadowsocks 项目
 - clowwindy 的存在在国内互联网已经被抹消 , 作为知乎员工的他，即便在知乎如今也无法找到他留下的痕迹， 感谢 clowwindy 点燃互联网自由的火炬, 向 clowwindy 一样为互联网自由而努力的斗士们
 ![2](https://github.com/keqing77/obsidian-note-sync/assets/48318812/788b5467-f6ea-4740-8f54-865a3cf59e66)
+![clowwindy2](https://github.com/keqing77/obsidian-note-sync/assets/48318812/329938e2-9f43-49b6-8b4b-c303b1d06647)
 
 ### shadowsocksr — breakwa11
 
@@ -118,8 +122,6 @@
 	- ![3](https://github.com/keqing77/obsidian-note-sync/assets/48318812/7536ba7b-48e3-4081-89ae-7589d3950afc)
 	- ![4](https://github.com/keqing77/obsidian-note-sync/assets/48318812/a3425201-a232-4b2f-8071-26b1e9907f1c)
 	- ![6](https://github.com/keqing77/obsidian-note-sync/assets/48318812/9b087c7d-1e27-4fcd-8518-73a2ec45fcfa)
-
-
 ### 自由门
 - 墙外法轮功技术部门开发的VPN, 用于培养反共人群
 ### Trojan
