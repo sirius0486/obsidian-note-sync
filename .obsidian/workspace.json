@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "文章/Mac 工具箱.md",
+                "file": "English/WhyNeedToLearnEnglish.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "文章/Mac 工具箱.md",
+                "file": "English/WhyNeedToLearnEnglish.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "文章/Mac 工具箱.md",
+                "file": "English/WhyNeedToLearnEnglish.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "文章/Mac 工具箱.md"
+                "file": "English/WhyNeedToLearnEnglish.md"
               }
             }
           },
@@ -183,8 +183,8 @@
   },
   "active": "1f9e88beb09392ce",
   "lastOpenFiles": [
-    "文章/Mac shell & ssh config back up.md",
     "文章/Mac 工具箱.md",
+    "文章/Mac shell & ssh config back up.md",
     "文章/那些年斗过名为GFW恶龙的勇者们.md",
     "assets/Pasted image 20231006204303.png",
     "assets/Pasted image 20231006195650.png",
