@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "文章/Mac工具箱.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "文章/Mac工具箱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "文章/Mac工具箱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "文章/Mac工具箱.md"
               }
             }
           },
@@ -183,8 +183,10 @@
   },
   "active": "3f64c5e54a9c59c5",
   "lastOpenFiles": [
-    "README_zh.md",
+    "assets/Mac/raycast.png",
     "README.md",
+    "文章/Mac工具箱 1.md",
+    "README_zh.md",
     "文章/Mac工具箱.md",
     "assets/Mac/surge.jpg",
     "assets/Mac/popclip.png",
@@ -227,7 +229,6 @@
     "阅读记录/1984.md",
     "阅读记录/编程段子.md",
     "随笔.md",
-    "Interviews/小满zs-Interview.md",
     "React-Router/未命名.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
