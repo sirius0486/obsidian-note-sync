@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9f8570a12381dc00",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,13 +192,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3f64c5e54a9c59c5",
+  "active": "9f8570a12381dc00",
   "lastOpenFiles": [
-    "assets/Mac/raycast.png",
+    "阅读记录/金句.md",
+    "阅读记录/1984.md",
+    "阅读记录/code.png",
+    "阅读记录/图文.md",
+    "阅读记录/尊重他人命运.md",
+    "阅读记录/知识整理归纳.md",
+    "阅读记录/阅读链接.md",
+    "阅读记录/编程人生.md",
     "README.md",
-    "文章/Mac工具箱 1.md",
     "README_zh.md",
     "文章/Mac工具箱.md",
+    "assets/Mac/raycast.png",
+    "文章/Mac工具箱 1.md",
     "assets/Mac/surge.jpg",
     "assets/Mac/popclip.png",
     "assets/Mac/irightmouse.png",
@@ -196,8 +215,6 @@
     "assets/Mac/cleanmymac.png",
     "assets/Mac/Airbuddy.gif",
     "assets/Mac/2023-10-06 23.28.34.gif",
-    "assets/Mac/5.png",
-    "assets/Mac/3.png",
     "assets/Mac",
     "assets/untitled folder",
     "Oauth2.0/Oauth.md",
@@ -223,12 +240,6 @@
     "PDF/前端/面试/04.JavaScript.md",
     "PDF/前端/面试/03.HTML && CSS.md",
     "PDF/前端/面试/02.浏览器.md",
-    "PDF/前端/面试/01.计算机网络.md",
-    "阅读记录/编程人生.md",
-    "阅读记录/图文.md",
-    "阅读记录/1984.md",
-    "阅读记录/编程段子.md",
-    "随笔.md",
     "React-Router/未命名.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
