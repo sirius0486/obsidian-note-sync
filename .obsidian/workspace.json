@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "文章/Mac工具箱.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f8570a12381dc00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Git commit规范.md",
+                "file": "English/WhyNeedToLearnEnglish.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git commit规范.md",
+                "file": "English/WhyNeedToLearnEnglish.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Git commit规范.md",
+                "file": "English/WhyNeedToLearnEnglish.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Git commit规范.md"
+                "file": "English/WhyNeedToLearnEnglish.md"
               }
             }
           },
@@ -194,9 +181,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9f8570a12381dc00",
+  "active": "3f64c5e54a9c59c5",
   "lastOpenFiles": [
+    "Resource/Learning Resource.md",
+    "JavaScript/JavaScript Snippets.md",
+    "Resource/Front-end Roadmap.md",
+    "TypeScript/fp-ts.md",
+    "TypeScript/type-challenges.md",
+    "English/WhyNeedToLearnEnglish.md",
+    "English/vocabulary.md",
+    "English/sentence.md",
+    "Resource/RxJs.md",
     "Git/Git alias设置.md",
+    "Git/Git 学习资源.md",
+    "Git/Git commit规范.md",
+    "Git/Git 常见问题.md",
+    "Git/GIt常见命令和原理.md",
+    "Git/Git撤销文件修改.md",
+    "文章/那些年斗过名为GFW恶龙的勇者们.md",
+    "文章/Mac工具箱.md",
+    "文章/Mac shell & ssh config back up.md",
     "阅读记录/金句.md",
     "阅读记录/1984.md",
     "阅读记录/code.png",
@@ -206,10 +210,7 @@
     "阅读记录/阅读链接.md",
     "阅读记录/编程人生.md",
     "README.md",
-    "README_zh.md",
-    "文章/Mac工具箱.md",
     "assets/Mac/raycast.png",
-    "文章/Mac工具箱 1.md",
     "assets/Mac/surge.jpg",
     "assets/Mac/popclip.png",
     "assets/Mac/irightmouse.png",
@@ -220,28 +221,14 @@
     "assets/Mac/2023-10-06 23.28.34.gif",
     "assets/Mac",
     "assets/untitled folder",
-    "Oauth2.0/Oauth.md",
-    "English/WhyNeedToLearnEnglish.md",
-    "文章/Mac shell & ssh config back up.md",
-    "文章/那些年斗过名为GFW恶龙的勇者们.md",
-    "English/vocabulary.md",
-    "English/sentence.md",
     "assets/V2EX",
     "assets/React",
     "assets/AWS",
     "assets/Git",
     "assets/GFW",
     "文章",
-    "English/learn-resource.md",
     "PDF/前端/面试/前端面试宝典（无Vue）.pdf",
     "PDF/前端/书籍/你不知道的 JavaScript（中卷）_ocr(1).pdf",
-    "PDF/前端/面试/README.md",
-    "PDF/前端/面试/08.React.md",
-    "PDF/前端/面试/07.Vue.md",
-    "PDF/前端/面试/06.TypeScript.md",
-    "PDF/前端/面试/04.JavaScript.md",
-    "PDF/前端/面试/03.HTML && CSS.md",
-    "PDF/前端/面试/02.浏览器.md",
     "React-Router/未命名.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
