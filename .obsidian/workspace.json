@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English/WhyNeedToLearnEnglish.md",
+                "file": "阅读记录/阅读链接.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "English/WhyNeedToLearnEnglish.md",
+                "file": "阅读记录/阅读链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "English/WhyNeedToLearnEnglish.md",
+                "file": "阅读记录/阅读链接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "English/WhyNeedToLearnEnglish.md"
+                "file": "阅读记录/阅读链接.md"
               }
             }
           },
@@ -183,12 +183,12 @@
   },
   "active": "3f64c5e54a9c59c5",
   "lastOpenFiles": [
+    "English/WhyNeedToLearnEnglish.md",
     "Resource/Learning Resource.md",
     "JavaScript/JavaScript Snippets.md",
     "Resource/Front-end Roadmap.md",
     "TypeScript/fp-ts.md",
     "TypeScript/type-challenges.md",
-    "English/WhyNeedToLearnEnglish.md",
     "English/vocabulary.md",
     "English/sentence.md",
     "Resource/RxJs.md",
