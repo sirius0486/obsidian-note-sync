@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3a571540bbe883cb",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +183,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3a571540bbe883cb",
+  "active": "3f64c5e54a9c59c5",
   "lastOpenFiles": [
     "English/WhyNeedToLearnEnglish.md",
     "Resource/Learning Resource.md",
