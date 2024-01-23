@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阅读记录/金句.md",
+                "file": "阅读记录/阅读链接.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读记录/金句.md",
+                "file": "阅读记录/阅读链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读记录/金句.md",
+                "file": "阅读记录/阅读链接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读记录/金句.md"
+                "file": "阅读记录/阅读链接.md"
               }
             }
           },
@@ -185,33 +185,33 @@
   },
   "active": "3f64c5e54a9c59c5",
   "lastOpenFiles": [
+    "TypeScript/fp-ts.md",
+    "OpenSource/Github Guide.md",
+    "OpenSource/admin-template.md",
+    "Resource/RxJs.md",
+    "Resource/Learning Resource.md",
+    "Resource/Front-end Roadmap.md",
+    "session/package Manager.md",
+    "Interviews/React面试题整理.md",
+    "Interviews/Vue面试题整理.md",
+    "Interviews/前端面试题2023.md",
+    "Interviews/小满zs-Interview.md",
+    "随笔.md",
+    "README.md",
+    "README_zh.md",
+    "阅读记录/1984.md",
+    "阅读记录/金句.md",
     "阅读记录/编程人生.md",
     "阅读记录/知识整理归纳.md",
     "阅读记录/尊重他人命运.md",
     "阅读记录/阅读链接.md",
     "English/WhyNeedToLearnEnglish.md",
-    "Resource/Learning Resource.md",
     "JavaScript/JavaScript Snippets.md",
-    "Resource/Front-end Roadmap.md",
-    "TypeScript/fp-ts.md",
     "TypeScript/type-challenges.md",
     "English/vocabulary.md",
     "English/sentence.md",
-    "Resource/RxJs.md",
     "Git/Git alias设置.md",
-    "Git/Git 学习资源.md",
-    "Git/Git commit规范.md",
-    "Git/Git 常见问题.md",
-    "Git/GIt常见命令和原理.md",
-    "Git/Git撤销文件修改.md",
-    "文章/那些年斗过名为GFW恶龙的勇者们.md",
-    "文章/Mac工具箱.md",
-    "文章/Mac shell & ssh config back up.md",
-    "阅读记录/金句.md",
-    "阅读记录/1984.md",
     "阅读记录/code.png",
-    "阅读记录/图文.md",
-    "README.md",
     "assets/Mac/raycast.png",
     "assets/Mac/surge.jpg",
     "assets/Mac/popclip.png",
