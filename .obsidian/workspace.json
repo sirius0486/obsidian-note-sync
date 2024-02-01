@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阅读记录/金句.md",
+                "file": "阅读记录/阅读链接.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读记录/金句.md",
+                "file": "阅读记录/阅读链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读记录/金句.md",
+                "file": "阅读记录/阅读链接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读记录/金句.md"
+                "file": "阅读记录/阅读链接.md"
               }
             }
           },
@@ -185,6 +185,7 @@
   },
   "active": "3f64c5e54a9c59c5",
   "lastOpenFiles": [
+    "阅读记录/金句.md",
     "阅读记录/阅读链接.md",
     "TypeScript/fp-ts.md",
     "OpenSource/Github Guide.md",
@@ -201,7 +202,6 @@
     "README.md",
     "README_zh.md",
     "阅读记录/1984.md",
-    "阅读记录/金句.md",
     "阅读记录/编程人生.md",
     "阅读记录/知识整理归纳.md",
     "阅读记录/尊重他人命运.md",
