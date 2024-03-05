@@ -23,9 +23,11 @@
             "id": "bcccfcd2b82a7459",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.8"
+                "file": "阅读记录/阅读链接.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -197,13 +199,13 @@
   "active": "bcccfcd2b82a7459",
   "lastOpenFiles": [
     "阅读记录/金句.md",
+    "阅读记录/阅读链接.md",
     "阅读记录/知识整理归纳.md",
+    "阅读记录/尊重他人命运.md",
     "随笔.md",
     "README_zh.md",
     "README.md",
     "阅读记录/1984.md",
-    "阅读记录/尊重他人命运.md",
-    "阅读记录/阅读链接.md",
     "OpenSource/admin-template.md",
     "OpenSource/Github Guide.md",
     "阅读记录/code.png",
