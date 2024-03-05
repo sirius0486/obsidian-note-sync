@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bcccfcd2b82a7459",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,7 +194,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3f64c5e54a9c59c5",
+  "active": "bcccfcd2b82a7459",
   "lastOpenFiles": [
     "阅读记录/金句.md",
     "阅读记录/知识整理归纳.md",
