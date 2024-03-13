@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "bcccfcd2b82a7459",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "阅读记录/阅读链接.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,7 +183,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bcccfcd2b82a7459",
+  "active": "3f64c5e54a9c59c5",
   "lastOpenFiles": [
     "阅读记录/金句.md",
     "阅读记录/阅读链接.md",
