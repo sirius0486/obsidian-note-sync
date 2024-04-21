@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README_zh.md",
+                "file": "阅读记录/阅读链接.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README_zh.md",
+                "file": "阅读记录/阅读链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README_zh.md",
+                "file": "阅读记录/阅读链接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README_zh.md"
+                "file": "阅读记录/阅读链接.md"
               }
             }
           },
@@ -187,31 +187,31 @@
   "lastOpenFiles": [
     "阅读记录/金句.md",
     "阅读记录/知识整理归纳.md",
-    "阅读记录/尊重他人命运.md",
+    "Resource/Front-end Roadmap.md",
+    "Resource/RxJs.md",
+    "Resource/Learning Resource.md",
     "阅读记录/阅读链接.md",
+    "JavaScript/JavaScript Snippets.md",
+    "Juejin/2023的React生态发展.md",
+    "Oauth2.0/Oauth.md",
+    "随笔.md",
+    "README.md",
+    "README_zh.md",
+    "阅读记录/尊重他人命运.md",
     "阅读记录/1984.md",
     "Github/ReadME - template - zh.md",
-    "随笔.md",
-    "README_zh.md",
-    "README.md",
     "OpenSource/admin-template.md",
     "OpenSource/Github Guide.md",
     "阅读记录/code.png",
     "阅读记录/图文.md",
     "阅读记录/编程人生.md",
     "TypeScript/fp-ts.md",
-    "Resource/RxJs.md",
-    "Resource/Learning Resource.md",
-    "Resource/Front-end Roadmap.md",
     "session/package Manager.md",
     "Interviews/React面试题整理.md",
     "Interviews/Vue面试题整理.md",
     "Interviews/前端面试题2023.md",
     "Interviews/小满zs-Interview.md",
     "English/WhyNeedToLearnEnglish.md",
-    "JavaScript/JavaScript Snippets.md",
-    "TypeScript/type-challenges.md",
-    "English/vocabulary.md",
     "assets/Mac/raycast.png",
     "assets/Mac/surge.jpg",
     "assets/Mac/popclip.png",
