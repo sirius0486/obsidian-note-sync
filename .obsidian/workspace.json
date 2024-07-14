@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c5c26b0ae8085eae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读记录/1984.md",
+                "file": "Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读记录/1984.md",
+                "file": "Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读记录/1984.md"
+                "file": "Docker.md"
               }
             }
           },
@@ -183,13 +196,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3f64c5e54a9c59c5",
+  "active": "c5c26b0ae8085eae",
   "lastOpenFiles": [
+    "阅读记录/1984.md",
+    "Docker.md",
     "阅读记录/尊重他人命运.md",
     "阅读记录/知识整理归纳.md",
     "阅读记录/金句.md",
     "阅读记录/阅读链接.md",
-    "阅读记录/1984.md",
     "Resource/Front-end Roadmap.md",
     "Resource/RxJs.md",
     "Resource/Learning Resource.md",
@@ -211,7 +225,6 @@
     "Interviews/Vue面试题整理.md",
     "Interviews/前端面试题2023.md",
     "Interviews/小满zs-Interview.md",
-    "English/WhyNeedToLearnEnglish.md",
     "assets/Mac/raycast.png",
     "assets/Mac/surge.jpg",
     "assets/Mac/popclip.png",

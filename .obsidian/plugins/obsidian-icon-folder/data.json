@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🐳",
       "BuBookmark-line",
       "EdLink",
       "📚",
-      "PeTs",
-      "RiAmazonFill"
+      "PeTs"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -69,5 +69,6 @@
   "TypeScript/type-challenges.md": "PeTs",
   "阅读记录": "📚",
   "Resource": "EdLink",
-  "文章": "BuBookmark-line"
+  "文章": "BuBookmark-line",
+  "Docker.md": "🐳"
 }
