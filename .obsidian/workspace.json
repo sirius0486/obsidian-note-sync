@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interviews/小满zs-Interview.md",
+                "file": "阅读记录/金句.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a69e27a68920e606",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "楼盘实地考察&评测.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interviews/小满zs-Interview.md",
+                "file": "楼盘实地考察&评测.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interviews/小满zs-Interview.md",
+                "file": "楼盘实地考察&评测.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interviews/小满zs-Interview.md"
+                "file": "楼盘实地考察&评测.md"
               }
             }
           },
@@ -196,8 +208,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c5c26b0ae8085eae",
+  "active": "a69e27a68920e606",
   "lastOpenFiles": [
+    "阅读记录/金句.md",
+    "楼盘实地考察&评测.md",
+    "阅读记录/知识整理归纳.md",
+    "阅读记录/尊重他人命运.md",
+    "阅读记录/1984.md",
+    "Interviews/小满zs-Interview.md",
     "session/vite.md",
     "session/universe.md",
     "session/package Manager.md",
@@ -207,10 +225,6 @@
     "OpenSource/Github Guide.md",
     "Docker.md",
     "README_zh.md",
-    "阅读记录/1984.md",
-    "阅读记录/尊重他人命运.md",
-    "阅读记录/知识整理归纳.md",
-    "阅读记录/金句.md",
     "阅读记录/阅读链接.md",
     "Resource/RxJs.md",
     "JavaScript/JavaScript Snippets.md",
@@ -223,8 +237,6 @@
     "阅读记录/图文.md",
     "阅读记录/编程人生.md",
     "TypeScript/fp-ts.md",
-    "Interviews/React面试题整理.md",
-    "Interviews/Vue面试题整理.md",
     "assets/Mac/raycast.png",
     "assets/Mac/surge.jpg",
     "assets/Mac/popclip.png",
