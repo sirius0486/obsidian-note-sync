@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "🐳",
-      "BuBookmark-line",
-      "EdLink",
-      "📚",
-      "PeTs"
+      "PeJs",
+      "RiRoadMapFill",
+      "RiTreasureMapFill",
+      "🧑‍💼",
+      "📗"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -69,6 +69,14 @@
   "TypeScript/type-challenges.md": "PeTs",
   "阅读记录": "📚",
   "Resource": "EdLink",
-  "文章": "BuBookmark-line",
-  "Docker.md": "🐳"
+  "文章": "📗",
+  "Docker.md": "🐳",
+  "README_zh.md": "RiMarkdownLine",
+  "随笔.md": "DeMark-pen-fill",
+  "SpringBoot": "PeSpring",
+  "OpenSource": "RiGithubLine",
+  "Interviews": "🧑‍💼",
+  "Resource/Learning Resource.md": "RiTreasureMapFill",
+  "Resource/Front-end Roadmap.md": "RiRoadMapFill",
+  "Resource/RxJs.md": "PeJs"
 }
