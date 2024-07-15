@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🌍",
       "🏚",
       "PeJs",
       "RiRoadMapFill",
-      "RiTreasureMapFill",
-      "🧑‍💼"
+      "RiTreasureMapFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -79,5 +79,6 @@
   "Resource/Learning Resource.md": "RiTreasureMapFill",
   "Resource/Front-end Roadmap.md": "RiRoadMapFill",
   "Resource/RxJs.md": "PeJs",
-  "楼盘实地考察&评测.md": "🏚"
+  "楼盘实地考察&评测.md": "🏚",
+  "生活技巧.md": "🌍"
 }

@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e490973c60723884",
+        "id": "8895199a48690c49",
         "type": "tabs",
         "children": [
           {
-            "id": "3f64c5e54a9c59c5",
+            "id": "cb1a59f942f64cc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阅读记录/1984.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5c26b0ae8085eae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "阅读记录/金句.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a69e27a68920e606",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "楼盘实地考察&评测.md",
+                "file": "生活技巧.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "楼盘实地考察&评测.md",
+                "file": "生活技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "楼盘实地考察&评测.md",
+                "file": "生活技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "楼盘实地考察&评测.md"
+                "file": "生活技巧.md"
               }
             }
           },
@@ -208,13 +183,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a69e27a68920e606",
+  "active": "1406b7c5eaa064e8",
   "lastOpenFiles": [
+    "生活技巧.md",
+    "阅读记录/1984.md",
     "阅读记录/金句.md",
     "楼盘实地考察&评测.md",
     "阅读记录/知识整理归纳.md",
     "阅读记录/尊重他人命运.md",
-    "阅读记录/1984.md",
     "Interviews/小满zs-Interview.md",
     "session/vite.md",
     "session/universe.md",
@@ -236,7 +212,6 @@
     "阅读记录/code.png",
     "阅读记录/图文.md",
     "阅读记录/编程人生.md",
-    "TypeScript/fp-ts.md",
     "assets/Mac/raycast.png",
     "assets/Mac/surge.jpg",
     "assets/Mac/popclip.png",
