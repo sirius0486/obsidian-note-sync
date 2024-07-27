@@ -4,5 +4,7 @@
   "cmenu-plugin",
   "obsidian-checklist-plugin",
   "table-editor-obsidian",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "obsidian-auto-pair-chinese-symbol",
+  "remember-cursor-position"
 ]
