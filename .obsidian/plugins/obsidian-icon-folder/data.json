@@ -1,6 +1,6 @@
 {
   "settings": {
-    "migrated": true,
+    "migrated": 6,
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
     "emojiStyle": "twemoji",
@@ -13,33 +13,71 @@
       "RiRoadMapFill"
     ],
     "recentlyUsedIconsSize": 5,
-    "rules": [],
+    "rules": [
+      {
+        "icon": "PeReact",
+        "rule": "React/React-Router\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 0,
+        "useFilePath": true
+      },
+      {
+        "icon": "PeReact",
+        "rule": "React/React-Hooks\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 1,
+        "useFilePath": true
+      },
+      {
+        "icon": "PeReact",
+        "rule": "React-Redux\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 2,
+        "useFilePath": true
+      },
+      {
+        "icon": "PeSpring",
+        "rule": "Spring-Boot\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 3,
+        "useFilePath": true
+      },
+      {
+        "icon": "📔",
+        "rule": "notes\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 4,
+        "useFilePath": true
+      },
+      {
+        "icon": "RiGithubFill",
+        "rule": "Git\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 5,
+        "useFilePath": true
+      }
+    ],
     "extraMargin": {
       "top": 0,
       "right": 4,
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": false
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false
   },
   "assets": "📁",
-  "Git": {
-    "iconName": "PeGit",
-    "inheritanceIcon": "RiGithubFill"
-  },
-  "notes": {
-    "iconName": null,
-    "inheritanceIcon": "📔"
-  },
-  "Spring-Boot": {
-    "iconName": null,
-    "inheritanceIcon": "PeSpring"
-  },
   "README.md": "RiMarkdownFill",
-  "React-Redux": {
-    "iconName": null,
-    "inheritanceIcon": "PeReact"
-  },
   "IDE config": "PeVue",
   "IDE config/shell config.md": "RiTerminalBoxFill",
   "IDE config/vscode.setting.md": "PeVscode",
@@ -48,14 +86,6 @@
   "English": "RiEnglishInput",
   "Github": "RiGithubFill",
   "JavaScript": "PeJs",
-  "React/React-Hooks": {
-    "iconName": "PeReact",
-    "inheritanceIcon": "PeReact"
-  },
-  "React/React-Router": {
-    "iconName": "PeReact",
-    "inheritanceIcon": "PeReact"
-  },
   "React/React Query.md": "PeReact",
   "React": "PeReact",
   "React/React-Snippets.md": "PeReact",
@@ -82,5 +112,8 @@
   "楼盘实地考察&评测.md": "🏚",
   "生活技巧.md": "🌍",
   "hono.js.md": "PeJs",
-  "fast-api.md": "🐍"
+  "fast-api.md": "🐍",
+  "Git": "PeGit",
+  "React/React-Hooks": "PeReact",
+  "React/React-Router": "PeReact"
 }

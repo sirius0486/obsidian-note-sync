@@ -4,22 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "8895199a48690c49",
+        "id": "c480b564872f57d6",
         "type": "tabs",
         "children": [
           {
-            "id": "cb1a59f942f64cc8",
+            "id": "be4eaceab0491003",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阅读记录/金句.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "7e635c34919b7792",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读记录/金句.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读记录/金句.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,16 +144,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读记录/金句.md"
+                "file": "README.md"
               }
-            }
-          },
-          {
-            "id": "efc3d5e02e6226ed",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
             }
           },
           {
@@ -164,9 +167,17 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "d544422b94d5f267",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -183,17 +194,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cb1a59f942f64cc8",
+  "active": "7e635c34919b7792",
   "lastOpenFiles": [
+    "阅读记录/知识整理归纳.md",
+    "阅读记录/阅读链接.md",
+    "阅读记录/金句.md",
+    "阅读记录/尊重他人命运.md",
+    "阅读记录/1984.md",
+    "随笔.md",
+    "生活技巧.md",
+    "楼盘实地考察&评测.md",
+    "文章/那些年斗过名为GFW恶龙的勇者们.md",
+    "文章/Mac工具箱.md",
+    "SpringBoot/Kotlin.md",
+    "SpringBoot/SpringBoot常用注解.md",
+    "文章/Mac shell & ssh config back up.md",
     "Docker.md",
     "hono.js.md",
     "fast-api.md",
-    "楼盘实地考察&评测.md",
-    "生活技巧.md",
-    "阅读记录/1984.md",
-    "阅读记录/金句.md",
-    "阅读记录/知识整理归纳.md",
-    "阅读记录/尊重他人命运.md",
     "Interviews/小满zs-Interview.md",
     "session/vite.md",
     "session/universe.md",
@@ -203,14 +221,7 @@
     "OpenSource/admin-template.md",
     "OpenSource/Github Guide.md",
     "README_zh.md",
-    "阅读记录/阅读链接.md",
     "Resource/RxJs.md",
-    "JavaScript/JavaScript Snippets.md",
-    "Juejin/2023的React生态发展.md",
-    "Oauth2.0/Oauth.md",
-    "随笔.md",
-    "README.md",
-    "Github/ReadME - template - zh.md",
     "阅读记录/code.png",
     "assets/Mac/raycast.png",
     "assets/Mac/surge.jpg",
