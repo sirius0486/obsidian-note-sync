@@ -23,9 +23,11 @@
             "id": "7e635c34919b7792",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.7"
+                "file": "阅读记录/金句.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "阅读记录/金句.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "阅读记录/金句.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "阅读记录/金句.md"
               }
             }
           },
@@ -196,13 +198,14 @@
   },
   "active": "7e635c34919b7792",
   "lastOpenFiles": [
+    "生活技巧.md",
+    "README.md",
     "阅读记录/知识整理归纳.md",
     "阅读记录/阅读链接.md",
     "阅读记录/金句.md",
     "阅读记录/尊重他人命运.md",
     "阅读记录/1984.md",
     "随笔.md",
-    "生活技巧.md",
     "楼盘实地考察&评测.md",
     "文章/那些年斗过名为GFW恶龙的勇者们.md",
     "文章/Mac工具箱.md",
@@ -221,7 +224,6 @@
     "OpenSource/admin-template.md",
     "OpenSource/Github Guide.md",
     "README_zh.md",
-    "Resource/RxJs.md",
     "阅读记录/code.png",
     "assets/Mac/raycast.png",
     "assets/Mac/surge.jpg",
