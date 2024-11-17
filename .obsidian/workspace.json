@@ -16,7 +16,9 @@
                 "file": "README.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           },
           {
@@ -28,11 +30,39 @@
                 "file": "阅读记录/金句.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "金句"
+            }
+          },
+          {
+            "id": "c02a9b7112b6111b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "阅读记录/尊重他人命运.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "尊重他人命运"
+            }
+          },
+          {
+            "id": "5ef3c58f6ca696c8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -52,7 +82,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -67,7 +99,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -75,7 +109,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -83,7 +119,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -106,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "阅读记录/金句.md",
+                "file": "阅读记录/尊重他人命运.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +152,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 尊重他人命运"
             }
           },
           {
@@ -123,10 +163,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "阅读记录/金句.md",
+                "file": "阅读记录/尊重他人命运.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 尊重他人命运"
             }
           },
           {
@@ -137,7 +179,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -146,8 +190,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "阅读记录/金句.md"
-              }
+                "file": "阅读记录/尊重他人命运.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 尊重他人命运"
             }
           },
           {
@@ -155,7 +201,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -167,7 +215,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -175,7 +225,9 @@
             "type": "leaf",
             "state": {
               "type": "todo",
-              "state": {}
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           }
         ],
@@ -196,22 +248,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7e635c34919b7792",
+  "active": "5ef3c58f6ca696c8",
   "lastOpenFiles": [
-    "生活技巧.md",
-    "README.md",
     "阅读记录/知识整理归纳.md",
-    "阅读记录/阅读链接.md",
+    "阅读记录/1984.md",
     "阅读记录/金句.md",
     "阅读记录/尊重他人命运.md",
-    "阅读记录/1984.md",
-    "随笔.md",
-    "楼盘实地考察&评测.md",
     "文章/那些年斗过名为GFW恶龙的勇者们.md",
     "文章/Mac工具箱.md",
+    "文章/Mac shell & ssh config back up.md",
+    "生活技巧.md",
+    "README.md",
+    "阅读记录/阅读链接.md",
+    "随笔.md",
+    "楼盘实地考察&评测.md",
     "SpringBoot/Kotlin.md",
     "SpringBoot/SpringBoot常用注解.md",
-    "文章/Mac shell & ssh config back up.md",
     "Docker.md",
     "hono.js.md",
     "fast-api.md",
