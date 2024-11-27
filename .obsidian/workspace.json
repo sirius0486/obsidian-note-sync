@@ -65,12 +65,14 @@
             "id": "290571978cc02aa1",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.7"
+                "file": "随笔.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "随笔"
             }
           }
         ],
@@ -262,11 +264,11 @@
   },
   "active": "290571978cc02aa1",
   "lastOpenFiles": [
+    "阅读记录/金句.md",
+    "文章/那些年斗过名为GFW恶龙的勇者们.md",
     "阅读记录/知识整理归纳.md",
     "阅读记录/1984.md",
-    "阅读记录/金句.md",
     "阅读记录/尊重他人命运.md",
-    "文章/那些年斗过名为GFW恶龙的勇者们.md",
     "文章/Mac工具箱.md",
     "文章/Mac shell & ssh config back up.md",
     "生活技巧.md",

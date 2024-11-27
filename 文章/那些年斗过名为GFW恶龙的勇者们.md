@@ -6,6 +6,7 @@
 - [阅后即焚：“GFW”的前世今生，一部“GFW”之父方滨兴的发家史 | gd1214b's blog](https://www.gd1214b.icu/post/r3oKMxMPu/)
 - [「中国数字时代」从无到有的“翻墙罪”：为中国网民量身定做的“网络枷锁”](https://test.enuotime.com/memory020)
 - [防火长城](https://zh.wikipedia.org/zh-cn/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E)
+- [基于荷尔蒙开发的开源项目 - EAimTY's Blog](https://www.eaimty.com/2023/opensource-project-based-on-hormone/)
 - [Notion版本](https://keq.notion.site/keq/GFW-244996bfd1d147a683e4979d383abd58)
 
 ## 背景
