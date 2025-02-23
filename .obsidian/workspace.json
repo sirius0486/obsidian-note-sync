@@ -35,7 +35,8 @@
               "title": "常用代码片段"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -223,11 +224,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e37ad30029a0f6b3",
+  "active": "d398e7cc426986ac",
   "lastOpenFiles": [
+    "阅读记录/只言碎语.md",
     "阅读记录/金句.md",
     "阅读记录/尊重他人命运.md",
-    "阅读记录/只言碎语.md",
     "阅读记录/常用代码片段.md",
     "阅读记录/知识整理归纳.md",
     "阅读记录/1984.md",
