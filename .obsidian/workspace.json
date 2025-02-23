@@ -99,8 +99,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -224,7 +223,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d398e7cc426986ac",
+  "active": "1406b7c5eaa064e8",
   "lastOpenFiles": [
     "阅读记录/只言碎语.md",
     "阅读记录/金句.md",
