@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "78140a563cbd41f1",
+        "id": "9f3fba66c7056abb",
         "type": "tabs",
         "children": [
           {
-            "id": "905f36b4501b706e",
+            "id": "b8c667713cd41f75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阅读记录/只言碎语.md",
+                "file": "Interviews/小满zs-Interview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "只言碎语"
-            }
-          },
-          {
-            "id": "d398e7cc426986ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "阅读记录/金句.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "金句"
-            }
-          },
-          {
-            "id": "ccf0ffd6f52e2744",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "阅读记录/金句.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "金句"
+              "title": "小满zs-Interview"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -237,33 +208,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ccf0ffd6f52e2744",
+  "active": "b8c667713cd41f75",
   "lastOpenFiles": [
-    "阅读记录/知识整理归纳.md",
-    "阅读记录/尊重他人命运.md",
-    "阅读记录/金句.md",
-    "阅读记录/常用代码片段.md",
+    "Interviews/前端面试题.md",
+    "Interviews/小满zs-Interview.md",
     "阅读记录/只言碎语.md",
-    "阅读记录/1984.md",
-    "README.md",
+    "阅读记录/金句.md",
+    "SpringBoot/SpringBoot常用注解.md",
+    "SpringBoot/Kotlin.md",
+    "Tools/AWS.md",
+    "TypeScript/type-challenges.md",
+    "TypeScript/fp-ts.md",
+    "文章/Mac shell & ssh config back up.md",
+    "文章/Mac工具箱.md",
     "阅读记录/阅读链接.md",
     "Docker.md",
-    "fast-api.md",
-    "README_zh.md",
-    "楼盘实地考察&评测.md",
-    "随笔.md",
-    "文章/那些年斗过名为GFW恶龙的勇者们.md",
-    "文章/Mac工具箱.md",
-    "文章/Mac shell & ssh config back up.md",
-    "生活技巧.md",
-    "SpringBoot/Kotlin.md",
-    "SpringBoot/SpringBoot常用注解.md",
     "hono.js.md",
-    "Interviews/小满zs-Interview.md",
+    "README.md",
+    "README_zh.md",
+    "随笔.md",
+    "阅读记录/常用代码片段.md",
+    "阅读记录/知识整理归纳.md",
+    "fast-api.md",
+    "生活技巧.md",
+    "楼盘实地考察&评测.md",
+    "阅读记录/尊重他人命运.md",
+    "阅读记录/1984.md",
+    "文章/那些年斗过名为GFW恶龙的勇者们.md",
     "session/vite.md",
-    "session/universe.md",
-    "session/package Manager.md",
-    "Resource/Learning Resource.md",
     "阅读记录/code.png",
     "assets/Mac/raycast.png",
     "assets/Mac/surge.jpg",
